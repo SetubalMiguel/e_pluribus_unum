@@ -1,0 +1,31 @@
+reprodutor_id,especie,raca,idade,taxa_sucesso_historica
+CA-R-0000,caprino,Moxoto,7.8,0.55
+CA-R-0001,caprino,Anglo Nubiana,6.1,0.5
+CA-R-0002,caprino,Anglo Nubiana,7.8,0.55
+CA-R-0003,caprino,Anglo Nubiana,3.0,0.58
+CA-R-0004,caprino,Anglo Nubiana,3.4,0.77
+CA-R-0005,caprino,Boer,7.3,0.56
+CA-R-0006,caprino,Caninde,4.5,0.74
+CA-R-0007,caprino,Pardo Alpina,4.2,0.59
+CA-R-0008,caprino,Alpina,6.5,0.66
+CA-R-0009,caprino,Anglo Nubiana,5.8,0.89
+CA-R-0010,caprino,Caninde,4.1,0.45
+CA-R-0011,caprino,Boer,4.4,0.48
+CA-R-0012,caprino,Alpina,4.5,0.49
+CA-R-0013,caprino,Alpina,2.8,0.4
+CA-R-0014,caprino,Anglo Nubiana,3.4,0.62
+CA-R-0015,caprino,Saanen,5.2,0.71
+CA-R-0016,caprino,Caninde,6.7,0.58
+CA-R-0017,caprino,Anglo Nubiana,4.5,0.61
+CA-R-0018,caprino,Alpina,4.3,0.49
+CA-R-0019,caprino,Moxoto,5.9,0.75
+CA-R-0020,caprino,Boer,2.9,0.57
+CA-R-0021,caprino,Boer,4.3,0.46
+CA-R-0022,caprino,Boer,3.2,0.76
+CA-R-0023,caprino,Pardo Alpina,5.9,0.76
+CA-R-0024,caprino,Boer,2.7,0.74
+CA-R-0025,caprino,Boer,4.7,0.61
+CA-R-0026,caprino,Anglo Nubiana,5.6,0.71
+CA-R-0027,caprino,Moxoto,7.0,0.53
+CA-R-0028,caprino,Caninde,6.3,0.41
+CA-R-0029,caprino,Saanen,7.7,0.69

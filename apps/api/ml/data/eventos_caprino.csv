@@ -1,0 +1,1501 @@
+evento_id,matriz_id,reprodutor_id,especie,raca_matriz,raca_reprodutor,idade_matriz,paridade,ecc,historico_matriz,taxa_reprodutor,tecnica,mes,estacao_favoravel,data_evento,prob_verdadeira,resultado
+E-CA-000000,CA-M-00010,CA-R-0013,caprino,Boer,Alpina,6.2,3,2.5,0.39,0.4,IA_cervical,8,0,2025-08-09,0.279,prenhe
+E-CA-000001,CA-M-00234,CA-R-0000,caprino,Boer,Moxoto,8.9,2,3.7,0.5,0.55,IATF,8,0,2024-08-26,0.442,prenhe
+E-CA-000002,CA-M-00200,CA-R-0002,caprino,Alpina,Anglo Nubiana,4.4,4,4.0,0.56,0.55,IA_laparoscopica,1,0,2024-01-24,0.702,prenhe
+E-CA-000003,CA-M-00224,CA-R-0000,caprino,Moxoto,Moxoto,4.5,0,3.7,0.55,0.55,IA_laparoscopica,10,0,2024-10-25,0.674,prenhe
+E-CA-000004,CA-M-00140,CA-R-0007,caprino,Caninde,Pardo Alpina,3.5,0,4.3,0.47,0.59,IA_laparoscopica,1,0,2025-01-16,0.521,vazia
+E-CA-000005,CA-M-00192,CA-R-0024,caprino,Boer,Boer,2.1,1,3.3,0.54,0.74,IATF,12,0,2024-12-07,0.79,prenhe
+E-CA-000006,CA-M-00171,CA-R-0029,caprino,Anglo Nubiana,Saanen,9.4,5,3.3,0.16,0.69,IA_cervical,12,0,2025-12-21,0.499,vazia
+E-CA-000007,CA-M-00208,CA-R-0014,caprino,Saanen,Anglo Nubiana,8.5,4,3.5,0.34,0.62,IA_cervical,1,0,2025-01-14,0.522,prenhe
+E-CA-000008,CA-M-00135,CA-R-0000,caprino,Boer,Moxoto,6.3,2,3.5,0.49,0.55,IA_cervical,7,0,2025-07-22,0.668,prenhe
+E-CA-000009,CA-M-00195,CA-R-0002,caprino,Saanen,Anglo Nubiana,2.3,2,3.0,0.44,0.55,IATF,9,0,2024-09-27,0.781,vazia
+E-CA-000010,CA-M-00193,CA-R-0024,caprino,Saanen,Boer,3.1,2,3.1,0.53,0.74,IA_cervical,4,1,2024-04-15,0.855,prenhe
+E-CA-000011,CA-M-00192,CA-R-0010,caprino,Boer,Caninde,2.1,1,3.3,0.54,0.45,IA_cervical,12,0,2024-12-29,0.658,vazia
+E-CA-000012,CA-M-00261,CA-R-0026,caprino,Saanen,Anglo Nubiana,1.6,1,3.6,1.0,0.71,IA_cervical,2,0,2025-02-12,0.723,prenhe
+E-CA-000013,CA-M-00104,CA-R-0015,caprino,Saanen,Saanen,8.4,1,3.3,0.13,0.71,IA_laparoscopica,11,0,2024-11-01,0.713,prenhe
+E-CA-000014,CA-M-00263,CA-R-0026,caprino,Saanen,Anglo Nubiana,5.7,3,2.7,0.48,0.71,IA_laparoscopica,7,0,2025-07-13,0.868,prenhe
+E-CA-000015,CA-M-00008,CA-R-0004,caprino,Boer,Anglo Nubiana,2.4,5,3.6,0.83,0.77,IA_cervical,12,0,2025-12-05,0.78,prenhe
+E-CA-000016,CA-M-00145,CA-R-0025,caprino,Alpina,Boer,8.0,3,2.9,0.48,0.61,IA_cervical,2,0,2024-02-28,0.614,vazia
+E-CA-000017,CA-M-00132,CA-R-0016,caprino,Saanen,Caninde,8.9,2,3.9,0.46,0.58,IATF,2,0,2024-02-19,0.435,vazia
+E-CA-000018,CA-M-00260,CA-R-0013,caprino,Saanen,Alpina,5.7,0,3.8,0.6,0.4,IA_cervical,7,0,2024-07-18,0.371,vazia
+E-CA-000019,CA-M-00013,CA-R-0015,caprino,Anglo Nubiana,Saanen,5.2,0,3.4,0.47,0.71,IA_laparoscopica,3,1,2025-03-03,0.827,vazia
+E-CA-000020,CA-M-00065,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,7.6,1,2.9,0.62,0.89,IA_cervical,2,0,2024-02-01,0.772,vazia
+E-CA-000021,CA-M-00140,CA-R-0018,caprino,Caninde,Alpina,3.5,0,4.3,0.47,0.49,IATF,5,1,2024-05-21,0.422,prenhe
+E-CA-000022,CA-M-00244,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,1.7,4,3.1,0.57,0.76,IA_cervical,10,0,2024-10-25,0.872,prenhe
+E-CA-000023,CA-M-00139,CA-R-0024,caprino,Saanen,Boer,8.1,3,3.0,0.33,0.74,IA_laparoscopica,10,0,2024-10-01,0.866,vazia
+E-CA-000024,CA-M-00191,CA-R-0029,caprino,Boer,Saanen,7.3,1,4.1,0.65,0.69,IA_cervical,9,0,2025-09-09,0.312,vazia
+E-CA-000025,CA-M-00053,CA-R-0012,caprino,Anglo Nubiana,Alpina,3.4,1,2.8,0.49,0.49,IA_cervical,2,0,2025-02-02,0.607,vazia
+E-CA-000026,CA-M-00282,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,5.4,0,3.4,1.0,0.76,IA_laparoscopica,9,0,2025-09-28,0.95,prenhe
+E-CA-000027,CA-M-00235,CA-R-0026,caprino,Alpina,Anglo Nubiana,7.6,2,3.3,0.44,0.71,IA_laparoscopica,7,0,2025-07-08,0.818,prenhe
+E-CA-000028,CA-M-00012,CA-R-0000,caprino,Moxoto,Moxoto,2.0,0,3.8,0.4,0.55,IATF,10,0,2024-10-29,0.437,vazia
+E-CA-000029,CA-M-00211,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,5.9,2,2.8,0.56,0.62,IA_laparoscopica,12,0,2025-12-14,0.888,prenhe
+E-CA-000030,CA-M-00038,CA-R-0021,caprino,Boer,Boer,9.8,0,2.7,0.7,0.46,IA_laparoscopica,9,0,2025-09-07,0.497,vazia
+E-CA-000031,CA-M-00167,CA-R-0013,caprino,Boer,Alpina,1.4,3,2.3,0.63,0.4,IATF,12,0,2024-12-26,0.631,prenhe
+E-CA-000032,CA-M-00212,CA-R-0003,caprino,Alpina,Anglo Nubiana,3.9,5,3.4,0.64,0.58,IA_cervical,9,0,2025-09-12,0.724,prenhe
+E-CA-000033,CA-M-00277,CA-R-0019,caprino,Pardo Alpina,Moxoto,8.8,0,2.5,0.68,0.75,IATF,7,0,2024-07-06,0.485,vazia
+E-CA-000034,CA-M-00021,CA-R-0012,caprino,Boer,Alpina,1.2,5,2.0,0.64,0.49,IA_cervical,5,1,2024-05-31,0.543,prenhe
+E-CA-000035,CA-M-00086,CA-R-0018,caprino,Caninde,Alpina,9.8,0,2.9,0.29,0.49,IA_cervical,7,0,2025-07-31,0.504,prenhe
+E-CA-000036,CA-M-00207,CA-R-0000,caprino,Anglo Nubiana,Moxoto,3.8,4,3.1,0.47,0.55,IATF,7,0,2025-07-30,0.771,vazia
+E-CA-000037,CA-M-00078,CA-R-0000,caprino,Boer,Moxoto,7.2,5,3.3,0.51,0.55,IA_cervical,6,1,2024-06-10,0.741,prenhe
+E-CA-000038,CA-M-00213,CA-R-0018,caprino,Caninde,Alpina,9.7,5,3.4,0.5,0.49,IA_cervical,7,0,2025-07-04,0.484,prenhe
+E-CA-000039,CA-M-00055,CA-R-0029,caprino,Pardo Alpina,Saanen,8.6,2,3.5,0.29,0.69,IA_cervical,1,0,2025-01-05,0.669,prenhe
+E-CA-000040,CA-M-00049,CA-R-0019,caprino,Anglo Nubiana,Moxoto,8.2,1,3.1,0.36,0.75,IA_cervical,2,0,2025-02-11,0.582,vazia
+E-CA-000041,CA-M-00163,CA-R-0028,caprino,Boer,Caninde,2.7,5,3.5,0.9,0.41,IA_laparoscopica,9,0,2025-09-10,0.889,prenhe
+E-CA-000042,CA-M-00206,CA-R-0025,caprino,Anglo Nubiana,Boer,7.5,0,3.1,0.78,0.61,IA_cervical,4,1,2024-04-26,0.648,prenhe
+E-CA-000043,CA-M-00061,CA-R-0008,caprino,Moxoto,Alpina,7.8,5,3.3,0.14,0.66,IA_cervical,10,0,2024-10-21,0.515,prenhe
+E-CA-000044,CA-M-00262,CA-R-0003,caprino,Pardo Alpina,Anglo Nubiana,7.4,0,3.1,0.74,0.58,IA_cervical,7,0,2024-07-30,0.68,prenhe
+E-CA-000045,CA-M-00260,CA-R-0016,caprino,Saanen,Caninde,5.7,0,3.8,0.6,0.58,IA_cervical,2,0,2025-02-10,0.54,prenhe
+E-CA-000046,CA-M-00024,CA-R-0018,caprino,Pardo Alpina,Alpina,2.8,5,3.8,0.46,0.49,IA_cervical,4,1,2024-04-25,0.552,vazia
+E-CA-000047,CA-M-00091,CA-R-0023,caprino,Moxoto,Pardo Alpina,3.6,5,3.0,0.7,0.76,IA_cervical,3,1,2024-03-28,0.815,prenhe
+E-CA-000048,CA-M-00166,CA-R-0015,caprino,Boer,Saanen,8.9,4,3.0,0.68,0.71,IATF,5,1,2025-05-23,0.819,prenhe
+E-CA-000049,CA-M-00147,CA-R-0027,caprino,Moxoto,Moxoto,3.4,2,3.5,0.37,0.53,IA_laparoscopica,2,0,2024-02-10,0.816,vazia
+E-CA-000050,CA-M-00076,CA-R-0025,caprino,Anglo Nubiana,Boer,5.6,4,3.7,0.64,0.61,IA_cervical,10,0,2024-10-31,0.656,prenhe
+E-CA-000051,CA-M-00158,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,9.5,1,2.0,0.56,0.61,IA_cervical,12,0,2025-12-20,0.359,prenhe
+E-CA-000052,CA-M-00288,CA-R-0016,caprino,Boer,Caninde,2.1,2,4.1,0.12,0.58,IA_cervical,12,0,2025-12-30,0.387,vazia
+E-CA-000053,CA-M-00092,CA-R-0000,caprino,Anglo Nubiana,Moxoto,3.7,5,3.8,0.48,0.55,IA_cervical,5,1,2024-05-10,0.639,prenhe
+E-CA-000054,CA-M-00065,CA-R-0023,caprino,Pardo Alpina,Pardo Alpina,7.6,1,2.9,0.62,0.76,IA_cervical,11,0,2025-11-07,0.734,prenhe
+E-CA-000055,CA-M-00221,CA-R-0020,caprino,Pardo Alpina,Boer,8.8,0,3.3,0.38,0.57,IATF,9,0,2024-09-01,0.521,vazia
+E-CA-000056,CA-M-00171,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,9.4,5,3.3,0.16,0.71,IA_laparoscopica,5,1,2024-05-24,0.794,vazia
+E-CA-000057,CA-M-00207,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,3.8,4,3.1,0.47,0.55,IA_cervical,1,0,2025-01-03,0.695,vazia
+E-CA-000058,CA-M-00193,CA-R-0004,caprino,Saanen,Anglo Nubiana,3.1,2,3.1,0.53,0.77,IA_cervical,12,0,2024-12-22,0.81,prenhe
+E-CA-000059,CA-M-00228,CA-R-0020,caprino,Saanen,Boer,6.9,0,3.6,0.79,0.57,IA_laparoscopica,9,0,2024-09-30,0.512,prenhe
+E-CA-000060,CA-M-00218,CA-R-0014,caprino,Boer,Anglo Nubiana,3.4,1,2.2,0.65,0.62,IATF,11,0,2024-11-07,0.474,vazia
+E-CA-000061,CA-M-00181,CA-R-0017,caprino,Boer,Anglo Nubiana,5.6,4,2.9,0.51,0.61,IA_cervical,3,1,2024-03-12,0.831,prenhe
+E-CA-000062,CA-M-00136,CA-R-0013,caprino,Caninde,Alpina,5.7,5,3.7,0.42,0.4,IATF,7,0,2024-07-11,0.351,prenhe
+E-CA-000063,CA-M-00138,CA-R-0019,caprino,Pardo Alpina,Moxoto,1.6,1,3.7,0.53,0.75,IA_cervical,5,1,2024-05-23,0.705,prenhe
+E-CA-000064,CA-M-00079,CA-R-0019,caprino,Alpina,Moxoto,3.6,5,3.0,0.76,0.75,IA_laparoscopica,11,0,2025-11-11,0.95,prenhe
+E-CA-000065,CA-M-00134,CA-R-0005,caprino,Alpina,Boer,4.9,1,3.3,0.46,0.56,IA_cervical,12,0,2024-12-26,0.676,prenhe
+E-CA-000066,CA-M-00181,CA-R-0022,caprino,Boer,Boer,5.6,4,2.9,0.51,0.76,IA_laparoscopica,2,0,2025-02-02,0.851,prenhe
+E-CA-000067,CA-M-00214,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,2.0,1,3.0,0.45,0.62,IA_cervical,11,0,2024-11-16,0.685,prenhe
+E-CA-000068,CA-M-00231,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,8.8,5,3.1,0.32,0.61,IA_cervical,10,0,2025-10-07,0.438,vazia
+E-CA-000069,CA-M-00113,CA-R-0018,caprino,Anglo Nubiana,Alpina,3.6,2,2.9,0.21,0.49,IA_laparoscopica,8,0,2025-08-05,0.788,prenhe
+E-CA-000070,CA-M-00219,CA-R-0022,caprino,Anglo Nubiana,Boer,3.7,4,3.9,0.62,0.76,IA_laparoscopica,5,1,2025-05-18,0.95,prenhe
+E-CA-000071,CA-M-00131,CA-R-0009,caprino,Caninde,Anglo Nubiana,5.5,0,2.2,0.5,0.89,IA_laparoscopica,8,0,2024-08-15,0.544,prenhe
+E-CA-000072,CA-M-00107,CA-R-0000,caprino,Caninde,Moxoto,4.3,3,2.9,0.27,0.55,IA_cervical,8,0,2024-08-13,0.643,prenhe
+E-CA-000073,CA-M-00049,CA-R-0005,caprino,Anglo Nubiana,Boer,8.2,1,3.1,0.36,0.56,IA_laparoscopica,11,0,2025-11-17,0.737,prenhe
+E-CA-000074,CA-M-00079,CA-R-0028,caprino,Alpina,Caninde,3.6,5,3.0,0.76,0.41,IA_cervical,11,0,2025-11-09,0.611,prenhe
+E-CA-000075,CA-M-00203,CA-R-0006,caprino,Anglo Nubiana,Caninde,7.7,4,3.7,0.34,0.74,IA_laparoscopica,7,0,2024-07-25,0.605,vazia
+E-CA-000076,CA-M-00064,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,2.3,5,3.7,0.3,0.59,IA_cervical,9,0,2024-09-02,0.558,vazia
+E-CA-000077,CA-M-00023,CA-R-0025,caprino,Anglo Nubiana,Boer,7.8,1,3.8,0.31,0.61,IA_cervical,8,0,2024-08-29,0.385,prenhe
+E-CA-000078,CA-M-00081,CA-R-0007,caprino,Boer,Pardo Alpina,2.8,3,3.6,0.62,0.59,IA_cervical,7,0,2025-07-26,0.647,prenhe
+E-CA-000079,CA-M-00297,CA-R-0013,caprino,Moxoto,Alpina,5.2,1,3.1,0.63,0.4,IATF,11,0,2025-11-23,0.701,vazia
+E-CA-000080,CA-M-00044,CA-R-0011,caprino,Saanen,Boer,7.0,0,3.5,0.51,0.48,IA_laparoscopica,10,0,2025-10-09,0.652,prenhe
+E-CA-000081,CA-M-00043,CA-R-0019,caprino,Anglo Nubiana,Moxoto,5.4,5,3.3,0.83,0.75,IA_cervical,9,0,2025-09-05,0.859,prenhe
+E-CA-000082,CA-M-00120,CA-R-0017,caprino,Alpina,Anglo Nubiana,8.8,3,4.4,0.67,0.61,IA_laparoscopica,9,0,2024-09-11,0.653,prenhe
+E-CA-000083,CA-M-00114,CA-R-0015,caprino,Alpina,Saanen,5.6,2,2.8,0.57,0.71,IA_cervical,8,0,2024-08-19,0.724,vazia
+E-CA-000084,CA-M-00276,CA-R-0015,caprino,Caninde,Saanen,6.7,3,2.7,0.8,0.71,IA_cervical,10,0,2025-10-10,0.552,prenhe
+E-CA-000085,CA-M-00071,CA-R-0025,caprino,Saanen,Boer,10.0,5,4.1,0.72,0.61,IA_cervical,10,0,2024-10-15,0.316,vazia
+E-CA-000086,CA-M-00125,CA-R-0017,caprino,Boer,Anglo Nubiana,9.7,5,3.3,0.49,0.61,IATF,6,1,2024-06-06,0.631,vazia
+E-CA-000087,CA-M-00087,CA-R-0015,caprino,Pardo Alpina,Saanen,2.3,1,4.1,0.45,0.71,IATF,9,0,2025-09-06,0.543,vazia
+E-CA-000088,CA-M-00074,CA-R-0026,caprino,Saanen,Anglo Nubiana,4.5,4,2.8,0.65,0.71,IATF,12,0,2024-12-16,0.867,prenhe
+E-CA-000089,CA-M-00096,CA-R-0002,caprino,Moxoto,Anglo Nubiana,10.0,5,3.0,0.77,0.55,IA_cervical,3,1,2024-03-03,0.75,prenhe
+E-CA-000090,CA-M-00077,CA-R-0025,caprino,Saanen,Boer,3.5,1,3.7,0.87,0.61,IA_cervical,10,0,2025-10-16,0.663,prenhe
+E-CA-000091,CA-M-00215,CA-R-0005,caprino,Pardo Alpina,Boer,2.2,2,2.6,0.68,0.56,IATF,8,0,2024-08-03,0.698,prenhe
+E-CA-000092,CA-M-00237,CA-R-0009,caprino,Boer,Anglo Nubiana,8.1,3,4.5,0.65,0.89,IA_cervical,8,0,2024-08-13,0.436,prenhe
+E-CA-000093,CA-M-00053,CA-R-0000,caprino,Anglo Nubiana,Moxoto,3.4,1,2.8,0.49,0.55,IA_laparoscopica,1,0,2025-01-23,0.808,prenhe
+E-CA-000094,CA-M-00148,CA-R-0017,caprino,Alpina,Anglo Nubiana,6.3,2,3.4,0.24,0.61,IATF,7,0,2024-07-16,0.566,vazia
+E-CA-000095,CA-M-00079,CA-R-0024,caprino,Alpina,Boer,3.6,5,3.0,0.76,0.74,IA_cervical,8,0,2025-08-28,0.844,vazia
+E-CA-000096,CA-M-00260,CA-R-0011,caprino,Saanen,Boer,5.7,0,3.8,0.6,0.48,IA_cervical,5,1,2025-05-19,0.484,prenhe
+E-CA-000097,CA-M-00030,CA-R-0019,caprino,Boer,Moxoto,5.6,0,2.7,0.47,0.75,IATF,2,0,2025-02-16,0.517,vazia
+E-CA-000098,CA-M-00122,CA-R-0011,caprino,Saanen,Boer,3.8,1,3.5,0.73,0.48,IA_laparoscopica,5,1,2024-05-26,0.892,prenhe
+E-CA-000099,CA-M-00099,CA-R-0022,caprino,Anglo Nubiana,Boer,3.5,0,3.9,0.59,0.76,IATF,12,0,2024-12-23,0.73,vazia
+E-CA-000100,CA-M-00109,CA-R-0029,caprino,Anglo Nubiana,Saanen,9.4,0,3.1,0.59,0.69,IA_laparoscopica,7,0,2024-07-17,0.737,vazia
+E-CA-000101,CA-M-00282,CA-R-0021,caprino,Anglo Nubiana,Boer,5.4,0,3.4,1.0,0.46,IA_cervical,12,0,2025-12-03,0.72,prenhe
+E-CA-000102,CA-M-00162,CA-R-0010,caprino,Saanen,Caninde,6.9,3,3.5,0.54,0.45,IATF,8,0,2025-08-01,0.541,vazia
+E-CA-000103,CA-M-00114,CA-R-0024,caprino,Alpina,Boer,5.6,2,2.8,0.57,0.74,IATF,3,1,2024-03-25,0.95,prenhe
+E-CA-000104,CA-M-00242,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,3.9,3,3.3,0.43,0.5,IATF,1,0,2025-01-20,0.637,vazia
+E-CA-000105,CA-M-00233,CA-R-0029,caprino,Caninde,Saanen,1.7,3,2.9,0.57,0.69,IA_cervical,7,0,2025-07-23,0.751,prenhe
+E-CA-000106,CA-M-00043,CA-R-0025,caprino,Anglo Nubiana,Boer,5.4,5,3.3,0.83,0.61,IA_cervical,1,0,2025-01-17,0.703,prenhe
+E-CA-000107,CA-M-00138,CA-R-0019,caprino,Pardo Alpina,Moxoto,1.6,1,3.7,0.53,0.75,IA_cervical,4,1,2024-04-02,0.687,prenhe
+E-CA-000108,CA-M-00123,CA-R-0018,caprino,Boer,Alpina,5.7,4,3.6,0.52,0.49,IA_cervical,4,1,2024-04-12,0.58,prenhe
+E-CA-000109,CA-M-00134,CA-R-0007,caprino,Alpina,Pardo Alpina,4.9,1,3.3,0.46,0.59,IATF,6,1,2025-06-18,0.874,prenhe
+E-CA-000110,CA-M-00104,CA-R-0012,caprino,Saanen,Alpina,8.4,1,3.3,0.13,0.49,IATF,1,0,2025-01-17,0.507,vazia
+E-CA-000111,CA-M-00247,CA-R-0003,caprino,Alpina,Anglo Nubiana,3.8,5,2.7,0.86,0.58,IA_cervical,1,0,2025-01-31,0.53,prenhe
+E-CA-000112,CA-M-00298,CA-R-0010,caprino,Caninde,Caninde,4.9,4,2.8,0.75,0.45,IATF,7,0,2024-07-16,0.82,prenhe
+E-CA-000113,CA-M-00008,CA-R-0017,caprino,Boer,Anglo Nubiana,2.4,5,3.6,0.83,0.61,IA_cervical,7,0,2024-07-12,0.55,prenhe
+E-CA-000114,CA-M-00256,CA-R-0010,caprino,Caninde,Caninde,2.7,0,3.4,0.69,0.45,IATF,10,0,2024-10-24,0.628,prenhe
+E-CA-000115,CA-M-00259,CA-R-0023,caprino,Saanen,Pardo Alpina,7.7,1,3.1,0.81,0.76,IA_laparoscopica,1,0,2025-01-31,0.911,prenhe
+E-CA-000116,CA-M-00109,CA-R-0025,caprino,Anglo Nubiana,Boer,9.4,0,3.1,0.59,0.61,IA_laparoscopica,12,0,2024-12-08,0.589,vazia
+E-CA-000117,CA-M-00145,CA-R-0016,caprino,Alpina,Caninde,8.0,3,2.9,0.48,0.58,IA_laparoscopica,10,0,2025-10-03,0.815,vazia
+E-CA-000118,CA-M-00030,CA-R-0010,caprino,Boer,Caninde,5.6,0,2.7,0.47,0.45,IA_laparoscopica,5,1,2024-05-17,0.628,prenhe
+E-CA-000119,CA-M-00105,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,2.9,5,3.1,0.51,0.89,IATF,12,0,2024-12-10,0.782,prenhe
+E-CA-000120,CA-M-00071,CA-R-0016,caprino,Saanen,Caninde,10.0,5,4.1,0.72,0.58,IA_cervical,6,1,2024-06-20,0.484,vazia
+E-CA-000121,CA-M-00272,CA-R-0021,caprino,Caninde,Boer,1.7,5,3.1,0.78,0.46,IATF,1,0,2024-01-05,0.673,prenhe
+E-CA-000122,CA-M-00032,CA-R-0003,caprino,Boer,Anglo Nubiana,8.2,5,2.5,0.68,0.58,IA_cervical,10,0,2024-10-29,0.446,vazia
+E-CA-000123,CA-M-00101,CA-R-0013,caprino,Caninde,Alpina,5.9,1,3.2,0.77,0.4,IA_cervical,2,0,2024-02-11,0.688,prenhe
+E-CA-000124,CA-M-00144,CA-R-0013,caprino,Caninde,Alpina,9.7,0,4.3,0.56,0.4,IA_laparoscopica,9,0,2024-09-28,0.371,vazia
+E-CA-000125,CA-M-00293,CA-R-0008,caprino,Boer,Alpina,3.5,3,3.5,0.59,0.66,IATF,4,1,2025-04-06,0.889,prenhe
+E-CA-000126,CA-M-00245,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,4.9,0,3.0,0.72,0.59,IATF,10,0,2024-10-01,0.705,vazia
+E-CA-000127,CA-M-00280,CA-R-0025,caprino,Saanen,Boer,7.3,3,3.1,0.6,0.61,IA_cervical,5,1,2025-05-09,0.8,vazia
+E-CA-000128,CA-M-00093,CA-R-0012,caprino,Alpina,Alpina,3.9,0,3.6,0.82,0.49,IA_cervical,8,0,2024-08-03,0.547,prenhe
+E-CA-000129,CA-M-00080,CA-R-0017,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.61,IA_cervical,10,0,2024-10-20,0.435,vazia
+E-CA-000130,CA-M-00171,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,9.4,5,3.3,0.16,0.5,IATF,9,0,2025-09-30,0.41,prenhe
+E-CA-000131,CA-M-00102,CA-R-0008,caprino,Alpina,Alpina,1.6,4,2.7,0.28,0.66,IATF,6,1,2024-06-26,0.641,prenhe
+E-CA-000132,CA-M-00004,CA-R-0006,caprino,Caninde,Caninde,9.2,3,3.4,0.63,0.74,IATF,12,0,2024-12-31,0.781,vazia
+E-CA-000133,CA-M-00243,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.4,5,3.6,0.66,0.89,IA_cervical,6,1,2025-06-06,0.657,prenhe
+E-CA-000134,CA-M-00028,CA-R-0025,caprino,Anglo Nubiana,Boer,2.7,1,2.8,0.63,0.61,IATF,9,0,2024-09-21,0.788,prenhe
+E-CA-000135,CA-M-00058,CA-R-0017,caprino,Alpina,Anglo Nubiana,6.0,3,2.0,0.67,0.61,IA_cervical,8,0,2024-08-10,0.437,prenhe
+E-CA-000136,CA-M-00282,CA-R-0027,caprino,Anglo Nubiana,Moxoto,5.4,0,3.4,1.0,0.53,IATF,5,1,2025-05-24,0.87,prenhe
+E-CA-000137,CA-M-00219,CA-R-0012,caprino,Anglo Nubiana,Alpina,3.7,4,3.9,0.62,0.49,IA_laparoscopica,2,0,2024-02-24,0.795,vazia
+E-CA-000138,CA-M-00192,CA-R-0023,caprino,Boer,Pardo Alpina,2.1,1,3.3,0.54,0.76,IA_cervical,7,0,2024-07-12,0.781,prenhe
+E-CA-000139,CA-M-00038,CA-R-0004,caprino,Boer,Anglo Nubiana,9.8,0,2.7,0.7,0.77,IA_laparoscopica,10,0,2024-10-26,0.727,prenhe
+E-CA-000140,CA-M-00075,CA-R-0024,caprino,Saanen,Boer,1.2,1,2.5,0.28,0.74,IATF,6,1,2024-06-07,0.586,prenhe
+E-CA-000141,CA-M-00061,CA-R-0018,caprino,Moxoto,Alpina,7.8,5,3.3,0.14,0.49,IA_cervical,1,0,2025-01-28,0.458,vazia
+E-CA-000142,CA-M-00192,CA-R-0001,caprino,Boer,Anglo Nubiana,2.1,1,3.3,0.54,0.5,IA_cervical,3,1,2025-03-28,0.697,prenhe
+E-CA-000143,CA-M-00150,CA-R-0020,caprino,Anglo Nubiana,Boer,3.6,5,2.9,0.73,0.57,IA_laparoscopica,12,0,2025-12-05,0.927,prenhe
+E-CA-000144,CA-M-00108,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,4.8,4,3.0,0.23,0.62,IATF,3,1,2025-03-15,0.845,prenhe
+E-CA-000145,CA-M-00223,CA-R-0000,caprino,Moxoto,Moxoto,3.2,0,4.0,0.54,0.55,IA_laparoscopica,3,1,2025-03-08,0.808,vazia
+E-CA-000146,CA-M-00233,CA-R-0025,caprino,Caninde,Boer,1.7,3,2.9,0.57,0.61,IA_cervical,6,1,2025-06-13,0.873,prenhe
+E-CA-000147,CA-M-00221,CA-R-0016,caprino,Pardo Alpina,Caninde,8.8,0,3.3,0.38,0.58,IA_laparoscopica,6,1,2024-06-01,0.718,prenhe
+E-CA-000148,CA-M-00031,CA-R-0018,caprino,Boer,Alpina,2.7,3,4.1,0.85,0.49,IA_cervical,12,0,2024-12-09,0.481,prenhe
+E-CA-000149,CA-M-00182,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,5.9,0,3.4,0.41,0.61,IA_cervical,8,0,2025-08-30,0.623,prenhe
+E-CA-000150,CA-M-00063,CA-R-0002,caprino,Moxoto,Anglo Nubiana,2.3,5,2.9,0.66,0.55,IA_cervical,5,1,2024-05-08,0.736,prenhe
+E-CA-000151,CA-M-00081,CA-R-0009,caprino,Boer,Anglo Nubiana,2.8,3,3.6,0.62,0.89,IA_cervical,7,0,2024-07-31,0.787,prenhe
+E-CA-000152,CA-M-00293,CA-R-0021,caprino,Boer,Boer,3.5,3,3.5,0.59,0.46,IA_cervical,6,1,2024-06-09,0.856,prenhe
+E-CA-000153,CA-M-00124,CA-R-0010,caprino,Boer,Caninde,8.7,1,3.2,0.51,0.45,IA_cervical,12,0,2025-12-01,0.437,vazia
+E-CA-000154,CA-M-00236,CA-R-0026,caprino,Boer,Anglo Nubiana,8.0,3,3.1,0.49,0.71,IA_cervical,9,0,2024-09-15,0.664,prenhe
+E-CA-000155,CA-M-00073,CA-R-0009,caprino,Moxoto,Anglo Nubiana,8.8,4,3.7,1.0,0.89,IA_laparoscopica,8,0,2024-08-25,0.839,prenhe
+E-CA-000156,CA-M-00291,CA-R-0013,caprino,Alpina,Alpina,6.0,3,3.3,0.4,0.4,IA_cervical,8,0,2025-08-18,0.611,prenhe
+E-CA-000157,CA-M-00083,CA-R-0013,caprino,Saanen,Alpina,9.3,5,2.9,0.36,0.4,IA_cervical,10,0,2025-10-25,0.454,vazia
+E-CA-000158,CA-M-00054,CA-R-0000,caprino,Caninde,Moxoto,6.2,4,4.4,0.39,0.55,IA_cervical,1,0,2024-01-04,0.381,vazia
+E-CA-000159,CA-M-00096,CA-R-0024,caprino,Moxoto,Boer,10.0,5,3.0,0.77,0.74,IATF,10,0,2025-10-03,0.725,prenhe
+E-CA-000160,CA-M-00052,CA-R-0004,caprino,Caninde,Anglo Nubiana,9.2,0,1.8,0.43,0.77,IATF,5,1,2025-05-31,0.481,vazia
+E-CA-000161,CA-M-00179,CA-R-0014,caprino,Saanen,Anglo Nubiana,4.3,0,2.4,0.66,0.62,IA_cervical,9,0,2025-09-22,0.484,vazia
+E-CA-000162,CA-M-00043,CA-R-0027,caprino,Anglo Nubiana,Moxoto,5.4,5,3.3,0.83,0.53,IA_laparoscopica,3,1,2024-03-04,0.95,prenhe
+E-CA-000163,CA-M-00062,CA-R-0029,caprino,Alpina,Saanen,9.7,5,3.2,0.38,0.69,IATF,1,0,2024-01-29,0.544,prenhe
+E-CA-000164,CA-M-00210,CA-R-0006,caprino,Saanen,Caninde,6.0,0,2.8,0.9,0.74,IA_laparoscopica,9,0,2024-09-02,0.95,prenhe
+E-CA-000165,CA-M-00012,CA-R-0011,caprino,Moxoto,Boer,2.0,0,3.8,0.4,0.48,IA_cervical,9,0,2025-09-12,0.428,vazia
+E-CA-000166,CA-M-00132,CA-R-0016,caprino,Saanen,Caninde,8.9,2,3.9,0.46,0.58,IA_cervical,12,0,2024-12-29,0.482,prenhe
+E-CA-000167,CA-M-00207,CA-R-0020,caprino,Anglo Nubiana,Boer,3.8,4,3.1,0.47,0.57,IA_cervical,6,1,2025-06-10,0.878,prenhe
+E-CA-000168,CA-M-00133,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,1.0,3,4.3,0.98,0.59,IA_cervical,6,1,2024-06-27,0.686,prenhe
+E-CA-000169,CA-M-00006,CA-R-0016,caprino,Anglo Nubiana,Caninde,8.4,2,3.5,0.62,0.58,IA_cervical,9,0,2024-09-01,0.593,vazia
+E-CA-000170,CA-M-00047,CA-R-0025,caprino,Alpina,Boer,1.3,2,3.2,0.8,0.61,IATF,10,0,2025-10-02,0.776,prenhe
+E-CA-000171,CA-M-00291,CA-R-0022,caprino,Alpina,Boer,6.0,3,3.3,0.4,0.76,IA_cervical,12,0,2024-12-23,0.82,vazia
+E-CA-000172,CA-M-00231,CA-R-0024,caprino,Anglo Nubiana,Boer,8.8,5,3.1,0.32,0.74,IA_cervical,7,0,2025-07-23,0.635,prenhe
+E-CA-000173,CA-M-00105,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,2.9,5,3.1,0.51,0.71,IATF,4,1,2025-04-12,0.825,vazia
+E-CA-000174,CA-M-00262,CA-R-0025,caprino,Pardo Alpina,Boer,7.4,0,3.1,0.74,0.61,IA_laparoscopica,5,1,2024-05-08,0.746,prenhe
+E-CA-000175,CA-M-00001,CA-R-0015,caprino,Caninde,Saanen,2.3,0,3.4,0.57,0.71,IA_cervical,11,0,2025-11-19,0.812,prenhe
+E-CA-000176,CA-M-00014,CA-R-0029,caprino,Saanen,Saanen,6.1,2,3.2,0.81,0.69,IATF,11,0,2025-11-21,0.772,prenhe
+E-CA-000177,CA-M-00265,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,1.1,1,2.9,0.8,0.62,IA_cervical,7,0,2025-07-23,0.777,prenhe
+E-CA-000178,CA-M-00202,CA-R-0021,caprino,Alpina,Boer,6.5,3,3.0,0.55,0.46,IA_cervical,12,0,2024-12-08,0.516,prenhe
+E-CA-000179,CA-M-00179,CA-R-0028,caprino,Saanen,Caninde,4.3,0,2.4,0.66,0.41,IA_cervical,11,0,2024-11-08,0.437,vazia
+E-CA-000180,CA-M-00103,CA-R-0001,caprino,Boer,Anglo Nubiana,8.1,3,4.0,0.64,0.5,IA_cervical,8,0,2024-08-05,0.472,vazia
+E-CA-000181,CA-M-00245,CA-R-0028,caprino,Anglo Nubiana,Caninde,4.9,0,3.0,0.72,0.41,IATF,4,1,2025-04-16,0.753,prenhe
+E-CA-000182,CA-M-00182,CA-R-0024,caprino,Anglo Nubiana,Boer,5.9,0,3.4,0.41,0.74,IA_cervical,8,0,2024-08-14,0.654,vazia
+E-CA-000183,CA-M-00130,CA-R-0029,caprino,Anglo Nubiana,Saanen,1.6,4,3.2,0.59,0.69,IATF,5,1,2024-05-15,0.911,prenhe
+E-CA-000184,CA-M-00114,CA-R-0023,caprino,Alpina,Pardo Alpina,5.6,2,2.8,0.57,0.76,IA_cervical,2,0,2024-02-14,0.797,prenhe
+E-CA-000185,CA-M-00106,CA-R-0004,caprino,Saanen,Anglo Nubiana,8.2,5,4.0,0.84,0.77,IATF,11,0,2024-11-05,0.619,prenhe
+E-CA-000186,CA-M-00172,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.5,3,3.5,0.88,0.89,IA_cervical,8,0,2025-08-18,0.857,prenhe
+E-CA-000187,CA-M-00196,CA-R-0000,caprino,Moxoto,Moxoto,7.2,5,3.0,0.88,0.55,IATF,7,0,2025-07-31,0.6,prenhe
+E-CA-000188,CA-M-00241,CA-R-0018,caprino,Boer,Alpina,5.5,3,3.1,0.76,0.49,IA_cervical,9,0,2025-09-12,0.7,prenhe
+E-CA-000189,CA-M-00121,CA-R-0013,caprino,Saanen,Alpina,7.7,0,3.1,0.79,0.4,IATF,3,1,2025-03-18,0.622,prenhe
+E-CA-000190,CA-M-00076,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,5.6,4,3.7,0.64,0.62,IATF,9,0,2025-09-25,0.621,vazia
+E-CA-000191,CA-M-00166,CA-R-0022,caprino,Boer,Boer,8.9,4,3.0,0.68,0.76,IA_laparoscopica,7,0,2025-07-25,0.869,prenhe
+E-CA-000192,CA-M-00175,CA-R-0024,caprino,Boer,Boer,2.1,0,2.7,0.23,0.74,IA_cervical,8,0,2025-08-11,0.425,prenhe
+E-CA-000193,CA-M-00083,CA-R-0002,caprino,Saanen,Anglo Nubiana,9.3,5,2.9,0.36,0.55,IA_laparoscopica,1,0,2025-01-07,0.611,vazia
+E-CA-000194,CA-M-00021,CA-R-0027,caprino,Boer,Moxoto,1.2,5,2.0,0.64,0.53,IA_laparoscopica,3,1,2024-03-03,0.658,vazia
+E-CA-000195,CA-M-00099,CA-R-0011,caprino,Anglo Nubiana,Boer,3.5,0,3.9,0.59,0.48,IA_laparoscopica,10,0,2024-10-04,0.607,vazia
+E-CA-000196,CA-M-00021,CA-R-0022,caprino,Boer,Boer,1.2,5,2.0,0.64,0.76,IA_laparoscopica,9,0,2025-09-10,0.787,prenhe
+E-CA-000197,CA-M-00024,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,2.8,5,3.8,0.46,0.61,IATF,6,1,2025-06-26,0.636,prenhe
+E-CA-000198,CA-M-00289,CA-R-0013,caprino,Caninde,Alpina,6.2,0,3.1,0.51,0.4,IATF,1,0,2024-01-10,0.414,vazia
+E-CA-000199,CA-M-00234,CA-R-0006,caprino,Boer,Caninde,8.9,2,3.7,0.5,0.74,IA_cervical,3,1,2024-03-09,0.509,prenhe
+E-CA-000200,CA-M-00010,CA-R-0005,caprino,Boer,Boer,6.2,3,2.5,0.39,0.56,IA_cervical,4,1,2025-04-25,0.512,prenhe
+E-CA-000201,CA-M-00104,CA-R-0021,caprino,Saanen,Boer,8.4,1,3.3,0.13,0.46,IA_cervical,12,0,2025-12-15,0.42,prenhe
+E-CA-000202,CA-M-00076,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,5.6,4,3.7,0.64,0.89,IA_laparoscopica,6,1,2025-06-17,0.95,prenhe
+E-CA-000203,CA-M-00292,CA-R-0006,caprino,Boer,Caninde,1.0,0,3.4,0.73,0.74,IATF,11,0,2025-11-23,0.796,prenhe
+E-CA-000204,CA-M-00131,CA-R-0000,caprino,Caninde,Moxoto,5.5,0,2.2,0.5,0.55,IA_cervical,2,0,2024-02-18,0.261,vazia
+E-CA-000205,CA-M-00077,CA-R-0025,caprino,Saanen,Boer,3.5,1,3.7,0.87,0.61,IA_cervical,10,0,2025-10-04,0.557,prenhe
+E-CA-000206,CA-M-00190,CA-R-0011,caprino,Caninde,Boer,7.5,4,4.1,0.51,0.48,IA_cervical,4,1,2024-04-03,0.35,vazia
+E-CA-000207,CA-M-00142,CA-R-0010,caprino,Caninde,Caninde,4.8,5,3.7,0.76,0.45,IA_cervical,10,0,2025-10-07,0.514,prenhe
+E-CA-000208,CA-M-00056,CA-R-0011,caprino,Anglo Nubiana,Boer,7.7,0,4.0,0.71,0.48,IATF,12,0,2025-12-12,0.321,vazia
+E-CA-000209,CA-M-00091,CA-R-0017,caprino,Moxoto,Anglo Nubiana,3.6,5,3.0,0.7,0.61,IA_laparoscopica,1,0,2025-01-08,0.892,vazia
+E-CA-000210,CA-M-00038,CA-R-0014,caprino,Boer,Anglo Nubiana,9.8,0,2.7,0.7,0.62,IA_cervical,1,0,2025-01-23,0.331,prenhe
+E-CA-000211,CA-M-00208,CA-R-0016,caprino,Saanen,Caninde,8.5,4,3.5,0.34,0.58,IA_cervical,12,0,2024-12-29,0.58,vazia
+E-CA-000212,CA-M-00291,CA-R-0008,caprino,Alpina,Alpina,6.0,3,3.3,0.4,0.66,IA_cervical,2,0,2025-02-07,0.773,prenhe
+E-CA-000213,CA-M-00242,CA-R-0008,caprino,Anglo Nubiana,Alpina,3.9,3,3.3,0.43,0.66,IA_laparoscopica,8,0,2025-08-21,0.95,prenhe
+E-CA-000214,CA-M-00112,CA-R-0025,caprino,Boer,Boer,5.4,1,2.8,0.17,0.61,IA_laparoscopica,7,0,2024-07-24,0.82,prenhe
+E-CA-000215,CA-M-00146,CA-R-0013,caprino,Boer,Alpina,4.1,2,3.8,0.45,0.4,IA_cervical,7,0,2024-07-25,0.449,prenhe
+E-CA-000216,CA-M-00018,CA-R-0029,caprino,Saanen,Saanen,7.0,5,3.7,0.56,0.69,IA_cervical,12,0,2025-12-07,0.493,prenhe
+E-CA-000217,CA-M-00110,CA-R-0025,caprino,Saanen,Boer,9.0,1,2.5,0.83,0.61,IATF,9,0,2025-09-12,0.491,vazia
+E-CA-000218,CA-M-00009,CA-R-0021,caprino,Saanen,Boer,1.5,2,3.6,0.23,0.46,IATF,1,0,2025-01-29,0.539,prenhe
+E-CA-000219,CA-M-00223,CA-R-0016,caprino,Moxoto,Caninde,3.2,0,4.0,0.54,0.58,IA_laparoscopica,5,1,2024-05-26,0.699,prenhe
+E-CA-000220,CA-M-00272,CA-R-0025,caprino,Caninde,Boer,1.7,5,3.1,0.78,0.61,IA_cervical,11,0,2025-11-28,0.735,prenhe
+E-CA-000221,CA-M-00057,CA-R-0001,caprino,Saanen,Anglo Nubiana,1.4,3,3.0,0.51,0.5,IATF,10,0,2025-10-03,0.702,vazia
+E-CA-000222,CA-M-00202,CA-R-0014,caprino,Alpina,Anglo Nubiana,6.5,3,3.0,0.55,0.62,IA_laparoscopica,8,0,2024-08-27,0.824,prenhe
+E-CA-000223,CA-M-00179,CA-R-0021,caprino,Saanen,Boer,4.3,0,2.4,0.66,0.46,IATF,1,0,2025-01-29,0.526,prenhe
+E-CA-000224,CA-M-00125,CA-R-0003,caprino,Boer,Anglo Nubiana,9.7,5,3.3,0.49,0.58,IA_cervical,11,0,2024-11-02,0.505,prenhe
+E-CA-000225,CA-M-00220,CA-R-0005,caprino,Anglo Nubiana,Boer,2.4,5,3.1,0.66,0.56,IA_cervical,9,0,2025-09-07,0.658,vazia
+E-CA-000226,CA-M-00203,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,7.7,4,3.7,0.34,0.5,IA_cervical,5,1,2025-05-16,0.476,vazia
+E-CA-000227,CA-M-00080,CA-R-0014,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.62,IATF,12,0,2024-12-25,0.453,vazia
+E-CA-000228,CA-M-00239,CA-R-0016,caprino,Pardo Alpina,Caninde,9.5,0,3.5,1.0,0.58,IA_laparoscopica,12,0,2025-12-07,0.706,prenhe
+E-CA-000229,CA-M-00196,CA-R-0014,caprino,Moxoto,Anglo Nubiana,7.2,5,3.0,0.88,0.62,IA_cervical,3,1,2025-03-20,0.722,prenhe
+E-CA-000230,CA-M-00093,CA-R-0001,caprino,Alpina,Anglo Nubiana,3.9,0,3.6,0.82,0.5,IATF,12,0,2024-12-19,0.529,vazia
+E-CA-000231,CA-M-00220,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,2.4,5,3.1,0.66,0.62,IATF,11,0,2025-11-07,0.734,prenhe
+E-CA-000232,CA-M-00192,CA-R-0026,caprino,Boer,Anglo Nubiana,2.1,1,3.3,0.54,0.71,IA_cervical,11,0,2024-11-24,0.778,prenhe
+E-CA-000233,CA-M-00035,CA-R-0000,caprino,Saanen,Moxoto,3.7,1,3.3,0.41,0.55,IA_laparoscopica,11,0,2024-11-01,0.865,prenhe
+E-CA-000234,CA-M-00049,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,8.2,1,3.1,0.36,0.76,IA_laparoscopica,10,0,2024-10-10,0.768,prenhe
+E-CA-000235,CA-M-00097,CA-R-0008,caprino,Moxoto,Alpina,3.2,5,3.2,0.48,0.66,IA_cervical,6,1,2024-06-09,0.714,vazia
+E-CA-000236,CA-M-00013,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.2,0,3.4,0.47,0.55,IA_laparoscopica,7,0,2024-07-22,0.762,prenhe
+E-CA-000237,CA-M-00121,CA-R-0001,caprino,Saanen,Anglo Nubiana,7.7,0,3.1,0.79,0.5,IA_cervical,3,1,2024-03-07,0.647,vazia
+E-CA-000238,CA-M-00138,CA-R-0000,caprino,Pardo Alpina,Moxoto,1.6,1,3.7,0.53,0.55,IATF,6,1,2025-06-15,0.633,prenhe
+E-CA-000239,CA-M-00232,CA-R-0012,caprino,Boer,Alpina,9.1,1,2.9,0.49,0.49,IATF,3,1,2025-03-06,0.607,vazia
+E-CA-000240,CA-M-00051,CA-R-0014,caprino,Boer,Anglo Nubiana,1.1,0,2.8,0.52,0.62,IATF,11,0,2025-11-11,0.653,vazia
+E-CA-000241,CA-M-00170,CA-R-0018,caprino,Pardo Alpina,Alpina,7.3,5,2.5,0.13,0.49,IATF,3,1,2025-03-22,0.393,vazia
+E-CA-000242,CA-M-00199,CA-R-0002,caprino,Moxoto,Anglo Nubiana,3.3,2,3.4,0.16,0.55,IA_cervical,2,0,2024-02-28,0.651,prenhe
+E-CA-000243,CA-M-00134,CA-R-0019,caprino,Alpina,Moxoto,4.9,1,3.3,0.46,0.75,IA_cervical,3,1,2025-03-29,0.87,prenhe
+E-CA-000244,CA-M-00272,CA-R-0022,caprino,Caninde,Boer,1.7,5,3.1,0.78,0.76,IA_laparoscopica,5,1,2024-05-07,0.95,prenhe
+E-CA-000245,CA-M-00095,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,2.5,4,3.3,0.94,0.5,IA_cervical,1,0,2024-01-28,0.782,prenhe
+E-CA-000246,CA-M-00122,CA-R-0020,caprino,Saanen,Boer,3.8,1,3.5,0.73,0.57,IA_laparoscopica,4,1,2025-04-28,0.95,prenhe
+E-CA-000247,CA-M-00001,CA-R-0003,caprino,Caninde,Anglo Nubiana,2.3,0,3.4,0.57,0.58,IA_cervical,1,0,2024-01-21,0.663,prenhe
+E-CA-000248,CA-M-00123,CA-R-0013,caprino,Boer,Alpina,5.7,4,3.6,0.52,0.4,IA_cervical,10,0,2024-10-25,0.517,prenhe
+E-CA-000249,CA-M-00006,CA-R-0019,caprino,Anglo Nubiana,Moxoto,8.4,2,3.5,0.62,0.75,IA_cervical,10,0,2025-10-15,0.595,prenhe
+E-CA-000250,CA-M-00295,CA-R-0026,caprino,Saanen,Anglo Nubiana,7.7,3,4.8,0.73,0.71,IA_laparoscopica,7,0,2024-07-05,0.561,vazia
+E-CA-000251,CA-M-00072,CA-R-0015,caprino,Anglo Nubiana,Saanen,1.9,0,3.8,0.91,0.71,IA_cervical,5,1,2025-05-22,0.64,prenhe
+E-CA-000252,CA-M-00243,CA-R-0013,caprino,Anglo Nubiana,Alpina,8.4,5,3.6,0.66,0.4,IA_laparoscopica,10,0,2024-10-01,0.476,prenhe
+E-CA-000253,CA-M-00035,CA-R-0025,caprino,Saanen,Boer,3.7,1,3.3,0.41,0.61,IA_cervical,3,1,2024-03-23,0.772,prenhe
+E-CA-000254,CA-M-00082,CA-R-0006,caprino,Anglo Nubiana,Caninde,8.5,2,3.8,0.05,0.74,IATF,5,1,2024-05-23,0.534,vazia
+E-CA-000255,CA-M-00035,CA-R-0006,caprino,Saanen,Caninde,3.7,1,3.3,0.41,0.74,IA_laparoscopica,2,0,2024-02-24,0.922,prenhe
+E-CA-000256,CA-M-00110,CA-R-0013,caprino,Saanen,Alpina,9.0,1,2.5,0.83,0.4,IA_laparoscopica,4,1,2024-04-20,0.602,prenhe
+E-CA-000257,CA-M-00180,CA-R-0003,caprino,Pardo Alpina,Anglo Nubiana,10.0,3,3.6,0.55,0.58,IA_cervical,4,1,2024-04-28,0.567,prenhe
+E-CA-000258,CA-M-00125,CA-R-0000,caprino,Boer,Moxoto,9.7,5,3.3,0.49,0.55,IA_cervical,10,0,2025-10-06,0.608,prenhe
+E-CA-000259,CA-M-00181,CA-R-0010,caprino,Boer,Caninde,5.6,4,2.9,0.51,0.45,IA_cervical,8,0,2025-08-12,0.674,prenhe
+E-CA-000260,CA-M-00241,CA-R-0004,caprino,Boer,Anglo Nubiana,5.5,3,3.1,0.76,0.77,IA_laparoscopica,9,0,2024-09-14,0.95,prenhe
+E-CA-000261,CA-M-00013,CA-R-0019,caprino,Anglo Nubiana,Moxoto,5.2,0,3.4,0.47,0.75,IA_cervical,6,1,2025-06-11,0.75,prenhe
+E-CA-000262,CA-M-00127,CA-R-0016,caprino,Boer,Caninde,6.9,3,3.3,0.42,0.58,IATF,5,1,2024-05-29,0.71,prenhe
+E-CA-000263,CA-M-00178,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,6.7,5,3.2,0.53,0.62,IATF,4,1,2025-04-11,0.638,prenhe
+E-CA-000264,CA-M-00157,CA-R-0014,caprino,Alpina,Anglo Nubiana,2.5,3,3.6,0.54,0.62,IA_cervical,5,1,2024-05-27,0.589,prenhe
+E-CA-000265,CA-M-00043,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.4,5,3.3,0.83,0.55,IATF,4,1,2025-04-12,0.753,prenhe
+E-CA-000266,CA-M-00061,CA-R-0012,caprino,Moxoto,Alpina,7.8,5,3.3,0.14,0.49,IA_laparoscopica,9,0,2024-09-18,0.645,prenhe
+E-CA-000267,CA-M-00113,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,3.6,2,2.9,0.21,0.55,IA_cervical,9,0,2025-09-18,0.736,prenhe
+E-CA-000268,CA-M-00195,CA-R-0010,caprino,Saanen,Caninde,2.3,2,3.0,0.44,0.45,IA_laparoscopica,9,0,2025-09-01,0.928,vazia
+E-CA-000269,CA-M-00296,CA-R-0020,caprino,Pardo Alpina,Boer,1.1,5,3.8,0.69,0.57,IATF,8,0,2024-08-31,0.567,vazia
+E-CA-000270,CA-M-00110,CA-R-0029,caprino,Saanen,Saanen,9.0,1,2.5,0.83,0.69,IA_cervical,1,0,2024-01-31,0.452,vazia
+E-CA-000271,CA-M-00156,CA-R-0008,caprino,Anglo Nubiana,Alpina,9.4,2,3.8,0.61,0.66,IA_cervical,8,0,2024-08-23,0.474,vazia
+E-CA-000272,CA-M-00091,CA-R-0007,caprino,Moxoto,Pardo Alpina,3.6,5,3.0,0.7,0.59,IA_laparoscopica,7,0,2024-07-24,0.801,vazia
+E-CA-000273,CA-M-00010,CA-R-0020,caprino,Boer,Boer,6.2,3,2.5,0.39,0.57,IA_cervical,11,0,2024-11-06,0.34,prenhe
+E-CA-000274,CA-M-00119,CA-R-0027,caprino,Saanen,Moxoto,1.9,5,3.2,0.91,0.53,IA_laparoscopica,2,0,2025-02-23,0.907,prenhe
+E-CA-000275,CA-M-00104,CA-R-0008,caprino,Saanen,Alpina,8.4,1,3.3,0.13,0.66,IA_laparoscopica,12,0,2025-12-23,0.717,vazia
+E-CA-000276,CA-M-00045,CA-R-0025,caprino,Boer,Boer,4.2,2,3.0,0.46,0.61,IATF,2,0,2024-02-15,0.874,prenhe
+E-CA-000277,CA-M-00201,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,4.2,2,3.7,0.45,0.89,IA_cervical,2,0,2025-02-09,0.682,prenhe
+E-CA-000278,CA-M-00077,CA-R-0019,caprino,Saanen,Moxoto,3.5,1,3.7,0.87,0.75,IA_cervical,5,1,2024-05-05,0.676,prenhe
+E-CA-000279,CA-M-00067,CA-R-0006,caprino,Saanen,Caninde,8.2,5,3.3,0.55,0.74,IATF,2,0,2025-02-03,0.63,prenhe
+E-CA-000280,CA-M-00116,CA-R-0007,caprino,Saanen,Pardo Alpina,1.8,3,2.8,0.58,0.59,IA_cervical,4,1,2025-04-09,0.828,prenhe
+E-CA-000281,CA-M-00289,CA-R-0029,caprino,Caninde,Saanen,6.2,0,3.1,0.51,0.69,IA_cervical,8,0,2025-08-14,0.533,vazia
+E-CA-000282,CA-M-00190,CA-R-0011,caprino,Caninde,Boer,7.5,4,4.1,0.51,0.48,IA_cervical,2,0,2025-02-12,0.321,vazia
+E-CA-000283,CA-M-00127,CA-R-0000,caprino,Boer,Moxoto,6.9,3,3.3,0.42,0.55,IA_cervical,5,1,2024-05-09,0.603,prenhe
+E-CA-000284,CA-M-00246,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,8.0,2,3.1,0.51,0.76,IA_cervical,10,0,2025-10-28,0.693,prenhe
+E-CA-000285,CA-M-00006,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,8.4,2,3.5,0.62,0.58,IA_cervical,10,0,2024-10-22,0.669,vazia
+E-CA-000286,CA-M-00101,CA-R-0003,caprino,Caninde,Anglo Nubiana,5.9,1,3.2,0.77,0.58,IA_laparoscopica,12,0,2024-12-16,0.95,prenhe
+E-CA-000287,CA-M-00162,CA-R-0025,caprino,Saanen,Boer,6.9,3,3.5,0.54,0.61,IA_laparoscopica,4,1,2025-04-13,0.898,prenhe
+E-CA-000288,CA-M-00146,CA-R-0010,caprino,Boer,Caninde,4.1,2,3.8,0.45,0.45,IATF,7,0,2024-07-12,0.592,prenhe
+E-CA-000289,CA-M-00202,CA-R-0004,caprino,Alpina,Anglo Nubiana,6.5,3,3.0,0.55,0.77,IATF,12,0,2025-12-22,0.706,prenhe
+E-CA-000290,CA-M-00210,CA-R-0029,caprino,Saanen,Saanen,6.0,0,2.8,0.9,0.69,IA_cervical,2,0,2024-02-02,0.751,prenhe
+E-CA-000291,CA-M-00136,CA-R-0008,caprino,Caninde,Alpina,5.7,5,3.7,0.42,0.66,IA_cervical,4,1,2024-04-22,0.655,vazia
+E-CA-000292,CA-M-00278,CA-R-0018,caprino,Moxoto,Alpina,9.9,3,4.0,0.81,0.49,IATF,12,0,2025-12-23,0.429,prenhe
+E-CA-000293,CA-M-00278,CA-R-0007,caprino,Moxoto,Pardo Alpina,9.9,3,4.0,0.81,0.59,IA_cervical,11,0,2024-11-25,0.488,prenhe
+E-CA-000294,CA-M-00142,CA-R-0017,caprino,Caninde,Anglo Nubiana,4.8,5,3.7,0.76,0.61,IA_cervical,10,0,2025-10-14,0.612,vazia
+E-CA-000295,CA-M-00270,CA-R-0020,caprino,Moxoto,Boer,8.4,5,2.8,0.51,0.57,IA_cervical,10,0,2025-10-23,0.519,prenhe
+E-CA-000296,CA-M-00192,CA-R-0022,caprino,Boer,Boer,2.1,1,3.3,0.54,0.76,IA_laparoscopica,12,0,2025-12-23,0.928,prenhe
+E-CA-000297,CA-M-00041,CA-R-0012,caprino,Anglo Nubiana,Alpina,1.2,0,3.1,0.38,0.49,IA_cervical,6,1,2025-06-13,0.649,prenhe
+E-CA-000298,CA-M-00035,CA-R-0018,caprino,Saanen,Alpina,3.7,1,3.3,0.41,0.49,IA_cervical,5,1,2025-05-13,0.724,prenhe
+E-CA-000299,CA-M-00023,CA-R-0025,caprino,Anglo Nubiana,Boer,7.8,1,3.8,0.31,0.61,IA_cervical,3,1,2025-03-24,0.5,vazia
+E-CA-000300,CA-M-00063,CA-R-0025,caprino,Moxoto,Boer,2.3,5,2.9,0.66,0.61,IATF,5,1,2025-05-13,0.862,prenhe
+E-CA-000301,CA-M-00093,CA-R-0022,caprino,Alpina,Boer,3.9,0,3.6,0.82,0.76,IA_cervical,7,0,2024-07-06,0.609,vazia
+E-CA-000302,CA-M-00020,CA-R-0011,caprino,Caninde,Boer,3.4,0,2.8,0.66,0.48,IA_laparoscopica,8,0,2025-08-18,0.859,prenhe
+E-CA-000303,CA-M-00182,CA-R-0015,caprino,Anglo Nubiana,Saanen,5.9,0,3.4,0.41,0.71,IA_cervical,5,1,2024-05-16,0.773,prenhe
+E-CA-000304,CA-M-00123,CA-R-0029,caprino,Boer,Saanen,5.7,4,3.6,0.52,0.69,IA_cervical,12,0,2024-12-16,0.663,vazia
+E-CA-000305,CA-M-00180,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,10.0,3,3.6,0.55,0.59,IA_cervical,9,0,2024-09-30,0.405,vazia
+E-CA-000306,CA-M-00150,CA-R-0020,caprino,Anglo Nubiana,Boer,3.6,5,2.9,0.73,0.57,IA_cervical,7,0,2025-07-09,0.791,prenhe
+E-CA-000307,CA-M-00081,CA-R-0023,caprino,Boer,Pardo Alpina,2.8,3,3.6,0.62,0.76,IA_cervical,7,0,2024-07-05,0.679,prenhe
+E-CA-000308,CA-M-00184,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,9.7,3,3.4,0.83,0.62,IATF,5,1,2024-05-30,0.667,prenhe
+E-CA-000309,CA-M-00285,CA-R-0025,caprino,Anglo Nubiana,Boer,7.1,0,2.0,0.55,0.61,IA_cervical,8,0,2025-08-13,0.347,vazia
+E-CA-000310,CA-M-00095,CA-R-0012,caprino,Anglo Nubiana,Alpina,2.5,4,3.3,0.94,0.49,IATF,12,0,2024-12-21,0.824,prenhe
+E-CA-000311,CA-M-00092,CA-R-0025,caprino,Anglo Nubiana,Boer,3.7,5,3.8,0.48,0.61,IA_cervical,6,1,2025-06-10,0.56,vazia
+E-CA-000312,CA-M-00154,CA-R-0019,caprino,Pardo Alpina,Moxoto,4.4,3,3.8,0.8,0.75,IA_cervical,10,0,2025-10-03,0.67,prenhe
+E-CA-000313,CA-M-00241,CA-R-0001,caprino,Boer,Anglo Nubiana,5.5,3,3.1,0.76,0.5,IA_laparoscopica,9,0,2025-09-01,0.95,prenhe
+E-CA-000314,CA-M-00159,CA-R-0024,caprino,Pardo Alpina,Boer,1.9,0,3.5,0.6,0.74,IATF,10,0,2024-10-18,0.712,prenhe
+E-CA-000315,CA-M-00249,CA-R-0020,caprino,Alpina,Boer,3.4,4,3.3,0.74,0.57,IA_cervical,5,1,2024-05-04,0.837,prenhe
+E-CA-000316,CA-M-00022,CA-R-0006,caprino,Anglo Nubiana,Caninde,9.5,3,3.5,0.52,0.74,IA_cervical,12,0,2025-12-01,0.652,prenhe
+E-CA-000317,CA-M-00029,CA-R-0021,caprino,Alpina,Boer,9.6,2,3.1,0.71,0.46,IA_laparoscopica,8,0,2024-08-14,0.761,prenhe
+E-CA-000318,CA-M-00121,CA-R-0015,caprino,Saanen,Saanen,7.7,0,3.1,0.79,0.71,IA_cervical,7,0,2025-07-15,0.596,prenhe
+E-CA-000319,CA-M-00069,CA-R-0028,caprino,Saanen,Caninde,1.4,5,2.8,0.7,0.41,IA_laparoscopica,7,0,2025-07-15,0.847,prenhe
+E-CA-000320,CA-M-00006,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.4,2,3.5,0.62,0.89,IATF,11,0,2024-11-19,0.804,prenhe
+E-CA-000321,CA-M-00064,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,2.3,5,3.7,0.3,0.59,IA_cervical,4,1,2024-04-29,0.556,prenhe
+E-CA-000322,CA-M-00081,CA-R-0001,caprino,Boer,Anglo Nubiana,2.8,3,3.6,0.62,0.5,IATF,12,0,2024-12-10,0.625,vazia
+E-CA-000323,CA-M-00275,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,8.3,5,4.3,0.61,0.76,IA_cervical,4,1,2024-04-16,0.431,vazia
+E-CA-000324,CA-M-00234,CA-R-0029,caprino,Boer,Saanen,8.9,2,3.7,0.5,0.69,IATF,9,0,2024-09-14,0.465,prenhe
+E-CA-000325,CA-M-00105,CA-R-0020,caprino,Anglo Nubiana,Boer,2.9,5,3.1,0.51,0.57,IATF,10,0,2024-10-06,0.78,prenhe
+E-CA-000326,CA-M-00287,CA-R-0011,caprino,Alpina,Boer,3.9,4,4.1,0.56,0.48,IA_laparoscopica,1,0,2025-01-13,0.66,prenhe
+E-CA-000327,CA-M-00250,CA-R-0026,caprino,Alpina,Anglo Nubiana,7.4,2,3.4,0.57,0.71,IATF,5,1,2024-05-16,0.869,prenhe
+E-CA-000328,CA-M-00075,CA-R-0007,caprino,Saanen,Pardo Alpina,1.2,1,2.5,0.28,0.59,IATF,9,0,2025-09-09,0.564,vazia
+E-CA-000329,CA-M-00143,CA-R-0020,caprino,Anglo Nubiana,Boer,1.4,1,3.1,0.55,0.57,IA_cervical,2,0,2024-02-27,0.675,prenhe
+E-CA-000330,CA-M-00276,CA-R-0017,caprino,Caninde,Anglo Nubiana,6.7,3,2.7,0.8,0.61,IA_cervical,12,0,2025-12-20,0.397,vazia
+E-CA-000331,CA-M-00137,CA-R-0025,caprino,Moxoto,Boer,7.6,1,2.5,0.56,0.61,IA_cervical,8,0,2024-08-16,0.355,prenhe
+E-CA-000332,CA-M-00111,CA-R-0029,caprino,Saanen,Saanen,4.4,0,3.4,0.62,0.69,IA_cervical,12,0,2024-12-23,0.742,prenhe
+E-CA-000333,CA-M-00271,CA-R-0010,caprino,Pardo Alpina,Caninde,3.9,4,2.9,0.29,0.45,IA_laparoscopica,10,0,2025-10-01,0.813,prenhe
+E-CA-000334,CA-M-00198,CA-R-0002,caprino,Boer,Anglo Nubiana,4.2,5,2.7,0.65,0.55,IA_cervical,4,1,2025-04-22,0.569,prenhe
+E-CA-000335,CA-M-00132,CA-R-0004,caprino,Saanen,Anglo Nubiana,8.9,2,3.9,0.46,0.77,IA_laparoscopica,2,0,2024-02-11,0.555,prenhe
+E-CA-000336,CA-M-00260,CA-R-0022,caprino,Saanen,Boer,5.7,0,3.8,0.6,0.76,IA_cervical,3,1,2025-03-16,0.643,prenhe
+E-CA-000337,CA-M-00223,CA-R-0010,caprino,Moxoto,Caninde,3.2,0,4.0,0.54,0.45,IA_cervical,2,0,2025-02-17,0.374,prenhe
+E-CA-000338,CA-M-00104,CA-R-0004,caprino,Saanen,Anglo Nubiana,8.4,1,3.3,0.13,0.77,IA_cervical,11,0,2025-11-11,0.528,prenhe
+E-CA-000339,CA-M-00127,CA-R-0024,caprino,Boer,Boer,6.9,3,3.3,0.42,0.74,IATF,2,0,2025-02-14,0.733,prenhe
+E-CA-000340,CA-M-00014,CA-R-0019,caprino,Saanen,Moxoto,6.1,2,3.2,0.81,0.75,IA_cervical,12,0,2025-12-25,0.691,prenhe
+E-CA-000341,CA-M-00030,CA-R-0003,caprino,Boer,Anglo Nubiana,5.6,0,2.7,0.47,0.58,IA_cervical,1,0,2025-01-22,0.419,vazia
+E-CA-000342,CA-M-00286,CA-R-0021,caprino,Caninde,Boer,6.6,1,2.8,0.65,0.46,IA_cervical,5,1,2024-05-20,0.633,prenhe
+E-CA-000343,CA-M-00015,CA-R-0019,caprino,Alpina,Moxoto,7.5,5,3.5,0.52,0.75,IATF,1,0,2025-01-04,0.678,vazia
+E-CA-000344,CA-M-00251,CA-R-0029,caprino,Moxoto,Saanen,3.6,0,3.2,0.35,0.69,IA_cervical,10,0,2025-10-31,0.636,vazia
+E-CA-000345,CA-M-00062,CA-R-0029,caprino,Alpina,Saanen,9.7,5,3.2,0.38,0.69,IA_laparoscopica,1,0,2024-01-13,0.795,prenhe
+E-CA-000346,CA-M-00162,CA-R-0029,caprino,Saanen,Saanen,6.9,3,3.5,0.54,0.69,IA_cervical,10,0,2024-10-18,0.6,prenhe
+E-CA-000347,CA-M-00216,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,6.8,5,3.8,0.53,0.71,IA_cervical,2,0,2024-02-04,0.347,vazia
+E-CA-000348,CA-M-00297,CA-R-0023,caprino,Moxoto,Pardo Alpina,5.2,1,3.1,0.63,0.76,IA_laparoscopica,9,0,2025-09-06,0.883,prenhe
+E-CA-000349,CA-M-00112,CA-R-0020,caprino,Boer,Boer,5.4,1,2.8,0.17,0.57,IA_laparoscopica,1,0,2025-01-08,0.709,vazia
+E-CA-000350,CA-M-00277,CA-R-0016,caprino,Pardo Alpina,Caninde,8.8,0,2.5,0.68,0.58,IA_laparoscopica,6,1,2025-06-06,0.645,vazia
+E-CA-000351,CA-M-00136,CA-R-0023,caprino,Caninde,Pardo Alpina,5.7,5,3.7,0.42,0.76,IA_cervical,12,0,2025-12-07,0.499,vazia
+E-CA-000352,CA-M-00260,CA-R-0028,caprino,Saanen,Caninde,5.7,0,3.8,0.6,0.41,IATF,8,0,2025-08-30,0.383,prenhe
+E-CA-000353,CA-M-00030,CA-R-0003,caprino,Boer,Anglo Nubiana,5.6,0,2.7,0.47,0.58,IA_laparoscopica,10,0,2024-10-24,0.655,prenhe
+E-CA-000354,CA-M-00080,CA-R-0004,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.77,IATF,11,0,2025-11-13,0.595,prenhe
+E-CA-000355,CA-M-00186,CA-R-0014,caprino,Pardo Alpina,Anglo Nubiana,8.2,0,2.2,0.34,0.62,IA_cervical,12,0,2024-12-10,0.279,vazia
+E-CA-000356,CA-M-00211,CA-R-0008,caprino,Anglo Nubiana,Alpina,5.9,2,2.8,0.56,0.66,IA_cervical,12,0,2025-12-15,0.83,prenhe
+E-CA-000357,CA-M-00241,CA-R-0015,caprino,Boer,Saanen,5.5,3,3.1,0.76,0.71,IA_cervical,12,0,2025-12-17,0.8,vazia
+E-CA-000358,CA-M-00107,CA-R-0009,caprino,Caninde,Anglo Nubiana,4.3,3,2.9,0.27,0.89,IATF,6,1,2024-06-10,0.944,prenhe
+E-CA-000359,CA-M-00187,CA-R-0023,caprino,Caninde,Pardo Alpina,6.7,0,3.0,0.33,0.76,IA_laparoscopica,7,0,2025-07-22,0.745,prenhe
+E-CA-000360,CA-M-00186,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,8.2,0,2.2,0.34,0.71,IA_cervical,5,1,2025-05-24,0.318,vazia
+E-CA-000361,CA-M-00295,CA-R-0008,caprino,Saanen,Alpina,7.7,3,4.8,0.73,0.66,IA_cervical,7,0,2025-07-16,0.428,vazia
+E-CA-000362,CA-M-00035,CA-R-0023,caprino,Saanen,Pardo Alpina,3.7,1,3.3,0.41,0.76,IA_cervical,5,1,2024-05-02,0.763,vazia
+E-CA-000363,CA-M-00004,CA-R-0003,caprino,Caninde,Anglo Nubiana,9.2,3,3.4,0.63,0.58,IA_cervical,1,0,2025-01-03,0.607,vazia
+E-CA-000364,CA-M-00172,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,8.5,3,3.5,0.88,0.76,IATF,4,1,2024-04-20,0.889,vazia
+E-CA-000365,CA-M-00004,CA-R-0020,caprino,Caninde,Boer,9.2,3,3.4,0.63,0.57,IA_cervical,10,0,2025-10-17,0.709,prenhe
+E-CA-000366,CA-M-00058,CA-R-0021,caprino,Alpina,Boer,6.0,3,2.0,0.67,0.46,IA_cervical,9,0,2025-09-29,0.516,prenhe
+E-CA-000367,CA-M-00150,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,3.6,5,2.9,0.73,0.62,IA_cervical,2,0,2025-02-28,0.757,prenhe
+E-CA-000368,CA-M-00080,CA-R-0003,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.58,IA_cervical,4,1,2024-04-04,0.532,prenhe
+E-CA-000369,CA-M-00079,CA-R-0025,caprino,Alpina,Boer,3.6,5,3.0,0.76,0.61,IATF,4,1,2025-04-24,0.832,prenhe
+E-CA-000370,CA-M-00103,CA-R-0003,caprino,Boer,Anglo Nubiana,8.1,3,4.0,0.64,0.58,IA_cervical,11,0,2024-11-16,0.398,vazia
+E-CA-000371,CA-M-00205,CA-R-0014,caprino,Saanen,Anglo Nubiana,1.3,5,3.2,0.75,0.62,IATF,7,0,2025-07-28,0.716,prenhe
+E-CA-000372,CA-M-00109,CA-R-0005,caprino,Anglo Nubiana,Boer,9.4,0,3.1,0.59,0.56,IA_laparoscopica,3,1,2024-03-13,0.732,prenhe
+E-CA-000373,CA-M-00237,CA-R-0025,caprino,Boer,Boer,8.1,3,4.5,0.65,0.61,IA_laparoscopica,10,0,2024-10-23,0.583,vazia
+E-CA-000374,CA-M-00047,CA-R-0017,caprino,Alpina,Anglo Nubiana,1.3,2,3.2,0.8,0.61,IA_cervical,9,0,2024-09-20,0.861,prenhe
+E-CA-000375,CA-M-00030,CA-R-0015,caprino,Boer,Saanen,5.6,0,2.7,0.47,0.71,IA_laparoscopica,11,0,2025-11-26,0.725,prenhe
+E-CA-000376,CA-M-00049,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.2,1,3.1,0.36,0.89,IA_laparoscopica,8,0,2024-08-05,0.887,prenhe
+E-CA-000377,CA-M-00275,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,8.3,5,4.3,0.61,0.76,IA_cervical,12,0,2025-12-22,0.36,vazia
+E-CA-000378,CA-M-00083,CA-R-0006,caprino,Saanen,Caninde,9.3,5,2.9,0.36,0.74,IATF,11,0,2025-11-04,0.549,prenhe
+E-CA-000379,CA-M-00008,CA-R-0021,caprino,Boer,Boer,2.4,5,3.6,0.83,0.46,IA_cervical,3,1,2025-03-04,0.588,vazia
+E-CA-000380,CA-M-00094,CA-R-0029,caprino,Boer,Saanen,1.1,1,3.7,0.35,0.69,IA_cervical,5,1,2024-05-07,0.58,prenhe
+E-CA-000381,CA-M-00206,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,7.5,0,3.1,0.78,0.59,IA_cervical,6,1,2024-06-11,0.685,vazia
+E-CA-000382,CA-M-00108,CA-R-0020,caprino,Anglo Nubiana,Boer,4.8,4,3.0,0.23,0.57,IA_laparoscopica,1,0,2024-01-13,0.836,vazia
+E-CA-000383,CA-M-00115,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,7.1,1,2.9,0.31,0.89,IA_cervical,7,0,2025-07-19,0.643,prenhe
+E-CA-000384,CA-M-00025,CA-R-0027,caprino,Moxoto,Moxoto,6.1,3,3.5,0.43,0.53,IA_cervical,6,1,2025-06-13,0.693,prenhe
+E-CA-000385,CA-M-00200,CA-R-0026,caprino,Alpina,Anglo Nubiana,4.4,4,4.0,0.56,0.71,IA_cervical,8,0,2024-08-23,0.599,prenhe
+E-CA-000386,CA-M-00066,CA-R-0009,caprino,Alpina,Anglo Nubiana,5.1,2,3.4,0.27,0.89,IA_cervical,6,1,2025-06-17,0.948,prenhe
+E-CA-000387,CA-M-00029,CA-R-0006,caprino,Alpina,Caninde,9.6,2,3.1,0.71,0.74,IA_cervical,2,0,2025-02-25,0.651,prenhe
+E-CA-000388,CA-M-00214,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,2.0,1,3.0,0.45,0.55,IATF,8,0,2025-08-19,0.715,vazia
+E-CA-000389,CA-M-00281,CA-R-0020,caprino,Anglo Nubiana,Boer,5.2,3,3.4,0.77,0.57,IA_cervical,3,1,2024-03-04,0.867,vazia
+E-CA-000390,CA-M-00183,CA-R-0027,caprino,Pardo Alpina,Moxoto,9.3,0,3.6,0.31,0.53,IATF,5,1,2024-05-25,0.435,prenhe
+E-CA-000391,CA-M-00281,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,5.2,3,3.4,0.77,0.77,IA_laparoscopica,8,0,2025-08-12,0.95,prenhe
+E-CA-000392,CA-M-00120,CA-R-0024,caprino,Alpina,Boer,8.8,3,4.4,0.67,0.74,IATF,9,0,2024-09-26,0.393,vazia
+E-CA-000393,CA-M-00155,CA-R-0022,caprino,Alpina,Boer,1.8,3,3.4,0.36,0.76,IATF,12,0,2025-12-01,0.854,prenhe
+E-CA-000394,CA-M-00107,CA-R-0014,caprino,Caninde,Anglo Nubiana,4.3,3,2.9,0.27,0.62,IA_cervical,10,0,2025-10-04,0.692,vazia
+E-CA-000395,CA-M-00152,CA-R-0006,caprino,Alpina,Caninde,4.0,2,3.7,0.48,0.74,IA_laparoscopica,3,1,2024-03-09,0.877,vazia
+E-CA-000396,CA-M-00267,CA-R-0019,caprino,Saanen,Moxoto,6.5,1,3.6,0.47,0.75,IA_cervical,10,0,2024-10-21,0.421,vazia
+E-CA-000397,CA-M-00190,CA-R-0017,caprino,Caninde,Anglo Nubiana,7.5,4,4.1,0.51,0.61,IA_cervical,6,1,2025-06-18,0.482,vazia
+E-CA-000398,CA-M-00008,CA-R-0024,caprino,Boer,Boer,2.4,5,3.6,0.83,0.74,IA_cervical,4,1,2024-04-09,0.717,prenhe
+E-CA-000399,CA-M-00174,CA-R-0016,caprino,Anglo Nubiana,Caninde,3.1,1,3.0,0.74,0.58,IA_laparoscopica,9,0,2025-09-20,0.922,prenhe
+E-CA-000400,CA-M-00113,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,3.6,2,2.9,0.21,0.5,IATF,3,1,2024-03-12,0.704,vazia
+E-CA-000401,CA-M-00163,CA-R-0006,caprino,Boer,Caninde,2.7,5,3.5,0.9,0.74,IA_cervical,3,1,2024-03-20,0.911,prenhe
+E-CA-000402,CA-M-00167,CA-R-0011,caprino,Boer,Boer,1.4,3,2.3,0.63,0.48,IA_laparoscopica,1,0,2025-01-31,0.678,prenhe
+E-CA-000403,CA-M-00176,CA-R-0014,caprino,Pardo Alpina,Anglo Nubiana,8.9,2,3.0,0.34,0.62,IA_cervical,6,1,2024-06-29,0.643,prenhe
+E-CA-000404,CA-M-00259,CA-R-0010,caprino,Saanen,Caninde,7.7,1,3.1,0.81,0.45,IA_cervical,4,1,2025-04-11,0.584,prenhe
+E-CA-000405,CA-M-00257,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,8.9,2,3.9,0.64,0.71,IA_cervical,10,0,2024-10-13,0.514,prenhe
+E-CA-000406,CA-M-00291,CA-R-0008,caprino,Alpina,Alpina,6.0,3,3.3,0.4,0.66,IA_laparoscopica,7,0,2024-07-16,0.95,prenhe
+E-CA-000407,CA-M-00183,CA-R-0020,caprino,Pardo Alpina,Boer,9.3,0,3.6,0.31,0.57,IA_cervical,9,0,2025-09-02,0.311,vazia
+E-CA-000408,CA-M-00085,CA-R-0010,caprino,Caninde,Caninde,5.0,4,3.8,0.48,0.45,IA_cervical,4,1,2024-04-26,0.574,prenhe
+E-CA-000409,CA-M-00058,CA-R-0029,caprino,Alpina,Saanen,6.0,3,2.0,0.67,0.69,IA_cervical,12,0,2024-12-26,0.555,prenhe
+E-CA-000410,CA-M-00254,CA-R-0027,caprino,Anglo Nubiana,Moxoto,9.5,2,3.7,0.14,0.53,IA_laparoscopica,5,1,2024-05-02,0.605,prenhe
+E-CA-000411,CA-M-00274,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,4.2,0,2.7,0.95,0.76,IATF,4,1,2024-04-09,0.747,vazia
+E-CA-000412,CA-M-00011,CA-R-0022,caprino,Pardo Alpina,Boer,5.4,0,2.0,0.56,0.76,IA_cervical,5,1,2024-05-29,0.545,vazia
+E-CA-000413,CA-M-00064,CA-R-0019,caprino,Pardo Alpina,Moxoto,2.3,5,3.7,0.3,0.75,IA_laparoscopica,7,0,2024-07-06,0.638,vazia
+E-CA-000414,CA-M-00203,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,7.7,4,3.7,0.34,0.61,IA_laparoscopica,10,0,2024-10-27,0.597,prenhe
+E-CA-000415,CA-M-00049,CA-R-0016,caprino,Anglo Nubiana,Caninde,8.2,1,3.1,0.36,0.58,IA_cervical,12,0,2024-12-07,0.446,vazia
+E-CA-000416,CA-M-00015,CA-R-0000,caprino,Alpina,Moxoto,7.5,5,3.5,0.52,0.55,IA_cervical,4,1,2024-04-11,0.633,prenhe
+E-CA-000417,CA-M-00299,CA-R-0028,caprino,Anglo Nubiana,Caninde,6.9,0,3.7,0.59,0.41,IATF,1,0,2024-01-29,0.267,vazia
+E-CA-000418,CA-M-00028,CA-R-0029,caprino,Anglo Nubiana,Saanen,2.7,1,2.8,0.63,0.69,IA_cervical,3,1,2024-03-10,0.901,prenhe
+E-CA-000419,CA-M-00064,CA-R-0015,caprino,Pardo Alpina,Saanen,2.3,5,3.7,0.3,0.71,IA_cervical,4,1,2025-04-05,0.462,prenhe
+E-CA-000420,CA-M-00296,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,1.1,5,3.8,0.69,0.71,IATF,12,0,2025-12-11,0.696,prenhe
+E-CA-000421,CA-M-00030,CA-R-0012,caprino,Boer,Alpina,5.6,0,2.7,0.47,0.49,IATF,1,0,2024-01-19,0.378,vazia
+E-CA-000422,CA-M-00239,CA-R-0003,caprino,Pardo Alpina,Anglo Nubiana,9.5,0,3.5,1.0,0.58,IA_laparoscopica,1,0,2024-01-26,0.722,prenhe
+E-CA-000423,CA-M-00168,CA-R-0025,caprino,Anglo Nubiana,Boer,5.8,1,2.9,0.56,0.61,IATF,7,0,2025-07-24,0.761,prenhe
+E-CA-000424,CA-M-00161,CA-R-0015,caprino,Boer,Saanen,9.3,3,3.8,0.71,0.71,IA_cervical,6,1,2025-06-13,0.647,prenhe
+E-CA-000425,CA-M-00248,CA-R-0028,caprino,Pardo Alpina,Caninde,3.2,5,3.5,0.25,0.41,IATF,6,1,2025-06-19,0.64,prenhe
+E-CA-000426,CA-M-00006,CA-R-0006,caprino,Anglo Nubiana,Caninde,8.4,2,3.5,0.62,0.74,IA_cervical,5,1,2024-05-06,0.825,vazia
+E-CA-000427,CA-M-00018,CA-R-0014,caprino,Saanen,Anglo Nubiana,7.0,5,3.7,0.56,0.62,IATF,9,0,2025-09-23,0.38,prenhe
+E-CA-000428,CA-M-00058,CA-R-0020,caprino,Alpina,Boer,6.0,3,2.0,0.67,0.57,IA_cervical,3,1,2025-03-31,0.562,prenhe
+E-CA-000429,CA-M-00147,CA-R-0004,caprino,Moxoto,Anglo Nubiana,3.4,2,3.5,0.37,0.77,IA_cervical,4,1,2024-04-25,0.857,prenhe
+E-CA-000430,CA-M-00288,CA-R-0029,caprino,Boer,Saanen,2.1,2,4.1,0.12,0.69,IA_cervical,3,1,2024-03-25,0.493,prenhe
+E-CA-000431,CA-M-00020,CA-R-0018,caprino,Caninde,Alpina,3.4,0,2.8,0.66,0.49,IATF,3,1,2025-03-15,0.651,prenhe
+E-CA-000432,CA-M-00126,CA-R-0005,caprino,Boer,Boer,3.5,1,3.2,0.69,0.56,IA_cervical,7,0,2025-07-22,0.721,vazia
+E-CA-000433,CA-M-00128,CA-R-0022,caprino,Anglo Nubiana,Boer,8.7,2,2.9,0.9,0.76,IATF,7,0,2025-07-24,0.788,prenhe
+E-CA-000434,CA-M-00058,CA-R-0026,caprino,Alpina,Anglo Nubiana,6.0,3,2.0,0.67,0.71,IA_cervical,3,1,2025-03-04,0.692,prenhe
+E-CA-000435,CA-M-00103,CA-R-0011,caprino,Boer,Boer,8.1,3,4.0,0.64,0.48,IA_cervical,1,0,2025-01-11,0.366,prenhe
+E-CA-000436,CA-M-00060,CA-R-0018,caprino,Boer,Alpina,4.2,0,3.4,0.66,0.49,IA_laparoscopica,5,1,2025-05-22,0.856,prenhe
+E-CA-000437,CA-M-00041,CA-R-0022,caprino,Anglo Nubiana,Boer,1.2,0,3.1,0.38,0.76,IA_cervical,4,1,2024-04-05,0.83,prenhe
+E-CA-000438,CA-M-00156,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,9.4,2,3.8,0.61,0.77,IA_laparoscopica,9,0,2024-09-23,0.725,vazia
+E-CA-000439,CA-M-00279,CA-R-0015,caprino,Pardo Alpina,Saanen,2.8,1,3.9,0.66,0.71,IATF,3,1,2024-03-13,0.743,prenhe
+E-CA-000440,CA-M-00121,CA-R-0016,caprino,Saanen,Caninde,7.7,0,3.1,0.79,0.58,IA_laparoscopica,9,0,2025-09-04,0.763,prenhe
+E-CA-000441,CA-M-00190,CA-R-0009,caprino,Caninde,Anglo Nubiana,7.5,4,4.1,0.51,0.89,IA_cervical,3,1,2025-03-18,0.571,prenhe
+E-CA-000442,CA-M-00201,CA-R-0008,caprino,Anglo Nubiana,Alpina,4.2,2,3.7,0.45,0.66,IA_cervical,7,0,2025-07-21,0.685,prenhe
+E-CA-000443,CA-M-00252,CA-R-0018,caprino,Moxoto,Alpina,4.6,1,3.1,0.94,0.49,IATF,12,0,2024-12-29,0.779,prenhe
+E-CA-000444,CA-M-00247,CA-R-0022,caprino,Alpina,Boer,3.8,5,2.7,0.86,0.76,IA_laparoscopica,11,0,2025-11-09,0.755,prenhe
+E-CA-000445,CA-M-00271,CA-R-0011,caprino,Pardo Alpina,Boer,3.9,4,2.9,0.29,0.48,IATF,11,0,2025-11-09,0.722,prenhe
+E-CA-000446,CA-M-00244,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,1.7,4,3.1,0.57,0.77,IA_cervical,3,1,2025-03-25,0.884,prenhe
+E-CA-000447,CA-M-00279,CA-R-0023,caprino,Pardo Alpina,Pardo Alpina,2.8,1,3.9,0.66,0.76,IA_laparoscopica,8,0,2025-08-31,0.791,prenhe
+E-CA-000448,CA-M-00289,CA-R-0005,caprino,Caninde,Boer,6.2,0,3.1,0.51,0.56,IA_cervical,4,1,2025-04-26,0.605,vazia
+E-CA-000449,CA-M-00224,CA-R-0000,caprino,Moxoto,Moxoto,4.5,0,3.7,0.55,0.55,IA_laparoscopica,6,1,2025-06-12,0.679,prenhe
+E-CA-000450,CA-M-00147,CA-R-0009,caprino,Moxoto,Anglo Nubiana,3.4,2,3.5,0.37,0.89,IATF,6,1,2024-06-29,0.924,prenhe
+E-CA-000451,CA-M-00092,CA-R-0024,caprino,Anglo Nubiana,Boer,3.7,5,3.8,0.48,0.74,IATF,12,0,2025-12-18,0.606,prenhe
+E-CA-000452,CA-M-00171,CA-R-0022,caprino,Anglo Nubiana,Boer,9.4,5,3.3,0.16,0.76,IA_cervical,5,1,2024-05-14,0.589,prenhe
+E-CA-000453,CA-M-00248,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,3.2,5,3.5,0.25,0.89,IATF,5,1,2025-05-22,0.895,prenhe
+E-CA-000454,CA-M-00226,CA-R-0015,caprino,Anglo Nubiana,Saanen,9.0,2,2.5,0.6,0.71,IA_cervical,3,1,2025-03-18,0.545,prenhe
+E-CA-000455,CA-M-00156,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.4,2,3.8,0.61,0.41,IA_cervical,3,1,2024-03-08,0.427,vazia
+E-CA-000456,CA-M-00022,CA-R-0021,caprino,Anglo Nubiana,Boer,9.5,3,3.5,0.52,0.46,IA_laparoscopica,7,0,2025-07-19,0.833,prenhe
+E-CA-000457,CA-M-00081,CA-R-0022,caprino,Boer,Boer,2.8,3,3.6,0.62,0.76,IA_cervical,2,0,2024-02-26,0.591,vazia
+E-CA-000458,CA-M-00173,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,4.3,5,3.2,0.43,0.55,IA_cervical,1,0,2025-01-06,0.635,prenhe
+E-CA-000459,CA-M-00115,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,7.1,1,2.9,0.31,0.59,IA_laparoscopica,8,0,2025-08-18,0.791,vazia
+E-CA-000460,CA-M-00136,CA-R-0003,caprino,Caninde,Anglo Nubiana,5.7,5,3.7,0.42,0.58,IA_laparoscopica,4,1,2024-04-01,0.725,prenhe
+E-CA-000461,CA-M-00090,CA-R-0029,caprino,Caninde,Saanen,8.9,4,3.2,0.56,0.69,IA_laparoscopica,9,0,2024-09-20,0.905,prenhe
+E-CA-000462,CA-M-00022,CA-R-0010,caprino,Anglo Nubiana,Caninde,9.5,3,3.5,0.52,0.45,IA_cervical,1,0,2025-01-06,0.597,prenhe
+E-CA-000463,CA-M-00139,CA-R-0014,caprino,Saanen,Anglo Nubiana,8.1,3,3.0,0.33,0.62,IA_laparoscopica,11,0,2025-11-05,0.764,prenhe
+E-CA-000464,CA-M-00133,CA-R-0016,caprino,Anglo Nubiana,Caninde,1.0,3,4.3,0.98,0.58,IA_cervical,10,0,2024-10-05,0.561,vazia
+E-CA-000465,CA-M-00234,CA-R-0015,caprino,Boer,Saanen,8.9,2,3.7,0.5,0.71,IA_cervical,3,1,2024-03-27,0.468,prenhe
+E-CA-000466,CA-M-00033,CA-R-0001,caprino,Boer,Anglo Nubiana,5.2,3,3.1,0.57,0.5,IA_cervical,4,1,2024-04-05,0.788,prenhe
+E-CA-000467,CA-M-00145,CA-R-0027,caprino,Alpina,Moxoto,8.0,3,2.9,0.48,0.53,IA_laparoscopica,5,1,2024-05-25,0.85,prenhe
+E-CA-000468,CA-M-00256,CA-R-0011,caprino,Caninde,Boer,2.7,0,3.4,0.69,0.48,IA_cervical,9,0,2025-09-24,0.652,vazia
+E-CA-000469,CA-M-00080,CA-R-0027,caprino,Saanen,Moxoto,5.3,0,2.5,0.38,0.53,IA_cervical,7,0,2025-07-18,0.551,vazia
+E-CA-000470,CA-M-00094,CA-R-0022,caprino,Boer,Boer,1.1,1,3.7,0.35,0.76,IATF,10,0,2024-10-31,0.608,prenhe
+E-CA-000471,CA-M-00026,CA-R-0020,caprino,Boer,Boer,6.4,3,3.1,0.49,0.57,IATF,9,0,2025-09-10,0.668,vazia
+E-CA-000472,CA-M-00172,CA-R-0021,caprino,Anglo Nubiana,Boer,8.5,3,3.5,0.88,0.46,IA_laparoscopica,11,0,2025-11-01,0.868,prenhe
+E-CA-000473,CA-M-00256,CA-R-0029,caprino,Caninde,Saanen,2.7,0,3.4,0.69,0.69,IATF,9,0,2025-09-25,0.781,prenhe
+E-CA-000474,CA-M-00144,CA-R-0009,caprino,Caninde,Anglo Nubiana,9.7,0,4.3,0.56,0.89,IATF,1,0,2024-01-04,0.404,vazia
+E-CA-000475,CA-M-00125,CA-R-0009,caprino,Boer,Anglo Nubiana,9.7,5,3.3,0.49,0.89,IA_laparoscopica,3,1,2024-03-13,0.9,prenhe
+E-CA-000476,CA-M-00224,CA-R-0020,caprino,Moxoto,Boer,4.5,0,3.7,0.55,0.57,IA_cervical,6,1,2025-06-13,0.54,vazia
+E-CA-000477,CA-M-00132,CA-R-0006,caprino,Saanen,Caninde,8.9,2,3.9,0.46,0.74,IA_laparoscopica,10,0,2024-10-05,0.69,vazia
+E-CA-000478,CA-M-00119,CA-R-0024,caprino,Saanen,Boer,1.9,5,3.2,0.91,0.74,IATF,4,1,2024-04-25,0.909,prenhe
+E-CA-000479,CA-M-00229,CA-R-0000,caprino,Caninde,Moxoto,2.4,3,3.9,0.83,0.55,IA_laparoscopica,4,1,2025-04-16,0.907,vazia
+E-CA-000480,CA-M-00085,CA-R-0026,caprino,Caninde,Anglo Nubiana,5.0,4,3.8,0.48,0.71,IA_cervical,9,0,2024-09-16,0.57,prenhe
+E-CA-000481,CA-M-00254,CA-R-0010,caprino,Anglo Nubiana,Caninde,9.5,2,3.7,0.14,0.45,IATF,11,0,2025-11-01,0.355,vazia
+E-CA-000482,CA-M-00080,CA-R-0000,caprino,Saanen,Moxoto,5.3,0,2.5,0.38,0.55,IATF,2,0,2025-02-25,0.544,vazia
+E-CA-000483,CA-M-00153,CA-R-0018,caprino,Anglo Nubiana,Alpina,7.3,1,3.0,0.48,0.49,IA_cervical,6,1,2024-06-23,0.591,prenhe
+E-CA-000484,CA-M-00075,CA-R-0008,caprino,Saanen,Alpina,1.2,1,2.5,0.28,0.66,IATF,11,0,2025-11-13,0.632,prenhe
+E-CA-000485,CA-M-00189,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,1.5,3,3.5,0.62,0.89,IA_laparoscopica,3,1,2025-03-14,0.95,prenhe
+E-CA-000486,CA-M-00130,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,1.6,4,3.2,0.59,0.62,IATF,8,0,2024-08-04,0.803,prenhe
+E-CA-000487,CA-M-00071,CA-R-0017,caprino,Saanen,Anglo Nubiana,10.0,5,4.1,0.72,0.61,IATF,4,1,2024-04-14,0.434,prenhe
+E-CA-000488,CA-M-00223,CA-R-0004,caprino,Moxoto,Anglo Nubiana,3.2,0,4.0,0.54,0.77,IA_cervical,2,0,2025-02-09,0.54,prenhe
+E-CA-000489,CA-M-00280,CA-R-0001,caprino,Saanen,Anglo Nubiana,7.3,3,3.1,0.6,0.5,IATF,6,1,2025-06-29,0.611,prenhe
+E-CA-000490,CA-M-00008,CA-R-0013,caprino,Boer,Alpina,2.4,5,3.6,0.83,0.4,IA_cervical,9,0,2025-09-02,0.53,prenhe
+E-CA-000491,CA-M-00170,CA-R-0010,caprino,Pardo Alpina,Caninde,7.3,5,2.5,0.13,0.45,IATF,4,1,2024-04-03,0.456,prenhe
+E-CA-000492,CA-M-00215,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,2.2,2,2.6,0.68,0.61,IATF,11,0,2024-11-11,0.674,vazia
+E-CA-000493,CA-M-00215,CA-R-0022,caprino,Pardo Alpina,Boer,2.2,2,2.6,0.68,0.76,IATF,12,0,2025-12-30,0.737,prenhe
+E-CA-000494,CA-M-00066,CA-R-0018,caprino,Alpina,Alpina,5.1,2,3.4,0.27,0.49,IATF,4,1,2025-04-27,0.761,vazia
+E-CA-000495,CA-M-00034,CA-R-0003,caprino,Saanen,Anglo Nubiana,6.7,4,2.2,0.67,0.58,IATF,3,1,2024-03-08,0.544,vazia
+E-CA-000496,CA-M-00154,CA-R-0029,caprino,Pardo Alpina,Saanen,4.4,3,3.8,0.8,0.69,IA_cervical,10,0,2025-10-31,0.674,prenhe
+E-CA-000497,CA-M-00191,CA-R-0021,caprino,Boer,Boer,7.3,1,4.1,0.65,0.46,IA_cervical,5,1,2025-05-15,0.367,vazia
+E-CA-000498,CA-M-00086,CA-R-0001,caprino,Caninde,Anglo Nubiana,9.8,0,2.9,0.29,0.5,IA_cervical,12,0,2024-12-01,0.36,prenhe
+E-CA-000499,CA-M-00110,CA-R-0022,caprino,Saanen,Boer,9.0,1,2.5,0.83,0.76,IATF,7,0,2025-07-21,0.534,vazia
+E-CA-000500,CA-M-00159,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,1.9,0,3.5,0.6,0.71,IA_laparoscopica,4,1,2025-04-18,0.95,vazia
+E-CA-000501,CA-M-00135,CA-R-0017,caprino,Boer,Anglo Nubiana,6.3,2,3.5,0.49,0.61,IA_laparoscopica,7,0,2024-07-07,0.837,prenhe
+E-CA-000502,CA-M-00145,CA-R-0024,caprino,Alpina,Boer,8.0,3,2.9,0.48,0.74,IA_cervical,8,0,2025-08-04,0.719,prenhe
+E-CA-000503,CA-M-00204,CA-R-0026,caprino,Boer,Anglo Nubiana,8.8,4,3.4,0.7,0.71,IA_laparoscopica,7,0,2024-07-05,0.795,prenhe
+E-CA-000504,CA-M-00295,CA-R-0028,caprino,Saanen,Caninde,7.7,3,4.8,0.73,0.41,IA_cervical,6,1,2024-06-16,0.326,prenhe
+E-CA-000505,CA-M-00238,CA-R-0028,caprino,Boer,Caninde,5.6,4,2.5,0.28,0.41,IATF,3,1,2025-03-11,0.599,vazia
+E-CA-000506,CA-M-00002,CA-R-0005,caprino,Pardo Alpina,Boer,1.4,2,3.3,0.64,0.56,IATF,1,0,2024-01-14,0.755,prenhe
+E-CA-000507,CA-M-00104,CA-R-0001,caprino,Saanen,Anglo Nubiana,8.4,1,3.3,0.13,0.5,IA_cervical,4,1,2025-04-05,0.581,prenhe
+E-CA-000508,CA-M-00002,CA-R-0019,caprino,Pardo Alpina,Moxoto,1.4,2,3.3,0.64,0.75,IATF,2,0,2025-02-05,0.786,prenhe
+E-CA-000509,CA-M-00261,CA-R-0020,caprino,Saanen,Boer,1.6,1,3.6,1.0,0.57,IA_cervical,6,1,2025-06-09,0.693,prenhe
+E-CA-000510,CA-M-00193,CA-R-0017,caprino,Saanen,Anglo Nubiana,3.1,2,3.1,0.53,0.61,IA_cervical,4,1,2024-04-26,0.838,prenhe
+E-CA-000511,CA-M-00065,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,7.6,1,2.9,0.62,0.59,IA_laparoscopica,2,0,2025-02-27,0.784,prenhe
+E-CA-000512,CA-M-00251,CA-R-0028,caprino,Moxoto,Caninde,3.6,0,3.2,0.35,0.41,IA_laparoscopica,11,0,2024-11-18,0.662,prenhe
+E-CA-000513,CA-M-00168,CA-R-0012,caprino,Anglo Nubiana,Alpina,5.8,1,2.9,0.56,0.49,IA_cervical,5,1,2024-05-07,0.65,prenhe
+E-CA-000514,CA-M-00015,CA-R-0022,caprino,Alpina,Boer,7.5,5,3.5,0.52,0.76,IA_cervical,11,0,2024-11-25,0.617,prenhe
+E-CA-000515,CA-M-00045,CA-R-0018,caprino,Boer,Alpina,4.2,2,3.0,0.46,0.49,IA_cervical,11,0,2025-11-05,0.724,prenhe
+E-CA-000516,CA-M-00242,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,3.9,3,3.3,0.43,0.71,IA_cervical,8,0,2025-08-24,0.83,prenhe
+E-CA-000517,CA-M-00086,CA-R-0021,caprino,Caninde,Boer,9.8,0,2.9,0.29,0.46,IA_cervical,5,1,2024-05-01,0.484,vazia
+E-CA-000518,CA-M-00157,CA-R-0019,caprino,Alpina,Moxoto,2.5,3,3.6,0.54,0.75,IA_cervical,9,0,2025-09-10,0.687,prenhe
+E-CA-000519,CA-M-00268,CA-R-0025,caprino,Anglo Nubiana,Boer,2.0,3,2.8,0.5,0.61,IATF,2,0,2025-02-16,0.808,prenhe
+E-CA-000520,CA-M-00086,CA-R-0001,caprino,Caninde,Anglo Nubiana,9.8,0,2.9,0.29,0.5,IA_cervical,2,0,2024-02-04,0.504,prenhe
+E-CA-000521,CA-M-00003,CA-R-0021,caprino,Boer,Boer,7.7,3,4.0,0.53,0.46,IA_cervical,11,0,2025-11-02,0.397,prenhe
+E-CA-000522,CA-M-00025,CA-R-0017,caprino,Moxoto,Anglo Nubiana,6.1,3,3.5,0.43,0.61,IA_cervical,1,0,2025-01-18,0.524,vazia
+E-CA-000523,CA-M-00274,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,4.2,0,2.7,0.95,0.76,IA_cervical,10,0,2025-10-28,0.631,vazia
+E-CA-000524,CA-M-00179,CA-R-0006,caprino,Saanen,Caninde,4.3,0,2.4,0.66,0.74,IATF,3,1,2024-03-12,0.682,prenhe
+E-CA-000525,CA-M-00098,CA-R-0017,caprino,Moxoto,Anglo Nubiana,1.2,4,3.0,0.49,0.61,IA_cervical,5,1,2024-05-02,0.858,prenhe
+E-CA-000526,CA-M-00023,CA-R-0008,caprino,Anglo Nubiana,Alpina,7.8,1,3.8,0.31,0.66,IA_cervical,10,0,2025-10-20,0.309,vazia
+E-CA-000527,CA-M-00208,CA-R-0003,caprino,Saanen,Anglo Nubiana,8.5,4,3.5,0.34,0.58,IATF,6,1,2024-06-23,0.674,vazia
+E-CA-000528,CA-M-00011,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,5.4,0,2.0,0.56,0.61,IATF,2,0,2025-02-05,0.469,prenhe
+E-CA-000529,CA-M-00027,CA-R-0000,caprino,Anglo Nubiana,Moxoto,2.1,4,2.9,0.69,0.55,IA_cervical,3,1,2025-03-15,0.843,vazia
+E-CA-000530,CA-M-00178,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,6.7,5,3.2,0.53,0.55,IA_cervical,11,0,2025-11-23,0.511,prenhe
+E-CA-000531,CA-M-00192,CA-R-0015,caprino,Boer,Saanen,2.1,1,3.3,0.54,0.71,IATF,9,0,2024-09-03,0.877,vazia
+E-CA-000532,CA-M-00170,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,7.3,5,2.5,0.13,0.71,IA_laparoscopica,7,0,2025-07-04,0.456,prenhe
+E-CA-000533,CA-M-00272,CA-R-0021,caprino,Caninde,Boer,1.7,5,3.1,0.78,0.46,IATF,6,1,2025-06-17,0.842,prenhe
+E-CA-000534,CA-M-00080,CA-R-0000,caprino,Saanen,Moxoto,5.3,0,2.5,0.38,0.55,IA_cervical,5,1,2025-05-26,0.567,prenhe
+E-CA-000535,CA-M-00166,CA-R-0003,caprino,Boer,Anglo Nubiana,8.9,4,3.0,0.68,0.58,IATF,1,0,2025-01-16,0.667,prenhe
+E-CA-000536,CA-M-00091,CA-R-0012,caprino,Moxoto,Alpina,3.6,5,3.0,0.7,0.49,IA_cervical,2,0,2024-02-21,0.664,vazia
+E-CA-000537,CA-M-00108,CA-R-0012,caprino,Anglo Nubiana,Alpina,4.8,4,3.0,0.23,0.49,IA_cervical,7,0,2024-07-13,0.65,prenhe
+E-CA-000538,CA-M-00045,CA-R-0001,caprino,Boer,Anglo Nubiana,4.2,2,3.0,0.46,0.5,IATF,2,0,2025-02-13,0.741,prenhe
+E-CA-000539,CA-M-00238,CA-R-0007,caprino,Boer,Pardo Alpina,5.6,4,2.5,0.28,0.59,IA_laparoscopica,10,0,2024-10-27,0.672,vazia
+E-CA-000540,CA-M-00211,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,5.9,2,2.8,0.56,0.58,IA_cervical,5,1,2024-05-14,0.813,prenhe
+E-CA-000541,CA-M-00213,CA-R-0017,caprino,Caninde,Anglo Nubiana,9.7,5,3.4,0.5,0.61,IA_cervical,5,1,2025-05-19,0.606,prenhe
+E-CA-000542,CA-M-00042,CA-R-0019,caprino,Saanen,Moxoto,7.9,1,4.2,0.16,0.75,IATF,12,0,2024-12-02,0.306,prenhe
+E-CA-000543,CA-M-00035,CA-R-0011,caprino,Saanen,Boer,3.7,1,3.3,0.41,0.48,IA_cervical,7,0,2025-07-27,0.618,prenhe
+E-CA-000544,CA-M-00234,CA-R-0017,caprino,Boer,Anglo Nubiana,8.9,2,3.7,0.5,0.61,IA_cervical,2,0,2025-02-04,0.342,vazia
+E-CA-000545,CA-M-00199,CA-R-0006,caprino,Moxoto,Caninde,3.3,2,3.4,0.16,0.74,IA_cervical,9,0,2024-09-26,0.743,prenhe
+E-CA-000546,CA-M-00008,CA-R-0025,caprino,Boer,Boer,2.4,5,3.6,0.83,0.61,IA_cervical,3,1,2024-03-20,0.624,vazia
+E-CA-000547,CA-M-00199,CA-R-0000,caprino,Moxoto,Moxoto,3.3,2,3.4,0.16,0.55,IATF,3,1,2024-03-17,0.679,prenhe
+E-CA-000548,CA-M-00294,CA-R-0015,caprino,Anglo Nubiana,Saanen,8.0,1,1.9,0.51,0.71,IA_cervical,1,0,2025-01-05,0.328,prenhe
+E-CA-000549,CA-M-00225,CA-R-0009,caprino,Boer,Anglo Nubiana,9.2,4,3.3,0.45,0.89,IA_cervical,9,0,2024-09-14,0.707,prenhe
+E-CA-000550,CA-M-00083,CA-R-0013,caprino,Saanen,Alpina,9.3,5,2.9,0.36,0.4,IA_laparoscopica,6,1,2025-06-08,0.746,vazia
+E-CA-000551,CA-M-00094,CA-R-0015,caprino,Boer,Saanen,1.1,1,3.7,0.35,0.71,IA_cervical,4,1,2025-04-05,0.597,prenhe
+E-CA-000552,CA-M-00225,CA-R-0019,caprino,Boer,Moxoto,9.2,4,3.3,0.45,0.75,IA_laparoscopica,7,0,2024-07-26,0.873,prenhe
+E-CA-000553,CA-M-00120,CA-R-0027,caprino,Alpina,Moxoto,8.8,3,4.4,0.67,0.53,IA_cervical,7,0,2025-07-08,0.425,prenhe
+E-CA-000554,CA-M-00221,CA-R-0016,caprino,Pardo Alpina,Caninde,8.8,0,3.3,0.38,0.58,IATF,2,0,2025-02-17,0.487,vazia
+E-CA-000555,CA-M-00288,CA-R-0006,caprino,Boer,Caninde,2.1,2,4.1,0.12,0.74,IATF,10,0,2025-10-04,0.488,vazia
+E-CA-000556,CA-M-00121,CA-R-0015,caprino,Saanen,Saanen,7.7,0,3.1,0.79,0.71,IATF,11,0,2025-11-26,0.738,prenhe
+E-CA-000557,CA-M-00172,CA-R-0015,caprino,Anglo Nubiana,Saanen,8.5,3,3.5,0.88,0.71,IA_cervical,12,0,2025-12-03,0.751,prenhe
+E-CA-000558,CA-M-00146,CA-R-0025,caprino,Boer,Boer,4.1,2,3.8,0.45,0.61,IATF,4,1,2024-04-02,0.703,vazia
+E-CA-000559,CA-M-00152,CA-R-0016,caprino,Alpina,Caninde,4.0,2,3.7,0.48,0.58,IA_laparoscopica,1,0,2025-01-21,0.718,prenhe
+E-CA-000560,CA-M-00022,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,9.5,3,3.5,0.52,0.71,IA_cervical,1,0,2024-01-22,0.702,prenhe
+E-CA-000561,CA-M-00296,CA-R-0019,caprino,Pardo Alpina,Moxoto,1.1,5,3.8,0.69,0.75,IA_cervical,10,0,2025-10-04,0.596,vazia
+E-CA-000562,CA-M-00162,CA-R-0017,caprino,Saanen,Anglo Nubiana,6.9,3,3.5,0.54,0.61,IA_cervical,5,1,2025-05-27,0.62,prenhe
+E-CA-000563,CA-M-00068,CA-R-0009,caprino,Caninde,Anglo Nubiana,2.3,2,3.0,0.87,0.89,IA_cervical,7,0,2024-07-10,0.922,prenhe
+E-CA-000564,CA-M-00172,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,8.5,3,3.5,0.88,0.59,IA_cervical,3,1,2025-03-19,0.713,prenhe
+E-CA-000565,CA-M-00119,CA-R-0002,caprino,Saanen,Anglo Nubiana,1.9,5,3.2,0.91,0.55,IATF,2,0,2025-02-12,0.768,prenhe
+E-CA-000566,CA-M-00246,CA-R-0016,caprino,Anglo Nubiana,Caninde,8.0,2,3.1,0.51,0.58,IATF,1,0,2025-01-31,0.598,vazia
+E-CA-000567,CA-M-00227,CA-R-0027,caprino,Anglo Nubiana,Moxoto,1.6,4,2.2,0.73,0.53,IA_cervical,1,0,2025-01-28,0.522,vazia
+E-CA-000568,CA-M-00114,CA-R-0000,caprino,Alpina,Moxoto,5.6,2,2.8,0.57,0.55,IATF,12,0,2025-12-19,0.776,prenhe
+E-CA-000569,CA-M-00213,CA-R-0028,caprino,Caninde,Caninde,9.7,5,3.4,0.5,0.41,IA_laparoscopica,7,0,2025-07-15,0.572,prenhe
+E-CA-000570,CA-M-00009,CA-R-0025,caprino,Saanen,Boer,1.5,2,3.6,0.23,0.61,IA_cervical,10,0,2024-10-20,0.505,vazia
+E-CA-000571,CA-M-00290,CA-R-0013,caprino,Saanen,Alpina,7.7,4,2.7,0.75,0.4,IATF,7,0,2025-07-18,0.481,prenhe
+E-CA-000572,CA-M-00153,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,7.3,1,3.0,0.48,0.89,IA_laparoscopica,4,1,2024-04-12,0.95,prenhe
+E-CA-000573,CA-M-00196,CA-R-0017,caprino,Moxoto,Anglo Nubiana,7.2,5,3.0,0.88,0.61,IA_laparoscopica,7,0,2024-07-27,0.745,prenhe
+E-CA-000574,CA-M-00193,CA-R-0025,caprino,Saanen,Boer,3.1,2,3.1,0.53,0.61,IA_cervical,3,1,2024-03-26,0.785,prenhe
+E-CA-000575,CA-M-00093,CA-R-0000,caprino,Alpina,Moxoto,3.9,0,3.6,0.82,0.55,IA_cervical,10,0,2025-10-08,0.622,prenhe
+E-CA-000576,CA-M-00206,CA-R-0013,caprino,Anglo Nubiana,Alpina,7.5,0,3.1,0.78,0.4,IATF,1,0,2024-01-18,0.526,vazia
+E-CA-000577,CA-M-00119,CA-R-0001,caprino,Saanen,Anglo Nubiana,1.9,5,3.2,0.91,0.5,IA_cervical,10,0,2025-10-12,0.717,prenhe
+E-CA-000578,CA-M-00204,CA-R-0019,caprino,Boer,Moxoto,8.8,4,3.4,0.7,0.75,IA_cervical,8,0,2025-08-30,0.683,prenhe
+E-CA-000579,CA-M-00026,CA-R-0002,caprino,Boer,Anglo Nubiana,6.4,3,3.1,0.49,0.55,IA_cervical,11,0,2025-11-23,0.609,prenhe
+E-CA-000580,CA-M-00043,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,5.4,5,3.3,0.83,0.89,IA_cervical,7,0,2025-07-13,0.938,prenhe
+E-CA-000581,CA-M-00277,CA-R-0022,caprino,Pardo Alpina,Boer,8.8,0,2.5,0.68,0.76,IA_cervical,11,0,2024-11-30,0.463,vazia
+E-CA-000582,CA-M-00220,CA-R-0022,caprino,Anglo Nubiana,Boer,2.4,5,3.1,0.66,0.76,IATF,8,0,2025-08-15,0.849,prenhe
+E-CA-000583,CA-M-00038,CA-R-0006,caprino,Boer,Caninde,9.8,0,2.7,0.7,0.74,IA_cervical,12,0,2025-12-21,0.447,vazia
+E-CA-000584,CA-M-00064,CA-R-0015,caprino,Pardo Alpina,Saanen,2.3,5,3.7,0.3,0.71,IATF,10,0,2025-10-13,0.483,vazia
+E-CA-000585,CA-M-00163,CA-R-0005,caprino,Boer,Boer,2.7,5,3.5,0.9,0.56,IA_laparoscopica,7,0,2025-07-26,0.87,prenhe
+E-CA-000586,CA-M-00001,CA-R-0017,caprino,Caninde,Anglo Nubiana,2.3,0,3.4,0.57,0.61,IA_cervical,7,0,2025-07-13,0.612,prenhe
+E-CA-000587,CA-M-00120,CA-R-0000,caprino,Alpina,Moxoto,8.8,3,4.4,0.67,0.55,IA_cervical,4,1,2025-04-21,0.455,vazia
+E-CA-000588,CA-M-00097,CA-R-0024,caprino,Moxoto,Boer,3.2,5,3.2,0.48,0.74,IA_cervical,10,0,2025-10-13,0.783,prenhe
+E-CA-000589,CA-M-00040,CA-R-0000,caprino,Anglo Nubiana,Moxoto,8.5,4,2.9,0.52,0.55,IATF,11,0,2024-11-11,0.642,vazia
+E-CA-000590,CA-M-00089,CA-R-0018,caprino,Anglo Nubiana,Alpina,6.1,2,3.0,0.53,0.49,IATF,12,0,2024-12-31,0.597,prenhe
+E-CA-000591,CA-M-00087,CA-R-0012,caprino,Pardo Alpina,Alpina,2.3,1,4.1,0.45,0.49,IA_cervical,9,0,2025-09-06,0.337,prenhe
+E-CA-000592,CA-M-00020,CA-R-0006,caprino,Caninde,Caninde,3.4,0,2.8,0.66,0.74,IATF,7,0,2024-07-10,0.786,prenhe
+E-CA-000593,CA-M-00190,CA-R-0016,caprino,Caninde,Caninde,7.5,4,4.1,0.51,0.58,IATF,7,0,2025-07-11,0.312,vazia
+E-CA-000594,CA-M-00081,CA-R-0004,caprino,Boer,Anglo Nubiana,2.8,3,3.6,0.62,0.77,IA_cervical,3,1,2024-03-21,0.695,prenhe
+E-CA-000595,CA-M-00009,CA-R-0017,caprino,Saanen,Anglo Nubiana,1.5,2,3.6,0.23,0.61,IA_laparoscopica,3,1,2025-03-03,0.825,prenhe
+E-CA-000596,CA-M-00006,CA-R-0019,caprino,Anglo Nubiana,Moxoto,8.4,2,3.5,0.62,0.75,IATF,1,0,2024-01-26,0.72,prenhe
+E-CA-000597,CA-M-00289,CA-R-0013,caprino,Caninde,Alpina,6.2,0,3.1,0.51,0.4,IATF,12,0,2025-12-28,0.457,vazia
+E-CA-000598,CA-M-00035,CA-R-0010,caprino,Saanen,Caninde,3.7,1,3.3,0.41,0.45,IA_cervical,9,0,2025-09-06,0.614,prenhe
+E-CA-000599,CA-M-00272,CA-R-0013,caprino,Caninde,Alpina,1.7,5,3.1,0.78,0.4,IA_cervical,7,0,2024-07-01,0.682,prenhe
+E-CA-000600,CA-M-00049,CA-R-0028,caprino,Anglo Nubiana,Caninde,8.2,1,3.1,0.36,0.41,IA_cervical,4,1,2024-04-19,0.554,vazia
+E-CA-000601,CA-M-00025,CA-R-0022,caprino,Moxoto,Boer,6.1,3,3.5,0.43,0.76,IA_cervical,4,1,2025-04-13,0.713,prenhe
+E-CA-000602,CA-M-00163,CA-R-0000,caprino,Boer,Moxoto,2.7,5,3.5,0.9,0.55,IA_cervical,10,0,2025-10-20,0.695,prenhe
+E-CA-000603,CA-M-00260,CA-R-0008,caprino,Saanen,Alpina,5.7,0,3.8,0.6,0.66,IA_laparoscopica,8,0,2024-08-22,0.684,prenhe
+E-CA-000604,CA-M-00021,CA-R-0000,caprino,Boer,Moxoto,1.2,5,2.0,0.64,0.55,IA_cervical,12,0,2025-12-02,0.423,vazia
+E-CA-000605,CA-M-00098,CA-R-0007,caprino,Moxoto,Pardo Alpina,1.2,4,3.0,0.49,0.59,IA_cervical,11,0,2024-11-30,0.742,prenhe
+E-CA-000606,CA-M-00225,CA-R-0023,caprino,Boer,Pardo Alpina,9.2,4,3.3,0.45,0.76,IA_laparoscopica,11,0,2024-11-18,0.838,prenhe
+E-CA-000607,CA-M-00020,CA-R-0025,caprino,Caninde,Boer,3.4,0,2.8,0.66,0.61,IA_cervical,9,0,2024-09-04,0.688,prenhe
+E-CA-000608,CA-M-00050,CA-R-0013,caprino,Pardo Alpina,Alpina,2.1,4,3.4,0.78,0.4,IA_cervical,7,0,2024-07-16,0.724,vazia
+E-CA-000609,CA-M-00091,CA-R-0020,caprino,Moxoto,Boer,3.6,5,3.0,0.7,0.57,IATF,9,0,2024-09-01,0.689,vazia
+E-CA-000610,CA-M-00241,CA-R-0011,caprino,Boer,Boer,5.5,3,3.1,0.76,0.48,IATF,5,1,2024-05-06,0.919,prenhe
+E-CA-000611,CA-M-00242,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,3.9,3,3.3,0.43,0.62,IA_cervical,10,0,2024-10-02,0.72,prenhe
+E-CA-000612,CA-M-00212,CA-R-0024,caprino,Alpina,Boer,3.9,5,3.4,0.64,0.74,IATF,7,0,2024-07-30,0.79,prenhe
+E-CA-000613,CA-M-00199,CA-R-0008,caprino,Moxoto,Alpina,3.3,2,3.4,0.16,0.66,IATF,2,0,2024-02-11,0.633,prenhe
+E-CA-000614,CA-M-00007,CA-R-0009,caprino,Saanen,Anglo Nubiana,2.8,2,3.7,0.61,0.89,IA_laparoscopica,9,0,2024-09-21,0.877,prenhe
+E-CA-000615,CA-M-00071,CA-R-0004,caprino,Saanen,Anglo Nubiana,10.0,5,4.1,0.72,0.77,IATF,1,0,2024-01-30,0.357,vazia
+E-CA-000616,CA-M-00276,CA-R-0006,caprino,Caninde,Caninde,6.7,3,2.7,0.8,0.74,IA_cervical,5,1,2024-05-12,0.597,prenhe
+E-CA-000617,CA-M-00215,CA-R-0001,caprino,Pardo Alpina,Anglo Nubiana,2.2,2,2.6,0.68,0.5,IA_cervical,6,1,2025-06-13,0.777,vazia
+E-CA-000618,CA-M-00072,CA-R-0024,caprino,Anglo Nubiana,Boer,1.9,0,3.8,0.91,0.74,IATF,1,0,2024-01-19,0.66,prenhe
+E-CA-000619,CA-M-00212,CA-R-0025,caprino,Alpina,Boer,3.9,5,3.4,0.64,0.61,IA_cervical,8,0,2024-08-14,0.763,vazia
+E-CA-000620,CA-M-00217,CA-R-0012,caprino,Boer,Alpina,5.6,5,3.7,0.63,0.49,IA_cervical,5,1,2025-05-14,0.605,prenhe
+E-CA-000621,CA-M-00222,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,6.1,0,3.8,0.37,0.61,IA_cervical,1,0,2024-01-16,0.377,prenhe
+E-CA-000622,CA-M-00294,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,8.0,1,1.9,0.51,0.59,IA_cervical,6,1,2025-06-22,0.368,vazia
+E-CA-000623,CA-M-00162,CA-R-0001,caprino,Saanen,Anglo Nubiana,6.9,3,3.5,0.54,0.5,IA_cervical,2,0,2024-02-29,0.668,prenhe
+E-CA-000624,CA-M-00017,CA-R-0015,caprino,Pardo Alpina,Saanen,3.9,5,3.9,0.47,0.71,IA_cervical,2,0,2024-02-10,0.58,vazia
+E-CA-000625,CA-M-00245,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,4.9,0,3.0,0.72,0.77,IATF,5,1,2024-05-22,0.874,prenhe
+E-CA-000626,CA-M-00004,CA-R-0025,caprino,Caninde,Boer,9.2,3,3.4,0.63,0.61,IA_cervical,9,0,2025-09-20,0.663,vazia
+E-CA-000627,CA-M-00192,CA-R-0008,caprino,Boer,Alpina,2.1,1,3.3,0.54,0.66,IATF,2,0,2024-02-05,0.755,vazia
+E-CA-000628,CA-M-00238,CA-R-0022,caprino,Boer,Boer,5.6,4,2.5,0.28,0.76,IA_cervical,3,1,2024-03-13,0.683,prenhe
+E-CA-000629,CA-M-00037,CA-R-0007,caprino,Boer,Pardo Alpina,2.5,5,3.0,0.43,0.59,IA_cervical,11,0,2025-11-21,0.65,prenhe
+E-CA-000630,CA-M-00239,CA-R-0003,caprino,Pardo Alpina,Anglo Nubiana,9.5,0,3.5,1.0,0.58,IATF,3,1,2025-03-21,0.741,prenhe
+E-CA-000631,CA-M-00243,CA-R-0016,caprino,Anglo Nubiana,Caninde,8.4,5,3.6,0.66,0.58,IA_cervical,2,0,2025-02-18,0.481,prenhe
+E-CA-000632,CA-M-00196,CA-R-0005,caprino,Moxoto,Boer,7.2,5,3.0,0.88,0.56,IA_cervical,1,0,2024-01-30,0.54,vazia
+E-CA-000633,CA-M-00097,CA-R-0011,caprino,Moxoto,Boer,3.2,5,3.2,0.48,0.48,IATF,10,0,2024-10-14,0.705,prenhe
+E-CA-000634,CA-M-00060,CA-R-0008,caprino,Boer,Alpina,4.2,0,3.4,0.66,0.66,IA_cervical,2,0,2025-02-24,0.688,prenhe
+E-CA-000635,CA-M-00211,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,5.9,2,2.8,0.56,0.71,IA_cervical,1,0,2025-01-23,0.869,prenhe
+E-CA-000636,CA-M-00047,CA-R-0015,caprino,Alpina,Saanen,1.3,2,3.2,0.8,0.71,IATF,1,0,2025-01-15,0.867,prenhe
+E-CA-000637,CA-M-00202,CA-R-0021,caprino,Alpina,Boer,6.5,3,3.0,0.55,0.46,IA_cervical,3,1,2024-03-23,0.675,vazia
+E-CA-000638,CA-M-00050,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,2.1,4,3.4,0.78,0.61,IA_laparoscopica,12,0,2025-12-22,0.95,prenhe
+E-CA-000639,CA-M-00100,CA-R-0027,caprino,Boer,Moxoto,4.7,4,3.7,0.67,0.53,IA_cervical,5,1,2025-05-27,0.579,prenhe
+E-CA-000640,CA-M-00151,CA-R-0013,caprino,Saanen,Alpina,9.5,0,1.9,0.47,0.4,IA_cervical,6,1,2024-06-25,0.331,prenhe
+E-CA-000641,CA-M-00048,CA-R-0025,caprino,Boer,Boer,1.4,1,4.5,0.73,0.61,IA_cervical,12,0,2025-12-08,0.433,vazia
+E-CA-000642,CA-M-00238,CA-R-0026,caprino,Boer,Anglo Nubiana,5.6,4,2.5,0.28,0.71,IA_laparoscopica,8,0,2024-08-08,0.754,prenhe
+E-CA-000643,CA-M-00208,CA-R-0027,caprino,Saanen,Moxoto,8.5,4,3.5,0.34,0.53,IA_cervical,4,1,2024-04-05,0.587,vazia
+E-CA-000644,CA-M-00004,CA-R-0020,caprino,Caninde,Boer,9.2,3,3.4,0.63,0.57,IATF,10,0,2025-10-13,0.597,vazia
+E-CA-000645,CA-M-00254,CA-R-0029,caprino,Anglo Nubiana,Saanen,9.5,2,3.7,0.14,0.69,IATF,4,1,2024-04-21,0.514,prenhe
+E-CA-000646,CA-M-00215,CA-R-0022,caprino,Pardo Alpina,Boer,2.2,2,2.6,0.68,0.76,IA_laparoscopica,2,0,2024-02-14,0.82,prenhe
+E-CA-000647,CA-M-00251,CA-R-0009,caprino,Moxoto,Anglo Nubiana,3.6,0,3.2,0.35,0.89,IA_cervical,4,1,2025-04-03,0.758,prenhe
+E-CA-000648,CA-M-00180,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,10.0,3,3.6,0.55,0.77,IA_laparoscopica,7,0,2024-07-11,0.696,prenhe
+E-CA-000649,CA-M-00187,CA-R-0006,caprino,Caninde,Caninde,6.7,0,3.0,0.33,0.74,IA_laparoscopica,4,1,2024-04-20,0.718,prenhe
+E-CA-000650,CA-M-00115,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,7.1,1,2.9,0.31,0.61,IA_cervical,3,1,2024-03-15,0.622,prenhe
+E-CA-000651,CA-M-00068,CA-R-0004,caprino,Caninde,Anglo Nubiana,2.3,2,3.0,0.87,0.77,IATF,4,1,2024-04-02,0.95,vazia
+E-CA-000652,CA-M-00070,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,7.3,3,3.0,0.18,0.59,IA_cervical,12,0,2025-12-02,0.428,vazia
+E-CA-000653,CA-M-00094,CA-R-0018,caprino,Boer,Alpina,1.1,1,3.7,0.35,0.49,IATF,5,1,2025-05-04,0.54,prenhe
+E-CA-000654,CA-M-00087,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,2.3,1,4.1,0.45,0.89,IATF,9,0,2025-09-07,0.589,prenhe
+E-CA-000655,CA-M-00226,CA-R-0020,caprino,Anglo Nubiana,Boer,9.0,2,2.5,0.6,0.57,IA_cervical,3,1,2025-03-27,0.485,prenhe
+E-CA-000656,CA-M-00157,CA-R-0029,caprino,Alpina,Saanen,2.5,3,3.6,0.54,0.69,IA_cervical,1,0,2025-01-31,0.65,prenhe
+E-CA-000657,CA-M-00123,CA-R-0002,caprino,Boer,Anglo Nubiana,5.7,4,3.6,0.52,0.55,IA_cervical,6,1,2024-06-07,0.666,prenhe
+E-CA-000658,CA-M-00217,CA-R-0019,caprino,Boer,Moxoto,5.6,5,3.7,0.63,0.75,IA_cervical,12,0,2025-12-07,0.535,prenhe
+E-CA-000659,CA-M-00219,CA-R-0024,caprino,Anglo Nubiana,Boer,3.7,4,3.9,0.62,0.74,IATF,8,0,2025-08-23,0.689,prenhe
+E-CA-000660,CA-M-00280,CA-R-0004,caprino,Saanen,Anglo Nubiana,7.3,3,3.1,0.6,0.77,IA_cervical,1,0,2025-01-20,0.749,prenhe
+E-CA-000661,CA-M-00092,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,3.7,5,3.8,0.48,0.76,IA_laparoscopica,3,1,2024-03-17,0.766,prenhe
+E-CA-000662,CA-M-00072,CA-R-0015,caprino,Anglo Nubiana,Saanen,1.9,0,3.8,0.91,0.71,IATF,7,0,2025-07-08,0.626,vazia
+E-CA-000663,CA-M-00001,CA-R-0018,caprino,Caninde,Alpina,2.3,0,3.4,0.57,0.49,IATF,8,0,2024-08-30,0.708,vazia
+E-CA-000664,CA-M-00047,CA-R-0001,caprino,Alpina,Anglo Nubiana,1.3,2,3.2,0.8,0.5,IA_cervical,6,1,2024-06-01,0.807,prenhe
+E-CA-000665,CA-M-00181,CA-R-0013,caprino,Boer,Alpina,5.6,4,2.9,0.51,0.4,IATF,6,1,2025-06-23,0.805,vazia
+E-CA-000666,CA-M-00242,CA-R-0011,caprino,Anglo Nubiana,Boer,3.9,3,3.3,0.43,0.48,IA_cervical,9,0,2025-09-03,0.634,prenhe
+E-CA-000667,CA-M-00180,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,10.0,3,3.6,0.55,0.77,IA_cervical,3,1,2025-03-24,0.6,prenhe
+E-CA-000668,CA-M-00297,CA-R-0022,caprino,Moxoto,Boer,5.2,1,3.1,0.63,0.76,IA_cervical,2,0,2024-02-23,0.812,vazia
+E-CA-000669,CA-M-00188,CA-R-0015,caprino,Anglo Nubiana,Saanen,4.8,5,3.8,0.48,0.71,IA_laparoscopica,3,1,2025-03-14,0.67,prenhe
+E-CA-000670,CA-M-00264,CA-R-0026,caprino,Caninde,Anglo Nubiana,3.8,1,3.1,0.44,0.71,IA_cervical,11,0,2025-11-01,0.705,prenhe
+E-CA-000671,CA-M-00080,CA-R-0004,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.77,IA_cervical,5,1,2025-05-15,0.625,vazia
+E-CA-000672,CA-M-00097,CA-R-0021,caprino,Moxoto,Boer,3.2,5,3.2,0.48,0.46,IA_cervical,7,0,2024-07-12,0.621,vazia
+E-CA-000673,CA-M-00243,CA-R-0018,caprino,Anglo Nubiana,Alpina,8.4,5,3.6,0.66,0.49,IATF,4,1,2025-04-16,0.442,vazia
+E-CA-000674,CA-M-00198,CA-R-0019,caprino,Boer,Moxoto,4.2,5,2.7,0.65,0.75,IA_laparoscopica,6,1,2024-06-30,0.785,prenhe
+E-CA-000675,CA-M-00146,CA-R-0009,caprino,Boer,Anglo Nubiana,4.1,2,3.8,0.45,0.89,IA_laparoscopica,9,0,2025-09-30,0.887,prenhe
+E-CA-000676,CA-M-00286,CA-R-0020,caprino,Caninde,Boer,6.6,1,2.8,0.65,0.57,IA_laparoscopica,9,0,2025-09-09,0.742,prenhe
+E-CA-000677,CA-M-00228,CA-R-0007,caprino,Saanen,Pardo Alpina,6.9,0,3.6,0.79,0.59,IA_cervical,2,0,2025-02-19,0.431,prenhe
+E-CA-000678,CA-M-00088,CA-R-0022,caprino,Boer,Boer,8.3,5,3.1,0.62,0.76,IA_cervical,4,1,2024-04-08,0.727,vazia
+E-CA-000679,CA-M-00183,CA-R-0013,caprino,Pardo Alpina,Alpina,9.3,0,3.6,0.31,0.4,IA_cervical,10,0,2024-10-19,0.21,vazia
+E-CA-000680,CA-M-00118,CA-R-0014,caprino,Boer,Anglo Nubiana,7.5,2,3.1,0.45,0.62,IA_cervical,3,1,2024-03-29,0.752,prenhe
+E-CA-000681,CA-M-00124,CA-R-0017,caprino,Boer,Anglo Nubiana,8.7,1,3.2,0.51,0.61,IATF,7,0,2025-07-13,0.576,vazia
+E-CA-000682,CA-M-00241,CA-R-0002,caprino,Boer,Anglo Nubiana,5.5,3,3.1,0.76,0.55,IA_cervical,5,1,2025-05-11,0.922,prenhe
+E-CA-000683,CA-M-00203,CA-R-0011,caprino,Anglo Nubiana,Boer,7.7,4,3.7,0.34,0.48,IA_laparoscopica,7,0,2024-07-08,0.606,prenhe
+E-CA-000684,CA-M-00003,CA-R-0006,caprino,Boer,Caninde,7.7,3,4.0,0.53,0.74,IATF,9,0,2025-09-17,0.595,prenhe
+E-CA-000685,CA-M-00172,CA-R-0028,caprino,Anglo Nubiana,Caninde,8.5,3,3.5,0.88,0.41,IATF,7,0,2025-07-08,0.641,vazia
+E-CA-000686,CA-M-00194,CA-R-0012,caprino,Anglo Nubiana,Alpina,7.6,1,2.7,1.0,0.49,IA_cervical,11,0,2025-11-14,0.583,prenhe
+E-CA-000687,CA-M-00153,CA-R-0000,caprino,Anglo Nubiana,Moxoto,7.3,1,3.0,0.48,0.55,IATF,7,0,2024-07-23,0.584,prenhe
+E-CA-000688,CA-M-00089,CA-R-0000,caprino,Anglo Nubiana,Moxoto,6.1,2,3.0,0.53,0.55,IA_laparoscopica,5,1,2024-05-07,0.868,prenhe
+E-CA-000689,CA-M-00194,CA-R-0027,caprino,Anglo Nubiana,Moxoto,7.6,1,2.7,1.0,0.53,IA_cervical,12,0,2024-12-16,0.471,prenhe
+E-CA-000690,CA-M-00284,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,4.1,0,2.6,0.71,0.77,IATF,7,0,2024-07-12,0.564,vazia
+E-CA-000691,CA-M-00025,CA-R-0000,caprino,Moxoto,Moxoto,6.1,3,3.5,0.43,0.55,IA_cervical,6,1,2025-06-23,0.731,prenhe
+E-CA-000692,CA-M-00180,CA-R-0006,caprino,Pardo Alpina,Caninde,10.0,3,3.6,0.55,0.74,IATF,11,0,2024-11-06,0.517,vazia
+E-CA-000693,CA-M-00273,CA-R-0006,caprino,Boer,Caninde,2.3,4,3.8,0.47,0.74,IA_laparoscopica,4,1,2025-04-03,0.926,prenhe
+E-CA-000694,CA-M-00120,CA-R-0002,caprino,Alpina,Anglo Nubiana,8.8,3,4.4,0.67,0.55,IATF,5,1,2024-05-05,0.532,prenhe
+E-CA-000695,CA-M-00100,CA-R-0029,caprino,Boer,Saanen,4.7,4,3.7,0.67,0.69,IATF,3,1,2024-03-03,0.79,prenhe
+E-CA-000696,CA-M-00074,CA-R-0001,caprino,Saanen,Anglo Nubiana,4.5,4,2.8,0.65,0.5,IA_laparoscopica,11,0,2025-11-15,0.875,vazia
+E-CA-000697,CA-M-00067,CA-R-0021,caprino,Saanen,Boer,8.2,5,3.3,0.55,0.46,IA_cervical,11,0,2024-11-21,0.477,prenhe
+E-CA-000698,CA-M-00117,CA-R-0025,caprino,Saanen,Boer,9.3,1,3.3,0.59,0.61,IA_cervical,4,1,2024-04-11,0.538,prenhe
+E-CA-000699,CA-M-00231,CA-R-0019,caprino,Anglo Nubiana,Moxoto,8.8,5,3.1,0.32,0.75,IATF,8,0,2025-08-15,0.588,prenhe
+E-CA-000700,CA-M-00054,CA-R-0003,caprino,Caninde,Anglo Nubiana,6.2,4,4.4,0.39,0.58,IA_laparoscopica,4,1,2024-04-06,0.61,prenhe
+E-CA-000701,CA-M-00069,CA-R-0021,caprino,Saanen,Boer,1.4,5,2.8,0.7,0.46,IATF,12,0,2025-12-28,0.672,prenhe
+E-CA-000702,CA-M-00299,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,6.9,0,3.7,0.59,0.89,IA_cervical,10,0,2024-10-08,0.454,vazia
+E-CA-000703,CA-M-00298,CA-R-0012,caprino,Caninde,Alpina,4.9,4,2.8,0.75,0.49,IA_cervical,12,0,2024-12-06,0.741,prenhe
+E-CA-000704,CA-M-00068,CA-R-0007,caprino,Caninde,Pardo Alpina,2.3,2,3.0,0.87,0.59,IATF,7,0,2024-07-08,0.911,prenhe
+E-CA-000705,CA-M-00126,CA-R-0023,caprino,Boer,Pardo Alpina,3.5,1,3.2,0.69,0.76,IATF,3,1,2024-03-03,0.909,prenhe
+E-CA-000706,CA-M-00121,CA-R-0017,caprino,Saanen,Anglo Nubiana,7.7,0,3.1,0.79,0.61,IA_cervical,10,0,2024-10-25,0.675,vazia
+E-CA-000707,CA-M-00088,CA-R-0004,caprino,Boer,Anglo Nubiana,8.3,5,3.1,0.62,0.77,IA_cervical,9,0,2024-09-24,0.603,vazia
+E-CA-000708,CA-M-00045,CA-R-0012,caprino,Boer,Alpina,4.2,2,3.0,0.46,0.49,IATF,11,0,2024-11-23,0.739,vazia
+E-CA-000709,CA-M-00018,CA-R-0023,caprino,Saanen,Pardo Alpina,7.0,5,3.7,0.56,0.76,IATF,12,0,2024-12-23,0.454,vazia
+E-CA-000710,CA-M-00184,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.7,3,3.4,0.83,0.41,IA_cervical,4,1,2025-04-05,0.794,prenhe
+E-CA-000711,CA-M-00012,CA-R-0028,caprino,Moxoto,Caninde,2.0,0,3.8,0.4,0.41,IA_cervical,2,0,2024-02-23,0.393,prenhe
+E-CA-000712,CA-M-00186,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,8.2,0,2.2,0.34,0.77,IA_cervical,9,0,2024-09-21,0.392,vazia
+E-CA-000713,CA-M-00028,CA-R-0025,caprino,Anglo Nubiana,Boer,2.7,1,2.8,0.63,0.61,IA_cervical,9,0,2025-09-22,0.709,prenhe
+E-CA-000714,CA-M-00046,CA-R-0016,caprino,Anglo Nubiana,Caninde,6.6,1,2.8,0.42,0.58,IA_cervical,11,0,2025-11-25,0.622,vazia
+E-CA-000715,CA-M-00001,CA-R-0022,caprino,Caninde,Boer,2.3,0,3.4,0.57,0.76,IA_cervical,1,0,2025-01-28,0.734,prenhe
+E-CA-000716,CA-M-00119,CA-R-0011,caprino,Saanen,Boer,1.9,5,3.2,0.91,0.48,IATF,9,0,2024-09-24,0.776,prenhe
+E-CA-000717,CA-M-00098,CA-R-0019,caprino,Moxoto,Moxoto,1.2,4,3.0,0.49,0.75,IA_cervical,10,0,2024-10-30,0.747,prenhe
+E-CA-000718,CA-M-00099,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,3.5,0,3.9,0.59,0.59,IATF,7,0,2025-07-25,0.541,vazia
+E-CA-000719,CA-M-00093,CA-R-0015,caprino,Alpina,Saanen,3.9,0,3.6,0.82,0.71,IA_cervical,10,0,2024-10-16,0.535,prenhe
+E-CA-000720,CA-M-00281,CA-R-0006,caprino,Anglo Nubiana,Caninde,5.2,3,3.4,0.77,0.74,IA_cervical,11,0,2025-11-20,0.873,prenhe
+E-CA-000721,CA-M-00129,CA-R-0011,caprino,Alpina,Boer,9.9,3,3.0,0.4,0.48,IA_cervical,1,0,2024-01-21,0.476,vazia
+E-CA-000722,CA-M-00242,CA-R-0012,caprino,Anglo Nubiana,Alpina,3.9,3,3.3,0.43,0.49,IA_cervical,3,1,2025-03-18,0.767,vazia
+E-CA-000723,CA-M-00069,CA-R-0025,caprino,Saanen,Boer,1.4,5,2.8,0.7,0.61,IA_laparoscopica,1,0,2025-01-13,0.939,prenhe
+E-CA-000724,CA-M-00144,CA-R-0018,caprino,Caninde,Alpina,9.7,0,4.3,0.56,0.49,IATF,11,0,2024-11-25,0.275,prenhe
+E-CA-000725,CA-M-00018,CA-R-0019,caprino,Saanen,Moxoto,7.0,5,3.7,0.56,0.75,IATF,12,0,2024-12-13,0.41,vazia
+E-CA-000726,CA-M-00077,CA-R-0008,caprino,Saanen,Alpina,3.5,1,3.7,0.87,0.66,IATF,4,1,2024-04-25,0.643,prenhe
+E-CA-000727,CA-M-00021,CA-R-0013,caprino,Boer,Alpina,1.2,5,2.0,0.64,0.4,IATF,9,0,2024-09-09,0.403,prenhe
+E-CA-000728,CA-M-00006,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,8.4,2,3.5,0.62,0.62,IATF,9,0,2024-09-14,0.761,prenhe
+E-CA-000729,CA-M-00054,CA-R-0023,caprino,Caninde,Pardo Alpina,6.2,4,4.4,0.39,0.76,IA_laparoscopica,4,1,2025-04-25,0.594,prenhe
+E-CA-000730,CA-M-00047,CA-R-0005,caprino,Alpina,Boer,1.3,2,3.2,0.8,0.56,IA_laparoscopica,3,1,2025-03-12,0.95,prenhe
+E-CA-000731,CA-M-00094,CA-R-0001,caprino,Boer,Anglo Nubiana,1.1,1,3.7,0.35,0.5,IA_cervical,10,0,2024-10-27,0.46,vazia
+E-CA-000732,CA-M-00223,CA-R-0015,caprino,Moxoto,Saanen,3.2,0,4.0,0.54,0.71,IA_cervical,1,0,2025-01-12,0.434,vazia
+E-CA-000733,CA-M-00044,CA-R-0024,caprino,Saanen,Boer,7.0,0,3.5,0.51,0.74,IA_laparoscopica,2,0,2025-02-21,0.67,prenhe
+E-CA-000734,CA-M-00183,CA-R-0022,caprino,Pardo Alpina,Boer,9.3,0,3.6,0.31,0.76,IA_laparoscopica,2,0,2024-02-04,0.584,prenhe
+E-CA-000735,CA-M-00109,CA-R-0024,caprino,Anglo Nubiana,Boer,9.4,0,3.1,0.59,0.74,IA_cervical,10,0,2025-10-08,0.6,prenhe
+E-CA-000736,CA-M-00120,CA-R-0011,caprino,Alpina,Boer,8.8,3,4.4,0.67,0.48,IATF,10,0,2025-10-13,0.44,vazia
+E-CA-000737,CA-M-00276,CA-R-0006,caprino,Caninde,Caninde,6.7,3,2.7,0.8,0.74,IA_cervical,9,0,2024-09-22,0.506,prenhe
+E-CA-000738,CA-M-00139,CA-R-0019,caprino,Saanen,Moxoto,8.1,3,3.0,0.33,0.75,IA_laparoscopica,7,0,2025-07-09,0.822,prenhe
+E-CA-000739,CA-M-00078,CA-R-0001,caprino,Boer,Anglo Nubiana,7.2,5,3.3,0.51,0.5,IATF,10,0,2024-10-17,0.532,prenhe
+E-CA-000740,CA-M-00071,CA-R-0026,caprino,Saanen,Anglo Nubiana,10.0,5,4.1,0.72,0.71,IA_cervical,2,0,2024-02-19,0.351,vazia
+E-CA-000741,CA-M-00050,CA-R-0021,caprino,Pardo Alpina,Boer,2.1,4,3.4,0.78,0.46,IATF,9,0,2025-09-24,0.761,prenhe
+E-CA-000742,CA-M-00240,CA-R-0015,caprino,Pardo Alpina,Saanen,2.8,1,2.7,0.55,0.71,IATF,7,0,2024-07-14,0.596,vazia
+E-CA-000743,CA-M-00199,CA-R-0005,caprino,Moxoto,Boer,3.3,2,3.4,0.16,0.56,IA_laparoscopica,9,0,2024-09-18,0.845,prenhe
+E-CA-000744,CA-M-00080,CA-R-0007,caprino,Saanen,Pardo Alpina,5.3,0,2.5,0.38,0.59,IATF,2,0,2025-02-24,0.497,prenhe
+E-CA-000745,CA-M-00147,CA-R-0029,caprino,Moxoto,Saanen,3.4,2,3.5,0.37,0.69,IA_laparoscopica,11,0,2024-11-16,0.943,prenhe
+E-CA-000746,CA-M-00151,CA-R-0000,caprino,Saanen,Moxoto,9.5,0,1.9,0.47,0.55,IA_cervical,7,0,2024-07-13,0.284,vazia
+E-CA-000747,CA-M-00014,CA-R-0000,caprino,Saanen,Moxoto,6.1,2,3.2,0.81,0.55,IA_laparoscopica,8,0,2025-08-07,0.772,prenhe
+E-CA-000748,CA-M-00272,CA-R-0010,caprino,Caninde,Caninde,1.7,5,3.1,0.78,0.45,IA_cervical,9,0,2024-09-16,0.575,prenhe
+E-CA-000749,CA-M-00236,CA-R-0006,caprino,Boer,Caninde,8.0,3,3.1,0.49,0.74,IA_cervical,3,1,2025-03-08,0.805,vazia
+E-CA-000750,CA-M-00160,CA-R-0020,caprino,Caninde,Boer,3.4,5,3.0,0.56,0.57,IA_cervical,4,1,2025-04-30,0.703,prenhe
+E-CA-000751,CA-M-00214,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,2.0,1,3.0,0.45,0.5,IA_cervical,11,0,2025-11-12,0.631,prenhe
+E-CA-000752,CA-M-00032,CA-R-0023,caprino,Boer,Pardo Alpina,8.2,5,2.5,0.68,0.76,IATF,12,0,2024-12-15,0.469,vazia
+E-CA-000753,CA-M-00293,CA-R-0023,caprino,Boer,Pardo Alpina,3.5,3,3.5,0.59,0.76,IATF,12,0,2024-12-09,0.83,prenhe
+E-CA-000754,CA-M-00192,CA-R-0006,caprino,Boer,Caninde,2.1,1,3.3,0.54,0.74,IATF,10,0,2025-10-28,0.721,prenhe
+E-CA-000755,CA-M-00281,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,5.2,3,3.4,0.77,0.61,IA_cervical,12,0,2024-12-15,0.78,vazia
+E-CA-000756,CA-M-00259,CA-R-0020,caprino,Saanen,Boer,7.7,1,3.1,0.81,0.57,IA_laparoscopica,8,0,2024-08-05,0.822,prenhe
+E-CA-000757,CA-M-00175,CA-R-0025,caprino,Boer,Boer,2.1,0,2.7,0.23,0.61,IA_laparoscopica,2,0,2024-02-01,0.6,prenhe
+E-CA-000758,CA-M-00086,CA-R-0021,caprino,Caninde,Boer,9.8,0,2.9,0.29,0.46,IA_cervical,8,0,2024-08-25,0.447,prenhe
+E-CA-000759,CA-M-00205,CA-R-0028,caprino,Saanen,Caninde,1.3,5,3.2,0.75,0.41,IA_laparoscopica,5,1,2024-05-24,0.869,prenhe
+E-CA-000760,CA-M-00153,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,7.3,1,3.0,0.48,0.58,IA_cervical,8,0,2024-08-10,0.603,vazia
+E-CA-000761,CA-M-00122,CA-R-0018,caprino,Saanen,Alpina,3.8,1,3.5,0.73,0.49,IATF,1,0,2025-01-29,0.707,vazia
+E-CA-000762,CA-M-00213,CA-R-0023,caprino,Caninde,Pardo Alpina,9.7,5,3.4,0.5,0.76,IA_cervical,1,0,2025-01-18,0.499,vazia
+E-CA-000763,CA-M-00266,CA-R-0006,caprino,Caninde,Caninde,3.1,3,4.1,0.39,0.74,IATF,5,1,2024-05-16,0.64,vazia
+E-CA-000764,CA-M-00051,CA-R-0006,caprino,Boer,Caninde,1.1,0,2.8,0.52,0.74,IATF,12,0,2024-12-04,0.778,prenhe
+E-CA-000765,CA-M-00165,CA-R-0002,caprino,Caninde,Anglo Nubiana,2.6,3,2.7,0.21,0.55,IA_laparoscopica,11,0,2024-11-27,0.644,prenhe
+E-CA-000766,CA-M-00233,CA-R-0029,caprino,Caninde,Saanen,1.7,3,2.9,0.57,0.69,IA_cervical,2,0,2024-02-01,0.86,prenhe
+E-CA-000767,CA-M-00097,CA-R-0025,caprino,Moxoto,Boer,3.2,5,3.2,0.48,0.61,IA_cervical,7,0,2024-07-25,0.627,vazia
+E-CA-000768,CA-M-00102,CA-R-0003,caprino,Alpina,Anglo Nubiana,1.6,4,2.7,0.28,0.58,IATF,6,1,2025-06-11,0.672,prenhe
+E-CA-000769,CA-M-00002,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,1.4,2,3.3,0.64,0.59,IA_cervical,1,0,2024-01-16,0.861,prenhe
+E-CA-000770,CA-M-00096,CA-R-0013,caprino,Moxoto,Alpina,10.0,5,3.0,0.77,0.4,IA_cervical,8,0,2024-08-07,0.516,prenhe
+E-CA-000771,CA-M-00175,CA-R-0026,caprino,Boer,Anglo Nubiana,2.1,0,2.7,0.23,0.71,IATF,12,0,2024-12-12,0.489,prenhe
+E-CA-000772,CA-M-00291,CA-R-0024,caprino,Alpina,Boer,6.0,3,3.3,0.4,0.74,IATF,5,1,2024-05-01,0.891,prenhe
+E-CA-000773,CA-M-00157,CA-R-0026,caprino,Alpina,Anglo Nubiana,2.5,3,3.6,0.54,0.71,IA_laparoscopica,4,1,2025-04-16,0.95,prenhe
+E-CA-000774,CA-M-00087,CA-R-0024,caprino,Pardo Alpina,Boer,2.3,1,4.1,0.45,0.74,IA_cervical,6,1,2025-06-06,0.576,prenhe
+E-CA-000775,CA-M-00243,CA-R-0018,caprino,Anglo Nubiana,Alpina,8.4,5,3.6,0.66,0.49,IA_cervical,9,0,2024-09-03,0.465,vazia
+E-CA-000776,CA-M-00056,CA-R-0008,caprino,Anglo Nubiana,Alpina,7.7,0,4.0,0.71,0.66,IATF,6,1,2024-06-17,0.54,prenhe
+E-CA-000777,CA-M-00056,CA-R-0018,caprino,Anglo Nubiana,Alpina,7.7,0,4.0,0.71,0.49,IA_cervical,7,0,2025-07-20,0.315,prenhe
+E-CA-000778,CA-M-00156,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,9.4,2,3.8,0.61,0.62,IA_cervical,6,1,2024-06-05,0.531,prenhe
+E-CA-000779,CA-M-00244,CA-R-0028,caprino,Anglo Nubiana,Caninde,1.7,4,3.1,0.57,0.41,IA_cervical,4,1,2024-04-16,0.771,prenhe
+E-CA-000780,CA-M-00063,CA-R-0013,caprino,Moxoto,Alpina,2.3,5,2.9,0.66,0.4,IA_laparoscopica,1,0,2024-01-25,0.69,prenhe
+E-CA-000781,CA-M-00004,CA-R-0022,caprino,Caninde,Boer,9.2,3,3.4,0.63,0.76,IA_cervical,3,1,2024-03-07,0.766,prenhe
+E-CA-000782,CA-M-00217,CA-R-0005,caprino,Boer,Boer,5.6,5,3.7,0.63,0.56,IATF,9,0,2025-09-28,0.517,vazia
+E-CA-000783,CA-M-00176,CA-R-0020,caprino,Pardo Alpina,Boer,8.9,2,3.0,0.34,0.57,IA_cervical,11,0,2025-11-13,0.588,prenhe
+E-CA-000784,CA-M-00205,CA-R-0013,caprino,Saanen,Alpina,1.3,5,3.2,0.75,0.4,IA_cervical,2,0,2025-02-02,0.737,vazia
+E-CA-000785,CA-M-00119,CA-R-0013,caprino,Saanen,Alpina,1.9,5,3.2,0.91,0.4,IATF,11,0,2025-11-03,0.705,prenhe
+E-CA-000786,CA-M-00035,CA-R-0022,caprino,Saanen,Boer,3.7,1,3.3,0.41,0.76,IATF,5,1,2025-05-31,0.76,prenhe
+E-CA-000787,CA-M-00099,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,3.5,0,3.9,0.59,0.62,IA_laparoscopica,10,0,2024-10-23,0.63,prenhe
+E-CA-000788,CA-M-00140,CA-R-0001,caprino,Caninde,Anglo Nubiana,3.5,0,4.3,0.47,0.5,IATF,6,1,2025-06-04,0.457,prenhe
+E-CA-000789,CA-M-00129,CA-R-0011,caprino,Alpina,Boer,9.9,3,3.0,0.4,0.48,IA_cervical,11,0,2024-11-02,0.557,prenhe
+E-CA-000790,CA-M-00266,CA-R-0028,caprino,Caninde,Caninde,3.1,3,4.1,0.39,0.41,IA_cervical,12,0,2025-12-03,0.463,prenhe
+E-CA-000791,CA-M-00067,CA-R-0028,caprino,Saanen,Caninde,8.2,5,3.3,0.55,0.41,IA_cervical,9,0,2025-09-13,0.522,prenhe
+E-CA-000792,CA-M-00093,CA-R-0018,caprino,Alpina,Alpina,3.9,0,3.6,0.82,0.49,IA_cervical,9,0,2025-09-08,0.547,vazia
+E-CA-000793,CA-M-00055,CA-R-0019,caprino,Pardo Alpina,Moxoto,8.6,2,3.5,0.29,0.75,IATF,1,0,2025-01-22,0.657,vazia
+E-CA-000794,CA-M-00171,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,9.4,5,3.3,0.16,0.59,IATF,1,0,2025-01-13,0.553,vazia
+E-CA-000795,CA-M-00241,CA-R-0023,caprino,Boer,Pardo Alpina,5.5,3,3.1,0.76,0.76,IA_cervical,3,1,2024-03-26,0.901,prenhe
+E-CA-000796,CA-M-00264,CA-R-0017,caprino,Caninde,Anglo Nubiana,3.8,1,3.1,0.44,0.61,IA_cervical,4,1,2025-04-21,0.82,vazia
+E-CA-000797,CA-M-00068,CA-R-0001,caprino,Caninde,Anglo Nubiana,2.3,2,3.0,0.87,0.5,IATF,3,1,2024-03-24,0.88,prenhe
+E-CA-000798,CA-M-00128,CA-R-0028,caprino,Anglo Nubiana,Caninde,8.7,2,2.9,0.9,0.41,IA_laparoscopica,1,0,2025-01-29,0.722,prenhe
+E-CA-000799,CA-M-00221,CA-R-0025,caprino,Pardo Alpina,Boer,8.8,0,3.3,0.38,0.61,IA_cervical,4,1,2024-04-05,0.61,vazia
+E-CA-000800,CA-M-00013,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.2,0,3.4,0.47,0.55,IA_cervical,12,0,2024-12-13,0.694,vazia
+E-CA-000801,CA-M-00213,CA-R-0012,caprino,Caninde,Alpina,9.7,5,3.4,0.5,0.49,IA_cervical,7,0,2025-07-23,0.476,vazia
+E-CA-000802,CA-M-00040,CA-R-0022,caprino,Anglo Nubiana,Boer,8.5,4,2.9,0.52,0.76,IA_cervical,8,0,2024-08-13,0.766,prenhe
+E-CA-000803,CA-M-00010,CA-R-0022,caprino,Boer,Boer,6.2,3,2.5,0.39,0.76,IA_cervical,3,1,2025-03-15,0.489,vazia
+E-CA-000804,CA-M-00033,CA-R-0005,caprino,Boer,Boer,5.2,3,3.1,0.57,0.56,IA_cervical,7,0,2024-07-08,0.688,prenhe
+E-CA-000805,CA-M-00264,CA-R-0001,caprino,Caninde,Anglo Nubiana,3.8,1,3.1,0.44,0.5,IA_cervical,8,0,2024-08-06,0.641,prenhe
+E-CA-000806,CA-M-00204,CA-R-0029,caprino,Boer,Saanen,8.8,4,3.4,0.7,0.69,IA_cervical,5,1,2024-05-13,0.757,prenhe
+E-CA-000807,CA-M-00236,CA-R-0026,caprino,Boer,Anglo Nubiana,8.0,3,3.1,0.49,0.71,IA_cervical,4,1,2024-04-28,0.709,prenhe
+E-CA-000808,CA-M-00207,CA-R-0022,caprino,Anglo Nubiana,Boer,3.8,4,3.1,0.47,0.76,IA_cervical,9,0,2024-09-28,0.815,prenhe
+E-CA-000809,CA-M-00238,CA-R-0019,caprino,Boer,Moxoto,5.6,4,2.5,0.28,0.75,IA_cervical,3,1,2024-03-31,0.65,prenhe
+E-CA-000810,CA-M-00148,CA-R-0020,caprino,Alpina,Boer,6.3,2,3.4,0.24,0.57,IATF,10,0,2025-10-12,0.568,vazia
+E-CA-000811,CA-M-00242,CA-R-0013,caprino,Anglo Nubiana,Alpina,3.9,3,3.3,0.43,0.4,IATF,6,1,2025-06-25,0.78,prenhe
+E-CA-000812,CA-M-00016,CA-R-0020,caprino,Anglo Nubiana,Boer,4.7,0,4.2,0.18,0.57,IA_cervical,6,1,2024-06-10,0.351,vazia
+E-CA-000813,CA-M-00174,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,3.1,1,3.0,0.74,0.89,IA_cervical,10,0,2025-10-08,0.859,prenhe
+E-CA-000814,CA-M-00226,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,9.0,2,2.5,0.6,0.55,IA_laparoscopica,9,0,2024-09-23,0.588,prenhe
+E-CA-000815,CA-M-00298,CA-R-0009,caprino,Caninde,Anglo Nubiana,4.9,4,2.8,0.75,0.89,IA_cervical,1,0,2025-01-22,0.856,prenhe
+E-CA-000816,CA-M-00107,CA-R-0008,caprino,Caninde,Alpina,4.3,3,2.9,0.27,0.66,IA_laparoscopica,5,1,2025-05-25,0.95,vazia
+E-CA-000817,CA-M-00053,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,3.4,1,2.8,0.49,0.89,IATF,7,0,2025-07-18,0.929,prenhe
+E-CA-000818,CA-M-00216,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,6.8,5,3.8,0.53,0.62,IA_cervical,1,0,2024-01-06,0.437,prenhe
+E-CA-000819,CA-M-00021,CA-R-0003,caprino,Boer,Anglo Nubiana,1.2,5,2.0,0.64,0.58,IA_cervical,7,0,2024-07-25,0.437,vazia
+E-CA-000820,CA-M-00232,CA-R-0012,caprino,Boer,Alpina,9.1,1,2.9,0.49,0.49,IA_cervical,9,0,2024-09-02,0.492,vazia
+E-CA-000821,CA-M-00211,CA-R-0013,caprino,Anglo Nubiana,Alpina,5.9,2,2.8,0.56,0.4,IA_laparoscopica,3,1,2025-03-03,0.918,prenhe
+E-CA-000822,CA-M-00207,CA-R-0005,caprino,Anglo Nubiana,Boer,3.8,4,3.1,0.47,0.56,IA_cervical,9,0,2025-09-28,0.781,prenhe
+E-CA-000823,CA-M-00088,CA-R-0013,caprino,Boer,Alpina,8.3,5,3.1,0.62,0.4,IA_laparoscopica,11,0,2024-11-15,0.54,vazia
+E-CA-000824,CA-M-00036,CA-R-0020,caprino,Anglo Nubiana,Boer,1.5,3,3.2,0.13,0.57,IA_cervical,12,0,2024-12-04,0.646,prenhe
+E-CA-000825,CA-M-00182,CA-R-0012,caprino,Anglo Nubiana,Alpina,5.9,0,3.4,0.41,0.49,IA_laparoscopica,3,1,2024-03-05,0.875,vazia
+E-CA-000826,CA-M-00108,CA-R-0000,caprino,Anglo Nubiana,Moxoto,4.8,4,3.0,0.23,0.55,IA_laparoscopica,1,0,2025-01-19,0.789,prenhe
+E-CA-000827,CA-M-00117,CA-R-0021,caprino,Saanen,Boer,9.3,1,3.3,0.59,0.46,IA_cervical,12,0,2024-12-21,0.553,vazia
+E-CA-000828,CA-M-00056,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,7.7,0,4.0,0.71,0.61,IATF,4,1,2025-04-09,0.525,vazia
+E-CA-000829,CA-M-00100,CA-R-0012,caprino,Boer,Alpina,4.7,4,3.7,0.67,0.49,IATF,9,0,2025-09-10,0.527,prenhe
+E-CA-000830,CA-M-00249,CA-R-0000,caprino,Alpina,Moxoto,3.4,4,3.3,0.74,0.55,IA_cervical,2,0,2025-02-18,0.782,prenhe
+E-CA-000831,CA-M-00267,CA-R-0002,caprino,Saanen,Anglo Nubiana,6.5,1,3.6,0.47,0.55,IATF,2,0,2024-02-07,0.373,vazia
+E-CA-000832,CA-M-00104,CA-R-0002,caprino,Saanen,Anglo Nubiana,8.4,1,3.3,0.13,0.55,IATF,8,0,2025-08-19,0.527,vazia
+E-CA-000833,CA-M-00042,CA-R-0025,caprino,Saanen,Boer,7.9,1,4.2,0.16,0.61,IA_cervical,12,0,2024-12-14,0.269,prenhe
+E-CA-000834,CA-M-00010,CA-R-0009,caprino,Boer,Anglo Nubiana,6.2,3,2.5,0.39,0.89,IA_laparoscopica,12,0,2024-12-21,0.734,prenhe
+E-CA-000835,CA-M-00056,CA-R-0012,caprino,Anglo Nubiana,Alpina,7.7,0,4.0,0.71,0.49,IA_laparoscopica,9,0,2025-09-29,0.522,vazia
+E-CA-000836,CA-M-00002,CA-R-0020,caprino,Pardo Alpina,Boer,1.4,2,3.3,0.64,0.57,IA_laparoscopica,3,1,2025-03-06,0.95,prenhe
+E-CA-000837,CA-M-00200,CA-R-0019,caprino,Alpina,Moxoto,4.4,4,4.0,0.56,0.75,IATF,7,0,2025-07-30,0.623,prenhe
+E-CA-000838,CA-M-00192,CA-R-0001,caprino,Boer,Anglo Nubiana,2.1,1,3.3,0.54,0.5,IA_cervical,10,0,2025-10-04,0.666,prenhe
+E-CA-000839,CA-M-00234,CA-R-0027,caprino,Boer,Moxoto,8.9,2,3.7,0.5,0.53,IA_cervical,12,0,2024-12-26,0.382,vazia
+E-CA-000840,CA-M-00099,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,3.5,0,3.9,0.59,0.59,IA_cervical,12,0,2025-12-18,0.546,prenhe
+E-CA-000841,CA-M-00249,CA-R-0023,caprino,Alpina,Pardo Alpina,3.4,4,3.3,0.74,0.76,IATF,5,1,2024-05-05,0.95,prenhe
+E-CA-000842,CA-M-00050,CA-R-0024,caprino,Pardo Alpina,Boer,2.1,4,3.4,0.78,0.74,IA_cervical,9,0,2025-09-28,0.896,prenhe
+E-CA-000843,CA-M-00069,CA-R-0016,caprino,Saanen,Caninde,1.4,5,2.8,0.7,0.58,IA_cervical,9,0,2025-09-11,0.788,vazia
+E-CA-000844,CA-M-00274,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,4.2,0,2.7,0.95,0.77,IA_cervical,3,1,2024-03-13,0.702,prenhe
+E-CA-000845,CA-M-00264,CA-R-0016,caprino,Caninde,Caninde,3.8,1,3.1,0.44,0.58,IA_laparoscopica,4,1,2024-04-21,0.903,prenhe
+E-CA-000846,CA-M-00179,CA-R-0007,caprino,Saanen,Pardo Alpina,4.3,0,2.4,0.66,0.59,IA_cervical,1,0,2024-01-27,0.49,vazia
+E-CA-000847,CA-M-00182,CA-R-0025,caprino,Anglo Nubiana,Boer,5.9,0,3.4,0.41,0.61,IA_cervical,7,0,2024-07-21,0.556,vazia
+E-CA-000848,CA-M-00210,CA-R-0022,caprino,Saanen,Boer,6.0,0,2.8,0.9,0.76,IA_cervical,12,0,2025-12-24,0.718,prenhe
+E-CA-000849,CA-M-00246,CA-R-0024,caprino,Anglo Nubiana,Boer,8.0,2,3.1,0.51,0.74,IA_cervical,3,1,2024-03-31,0.789,prenhe
+E-CA-000850,CA-M-00069,CA-R-0024,caprino,Saanen,Boer,1.4,5,2.8,0.7,0.74,IA_cervical,1,0,2024-01-25,0.696,prenhe
+E-CA-000851,CA-M-00020,CA-R-0005,caprino,Caninde,Boer,3.4,0,2.8,0.66,0.56,IA_cervical,12,0,2024-12-01,0.612,prenhe
+E-CA-000852,CA-M-00055,CA-R-0000,caprino,Pardo Alpina,Moxoto,8.6,2,3.5,0.29,0.55,IA_laparoscopica,9,0,2024-09-15,0.723,prenhe
+E-CA-000853,CA-M-00107,CA-R-0018,caprino,Caninde,Alpina,4.3,3,2.9,0.27,0.49,IA_cervical,4,1,2025-04-04,0.719,vazia
+E-CA-000854,CA-M-00070,CA-R-0018,caprino,Anglo Nubiana,Alpina,7.3,3,3.0,0.18,0.49,IA_cervical,3,1,2025-03-18,0.636,prenhe
+E-CA-000855,CA-M-00157,CA-R-0025,caprino,Alpina,Boer,2.5,3,3.6,0.54,0.61,IA_laparoscopica,8,0,2025-08-26,0.765,prenhe
+E-CA-000856,CA-M-00041,CA-R-0019,caprino,Anglo Nubiana,Moxoto,1.2,0,3.1,0.38,0.75,IA_cervical,10,0,2024-10-29,0.646,prenhe
+E-CA-000857,CA-M-00173,CA-R-0024,caprino,Anglo Nubiana,Boer,4.3,5,3.2,0.43,0.74,IA_cervical,12,0,2024-12-02,0.761,prenhe
+E-CA-000858,CA-M-00213,CA-R-0010,caprino,Caninde,Caninde,9.7,5,3.4,0.5,0.45,IA_cervical,1,0,2024-01-17,0.516,prenhe
+E-CA-000859,CA-M-00029,CA-R-0003,caprino,Alpina,Anglo Nubiana,9.6,2,3.1,0.71,0.58,IA_cervical,12,0,2025-12-09,0.583,vazia
+E-CA-000860,CA-M-00086,CA-R-0001,caprino,Caninde,Anglo Nubiana,9.8,0,2.9,0.29,0.5,IA_cervical,6,1,2024-06-04,0.531,prenhe
+E-CA-000861,CA-M-00161,CA-R-0013,caprino,Boer,Alpina,9.3,3,3.8,0.71,0.4,IATF,3,1,2025-03-10,0.486,prenhe
+E-CA-000862,CA-M-00019,CA-R-0000,caprino,Anglo Nubiana,Moxoto,7.2,0,2.8,0.56,0.55,IA_cervical,10,0,2025-10-04,0.475,vazia
+E-CA-000863,CA-M-00199,CA-R-0015,caprino,Moxoto,Saanen,3.3,2,3.4,0.16,0.71,IA_laparoscopica,3,1,2025-03-17,0.95,prenhe
+E-CA-000864,CA-M-00226,CA-R-0012,caprino,Anglo Nubiana,Alpina,9.0,2,2.5,0.6,0.49,IATF,4,1,2025-04-01,0.542,prenhe
+E-CA-000865,CA-M-00108,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,4.8,4,3.0,0.23,0.59,IA_cervical,5,1,2024-05-07,0.761,prenhe
+E-CA-000866,CA-M-00002,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,1.4,2,3.3,0.64,0.61,IATF,6,1,2025-06-01,0.896,prenhe
+E-CA-000867,CA-M-00150,CA-R-0020,caprino,Anglo Nubiana,Boer,3.6,5,2.9,0.73,0.57,IA_cervical,5,1,2024-05-18,0.828,prenhe
+E-CA-000868,CA-M-00260,CA-R-0001,caprino,Saanen,Anglo Nubiana,5.7,0,3.8,0.6,0.5,IA_laparoscopica,5,1,2025-05-20,0.675,prenhe
+E-CA-000869,CA-M-00087,CA-R-0014,caprino,Pardo Alpina,Anglo Nubiana,2.3,1,4.1,0.45,0.62,IATF,2,0,2025-02-24,0.431,vazia
+E-CA-000870,CA-M-00254,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.5,2,3.7,0.14,0.41,IA_cervical,12,0,2024-12-23,0.335,prenhe
+E-CA-000871,CA-M-00261,CA-R-0008,caprino,Saanen,Alpina,1.6,1,3.6,1.0,0.66,IATF,6,1,2025-06-10,0.688,prenhe
+E-CA-000872,CA-M-00084,CA-R-0023,caprino,Boer,Pardo Alpina,4.6,1,2.8,0.55,0.76,IA_cervical,6,1,2025-06-09,0.904,prenhe
+E-CA-000873,CA-M-00179,CA-R-0010,caprino,Saanen,Caninde,4.3,0,2.4,0.66,0.45,IA_laparoscopica,5,1,2024-05-29,0.622,prenhe
+E-CA-000874,CA-M-00012,CA-R-0008,caprino,Moxoto,Alpina,2.0,0,3.8,0.4,0.66,IA_cervical,10,0,2024-10-01,0.472,prenhe
+E-CA-000875,CA-M-00165,CA-R-0025,caprino,Caninde,Boer,2.6,3,2.7,0.21,0.61,IA_cervical,12,0,2024-12-19,0.446,prenhe
+E-CA-000876,CA-M-00263,CA-R-0010,caprino,Saanen,Caninde,5.7,3,2.7,0.48,0.45,IA_cervical,4,1,2024-04-20,0.543,prenhe
+E-CA-000877,CA-M-00283,CA-R-0025,caprino,Boer,Boer,3.9,2,3.3,0.5,0.61,IATF,9,0,2024-09-17,0.849,prenhe
+E-CA-000878,CA-M-00059,CA-R-0019,caprino,Boer,Moxoto,5.9,2,2.6,0.61,0.75,IA_laparoscopica,1,0,2024-01-31,0.884,vazia
+E-CA-000879,CA-M-00199,CA-R-0024,caprino,Moxoto,Boer,3.3,2,3.4,0.16,0.74,IATF,11,0,2024-11-16,0.826,prenhe
+E-CA-000880,CA-M-00019,CA-R-0024,caprino,Anglo Nubiana,Boer,7.2,0,2.8,0.56,0.74,IA_cervical,5,1,2024-05-30,0.596,prenhe
+E-CA-000881,CA-M-00083,CA-R-0027,caprino,Saanen,Moxoto,9.3,5,2.9,0.36,0.53,IA_cervical,6,1,2024-06-11,0.511,prenhe
+E-CA-000882,CA-M-00250,CA-R-0016,caprino,Alpina,Caninde,7.4,2,3.4,0.57,0.58,IA_cervical,8,0,2025-08-20,0.643,prenhe
+E-CA-000883,CA-M-00192,CA-R-0028,caprino,Boer,Caninde,2.1,1,3.3,0.54,0.41,IA_cervical,4,1,2024-04-12,0.748,vazia
+E-CA-000884,CA-M-00117,CA-R-0001,caprino,Saanen,Anglo Nubiana,9.3,1,3.3,0.59,0.5,IA_cervical,3,1,2024-03-29,0.588,vazia
+E-CA-000885,CA-M-00288,CA-R-0014,caprino,Boer,Anglo Nubiana,2.1,2,4.1,0.12,0.62,IATF,8,0,2024-08-21,0.413,vazia
+E-CA-000886,CA-M-00227,CA-R-0011,caprino,Anglo Nubiana,Boer,1.6,4,2.2,0.73,0.48,IATF,1,0,2024-01-18,0.451,prenhe
+E-CA-000887,CA-M-00007,CA-R-0002,caprino,Saanen,Anglo Nubiana,2.8,2,3.7,0.61,0.55,IA_cervical,9,0,2025-09-26,0.665,prenhe
+E-CA-000888,CA-M-00023,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,7.8,1,3.8,0.31,0.71,IA_cervical,12,0,2025-12-21,0.382,vazia
+E-CA-000889,CA-M-00187,CA-R-0024,caprino,Caninde,Boer,6.7,0,3.0,0.33,0.74,IA_laparoscopica,8,0,2025-08-10,0.714,prenhe
+E-CA-000890,CA-M-00263,CA-R-0022,caprino,Saanen,Boer,5.7,3,2.7,0.48,0.76,IA_laparoscopica,8,0,2025-08-06,0.814,prenhe
+E-CA-000891,CA-M-00047,CA-R-0019,caprino,Alpina,Moxoto,1.3,2,3.2,0.8,0.75,IA_laparoscopica,3,1,2024-03-15,0.95,prenhe
+E-CA-000892,CA-M-00161,CA-R-0018,caprino,Boer,Alpina,9.3,3,3.8,0.71,0.49,IA_cervical,2,0,2025-02-08,0.4,prenhe
+E-CA-000893,CA-M-00244,CA-R-0011,caprino,Anglo Nubiana,Boer,1.7,4,3.1,0.57,0.48,IA_cervical,3,1,2024-03-05,0.854,prenhe
+E-CA-000894,CA-M-00258,CA-R-0020,caprino,Boer,Boer,8.6,5,3.0,0.85,0.57,IA_cervical,8,0,2024-08-07,0.534,vazia
+E-CA-000895,CA-M-00192,CA-R-0029,caprino,Boer,Saanen,2.1,1,3.3,0.54,0.69,IATF,12,0,2024-12-25,0.832,prenhe
+E-CA-000896,CA-M-00299,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,6.9,0,3.7,0.59,0.59,IA_laparoscopica,5,1,2025-05-12,0.528,prenhe
+E-CA-000897,CA-M-00281,CA-R-0010,caprino,Anglo Nubiana,Caninde,5.2,3,3.4,0.77,0.45,IATF,7,0,2024-07-21,0.769,vazia
+E-CA-000898,CA-M-00250,CA-R-0003,caprino,Alpina,Anglo Nubiana,7.4,2,3.4,0.57,0.58,IA_cervical,7,0,2024-07-05,0.707,prenhe
+E-CA-000899,CA-M-00200,CA-R-0027,caprino,Alpina,Moxoto,4.4,4,4.0,0.56,0.53,IA_cervical,8,0,2025-08-24,0.599,vazia
+E-CA-000900,CA-M-00295,CA-R-0015,caprino,Saanen,Saanen,7.7,3,4.8,0.73,0.71,IA_cervical,6,1,2024-06-12,0.541,prenhe
+E-CA-000901,CA-M-00005,CA-R-0017,caprino,Boer,Anglo Nubiana,9.5,5,3.0,0.7,0.61,IATF,12,0,2024-12-20,0.562,vazia
+E-CA-000902,CA-M-00026,CA-R-0007,caprino,Boer,Pardo Alpina,6.4,3,3.1,0.49,0.59,IA_cervical,7,0,2024-07-28,0.577,prenhe
+E-CA-000903,CA-M-00153,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,7.3,1,3.0,0.48,0.5,IA_laparoscopica,9,0,2025-09-14,0.763,prenhe
+E-CA-000904,CA-M-00201,CA-R-0024,caprino,Anglo Nubiana,Boer,4.2,2,3.7,0.45,0.74,IA_cervical,1,0,2025-01-25,0.65,vazia
+E-CA-000905,CA-M-00271,CA-R-0025,caprino,Pardo Alpina,Boer,3.9,4,2.9,0.29,0.61,IA_cervical,3,1,2024-03-19,0.837,vazia
+E-CA-000906,CA-M-00203,CA-R-0010,caprino,Anglo Nubiana,Caninde,7.7,4,3.7,0.34,0.45,IA_cervical,4,1,2024-04-18,0.442,vazia
+E-CA-000907,CA-M-00069,CA-R-0022,caprino,Saanen,Boer,1.4,5,2.8,0.7,0.76,IA_cervical,12,0,2025-12-09,0.76,prenhe
+E-CA-000908,CA-M-00272,CA-R-0017,caprino,Caninde,Anglo Nubiana,1.7,5,3.1,0.78,0.61,IATF,11,0,2025-11-17,0.798,prenhe
+E-CA-000909,CA-M-00024,CA-R-0019,caprino,Pardo Alpina,Moxoto,2.8,5,3.8,0.46,0.75,IATF,7,0,2025-07-13,0.595,prenhe
+E-CA-000910,CA-M-00028,CA-R-0005,caprino,Anglo Nubiana,Boer,2.7,1,2.8,0.63,0.56,IA_laparoscopica,2,0,2024-02-26,0.872,prenhe
+E-CA-000911,CA-M-00215,CA-R-0018,caprino,Pardo Alpina,Alpina,2.2,2,2.6,0.68,0.49,IA_cervical,6,1,2025-06-18,0.581,prenhe
+E-CA-000912,CA-M-00289,CA-R-0004,caprino,Caninde,Anglo Nubiana,6.2,0,3.1,0.51,0.77,IATF,4,1,2025-04-27,0.748,prenhe
+E-CA-000913,CA-M-00150,CA-R-0006,caprino,Anglo Nubiana,Caninde,3.6,5,2.9,0.73,0.74,IA_cervical,11,0,2025-11-17,0.794,vazia
+E-CA-000914,CA-M-00040,CA-R-0010,caprino,Anglo Nubiana,Caninde,8.5,4,2.9,0.52,0.45,IATF,12,0,2024-12-21,0.564,vazia
+E-CA-000915,CA-M-00014,CA-R-0006,caprino,Saanen,Caninde,6.1,2,3.2,0.81,0.74,IATF,12,0,2024-12-09,0.827,prenhe
+E-CA-000916,CA-M-00293,CA-R-0027,caprino,Boer,Moxoto,3.5,3,3.5,0.59,0.53,IA_cervical,4,1,2025-04-06,0.832,prenhe
+E-CA-000917,CA-M-00083,CA-R-0000,caprino,Saanen,Moxoto,9.3,5,2.9,0.36,0.55,IA_cervical,4,1,2024-04-18,0.585,prenhe
+E-CA-000918,CA-M-00191,CA-R-0027,caprino,Boer,Moxoto,7.3,1,4.1,0.65,0.53,IA_cervical,6,1,2025-06-28,0.426,prenhe
+E-CA-000919,CA-M-00098,CA-R-0004,caprino,Moxoto,Anglo Nubiana,1.2,4,3.0,0.49,0.77,IA_cervical,12,0,2024-12-28,0.849,prenhe
+E-CA-000920,CA-M-00064,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,2.3,5,3.7,0.3,0.71,IATF,5,1,2024-05-17,0.629,vazia
+E-CA-000921,CA-M-00200,CA-R-0010,caprino,Alpina,Caninde,4.4,4,4.0,0.56,0.45,IA_laparoscopica,8,0,2025-08-18,0.693,prenhe
+E-CA-000922,CA-M-00221,CA-R-0027,caprino,Pardo Alpina,Moxoto,8.8,0,3.3,0.38,0.53,IA_cervical,7,0,2024-07-12,0.567,prenhe
+E-CA-000923,CA-M-00141,CA-R-0016,caprino,Saanen,Caninde,8.4,0,3.1,0.67,0.58,IA_cervical,9,0,2025-09-19,0.509,vazia
+E-CA-000924,CA-M-00152,CA-R-0014,caprino,Alpina,Anglo Nubiana,4.0,2,3.7,0.48,0.62,IATF,7,0,2024-07-18,0.651,prenhe
+E-CA-000925,CA-M-00146,CA-R-0003,caprino,Boer,Anglo Nubiana,4.1,2,3.8,0.45,0.58,IA_cervical,12,0,2024-12-22,0.558,prenhe
+E-CA-000926,CA-M-00177,CA-R-0013,caprino,Saanen,Alpina,1.7,1,2.8,0.69,0.4,IA_cervical,11,0,2024-11-14,0.681,prenhe
+E-CA-000927,CA-M-00241,CA-R-0016,caprino,Boer,Caninde,5.5,3,3.1,0.76,0.58,IA_laparoscopica,6,1,2025-06-18,0.95,prenhe
+E-CA-000928,CA-M-00213,CA-R-0029,caprino,Caninde,Saanen,9.7,5,3.4,0.5,0.69,IA_cervical,5,1,2024-05-15,0.64,prenhe
+E-CA-000929,CA-M-00083,CA-R-0007,caprino,Saanen,Pardo Alpina,9.3,5,2.9,0.36,0.59,IA_cervical,6,1,2024-06-29,0.618,vazia
+E-CA-000930,CA-M-00074,CA-R-0002,caprino,Saanen,Anglo Nubiana,4.5,4,2.8,0.65,0.55,IA_cervical,5,1,2024-05-20,0.853,prenhe
+E-CA-000931,CA-M-00201,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,4.2,2,3.7,0.45,0.59,IA_cervical,6,1,2024-06-17,0.614,vazia
+E-CA-000932,CA-M-00193,CA-R-0007,caprino,Saanen,Pardo Alpina,3.1,2,3.1,0.53,0.59,IATF,11,0,2024-11-26,0.845,vazia
+E-CA-000933,CA-M-00110,CA-R-0028,caprino,Saanen,Caninde,9.0,1,2.5,0.83,0.41,IATF,3,1,2025-03-03,0.536,vazia
+E-CA-000934,CA-M-00251,CA-R-0004,caprino,Moxoto,Anglo Nubiana,3.6,0,3.2,0.35,0.77,IATF,9,0,2025-09-22,0.696,vazia
+E-CA-000935,CA-M-00125,CA-R-0029,caprino,Boer,Saanen,9.7,5,3.3,0.49,0.69,IATF,11,0,2024-11-03,0.659,vazia
+E-CA-000936,CA-M-00100,CA-R-0003,caprino,Boer,Anglo Nubiana,4.7,4,3.7,0.67,0.58,IA_cervical,10,0,2024-10-26,0.564,vazia
+E-CA-000937,CA-M-00166,CA-R-0024,caprino,Boer,Boer,8.9,4,3.0,0.68,0.74,IA_cervical,4,1,2024-04-27,0.791,prenhe
+E-CA-000938,CA-M-00057,CA-R-0012,caprino,Saanen,Alpina,1.4,3,3.0,0.51,0.49,IA_laparoscopica,3,1,2024-03-13,0.937,prenhe
+E-CA-000939,CA-M-00208,CA-R-0001,caprino,Saanen,Anglo Nubiana,8.5,4,3.5,0.34,0.5,IA_cervical,7,0,2025-07-09,0.586,vazia
+E-CA-000940,CA-M-00269,CA-R-0018,caprino,Moxoto,Alpina,6.9,5,2.7,0.62,0.49,IATF,4,1,2025-04-06,0.436,vazia
+E-CA-000941,CA-M-00283,CA-R-0021,caprino,Boer,Boer,3.9,2,3.3,0.5,0.46,IA_cervical,1,0,2025-01-23,0.732,vazia
+E-CA-000942,CA-M-00134,CA-R-0025,caprino,Alpina,Boer,4.9,1,3.3,0.46,0.61,IA_cervical,11,0,2024-11-20,0.726,prenhe
+E-CA-000943,CA-M-00080,CA-R-0005,caprino,Saanen,Boer,5.3,0,2.5,0.38,0.56,IA_laparoscopica,1,0,2025-01-14,0.591,vazia
+E-CA-000944,CA-M-00143,CA-R-0018,caprino,Anglo Nubiana,Alpina,1.4,1,3.1,0.55,0.49,IATF,9,0,2025-09-09,0.787,prenhe
+E-CA-000945,CA-M-00031,CA-R-0017,caprino,Boer,Anglo Nubiana,2.7,3,4.1,0.85,0.61,IA_laparoscopica,5,1,2024-05-18,0.767,prenhe
+E-CA-000946,CA-M-00200,CA-R-0013,caprino,Alpina,Alpina,4.4,4,4.0,0.56,0.4,IA_laparoscopica,12,0,2024-12-30,0.612,prenhe
+E-CA-000947,CA-M-00128,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,8.7,2,2.9,0.9,0.71,IA_cervical,6,1,2024-06-25,0.867,prenhe
+E-CA-000948,CA-M-00036,CA-R-0012,caprino,Anglo Nubiana,Alpina,1.5,3,3.2,0.13,0.49,IA_laparoscopica,3,1,2024-03-17,0.775,prenhe
+E-CA-000949,CA-M-00164,CA-R-0011,caprino,Boer,Boer,6.3,5,3.1,0.56,0.48,IA_laparoscopica,5,1,2025-05-20,0.829,prenhe
+E-CA-000950,CA-M-00215,CA-R-0015,caprino,Pardo Alpina,Saanen,2.2,2,2.6,0.68,0.71,IA_cervical,5,1,2025-05-29,0.745,prenhe
+E-CA-000951,CA-M-00068,CA-R-0027,caprino,Caninde,Moxoto,2.3,2,3.0,0.87,0.53,IATF,9,0,2025-09-13,0.755,prenhe
+E-CA-000952,CA-M-00121,CA-R-0026,caprino,Saanen,Anglo Nubiana,7.7,0,3.1,0.79,0.71,IA_cervical,1,0,2024-01-16,0.575,vazia
+E-CA-000953,CA-M-00267,CA-R-0021,caprino,Saanen,Boer,6.5,1,3.6,0.47,0.46,IA_cervical,5,1,2024-05-09,0.336,vazia
+E-CA-000954,CA-M-00212,CA-R-0002,caprino,Alpina,Anglo Nubiana,3.9,5,3.4,0.64,0.55,IATF,2,0,2025-02-23,0.727,prenhe
+E-CA-000955,CA-M-00239,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,9.5,0,3.5,1.0,0.89,IA_cervical,8,0,2025-08-16,0.67,prenhe
+E-CA-000956,CA-M-00134,CA-R-0000,caprino,Alpina,Moxoto,4.9,1,3.3,0.46,0.55,IA_laparoscopica,11,0,2025-11-17,0.867,prenhe
+E-CA-000957,CA-M-00148,CA-R-0002,caprino,Alpina,Anglo Nubiana,6.3,2,3.4,0.24,0.55,IA_cervical,7,0,2025-07-29,0.533,prenhe
+E-CA-000958,CA-M-00149,CA-R-0024,caprino,Caninde,Boer,9.9,0,3.3,0.41,0.74,IATF,10,0,2025-10-22,0.564,prenhe
+E-CA-000959,CA-M-00135,CA-R-0024,caprino,Boer,Boer,6.3,2,3.5,0.49,0.74,IA_cervical,8,0,2025-08-17,0.699,prenhe
+E-CA-000960,CA-M-00043,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,5.4,5,3.3,0.83,0.58,IA_cervical,8,0,2024-08-18,0.759,prenhe
+E-CA-000961,CA-M-00012,CA-R-0013,caprino,Moxoto,Alpina,2.0,0,3.8,0.4,0.4,IATF,2,0,2025-02-28,0.467,vazia
+E-CA-000962,CA-M-00249,CA-R-0008,caprino,Alpina,Alpina,3.4,4,3.3,0.74,0.66,IA_laparoscopica,4,1,2025-04-08,0.95,prenhe
+E-CA-000963,CA-M-00161,CA-R-0002,caprino,Boer,Anglo Nubiana,9.3,3,3.8,0.71,0.55,IA_cervical,9,0,2024-09-13,0.471,vazia
+E-CA-000964,CA-M-00159,CA-R-0011,caprino,Pardo Alpina,Boer,1.9,0,3.5,0.6,0.48,IA_cervical,10,0,2025-10-08,0.59,prenhe
+E-CA-000965,CA-M-00178,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,6.7,5,3.2,0.53,0.58,IA_cervical,7,0,2025-07-16,0.546,vazia
+E-CA-000966,CA-M-00123,CA-R-0022,caprino,Boer,Boer,5.7,4,3.6,0.52,0.76,IATF,1,0,2025-01-12,0.639,prenhe
+E-CA-000967,CA-M-00267,CA-R-0029,caprino,Saanen,Saanen,6.5,1,3.6,0.47,0.69,IA_laparoscopica,12,0,2024-12-16,0.579,prenhe
+E-CA-000968,CA-M-00140,CA-R-0012,caprino,Caninde,Alpina,3.5,0,4.3,0.47,0.49,IATF,8,0,2025-08-01,0.339,prenhe
+E-CA-000969,CA-M-00150,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,3.6,5,2.9,0.73,0.59,IATF,6,1,2024-06-10,0.837,prenhe
+E-CA-000970,CA-M-00159,CA-R-0014,caprino,Pardo Alpina,Anglo Nubiana,1.9,0,3.5,0.6,0.62,IA_cervical,6,1,2024-06-08,0.758,prenhe
+E-CA-000971,CA-M-00047,CA-R-0028,caprino,Alpina,Caninde,1.3,2,3.2,0.8,0.41,IA_laparoscopica,10,0,2024-10-20,0.929,prenhe
+E-CA-000972,CA-M-00052,CA-R-0004,caprino,Caninde,Anglo Nubiana,9.2,0,1.8,0.43,0.77,IA_laparoscopica,4,1,2024-04-03,0.549,vazia
+E-CA-000973,CA-M-00054,CA-R-0020,caprino,Caninde,Boer,6.2,4,4.4,0.39,0.57,IATF,11,0,2024-11-30,0.317,vazia
+E-CA-000974,CA-M-00076,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.6,4,3.7,0.64,0.55,IA_laparoscopica,11,0,2024-11-11,0.768,prenhe
+E-CA-000975,CA-M-00047,CA-R-0009,caprino,Alpina,Anglo Nubiana,1.3,2,3.2,0.8,0.89,IA_cervical,1,0,2025-01-03,0.88,prenhe
+E-CA-000976,CA-M-00067,CA-R-0013,caprino,Saanen,Alpina,8.2,5,3.3,0.55,0.4,IATF,12,0,2024-12-02,0.528,prenhe
+E-CA-000977,CA-M-00281,CA-R-0011,caprino,Anglo Nubiana,Boer,5.2,3,3.4,0.77,0.48,IA_laparoscopica,10,0,2025-10-17,0.912,prenhe
+E-CA-000978,CA-M-00108,CA-R-0005,caprino,Anglo Nubiana,Boer,4.8,4,3.0,0.23,0.56,IATF,7,0,2024-07-19,0.72,prenhe
+E-CA-000979,CA-M-00238,CA-R-0023,caprino,Boer,Pardo Alpina,5.6,4,2.5,0.28,0.76,IA_cervical,10,0,2024-10-27,0.611,vazia
+E-CA-000980,CA-M-00117,CA-R-0020,caprino,Saanen,Boer,9.3,1,3.3,0.59,0.57,IA_cervical,6,1,2025-06-22,0.736,vazia
+E-CA-000981,CA-M-00247,CA-R-0013,caprino,Alpina,Alpina,3.8,5,2.7,0.86,0.4,IA_laparoscopica,7,0,2024-07-26,0.681,prenhe
+E-CA-000982,CA-M-00225,CA-R-0012,caprino,Boer,Alpina,9.2,4,3.3,0.45,0.49,IATF,4,1,2025-04-24,0.68,prenhe
+E-CA-000983,CA-M-00252,CA-R-0002,caprino,Moxoto,Anglo Nubiana,4.6,1,3.1,0.94,0.55,IA_cervical,12,0,2025-12-03,0.733,prenhe
+E-CA-000984,CA-M-00086,CA-R-0019,caprino,Caninde,Moxoto,9.8,0,2.9,0.29,0.75,IA_cervical,10,0,2024-10-01,0.578,prenhe
+E-CA-000985,CA-M-00028,CA-R-0006,caprino,Anglo Nubiana,Caninde,2.7,1,2.8,0.63,0.74,IATF,6,1,2024-06-25,0.878,prenhe
+E-CA-000986,CA-M-00092,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,3.7,5,3.8,0.48,0.89,IATF,5,1,2024-05-18,0.646,prenhe
+E-CA-000987,CA-M-00210,CA-R-0025,caprino,Saanen,Boer,6.0,0,2.8,0.9,0.61,IA_cervical,1,0,2024-01-09,0.724,vazia
+E-CA-000988,CA-M-00196,CA-R-0019,caprino,Moxoto,Moxoto,7.2,5,3.0,0.88,0.75,IA_cervical,7,0,2024-07-26,0.686,vazia
+E-CA-000989,CA-M-00211,CA-R-0020,caprino,Anglo Nubiana,Boer,5.9,2,2.8,0.56,0.57,IA_cervical,9,0,2025-09-12,0.709,prenhe
+E-CA-000990,CA-M-00298,CA-R-0007,caprino,Caninde,Pardo Alpina,4.9,4,2.8,0.75,0.59,IA_cervical,7,0,2024-07-04,0.79,vazia
+E-CA-000991,CA-M-00067,CA-R-0015,caprino,Saanen,Saanen,8.2,5,3.3,0.55,0.71,IA_cervical,11,0,2025-11-27,0.59,vazia
+E-CA-000992,CA-M-00133,CA-R-0000,caprino,Anglo Nubiana,Moxoto,1.0,3,4.3,0.98,0.55,IA_cervical,11,0,2025-11-26,0.553,prenhe
+E-CA-000993,CA-M-00147,CA-R-0007,caprino,Moxoto,Pardo Alpina,3.4,2,3.5,0.37,0.59,IA_laparoscopica,5,1,2025-05-12,0.95,prenhe
+E-CA-000994,CA-M-00044,CA-R-0024,caprino,Saanen,Boer,7.0,0,3.5,0.51,0.74,IA_cervical,12,0,2025-12-17,0.512,prenhe
+E-CA-000995,CA-M-00198,CA-R-0014,caprino,Boer,Anglo Nubiana,4.2,5,2.7,0.65,0.62,IA_cervical,10,0,2024-10-24,0.64,vazia
+E-CA-000996,CA-M-00014,CA-R-0019,caprino,Saanen,Moxoto,6.1,2,3.2,0.81,0.75,IATF,11,0,2025-11-29,0.77,prenhe
+E-CA-000997,CA-M-00269,CA-R-0023,caprino,Moxoto,Pardo Alpina,6.9,5,2.7,0.62,0.76,IA_cervical,1,0,2025-01-31,0.487,vazia
+E-CA-000998,CA-M-00026,CA-R-0028,caprino,Boer,Caninde,6.4,3,3.1,0.49,0.41,IATF,2,0,2024-02-28,0.578,vazia
+E-CA-000999,CA-M-00033,CA-R-0002,caprino,Boer,Anglo Nubiana,5.2,3,3.1,0.57,0.55,IA_cervical,8,0,2025-08-30,0.658,vazia
+E-CA-001000,CA-M-00052,CA-R-0017,caprino,Caninde,Anglo Nubiana,9.2,0,1.8,0.43,0.61,IATF,11,0,2025-11-24,0.217,vazia
+E-CA-001001,CA-M-00267,CA-R-0029,caprino,Saanen,Saanen,6.5,1,3.6,0.47,0.69,IATF,10,0,2025-10-08,0.434,vazia
+E-CA-001002,CA-M-00258,CA-R-0005,caprino,Boer,Boer,8.6,5,3.0,0.85,0.56,IA_cervical,10,0,2024-10-31,0.644,vazia
+E-CA-001003,CA-M-00276,CA-R-0025,caprino,Caninde,Boer,6.7,3,2.7,0.8,0.61,IA_laparoscopica,3,1,2024-03-15,0.695,vazia
+E-CA-001004,CA-M-00249,CA-R-0017,caprino,Alpina,Anglo Nubiana,3.4,4,3.3,0.74,0.61,IA_laparoscopica,3,1,2025-03-03,0.95,prenhe
+E-CA-001005,CA-M-00277,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,8.8,0,2.5,0.68,0.89,IA_cervical,9,0,2025-09-25,0.51,prenhe
+E-CA-001006,CA-M-00141,CA-R-0023,caprino,Saanen,Pardo Alpina,8.4,0,3.1,0.67,0.76,IATF,9,0,2025-09-05,0.672,prenhe
+E-CA-001007,CA-M-00001,CA-R-0026,caprino,Caninde,Anglo Nubiana,2.3,0,3.4,0.57,0.71,IA_cervical,3,1,2025-03-26,0.81,vazia
+E-CA-001008,CA-M-00131,CA-R-0004,caprino,Caninde,Anglo Nubiana,5.5,0,2.2,0.5,0.77,IA_cervical,7,0,2025-07-28,0.399,vazia
+E-CA-001009,CA-M-00066,CA-R-0020,caprino,Alpina,Boer,5.1,2,3.4,0.27,0.57,IATF,1,0,2024-01-24,0.642,vazia
+E-CA-001010,CA-M-00073,CA-R-0028,caprino,Moxoto,Caninde,8.8,4,3.7,1.0,0.41,IA_cervical,3,1,2025-03-31,0.581,prenhe
+E-CA-001011,CA-M-00207,CA-R-0019,caprino,Anglo Nubiana,Moxoto,3.8,4,3.1,0.47,0.75,IA_cervical,3,1,2024-03-20,0.95,prenhe
+E-CA-001012,CA-M-00050,CA-R-0016,caprino,Pardo Alpina,Caninde,2.1,4,3.4,0.78,0.58,IA_cervical,7,0,2025-07-01,0.781,prenhe
+E-CA-001013,CA-M-00096,CA-R-0004,caprino,Moxoto,Anglo Nubiana,10.0,5,3.0,0.77,0.77,IATF,2,0,2024-02-03,0.635,prenhe
+E-CA-001014,CA-M-00117,CA-R-0013,caprino,Saanen,Alpina,9.3,1,3.3,0.59,0.4,IA_cervical,3,1,2025-03-10,0.567,vazia
+E-CA-001015,CA-M-00018,CA-R-0027,caprino,Saanen,Moxoto,7.0,5,3.7,0.56,0.53,IA_cervical,11,0,2025-11-23,0.374,vazia
+E-CA-001016,CA-M-00210,CA-R-0023,caprino,Saanen,Pardo Alpina,6.0,0,2.8,0.9,0.76,IA_laparoscopica,3,1,2024-03-22,0.95,prenhe
+E-CA-001017,CA-M-00228,CA-R-0013,caprino,Saanen,Alpina,6.9,0,3.6,0.79,0.4,IATF,11,0,2024-11-07,0.428,vazia
+E-CA-001018,CA-M-00167,CA-R-0009,caprino,Boer,Anglo Nubiana,1.4,3,2.3,0.63,0.89,IA_cervical,1,0,2024-01-30,0.768,vazia
+E-CA-001019,CA-M-00008,CA-R-0024,caprino,Boer,Boer,2.4,5,3.6,0.83,0.74,IATF,6,1,2025-06-06,0.741,prenhe
+E-CA-001020,CA-M-00236,CA-R-0029,caprino,Boer,Saanen,8.0,3,3.1,0.49,0.69,IA_cervical,11,0,2025-11-06,0.556,prenhe
+E-CA-001021,CA-M-00133,CA-R-0008,caprino,Anglo Nubiana,Alpina,1.0,3,4.3,0.98,0.66,IA_laparoscopica,1,0,2024-01-02,0.735,prenhe
+E-CA-001022,CA-M-00079,CA-R-0024,caprino,Alpina,Boer,3.6,5,3.0,0.76,0.74,IA_laparoscopica,2,0,2025-02-02,0.921,prenhe
+E-CA-001023,CA-M-00284,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,4.1,0,2.6,0.71,0.89,IA_cervical,8,0,2025-08-02,0.601,prenhe
+E-CA-001024,CA-M-00257,CA-R-0024,caprino,Anglo Nubiana,Boer,8.9,2,3.9,0.64,0.74,IATF,1,0,2024-01-19,0.574,vazia
+E-CA-001025,CA-M-00132,CA-R-0028,caprino,Saanen,Caninde,8.9,2,3.9,0.46,0.41,IA_laparoscopica,12,0,2024-12-17,0.547,prenhe
+E-CA-001026,CA-M-00132,CA-R-0019,caprino,Saanen,Moxoto,8.9,2,3.9,0.46,0.75,IA_cervical,4,1,2024-04-04,0.498,prenhe
+E-CA-001027,CA-M-00273,CA-R-0014,caprino,Boer,Anglo Nubiana,2.3,4,3.8,0.47,0.62,IA_cervical,11,0,2025-11-05,0.622,prenhe
+E-CA-001028,CA-M-00057,CA-R-0009,caprino,Saanen,Anglo Nubiana,1.4,3,3.0,0.51,0.89,IA_cervical,1,0,2025-01-06,0.869,prenhe
+E-CA-001029,CA-M-00122,CA-R-0001,caprino,Saanen,Anglo Nubiana,3.8,1,3.5,0.73,0.5,IATF,1,0,2025-01-15,0.754,prenhe
+E-CA-001030,CA-M-00171,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,9.4,5,3.3,0.16,0.5,IA_cervical,12,0,2025-12-28,0.469,vazia
+E-CA-001031,CA-M-00104,CA-R-0025,caprino,Saanen,Boer,8.4,1,3.3,0.13,0.61,IATF,7,0,2025-07-29,0.492,prenhe
+E-CA-001032,CA-M-00094,CA-R-0019,caprino,Boer,Moxoto,1.1,1,3.7,0.35,0.75,IA_cervical,8,0,2024-08-17,0.623,prenhe
+E-CA-001033,CA-M-00032,CA-R-0006,caprino,Boer,Caninde,8.2,5,2.5,0.68,0.74,IATF,4,1,2025-04-04,0.565,vazia
+E-CA-001034,CA-M-00080,CA-R-0016,caprino,Saanen,Caninde,5.3,0,2.5,0.38,0.58,IATF,8,0,2024-08-04,0.554,vazia
+E-CA-001035,CA-M-00107,CA-R-0026,caprino,Caninde,Anglo Nubiana,4.3,3,2.9,0.27,0.71,IA_cervical,1,0,2025-01-14,0.703,prenhe
+E-CA-001036,CA-M-00251,CA-R-0019,caprino,Moxoto,Moxoto,3.6,0,3.2,0.35,0.75,IA_cervical,8,0,2025-08-15,0.752,prenhe
+E-CA-001037,CA-M-00101,CA-R-0027,caprino,Caninde,Moxoto,5.9,1,3.2,0.77,0.53,IATF,11,0,2025-11-23,0.711,vazia
+E-CA-001038,CA-M-00048,CA-R-0003,caprino,Boer,Anglo Nubiana,1.4,1,4.5,0.73,0.58,IA_cervical,11,0,2025-11-25,0.595,prenhe
+E-CA-001039,CA-M-00253,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.9,5,3.8,0.92,0.55,IA_cervical,12,0,2024-12-27,0.516,vazia
+E-CA-001040,CA-M-00105,CA-R-0019,caprino,Anglo Nubiana,Moxoto,2.9,5,3.1,0.51,0.75,IATF,10,0,2025-10-15,0.815,vazia
+E-CA-001041,CA-M-00275,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,8.3,5,4.3,0.61,0.61,IATF,10,0,2025-10-13,0.308,prenhe
+E-CA-001042,CA-M-00032,CA-R-0020,caprino,Boer,Boer,8.2,5,2.5,0.68,0.57,IATF,2,0,2025-02-02,0.46,prenhe
+E-CA-001043,CA-M-00006,CA-R-0029,caprino,Anglo Nubiana,Saanen,8.4,2,3.5,0.62,0.69,IATF,1,0,2024-01-27,0.708,vazia
+E-CA-001044,CA-M-00276,CA-R-0003,caprino,Caninde,Anglo Nubiana,6.7,3,2.7,0.8,0.58,IA_laparoscopica,3,1,2024-03-27,0.697,prenhe
+E-CA-001045,CA-M-00029,CA-R-0027,caprino,Alpina,Moxoto,9.6,2,3.1,0.71,0.53,IATF,4,1,2025-04-24,0.604,prenhe
+E-CA-001046,CA-M-00002,CA-R-0001,caprino,Pardo Alpina,Anglo Nubiana,1.4,2,3.3,0.64,0.5,IA_cervical,8,0,2025-08-29,0.863,prenhe
+E-CA-001047,CA-M-00192,CA-R-0015,caprino,Boer,Saanen,2.1,1,3.3,0.54,0.71,IATF,10,0,2025-10-27,0.786,prenhe
+E-CA-001048,CA-M-00095,CA-R-0024,caprino,Anglo Nubiana,Boer,2.5,4,3.3,0.94,0.74,IA_laparoscopica,6,1,2024-06-26,0.95,prenhe
+E-CA-001049,CA-M-00145,CA-R-0020,caprino,Alpina,Boer,8.0,3,2.9,0.48,0.57,IA_laparoscopica,10,0,2025-10-18,0.789,prenhe
+E-CA-001050,CA-M-00122,CA-R-0006,caprino,Saanen,Caninde,3.8,1,3.5,0.73,0.74,IATF,8,0,2025-08-26,0.866,prenhe
+E-CA-001051,CA-M-00089,CA-R-0018,caprino,Anglo Nubiana,Alpina,6.1,2,3.0,0.53,0.49,IA_cervical,12,0,2024-12-20,0.546,vazia
+E-CA-001052,CA-M-00144,CA-R-0027,caprino,Caninde,Moxoto,9.7,0,4.3,0.56,0.53,IA_laparoscopica,9,0,2024-09-30,0.369,vazia
+E-CA-001053,CA-M-00077,CA-R-0006,caprino,Saanen,Caninde,3.5,1,3.7,0.87,0.74,IA_cervical,12,0,2024-12-10,0.659,prenhe
+E-CA-001054,CA-M-00067,CA-R-0028,caprino,Saanen,Caninde,8.2,5,3.3,0.55,0.41,IA_cervical,5,1,2025-05-08,0.614,vazia
+E-CA-001055,CA-M-00067,CA-R-0019,caprino,Saanen,Moxoto,8.2,5,3.3,0.55,0.75,IA_cervical,8,0,2025-08-14,0.615,vazia
+E-CA-001056,CA-M-00035,CA-R-0002,caprino,Saanen,Anglo Nubiana,3.7,1,3.3,0.41,0.55,IATF,5,1,2024-05-05,0.845,prenhe
+E-CA-001057,CA-M-00157,CA-R-0009,caprino,Alpina,Anglo Nubiana,2.5,3,3.6,0.54,0.89,IA_cervical,9,0,2024-09-01,0.761,vazia
+E-CA-001058,CA-M-00164,CA-R-0025,caprino,Boer,Boer,6.3,5,3.1,0.56,0.61,IA_laparoscopica,3,1,2024-03-28,0.795,prenhe
+E-CA-001059,CA-M-00005,CA-R-0010,caprino,Boer,Caninde,9.5,5,3.0,0.7,0.45,IA_laparoscopica,11,0,2025-11-15,0.611,prenhe
+E-CA-001060,CA-M-00137,CA-R-0028,caprino,Moxoto,Caninde,7.6,1,2.5,0.56,0.41,IATF,10,0,2024-10-24,0.355,prenhe
+E-CA-001061,CA-M-00221,CA-R-0012,caprino,Pardo Alpina,Alpina,8.8,0,3.3,0.38,0.49,IATF,7,0,2024-07-01,0.508,prenhe
+E-CA-001062,CA-M-00000,CA-R-0010,caprino,Saanen,Caninde,9.8,4,3.3,0.65,0.45,IA_cervical,5,1,2024-05-28,0.673,prenhe
+E-CA-001063,CA-M-00090,CA-R-0025,caprino,Caninde,Boer,8.9,4,3.2,0.56,0.61,IA_cervical,2,0,2024-02-24,0.668,prenhe
+E-CA-001064,CA-M-00288,CA-R-0023,caprino,Boer,Pardo Alpina,2.1,2,4.1,0.12,0.76,IA_laparoscopica,12,0,2024-12-10,0.681,vazia
+E-CA-001065,CA-M-00128,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,8.7,2,2.9,0.9,0.59,IA_cervical,7,0,2025-07-17,0.723,prenhe
+E-CA-001066,CA-M-00004,CA-R-0023,caprino,Caninde,Pardo Alpina,9.2,3,3.4,0.63,0.76,IA_cervical,8,0,2024-08-23,0.696,prenhe
+E-CA-001067,CA-M-00158,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,9.5,1,2.0,0.56,0.59,IA_cervical,10,0,2024-10-22,0.334,vazia
+E-CA-001068,CA-M-00123,CA-R-0026,caprino,Boer,Anglo Nubiana,5.7,4,3.6,0.52,0.71,IA_cervical,4,1,2025-04-09,0.82,prenhe
+E-CA-001069,CA-M-00063,CA-R-0000,caprino,Moxoto,Moxoto,2.3,5,2.9,0.66,0.55,IATF,9,0,2024-09-16,0.638,prenhe
+E-CA-001070,CA-M-00022,CA-R-0019,caprino,Anglo Nubiana,Moxoto,9.5,3,3.5,0.52,0.75,IATF,6,1,2025-06-23,0.818,vazia
+E-CA-001071,CA-M-00265,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,1.1,1,2.9,0.8,0.77,IA_laparoscopica,8,0,2024-08-22,0.95,prenhe
+E-CA-001072,CA-M-00243,CA-R-0020,caprino,Anglo Nubiana,Boer,8.4,5,3.6,0.66,0.57,IA_cervical,11,0,2024-11-21,0.331,prenhe
+E-CA-001073,CA-M-00204,CA-R-0029,caprino,Boer,Saanen,8.8,4,3.4,0.7,0.69,IATF,12,0,2025-12-16,0.776,prenhe
+E-CA-001074,CA-M-00005,CA-R-0020,caprino,Boer,Boer,9.5,5,3.0,0.7,0.57,IA_laparoscopica,9,0,2025-09-02,0.795,prenhe
+E-CA-001075,CA-M-00261,CA-R-0013,caprino,Saanen,Alpina,1.6,1,3.6,1.0,0.4,IATF,2,0,2025-02-21,0.506,prenhe
+E-CA-001076,CA-M-00141,CA-R-0024,caprino,Saanen,Boer,8.4,0,3.1,0.67,0.74,IA_cervical,10,0,2024-10-13,0.646,prenhe
+E-CA-001077,CA-M-00142,CA-R-0005,caprino,Caninde,Boer,4.8,5,3.7,0.76,0.56,IA_cervical,12,0,2025-12-25,0.522,vazia
+E-CA-001078,CA-M-00263,CA-R-0016,caprino,Saanen,Caninde,5.7,3,2.7,0.48,0.58,IA_laparoscopica,12,0,2024-12-03,0.735,vazia
+E-CA-001079,CA-M-00129,CA-R-0028,caprino,Alpina,Caninde,9.9,3,3.0,0.4,0.41,IATF,9,0,2024-09-07,0.538,vazia
+E-CA-001080,CA-M-00070,CA-R-0010,caprino,Anglo Nubiana,Caninde,7.3,3,3.0,0.18,0.45,IA_cervical,3,1,2025-03-11,0.642,vazia
+E-CA-001081,CA-M-00071,CA-R-0000,caprino,Saanen,Moxoto,10.0,5,4.1,0.72,0.55,IA_cervical,10,0,2024-10-29,0.288,vazia
+E-CA-001082,CA-M-00278,CA-R-0013,caprino,Moxoto,Alpina,9.9,3,4.0,0.81,0.4,IA_laparoscopica,10,0,2025-10-11,0.579,vazia
+E-CA-001083,CA-M-00163,CA-R-0014,caprino,Boer,Anglo Nubiana,2.7,5,3.5,0.9,0.62,IATF,6,1,2024-06-03,0.846,prenhe
+E-CA-001084,CA-M-00173,CA-R-0024,caprino,Anglo Nubiana,Boer,4.3,5,3.2,0.43,0.74,IATF,2,0,2024-02-06,0.725,prenhe
+E-CA-001085,CA-M-00177,CA-R-0024,caprino,Saanen,Boer,1.7,1,2.8,0.69,0.74,IATF,11,0,2024-11-10,0.77,prenhe
+E-CA-001086,CA-M-00066,CA-R-0010,caprino,Alpina,Caninde,5.1,2,3.4,0.27,0.45,IA_laparoscopica,11,0,2025-11-23,0.79,prenhe
+E-CA-001087,CA-M-00125,CA-R-0023,caprino,Boer,Pardo Alpina,9.7,5,3.3,0.49,0.76,IATF,2,0,2024-02-15,0.638,prenhe
+E-CA-001088,CA-M-00285,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,7.1,0,2.0,0.55,0.77,IA_cervical,8,0,2025-08-12,0.348,vazia
+E-CA-001089,CA-M-00043,CA-R-0005,caprino,Anglo Nubiana,Boer,5.4,5,3.3,0.83,0.56,IA_cervical,1,0,2024-01-01,0.78,prenhe
+E-CA-001090,CA-M-00285,CA-R-0018,caprino,Anglo Nubiana,Alpina,7.1,0,2.0,0.55,0.49,IA_laparoscopica,2,0,2025-02-10,0.398,prenhe
+E-CA-001091,CA-M-00081,CA-R-0021,caprino,Boer,Boer,2.8,3,3.6,0.62,0.46,IA_laparoscopica,11,0,2024-11-26,0.694,vazia
+E-CA-001092,CA-M-00088,CA-R-0024,caprino,Boer,Boer,8.3,5,3.1,0.62,0.74,IA_cervical,4,1,2024-04-26,0.649,prenhe
+E-CA-001093,CA-M-00004,CA-R-0018,caprino,Caninde,Alpina,9.2,3,3.4,0.63,0.49,IA_cervical,6,1,2025-06-28,0.697,prenhe
+E-CA-001094,CA-M-00199,CA-R-0003,caprino,Moxoto,Anglo Nubiana,3.3,2,3.4,0.16,0.58,IATF,5,1,2024-05-07,0.778,prenhe
+E-CA-001095,CA-M-00095,CA-R-0020,caprino,Anglo Nubiana,Boer,2.5,4,3.3,0.94,0.57,IATF,11,0,2024-11-15,0.852,prenhe
+E-CA-001096,CA-M-00137,CA-R-0012,caprino,Moxoto,Alpina,7.6,1,2.5,0.56,0.49,IA_cervical,2,0,2025-02-11,0.381,vazia
+E-CA-001097,CA-M-00174,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,3.1,1,3.0,0.74,0.59,IATF,1,0,2025-01-13,0.8,prenhe
+E-CA-001098,CA-M-00190,CA-R-0010,caprino,Caninde,Caninde,7.5,4,4.1,0.51,0.45,IA_cervical,1,0,2024-01-24,0.305,prenhe
+E-CA-001099,CA-M-00286,CA-R-0024,caprino,Caninde,Boer,6.6,1,2.8,0.65,0.74,IA_cervical,11,0,2024-11-21,0.647,vazia
+E-CA-001100,CA-M-00166,CA-R-0005,caprino,Boer,Boer,8.9,4,3.0,0.68,0.56,IA_cervical,4,1,2025-04-22,0.68,prenhe
+E-CA-001101,CA-M-00053,CA-R-0016,caprino,Anglo Nubiana,Caninde,3.4,1,2.8,0.49,0.58,IA_cervical,1,0,2025-01-19,0.659,prenhe
+E-CA-001102,CA-M-00211,CA-R-0002,caprino,Anglo Nubiana,Anglo Nubiana,5.9,2,2.8,0.56,0.55,IA_cervical,6,1,2025-06-16,0.864,prenhe
+E-CA-001103,CA-M-00016,CA-R-0021,caprino,Anglo Nubiana,Boer,4.7,0,4.2,0.18,0.46,IA_laparoscopica,7,0,2025-07-20,0.409,prenhe
+E-CA-001104,CA-M-00253,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,5.9,5,3.8,0.92,0.77,IATF,5,1,2024-05-10,0.695,prenhe
+E-CA-001105,CA-M-00088,CA-R-0028,caprino,Boer,Caninde,8.3,5,3.1,0.62,0.41,IA_cervical,8,0,2025-08-09,0.546,prenhe
+E-CA-001106,CA-M-00216,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,6.8,5,3.8,0.53,0.71,IATF,10,0,2025-10-15,0.403,prenhe
+E-CA-001107,CA-M-00047,CA-R-0025,caprino,Alpina,Boer,1.3,2,3.2,0.8,0.61,IATF,9,0,2025-09-03,0.846,prenhe
+E-CA-001108,CA-M-00122,CA-R-0010,caprino,Saanen,Caninde,3.8,1,3.5,0.73,0.45,IA_cervical,9,0,2025-09-13,0.711,prenhe
+E-CA-001109,CA-M-00208,CA-R-0023,caprino,Saanen,Pardo Alpina,8.5,4,3.5,0.34,0.76,IA_cervical,6,1,2024-06-04,0.732,prenhe
+E-CA-001110,CA-M-00186,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,8.2,0,2.2,0.34,0.77,IA_cervical,4,1,2025-04-20,0.242,prenhe
+E-CA-001111,CA-M-00001,CA-R-0008,caprino,Caninde,Alpina,2.3,0,3.4,0.57,0.66,IA_laparoscopica,11,0,2024-11-30,0.878,prenhe
+E-CA-001112,CA-M-00010,CA-R-0003,caprino,Boer,Anglo Nubiana,6.2,3,2.5,0.39,0.58,IA_cervical,12,0,2025-12-19,0.486,prenhe
+E-CA-001113,CA-M-00294,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,8.0,1,1.9,0.51,0.5,IA_laparoscopica,8,0,2025-08-29,0.471,vazia
+E-CA-001114,CA-M-00158,CA-R-0011,caprino,Anglo Nubiana,Boer,9.5,1,2.0,0.56,0.48,IA_laparoscopica,4,1,2024-04-27,0.408,prenhe
+E-CA-001115,CA-M-00256,CA-R-0017,caprino,Caninde,Anglo Nubiana,2.7,0,3.4,0.69,0.61,IA_laparoscopica,11,0,2025-11-18,0.95,prenhe
+E-CA-001116,CA-M-00021,CA-R-0025,caprino,Boer,Boer,1.2,5,2.0,0.64,0.61,IA_cervical,5,1,2025-05-23,0.446,vazia
+E-CA-001117,CA-M-00147,CA-R-0001,caprino,Moxoto,Anglo Nubiana,3.4,2,3.5,0.37,0.5,IA_cervical,1,0,2025-01-31,0.63,prenhe
+E-CA-001118,CA-M-00172,CA-R-0012,caprino,Anglo Nubiana,Alpina,8.5,3,3.5,0.88,0.49,IA_cervical,11,0,2024-11-21,0.691,vazia
+E-CA-001119,CA-M-00276,CA-R-0021,caprino,Caninde,Boer,6.7,3,2.7,0.8,0.46,IATF,12,0,2024-12-25,0.507,prenhe
+E-CA-001120,CA-M-00213,CA-R-0006,caprino,Caninde,Caninde,9.7,5,3.4,0.5,0.74,IA_laparoscopica,7,0,2025-07-16,0.77,prenhe
+E-CA-001121,CA-M-00188,CA-R-0022,caprino,Anglo Nubiana,Boer,4.8,5,3.8,0.48,0.76,IA_laparoscopica,7,0,2025-07-12,0.702,prenhe
+E-CA-001122,CA-M-00088,CA-R-0017,caprino,Boer,Anglo Nubiana,8.3,5,3.1,0.62,0.61,IA_laparoscopica,2,0,2025-02-07,0.805,prenhe
+E-CA-001123,CA-M-00298,CA-R-0016,caprino,Caninde,Caninde,4.9,4,2.8,0.75,0.58,IA_cervical,12,0,2025-12-24,0.79,vazia
+E-CA-001124,CA-M-00098,CA-R-0003,caprino,Moxoto,Anglo Nubiana,1.2,4,3.0,0.49,0.58,IA_cervical,6,1,2024-06-18,0.742,prenhe
+E-CA-001125,CA-M-00083,CA-R-0005,caprino,Saanen,Boer,9.3,5,2.9,0.36,0.56,IA_cervical,11,0,2024-11-06,0.558,prenhe
+E-CA-001126,CA-M-00217,CA-R-0026,caprino,Boer,Anglo Nubiana,5.6,5,3.7,0.63,0.71,IA_cervical,3,1,2025-03-13,0.661,vazia
+E-CA-001127,CA-M-00299,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,6.9,0,3.7,0.59,0.71,IA_cervical,4,1,2024-04-30,0.548,prenhe
+E-CA-001128,CA-M-00257,CA-R-0013,caprino,Anglo Nubiana,Alpina,8.9,2,3.9,0.64,0.4,IA_cervical,12,0,2024-12-30,0.427,vazia
+E-CA-001129,CA-M-00054,CA-R-0017,caprino,Caninde,Anglo Nubiana,6.2,4,4.4,0.39,0.61,IATF,9,0,2025-09-01,0.482,prenhe
+E-CA-001130,CA-M-00244,CA-R-0016,caprino,Anglo Nubiana,Caninde,1.7,4,3.1,0.57,0.58,IA_cervical,5,1,2025-05-08,0.821,vazia
+E-CA-001131,CA-M-00106,CA-R-0015,caprino,Saanen,Saanen,8.2,5,4.0,0.84,0.71,IA_cervical,6,1,2025-06-02,0.563,prenhe
+E-CA-001132,CA-M-00066,CA-R-0021,caprino,Alpina,Boer,5.1,2,3.4,0.27,0.46,IA_cervical,4,1,2024-04-28,0.764,prenhe
+E-CA-001133,CA-M-00280,CA-R-0017,caprino,Saanen,Anglo Nubiana,7.3,3,3.1,0.6,0.61,IA_cervical,4,1,2024-04-15,0.709,prenhe
+E-CA-001134,CA-M-00284,CA-R-0003,caprino,Pardo Alpina,Anglo Nubiana,4.1,0,2.6,0.71,0.58,IA_cervical,11,0,2024-11-18,0.554,vazia
+E-CA-001135,CA-M-00111,CA-R-0002,caprino,Saanen,Anglo Nubiana,4.4,0,3.4,0.62,0.55,IA_cervical,8,0,2024-08-24,0.507,vazia
+E-CA-001136,CA-M-00007,CA-R-0025,caprino,Saanen,Boer,2.8,2,3.7,0.61,0.61,IA_cervical,1,0,2024-01-08,0.602,vazia
+E-CA-001137,CA-M-00062,CA-R-0022,caprino,Alpina,Boer,9.7,5,3.2,0.38,0.76,IATF,2,0,2025-02-07,0.605,prenhe
+E-CA-001138,CA-M-00162,CA-R-0005,caprino,Saanen,Boer,6.9,3,3.5,0.54,0.56,IA_cervical,7,0,2025-07-04,0.605,prenhe
+E-CA-001139,CA-M-00017,CA-R-0001,caprino,Pardo Alpina,Anglo Nubiana,3.9,5,3.9,0.47,0.5,IA_cervical,6,1,2025-06-17,0.49,vazia
+E-CA-001140,CA-M-00068,CA-R-0006,caprino,Caninde,Caninde,2.3,2,3.0,0.87,0.74,IA_cervical,3,1,2024-03-16,0.95,prenhe
+E-CA-001141,CA-M-00044,CA-R-0017,caprino,Saanen,Anglo Nubiana,7.0,0,3.5,0.51,0.61,IA_cervical,7,0,2025-07-23,0.501,vazia
+E-CA-001142,CA-M-00285,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,7.1,0,2.0,0.55,0.61,IA_laparoscopica,10,0,2024-10-04,0.444,vazia
+E-CA-001143,CA-M-00106,CA-R-0005,caprino,Saanen,Boer,8.2,5,4.0,0.84,0.56,IA_cervical,4,1,2024-04-23,0.5,prenhe
+E-CA-001144,CA-M-00114,CA-R-0005,caprino,Alpina,Boer,5.6,2,2.8,0.57,0.56,IATF,12,0,2024-12-10,0.803,prenhe
+E-CA-001145,CA-M-00126,CA-R-0006,caprino,Boer,Caninde,3.5,1,3.2,0.69,0.74,IATF,6,1,2024-06-07,0.95,prenhe
+E-CA-001146,CA-M-00003,CA-R-0013,caprino,Boer,Alpina,7.7,3,4.0,0.53,0.4,IA_laparoscopica,5,1,2025-05-06,0.636,vazia
+E-CA-001147,CA-M-00162,CA-R-0006,caprino,Saanen,Caninde,6.9,3,3.5,0.54,0.74,IA_cervical,6,1,2025-06-27,0.806,prenhe
+E-CA-001148,CA-M-00273,CA-R-0013,caprino,Boer,Alpina,2.3,4,3.8,0.47,0.4,IA_cervical,6,1,2025-06-13,0.581,prenhe
+E-CA-001149,CA-M-00244,CA-R-0000,caprino,Anglo Nubiana,Moxoto,1.7,4,3.1,0.57,0.55,IA_cervical,3,1,2024-03-25,0.799,prenhe
+E-CA-001150,CA-M-00075,CA-R-0028,caprino,Saanen,Caninde,1.2,1,2.5,0.28,0.41,IATF,9,0,2024-09-11,0.433,prenhe
+E-CA-001151,CA-M-00004,CA-R-0026,caprino,Caninde,Anglo Nubiana,9.2,3,3.4,0.63,0.71,IA_cervical,12,0,2024-12-29,0.676,prenhe
+E-CA-001152,CA-M-00232,CA-R-0010,caprino,Boer,Caninde,9.1,1,2.9,0.49,0.45,IA_laparoscopica,12,0,2025-12-19,0.706,prenhe
+E-CA-001153,CA-M-00252,CA-R-0024,caprino,Moxoto,Boer,4.6,1,3.1,0.94,0.74,IA_cervical,2,0,2025-02-02,0.849,prenhe
+E-CA-001154,CA-M-00276,CA-R-0016,caprino,Caninde,Caninde,6.7,3,2.7,0.8,0.58,IA_cervical,4,1,2025-04-21,0.542,prenhe
+E-CA-001155,CA-M-00173,CA-R-0000,caprino,Anglo Nubiana,Moxoto,4.3,5,3.2,0.43,0.55,IA_cervical,9,0,2024-09-04,0.625,vazia
+E-CA-001156,CA-M-00142,CA-R-0008,caprino,Caninde,Alpina,4.8,5,3.7,0.76,0.66,IA_cervical,8,0,2024-08-03,0.5,vazia
+E-CA-001157,CA-M-00226,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,9.0,2,2.5,0.6,0.5,IA_laparoscopica,8,0,2025-08-04,0.591,vazia
+E-CA-001158,CA-M-00207,CA-R-0021,caprino,Anglo Nubiana,Boer,3.8,4,3.1,0.47,0.46,IA_laparoscopica,9,0,2025-09-01,0.858,vazia
+E-CA-001159,CA-M-00227,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,1.6,4,2.2,0.73,0.76,IA_cervical,2,0,2024-02-10,0.68,prenhe
+E-CA-001160,CA-M-00085,CA-R-0018,caprino,Caninde,Alpina,5.0,4,3.8,0.48,0.49,IA_cervical,1,0,2025-01-28,0.599,prenhe
+E-CA-001161,CA-M-00270,CA-R-0000,caprino,Moxoto,Moxoto,8.4,5,2.8,0.51,0.55,IATF,7,0,2025-07-21,0.5,prenhe
+E-CA-001162,CA-M-00011,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,5.4,0,2.0,0.56,0.59,IA_cervical,4,1,2024-04-25,0.478,vazia
+E-CA-001163,CA-M-00028,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,2.7,1,2.8,0.63,0.62,IA_laparoscopica,4,1,2025-04-16,0.95,prenhe
+E-CA-001164,CA-M-00196,CA-R-0004,caprino,Moxoto,Anglo Nubiana,7.2,5,3.0,0.88,0.77,IA_cervical,12,0,2024-12-11,0.672,vazia
+E-CA-001165,CA-M-00171,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,9.4,5,3.3,0.16,0.58,IA_laparoscopica,1,0,2025-01-05,0.626,prenhe
+E-CA-001166,CA-M-00166,CA-R-0009,caprino,Boer,Anglo Nubiana,8.9,4,3.0,0.68,0.89,IA_laparoscopica,3,1,2025-03-09,0.95,prenhe
+E-CA-001167,CA-M-00272,CA-R-0017,caprino,Caninde,Anglo Nubiana,1.7,5,3.1,0.78,0.61,IA_cervical,9,0,2025-09-28,0.824,prenhe
+E-CA-001168,CA-M-00261,CA-R-0002,caprino,Saanen,Anglo Nubiana,1.6,1,3.6,1.0,0.55,IA_cervical,3,1,2024-03-04,0.669,vazia
+E-CA-001169,CA-M-00215,CA-R-0029,caprino,Pardo Alpina,Saanen,2.2,2,2.6,0.68,0.69,IA_cervical,5,1,2024-05-27,0.749,prenhe
+E-CA-001170,CA-M-00049,CA-R-0013,caprino,Anglo Nubiana,Alpina,8.2,1,3.1,0.36,0.4,IA_cervical,9,0,2024-09-08,0.336,vazia
+E-CA-001171,CA-M-00028,CA-R-0005,caprino,Anglo Nubiana,Boer,2.7,1,2.8,0.63,0.56,IA_laparoscopica,8,0,2025-08-07,0.921,prenhe
+E-CA-001172,CA-M-00041,CA-R-0000,caprino,Anglo Nubiana,Moxoto,1.2,0,3.1,0.38,0.55,IA_cervical,3,1,2025-03-08,0.745,prenhe
+E-CA-001173,CA-M-00184,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.7,3,3.4,0.83,0.41,IA_cervical,5,1,2024-05-17,0.637,vazia
+E-CA-001174,CA-M-00213,CA-R-0017,caprino,Caninde,Anglo Nubiana,9.7,5,3.4,0.5,0.61,IATF,1,0,2024-01-18,0.548,vazia
+E-CA-001175,CA-M-00239,CA-R-0025,caprino,Pardo Alpina,Boer,9.5,0,3.5,1.0,0.61,IATF,12,0,2025-12-24,0.677,vazia
+E-CA-001176,CA-M-00030,CA-R-0023,caprino,Boer,Pardo Alpina,5.6,0,2.7,0.47,0.76,IA_cervical,4,1,2024-04-10,0.619,prenhe
+E-CA-001177,CA-M-00082,CA-R-0029,caprino,Anglo Nubiana,Saanen,8.5,2,3.8,0.05,0.69,IA_laparoscopica,1,0,2024-01-24,0.589,prenhe
+E-CA-001178,CA-M-00101,CA-R-0026,caprino,Caninde,Anglo Nubiana,5.9,1,3.2,0.77,0.71,IA_cervical,10,0,2024-10-23,0.784,prenhe
+E-CA-001179,CA-M-00189,CA-R-0022,caprino,Anglo Nubiana,Boer,1.5,3,3.5,0.62,0.76,IA_laparoscopica,2,0,2025-02-07,0.95,prenhe
+E-CA-001180,CA-M-00013,CA-R-0025,caprino,Anglo Nubiana,Boer,5.2,0,3.4,0.47,0.61,IA_cervical,7,0,2024-07-07,0.615,prenhe
+E-CA-001181,CA-M-00252,CA-R-0025,caprino,Moxoto,Boer,4.6,1,3.1,0.94,0.61,IATF,5,1,2024-05-02,0.95,vazia
+E-CA-001182,CA-M-00024,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,2.8,5,3.8,0.46,0.59,IA_cervical,3,1,2024-03-04,0.63,vazia
+E-CA-001183,CA-M-00157,CA-R-0017,caprino,Alpina,Anglo Nubiana,2.5,3,3.6,0.54,0.61,IA_cervical,10,0,2024-10-24,0.634,prenhe
+E-CA-001184,CA-M-00279,CA-R-0029,caprino,Pardo Alpina,Saanen,2.8,1,3.9,0.66,0.69,IATF,11,0,2025-11-25,0.576,vazia
+E-CA-001185,CA-M-00058,CA-R-0026,caprino,Alpina,Anglo Nubiana,6.0,3,2.0,0.67,0.71,IA_cervical,4,1,2024-04-18,0.683,prenhe
+E-CA-001186,CA-M-00206,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,7.5,0,3.1,0.78,0.58,IA_cervical,2,0,2025-02-22,0.598,prenhe
+E-CA-001187,CA-M-00164,CA-R-0003,caprino,Boer,Anglo Nubiana,6.3,5,3.1,0.56,0.58,IA_cervical,5,1,2024-05-21,0.518,prenhe
+E-CA-001188,CA-M-00245,CA-R-0006,caprino,Anglo Nubiana,Caninde,4.9,0,3.0,0.72,0.74,IA_laparoscopica,5,1,2025-05-06,0.93,prenhe
+E-CA-001189,CA-M-00176,CA-R-0022,caprino,Pardo Alpina,Boer,8.9,2,3.0,0.34,0.76,IA_cervical,2,0,2024-02-14,0.67,vazia
+E-CA-001190,CA-M-00254,CA-R-0011,caprino,Anglo Nubiana,Boer,9.5,2,3.7,0.14,0.48,IA_laparoscopica,5,1,2024-05-28,0.573,prenhe
+E-CA-001191,CA-M-00120,CA-R-0018,caprino,Alpina,Alpina,8.8,3,4.4,0.67,0.49,IA_cervical,1,0,2024-01-06,0.314,prenhe
+E-CA-001192,CA-M-00049,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,8.2,1,3.1,0.36,0.77,IA_laparoscopica,4,1,2025-04-18,0.914,prenhe
+E-CA-001193,CA-M-00203,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,7.7,4,3.7,0.34,0.5,IATF,6,1,2025-06-09,0.444,vazia
+E-CA-001194,CA-M-00290,CA-R-0023,caprino,Saanen,Pardo Alpina,7.7,4,2.7,0.75,0.76,IA_cervical,5,1,2024-05-05,0.621,prenhe
+E-CA-001195,CA-M-00129,CA-R-0008,caprino,Alpina,Alpina,9.9,3,3.0,0.4,0.66,IA_laparoscopica,11,0,2024-11-27,0.762,vazia
+E-CA-001196,CA-M-00245,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,4.9,0,3.0,0.72,0.5,IA_cervical,8,0,2024-08-02,0.68,vazia
+E-CA-001197,CA-M-00263,CA-R-0006,caprino,Saanen,Caninde,5.7,3,2.7,0.48,0.74,IA_cervical,2,0,2024-02-03,0.546,prenhe
+E-CA-001198,CA-M-00193,CA-R-0009,caprino,Saanen,Anglo Nubiana,3.1,2,3.1,0.53,0.89,IATF,1,0,2024-01-28,0.877,prenhe
+E-CA-001199,CA-M-00237,CA-R-0012,caprino,Boer,Alpina,8.1,3,4.5,0.65,0.49,IATF,11,0,2025-11-16,0.28,vazia
+E-CA-001200,CA-M-00168,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,5.8,1,2.9,0.56,0.71,IATF,4,1,2025-04-17,0.85,prenhe
+E-CA-001201,CA-M-00241,CA-R-0005,caprino,Boer,Boer,5.5,3,3.1,0.76,0.56,IATF,4,1,2025-04-30,0.932,prenhe
+E-CA-001202,CA-M-00100,CA-R-0018,caprino,Boer,Alpina,4.7,4,3.7,0.67,0.49,IA_cervical,8,0,2024-08-03,0.607,prenhe
+E-CA-001203,CA-M-00157,CA-R-0008,caprino,Alpina,Alpina,2.5,3,3.6,0.54,0.66,IA_laparoscopica,7,0,2024-07-11,0.746,prenhe
+E-CA-001204,CA-M-00023,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,7.8,1,3.8,0.31,0.62,IA_cervical,8,0,2025-08-03,0.397,prenhe
+E-CA-001205,CA-M-00058,CA-R-0008,caprino,Alpina,Alpina,6.0,3,2.0,0.67,0.66,IATF,11,0,2024-11-16,0.559,vazia
+E-CA-001206,CA-M-00173,CA-R-0010,caprino,Anglo Nubiana,Caninde,4.3,5,3.2,0.43,0.45,IA_laparoscopica,3,1,2024-03-15,0.914,prenhe
+E-CA-001207,CA-M-00217,CA-R-0017,caprino,Boer,Anglo Nubiana,5.6,5,3.7,0.63,0.61,IA_cervical,12,0,2024-12-23,0.524,prenhe
+E-CA-001208,CA-M-00008,CA-R-0017,caprino,Boer,Anglo Nubiana,2.4,5,3.6,0.83,0.61,IATF,1,0,2025-01-15,0.451,vazia
+E-CA-001209,CA-M-00020,CA-R-0004,caprino,Caninde,Anglo Nubiana,3.4,0,2.8,0.66,0.77,IA_laparoscopica,2,0,2025-02-20,0.95,prenhe
+E-CA-001210,CA-M-00001,CA-R-0004,caprino,Caninde,Anglo Nubiana,2.3,0,3.4,0.57,0.77,IATF,1,0,2025-01-26,0.739,prenhe
+E-CA-001211,CA-M-00155,CA-R-0007,caprino,Alpina,Pardo Alpina,1.8,3,3.4,0.36,0.59,IATF,9,0,2025-09-17,0.734,prenhe
+E-CA-001212,CA-M-00100,CA-R-0026,caprino,Boer,Anglo Nubiana,4.7,4,3.7,0.67,0.71,IATF,6,1,2024-06-27,0.785,vazia
+E-CA-001213,CA-M-00015,CA-R-0009,caprino,Alpina,Anglo Nubiana,7.5,5,3.5,0.52,0.89,IA_cervical,3,1,2025-03-06,0.669,prenhe
+E-CA-001214,CA-M-00238,CA-R-0017,caprino,Boer,Anglo Nubiana,5.6,4,2.5,0.28,0.61,IA_cervical,10,0,2025-10-10,0.544,prenhe
+E-CA-001215,CA-M-00158,CA-R-0013,caprino,Anglo Nubiana,Alpina,9.5,1,2.0,0.56,0.4,IATF,12,0,2025-12-15,0.289,vazia
+E-CA-001216,CA-M-00003,CA-R-0010,caprino,Boer,Caninde,7.7,3,4.0,0.53,0.45,IA_cervical,12,0,2025-12-05,0.414,vazia
+E-CA-001217,CA-M-00205,CA-R-0001,caprino,Saanen,Anglo Nubiana,1.3,5,3.2,0.75,0.5,IA_cervical,6,1,2025-06-14,0.73,prenhe
+E-CA-001218,CA-M-00273,CA-R-0013,caprino,Boer,Alpina,2.3,4,3.8,0.47,0.4,IATF,3,1,2024-03-18,0.654,prenhe
+E-CA-001219,CA-M-00125,CA-R-0029,caprino,Boer,Saanen,9.7,5,3.3,0.49,0.69,IATF,12,0,2025-12-22,0.554,prenhe
+E-CA-001220,CA-M-00284,CA-R-0028,caprino,Pardo Alpina,Caninde,4.1,0,2.6,0.71,0.41,IATF,1,0,2024-01-24,0.445,vazia
+E-CA-001221,CA-M-00125,CA-R-0009,caprino,Boer,Anglo Nubiana,9.7,5,3.3,0.49,0.89,IA_cervical,2,0,2025-02-06,0.647,vazia
+E-CA-001222,CA-M-00023,CA-R-0015,caprino,Anglo Nubiana,Saanen,7.8,1,3.8,0.31,0.71,IA_cervical,11,0,2024-11-22,0.421,prenhe
+E-CA-001223,CA-M-00036,CA-R-0008,caprino,Anglo Nubiana,Alpina,1.5,3,3.2,0.13,0.66,IATF,5,1,2025-05-10,0.794,prenhe
+E-CA-001224,CA-M-00020,CA-R-0027,caprino,Caninde,Moxoto,3.4,0,2.8,0.66,0.53,IA_cervical,7,0,2025-07-25,0.715,prenhe
+E-CA-001225,CA-M-00090,CA-R-0016,caprino,Caninde,Caninde,8.9,4,3.2,0.56,0.58,IA_cervical,6,1,2025-06-22,0.719,prenhe
+E-CA-001226,CA-M-00115,CA-R-0027,caprino,Anglo Nubiana,Moxoto,7.1,1,2.9,0.31,0.53,IA_cervical,6,1,2024-06-14,0.588,prenhe
+E-CA-001227,CA-M-00133,CA-R-0025,caprino,Anglo Nubiana,Boer,1.0,3,4.3,0.98,0.61,IATF,7,0,2025-07-04,0.623,vazia
+E-CA-001228,CA-M-00144,CA-R-0009,caprino,Caninde,Anglo Nubiana,9.7,0,4.3,0.56,0.89,IA_cervical,7,0,2025-07-07,0.415,vazia
+E-CA-001229,CA-M-00259,CA-R-0013,caprino,Saanen,Alpina,7.7,1,3.1,0.81,0.4,IA_cervical,1,0,2024-01-18,0.564,prenhe
+E-CA-001230,CA-M-00003,CA-R-0017,caprino,Boer,Anglo Nubiana,7.7,3,4.0,0.53,0.61,IA_cervical,4,1,2025-04-10,0.45,vazia
+E-CA-001231,CA-M-00269,CA-R-0007,caprino,Moxoto,Pardo Alpina,6.9,5,2.7,0.62,0.59,IA_cervical,4,1,2024-04-03,0.524,prenhe
+E-CA-001232,CA-M-00071,CA-R-0024,caprino,Saanen,Boer,10.0,5,4.1,0.72,0.74,IA_laparoscopica,2,0,2025-02-14,0.546,vazia
+E-CA-001233,CA-M-00286,CA-R-0016,caprino,Caninde,Caninde,6.6,1,2.8,0.65,0.58,IA_laparoscopica,6,1,2024-06-15,0.876,prenhe
+E-CA-001234,CA-M-00040,CA-R-0006,caprino,Anglo Nubiana,Caninde,8.5,4,2.9,0.52,0.74,IA_laparoscopica,9,0,2024-09-18,0.83,prenhe
+E-CA-001235,CA-M-00030,CA-R-0014,caprino,Boer,Anglo Nubiana,5.6,0,2.7,0.47,0.62,IA_cervical,7,0,2024-07-17,0.391,prenhe
+E-CA-001236,CA-M-00036,CA-R-0024,caprino,Anglo Nubiana,Boer,1.5,3,3.2,0.13,0.74,IA_cervical,9,0,2025-09-21,0.618,prenhe
+E-CA-001237,CA-M-00088,CA-R-0012,caprino,Boer,Alpina,8.3,5,3.1,0.62,0.49,IA_cervical,10,0,2025-10-22,0.473,vazia
+E-CA-001238,CA-M-00282,CA-R-0021,caprino,Anglo Nubiana,Boer,5.4,0,3.4,1.0,0.46,IATF,8,0,2025-08-05,0.75,prenhe
+E-CA-001239,CA-M-00138,CA-R-0029,caprino,Pardo Alpina,Saanen,1.6,1,3.7,0.53,0.69,IA_cervical,6,1,2025-06-11,0.717,prenhe
+E-CA-001240,CA-M-00049,CA-R-0010,caprino,Anglo Nubiana,Caninde,8.2,1,3.1,0.36,0.45,IA_cervical,9,0,2024-09-22,0.497,prenhe
+E-CA-001241,CA-M-00192,CA-R-0029,caprino,Boer,Saanen,2.1,1,3.3,0.54,0.69,IA_cervical,4,1,2024-04-14,0.771,vazia
+E-CA-001242,CA-M-00152,CA-R-0012,caprino,Alpina,Alpina,4.0,2,3.7,0.48,0.49,IATF,2,0,2025-02-18,0.523,prenhe
+E-CA-001243,CA-M-00210,CA-R-0016,caprino,Saanen,Caninde,6.0,0,2.8,0.9,0.58,IATF,11,0,2024-11-07,0.82,prenhe
+E-CA-001244,CA-M-00222,CA-R-0023,caprino,Pardo Alpina,Pardo Alpina,6.1,0,3.8,0.37,0.76,IA_cervical,7,0,2024-07-25,0.322,vazia
+E-CA-001245,CA-M-00235,CA-R-0002,caprino,Alpina,Anglo Nubiana,7.6,2,3.3,0.44,0.55,IA_laparoscopica,6,1,2024-06-26,0.943,prenhe
+E-CA-001246,CA-M-00045,CA-R-0021,caprino,Boer,Boer,4.2,2,3.0,0.46,0.46,IA_cervical,4,1,2024-04-27,0.86,vazia
+E-CA-001247,CA-M-00148,CA-R-0017,caprino,Alpina,Anglo Nubiana,6.3,2,3.4,0.24,0.61,IATF,8,0,2025-08-28,0.709,prenhe
+E-CA-001248,CA-M-00189,CA-R-0019,caprino,Anglo Nubiana,Moxoto,1.5,3,3.5,0.62,0.75,IATF,8,0,2024-08-22,0.883,prenhe
+E-CA-001249,CA-M-00166,CA-R-0028,caprino,Boer,Caninde,8.9,4,3.0,0.68,0.41,IA_laparoscopica,10,0,2025-10-31,0.733,prenhe
+E-CA-001250,CA-M-00291,CA-R-0014,caprino,Alpina,Anglo Nubiana,6.0,3,3.3,0.4,0.62,IATF,5,1,2025-05-03,0.866,prenhe
+E-CA-001251,CA-M-00288,CA-R-0027,caprino,Boer,Moxoto,2.1,2,4.1,0.12,0.53,IA_cervical,4,1,2024-04-29,0.501,prenhe
+E-CA-001252,CA-M-00243,CA-R-0017,caprino,Anglo Nubiana,Anglo Nubiana,8.4,5,3.6,0.66,0.61,IA_cervical,2,0,2024-02-15,0.373,vazia
+E-CA-001253,CA-M-00072,CA-R-0006,caprino,Anglo Nubiana,Caninde,1.9,0,3.8,0.91,0.74,IA_laparoscopica,10,0,2024-10-31,0.733,prenhe
+E-CA-001254,CA-M-00158,CA-R-0019,caprino,Anglo Nubiana,Moxoto,9.5,1,2.0,0.56,0.75,IA_laparoscopica,2,0,2024-02-29,0.528,prenhe
+E-CA-001255,CA-M-00241,CA-R-0005,caprino,Boer,Boer,5.5,3,3.1,0.76,0.56,IA_cervical,11,0,2025-11-26,0.747,vazia
+E-CA-001256,CA-M-00080,CA-R-0026,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.71,IA_cervical,10,0,2025-10-24,0.562,prenhe
+E-CA-001257,CA-M-00213,CA-R-0004,caprino,Caninde,Anglo Nubiana,9.7,5,3.4,0.5,0.77,IA_cervical,4,1,2025-04-24,0.657,prenhe
+E-CA-001258,CA-M-00074,CA-R-0014,caprino,Saanen,Anglo Nubiana,4.5,4,2.8,0.65,0.62,IA_cervical,8,0,2024-08-01,0.793,prenhe
+E-CA-001259,CA-M-00042,CA-R-0024,caprino,Saanen,Boer,7.9,1,4.2,0.16,0.74,IATF,9,0,2025-09-25,0.367,vazia
+E-CA-001260,CA-M-00071,CA-R-0000,caprino,Saanen,Moxoto,10.0,5,4.1,0.72,0.55,IA_cervical,4,1,2025-04-17,0.438,prenhe
+E-CA-001261,CA-M-00277,CA-R-0014,caprino,Pardo Alpina,Anglo Nubiana,8.8,0,2.5,0.68,0.62,IATF,9,0,2024-09-18,0.434,prenhe
+E-CA-001262,CA-M-00298,CA-R-0015,caprino,Caninde,Saanen,4.9,4,2.8,0.75,0.71,IA_cervical,10,0,2025-10-04,0.863,vazia
+E-CA-001263,CA-M-00256,CA-R-0010,caprino,Caninde,Caninde,2.7,0,3.4,0.69,0.45,IA_laparoscopica,6,1,2024-06-02,0.827,prenhe
+E-CA-001264,CA-M-00081,CA-R-0020,caprino,Boer,Boer,2.8,3,3.6,0.62,0.57,IATF,2,0,2025-02-18,0.673,prenhe
+E-CA-001265,CA-M-00233,CA-R-0009,caprino,Caninde,Anglo Nubiana,1.7,3,2.9,0.57,0.89,IATF,5,1,2025-05-19,0.95,prenhe
+E-CA-001266,CA-M-00065,CA-R-0011,caprino,Pardo Alpina,Boer,7.6,1,2.9,0.62,0.48,IATF,10,0,2025-10-24,0.482,prenhe
+E-CA-001267,CA-M-00038,CA-R-0008,caprino,Boer,Alpina,9.8,0,2.7,0.7,0.66,IA_cervical,4,1,2024-04-10,0.582,prenhe
+E-CA-001268,CA-M-00077,CA-R-0018,caprino,Saanen,Alpina,3.5,1,3.7,0.87,0.49,IA_cervical,7,0,2024-07-28,0.525,prenhe
+E-CA-001269,CA-M-00041,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,1.2,0,3.1,0.38,0.71,IA_laparoscopica,9,0,2025-09-05,0.87,prenhe
+E-CA-001270,CA-M-00192,CA-R-0005,caprino,Boer,Boer,2.1,1,3.3,0.54,0.56,IATF,12,0,2024-12-30,0.726,vazia
+E-CA-001271,CA-M-00204,CA-R-0012,caprino,Boer,Alpina,8.8,4,3.4,0.7,0.49,IATF,7,0,2025-07-05,0.643,prenhe
+E-CA-001272,CA-M-00010,CA-R-0006,caprino,Boer,Caninde,6.2,3,2.5,0.39,0.74,IA_laparoscopica,7,0,2025-07-18,0.644,prenhe
+E-CA-001273,CA-M-00032,CA-R-0007,caprino,Boer,Pardo Alpina,8.2,5,2.5,0.68,0.59,IA_cervical,8,0,2024-08-10,0.352,vazia
+E-CA-001274,CA-M-00143,CA-R-0029,caprino,Anglo Nubiana,Saanen,1.4,1,3.1,0.55,0.69,IA_cervical,8,0,2024-08-29,0.772,prenhe
+E-CA-001275,CA-M-00033,CA-R-0021,caprino,Boer,Boer,5.2,3,3.1,0.57,0.46,IATF,12,0,2024-12-30,0.724,vazia
+E-CA-001276,CA-M-00248,CA-R-0028,caprino,Pardo Alpina,Caninde,3.2,5,3.5,0.25,0.41,IA_laparoscopica,1,0,2024-01-21,0.649,vazia
+E-CA-001277,CA-M-00120,CA-R-0019,caprino,Alpina,Moxoto,8.8,3,4.4,0.67,0.75,IATF,8,0,2025-08-06,0.422,vazia
+E-CA-001278,CA-M-00123,CA-R-0019,caprino,Boer,Moxoto,5.7,4,3.6,0.52,0.75,IA_laparoscopica,3,1,2024-03-25,0.829,prenhe
+E-CA-001279,CA-M-00001,CA-R-0021,caprino,Caninde,Boer,2.3,0,3.4,0.57,0.46,IATF,11,0,2025-11-13,0.612,vazia
+E-CA-001280,CA-M-00210,CA-R-0019,caprino,Saanen,Moxoto,6.0,0,2.8,0.9,0.75,IATF,7,0,2025-07-22,0.844,prenhe
+E-CA-001281,CA-M-00216,CA-R-0024,caprino,Anglo Nubiana,Boer,6.8,5,3.8,0.53,0.74,IA_cervical,9,0,2024-09-14,0.396,prenhe
+E-CA-001282,CA-M-00226,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,9.0,2,2.5,0.6,0.89,IATF,2,0,2024-02-22,0.665,prenhe
+E-CA-001283,CA-M-00162,CA-R-0003,caprino,Saanen,Anglo Nubiana,6.9,3,3.5,0.54,0.58,IA_cervical,7,0,2025-07-30,0.614,prenhe
+E-CA-001284,CA-M-00080,CA-R-0014,caprino,Saanen,Anglo Nubiana,5.3,0,2.5,0.38,0.62,IA_cervical,11,0,2024-11-23,0.45,prenhe
+E-CA-001285,CA-M-00023,CA-R-0000,caprino,Anglo Nubiana,Moxoto,7.8,1,3.8,0.31,0.55,IATF,5,1,2024-05-21,0.453,prenhe
+E-CA-001286,CA-M-00094,CA-R-0001,caprino,Boer,Anglo Nubiana,1.1,1,3.7,0.35,0.5,IA_cervical,11,0,2024-11-09,0.53,prenhe
+E-CA-001287,CA-M-00163,CA-R-0001,caprino,Boer,Anglo Nubiana,2.7,5,3.5,0.9,0.5,IA_cervical,10,0,2025-10-21,0.641,vazia
+E-CA-001288,CA-M-00034,CA-R-0002,caprino,Saanen,Anglo Nubiana,6.7,4,2.2,0.67,0.55,IA_laparoscopica,5,1,2025-05-17,0.697,prenhe
+E-CA-001289,CA-M-00016,CA-R-0021,caprino,Anglo Nubiana,Boer,4.7,0,4.2,0.18,0.46,IATF,5,1,2025-05-15,0.418,prenhe
+E-CA-001290,CA-M-00065,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,7.6,1,2.9,0.62,0.61,IA_cervical,1,0,2025-01-10,0.597,vazia
+E-CA-001291,CA-M-00021,CA-R-0028,caprino,Boer,Caninde,1.2,5,2.0,0.64,0.41,IA_laparoscopica,4,1,2024-04-21,0.661,prenhe
+E-CA-001292,CA-M-00004,CA-R-0008,caprino,Caninde,Alpina,9.2,3,3.4,0.63,0.66,IA_cervical,11,0,2025-11-24,0.654,prenhe
+E-CA-001293,CA-M-00145,CA-R-0009,caprino,Alpina,Anglo Nubiana,8.0,3,2.9,0.48,0.89,IA_cervical,6,1,2025-06-24,0.826,prenhe
+E-CA-001294,CA-M-00223,CA-R-0014,caprino,Moxoto,Anglo Nubiana,3.2,0,4.0,0.54,0.62,IA_laparoscopica,1,0,2025-01-11,0.639,prenhe
+E-CA-001295,CA-M-00149,CA-R-0023,caprino,Caninde,Pardo Alpina,9.9,0,3.3,0.41,0.76,IA_laparoscopica,6,1,2025-06-12,0.864,vazia
+E-CA-001296,CA-M-00027,CA-R-0027,caprino,Anglo Nubiana,Moxoto,2.1,4,2.9,0.69,0.53,IATF,9,0,2024-09-21,0.755,prenhe
+E-CA-001297,CA-M-00101,CA-R-0021,caprino,Caninde,Boer,5.9,1,3.2,0.77,0.46,IA_laparoscopica,6,1,2025-06-25,0.945,prenhe
+E-CA-001298,CA-M-00010,CA-R-0015,caprino,Boer,Saanen,6.2,3,2.5,0.39,0.71,IATF,12,0,2025-12-07,0.536,prenhe
+E-CA-001299,CA-M-00186,CA-R-0029,caprino,Pardo Alpina,Saanen,8.2,0,2.2,0.34,0.69,IATF,9,0,2024-09-08,0.336,vazia
+E-CA-001300,CA-M-00069,CA-R-0005,caprino,Saanen,Boer,1.4,5,2.8,0.7,0.56,IA_cervical,1,0,2024-01-07,0.653,prenhe
+E-CA-001301,CA-M-00116,CA-R-0014,caprino,Saanen,Anglo Nubiana,1.8,3,2.8,0.58,0.62,IATF,6,1,2025-06-24,0.922,prenhe
+E-CA-001302,CA-M-00270,CA-R-0007,caprino,Moxoto,Pardo Alpina,8.4,5,2.8,0.51,0.59,IA_laparoscopica,9,0,2025-09-14,0.659,prenhe
+E-CA-001303,CA-M-00176,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,8.9,2,3.0,0.34,0.77,IA_cervical,8,0,2025-08-26,0.548,prenhe
+E-CA-001304,CA-M-00229,CA-R-0011,caprino,Caninde,Boer,2.4,3,3.9,0.83,0.48,IA_laparoscopica,12,0,2025-12-12,0.731,vazia
+E-CA-001305,CA-M-00104,CA-R-0022,caprino,Saanen,Boer,8.4,1,3.3,0.13,0.76,IATF,9,0,2024-09-10,0.632,vazia
+E-CA-001306,CA-M-00279,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,2.8,1,3.9,0.66,0.89,IA_cervical,11,0,2025-11-01,0.677,prenhe
+E-CA-001307,CA-M-00214,CA-R-0024,caprino,Anglo Nubiana,Boer,2.0,1,3.0,0.45,0.74,IA_cervical,5,1,2024-05-31,0.799,prenhe
+E-CA-001308,CA-M-00154,CA-R-0018,caprino,Pardo Alpina,Alpina,4.4,3,3.8,0.8,0.49,IA_cervical,3,1,2025-03-04,0.679,prenhe
+E-CA-001309,CA-M-00173,CA-R-0021,caprino,Anglo Nubiana,Boer,4.3,5,3.2,0.43,0.46,IA_cervical,10,0,2025-10-10,0.601,vazia
+E-CA-001310,CA-M-00186,CA-R-0007,caprino,Pardo Alpina,Pardo Alpina,8.2,0,2.2,0.34,0.59,IATF,10,0,2025-10-30,0.275,vazia
+E-CA-001311,CA-M-00048,CA-R-0025,caprino,Boer,Boer,1.4,1,4.5,0.73,0.61,IA_cervical,3,1,2025-03-29,0.479,prenhe
+E-CA-001312,CA-M-00075,CA-R-0006,caprino,Saanen,Caninde,1.2,1,2.5,0.28,0.74,IATF,2,0,2025-02-02,0.567,prenhe
+E-CA-001313,CA-M-00205,CA-R-0011,caprino,Saanen,Boer,1.3,5,3.2,0.75,0.48,IATF,12,0,2024-12-02,0.708,prenhe
+E-CA-001314,CA-M-00132,CA-R-0023,caprino,Saanen,Pardo Alpina,8.9,2,3.9,0.46,0.76,IA_cervical,9,0,2025-09-25,0.438,vazia
+E-CA-001315,CA-M-00235,CA-R-0020,caprino,Alpina,Boer,7.6,2,3.3,0.44,0.57,IA_cervical,10,0,2025-10-04,0.527,prenhe
+E-CA-001316,CA-M-00157,CA-R-0008,caprino,Alpina,Alpina,2.5,3,3.6,0.54,0.66,IA_cervical,6,1,2024-06-23,0.674,prenhe
+E-CA-001317,CA-M-00019,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,7.2,0,2.8,0.56,0.59,IA_cervical,4,1,2024-04-09,0.608,vazia
+E-CA-001318,CA-M-00199,CA-R-0012,caprino,Moxoto,Alpina,3.3,2,3.4,0.16,0.49,IA_cervical,8,0,2025-08-17,0.639,prenhe
+E-CA-001319,CA-M-00182,CA-R-0013,caprino,Anglo Nubiana,Alpina,5.9,0,3.4,0.41,0.4,IA_cervical,8,0,2025-08-14,0.524,prenhe
+E-CA-001320,CA-M-00109,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,9.4,0,3.1,0.59,0.5,IATF,3,1,2024-03-13,0.578,vazia
+E-CA-001321,CA-M-00237,CA-R-0007,caprino,Boer,Pardo Alpina,8.1,3,4.5,0.65,0.59,IA_laparoscopica,12,0,2024-12-24,0.526,prenhe
+E-CA-001322,CA-M-00105,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,2.9,5,3.1,0.51,0.77,IA_cervical,1,0,2025-01-04,0.755,vazia
+E-CA-001323,CA-M-00034,CA-R-0004,caprino,Saanen,Anglo Nubiana,6.7,4,2.2,0.67,0.77,IA_cervical,2,0,2024-02-01,0.514,vazia
+E-CA-001324,CA-M-00036,CA-R-0010,caprino,Anglo Nubiana,Caninde,1.5,3,3.2,0.13,0.45,IATF,4,1,2025-04-29,0.615,prenhe
+E-CA-001325,CA-M-00270,CA-R-0001,caprino,Moxoto,Anglo Nubiana,8.4,5,2.8,0.51,0.5,IA_cervical,12,0,2025-12-11,0.533,prenhe
+E-CA-001326,CA-M-00112,CA-R-0020,caprino,Boer,Boer,5.4,1,2.8,0.17,0.57,IA_laparoscopica,6,1,2024-06-03,0.866,prenhe
+E-CA-001327,CA-M-00124,CA-R-0020,caprino,Boer,Boer,8.7,1,3.2,0.51,0.57,IA_cervical,7,0,2025-07-21,0.586,prenhe
+E-CA-001328,CA-M-00091,CA-R-0006,caprino,Moxoto,Caninde,3.6,5,3.0,0.7,0.74,IATF,2,0,2024-02-29,0.855,prenhe
+E-CA-001329,CA-M-00221,CA-R-0026,caprino,Pardo Alpina,Anglo Nubiana,8.8,0,3.3,0.38,0.71,IA_cervical,6,1,2024-06-05,0.582,vazia
+E-CA-001330,CA-M-00181,CA-R-0017,caprino,Boer,Anglo Nubiana,5.6,4,2.9,0.51,0.61,IA_cervical,2,0,2025-02-16,0.803,prenhe
+E-CA-001331,CA-M-00269,CA-R-0009,caprino,Moxoto,Anglo Nubiana,6.9,5,2.7,0.62,0.89,IA_laparoscopica,11,0,2025-11-05,0.617,vazia
+E-CA-001332,CA-M-00268,CA-R-0005,caprino,Anglo Nubiana,Boer,2.0,3,2.8,0.5,0.56,IA_cervical,10,0,2025-10-08,0.74,prenhe
+E-CA-001333,CA-M-00296,CA-R-0012,caprino,Pardo Alpina,Alpina,1.1,5,3.8,0.69,0.49,IA_laparoscopica,11,0,2025-11-13,0.652,vazia
+E-CA-001334,CA-M-00098,CA-R-0028,caprino,Moxoto,Caninde,1.2,4,3.0,0.49,0.41,IA_cervical,12,0,2025-12-21,0.674,prenhe
+E-CA-001335,CA-M-00175,CA-R-0000,caprino,Boer,Moxoto,2.1,0,2.7,0.23,0.55,IA_cervical,8,0,2025-08-07,0.357,vazia
+E-CA-001336,CA-M-00103,CA-R-0000,caprino,Boer,Moxoto,8.1,3,4.0,0.64,0.55,IA_cervical,9,0,2024-09-22,0.48,vazia
+E-CA-001337,CA-M-00211,CA-R-0012,caprino,Anglo Nubiana,Alpina,5.9,2,2.8,0.56,0.49,IA_laparoscopica,4,1,2024-04-02,0.95,prenhe
+E-CA-001338,CA-M-00224,CA-R-0027,caprino,Moxoto,Moxoto,4.5,0,3.7,0.55,0.53,IATF,8,0,2025-08-23,0.443,prenhe
+E-CA-001339,CA-M-00075,CA-R-0008,caprino,Saanen,Alpina,1.2,1,2.5,0.28,0.66,IA_cervical,5,1,2024-05-16,0.599,vazia
+E-CA-001340,CA-M-00257,CA-R-0022,caprino,Anglo Nubiana,Boer,8.9,2,3.9,0.64,0.76,IATF,1,0,2025-01-15,0.615,vazia
+E-CA-001341,CA-M-00087,CA-R-0017,caprino,Pardo Alpina,Anglo Nubiana,2.3,1,4.1,0.45,0.61,IATF,7,0,2025-07-04,0.439,vazia
+E-CA-001342,CA-M-00294,CA-R-0005,caprino,Anglo Nubiana,Boer,8.0,1,1.9,0.51,0.56,IA_cervical,1,0,2024-01-26,0.354,vazia
+E-CA-001343,CA-M-00255,CA-R-0027,caprino,Anglo Nubiana,Moxoto,8.1,4,3.9,0.59,0.53,IA_cervical,10,0,2025-10-29,0.419,vazia
+E-CA-001344,CA-M-00005,CA-R-0004,caprino,Boer,Anglo Nubiana,9.5,5,3.0,0.7,0.77,IA_cervical,8,0,2024-08-09,0.642,prenhe
+E-CA-001345,CA-M-00119,CA-R-0015,caprino,Saanen,Saanen,1.9,5,3.2,0.91,0.71,IA_cervical,6,1,2024-06-05,0.826,prenhe
+E-CA-001346,CA-M-00116,CA-R-0019,caprino,Saanen,Moxoto,1.8,3,2.8,0.58,0.75,IATF,9,0,2024-09-28,0.862,prenhe
+E-CA-001347,CA-M-00246,CA-R-0020,caprino,Anglo Nubiana,Boer,8.0,2,3.1,0.51,0.57,IA_cervical,12,0,2024-12-02,0.61,vazia
+E-CA-001348,CA-M-00217,CA-R-0025,caprino,Boer,Boer,5.6,5,3.7,0.63,0.61,IA_cervical,11,0,2024-11-27,0.562,vazia
+E-CA-001349,CA-M-00015,CA-R-0021,caprino,Alpina,Boer,7.5,5,3.5,0.52,0.46,IA_laparoscopica,4,1,2024-04-22,0.706,prenhe
+E-CA-001350,CA-M-00252,CA-R-0019,caprino,Moxoto,Moxoto,4.6,1,3.1,0.94,0.75,IA_cervical,5,1,2024-05-18,0.894,prenhe
+E-CA-001351,CA-M-00065,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,7.6,1,2.9,0.62,0.77,IATF,12,0,2024-12-14,0.715,prenhe
+E-CA-001352,CA-M-00110,CA-R-0009,caprino,Saanen,Anglo Nubiana,9.0,1,2.5,0.83,0.89,IA_laparoscopica,6,1,2024-06-14,0.902,prenhe
+E-CA-001353,CA-M-00051,CA-R-0010,caprino,Boer,Caninde,1.1,0,2.8,0.52,0.45,IA_cervical,4,1,2025-04-14,0.705,prenhe
+E-CA-001354,CA-M-00047,CA-R-0011,caprino,Alpina,Boer,1.3,2,3.2,0.8,0.48,IA_cervical,10,0,2025-10-18,0.854,prenhe
+E-CA-001355,CA-M-00158,CA-R-0003,caprino,Anglo Nubiana,Anglo Nubiana,9.5,1,2.0,0.56,0.58,IA_cervical,1,0,2024-01-14,0.332,prenhe
+E-CA-001356,CA-M-00025,CA-R-0002,caprino,Moxoto,Anglo Nubiana,6.1,3,3.5,0.43,0.55,IATF,1,0,2024-01-27,0.642,vazia
+E-CA-001357,CA-M-00024,CA-R-0013,caprino,Pardo Alpina,Alpina,2.8,5,3.8,0.46,0.4,IA_cervical,4,1,2025-04-14,0.526,vazia
+E-CA-001358,CA-M-00235,CA-R-0021,caprino,Alpina,Boer,7.6,2,3.3,0.44,0.46,IATF,1,0,2024-01-21,0.656,prenhe
+E-CA-001359,CA-M-00103,CA-R-0026,caprino,Boer,Anglo Nubiana,8.1,3,4.0,0.64,0.71,IATF,4,1,2025-04-12,0.694,vazia
+E-CA-001360,CA-M-00194,CA-R-0028,caprino,Anglo Nubiana,Caninde,7.6,1,2.7,1.0,0.41,IA_cervical,12,0,2024-12-23,0.37,vazia
+E-CA-001361,CA-M-00295,CA-R-0014,caprino,Saanen,Anglo Nubiana,7.7,3,4.8,0.73,0.62,IA_laparoscopica,11,0,2024-11-28,0.614,prenhe
+E-CA-001362,CA-M-00015,CA-R-0026,caprino,Alpina,Anglo Nubiana,7.5,5,3.5,0.52,0.71,IA_laparoscopica,3,1,2025-03-18,0.851,prenhe
+E-CA-001363,CA-M-00238,CA-R-0013,caprino,Boer,Alpina,5.6,4,2.5,0.28,0.4,IA_cervical,10,0,2025-10-15,0.446,vazia
+E-CA-001364,CA-M-00032,CA-R-0014,caprino,Boer,Anglo Nubiana,8.2,5,2.5,0.68,0.62,IATF,4,1,2024-04-03,0.435,prenhe
+E-CA-001365,CA-M-00228,CA-R-0006,caprino,Saanen,Caninde,6.9,0,3.6,0.79,0.74,IA_cervical,4,1,2024-04-08,0.467,prenhe
+E-CA-001366,CA-M-00091,CA-R-0018,caprino,Moxoto,Alpina,3.6,5,3.0,0.7,0.49,IATF,5,1,2025-05-23,0.758,vazia
+E-CA-001367,CA-M-00040,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.5,4,2.9,0.52,0.89,IA_laparoscopica,2,0,2024-02-07,0.837,prenhe
+E-CA-001368,CA-M-00068,CA-R-0014,caprino,Caninde,Anglo Nubiana,2.3,2,3.0,0.87,0.62,IA_cervical,11,0,2024-11-09,0.815,vazia
+E-CA-001369,CA-M-00109,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.4,0,3.1,0.59,0.41,IA_cervical,12,0,2024-12-27,0.498,vazia
+E-CA-001370,CA-M-00218,CA-R-0016,caprino,Boer,Caninde,3.4,1,2.2,0.65,0.58,IA_cervical,10,0,2024-10-12,0.423,prenhe
+E-CA-001371,CA-M-00204,CA-R-0009,caprino,Boer,Anglo Nubiana,8.8,4,3.4,0.7,0.89,IA_cervical,1,0,2025-01-24,0.78,prenhe
+E-CA-001372,CA-M-00218,CA-R-0020,caprino,Boer,Boer,3.4,1,2.2,0.65,0.57,IA_laparoscopica,3,1,2024-03-23,0.645,vazia
+E-CA-001373,CA-M-00006,CA-R-0021,caprino,Anglo Nubiana,Boer,8.4,2,3.5,0.62,0.46,IA_cervical,7,0,2024-07-13,0.603,prenhe
+E-CA-001374,CA-M-00292,CA-R-0018,caprino,Boer,Alpina,1.0,0,3.4,0.73,0.49,IATF,1,0,2024-01-04,0.707,prenhe
+E-CA-001375,CA-M-00130,CA-R-0001,caprino,Anglo Nubiana,Anglo Nubiana,1.6,4,3.2,0.59,0.5,IA_cervical,12,0,2025-12-02,0.657,prenhe
+E-CA-001376,CA-M-00033,CA-R-0006,caprino,Boer,Caninde,5.2,3,3.1,0.57,0.74,IA_cervical,8,0,2025-08-30,0.782,prenhe
+E-CA-001377,CA-M-00278,CA-R-0003,caprino,Moxoto,Anglo Nubiana,9.9,3,4.0,0.81,0.58,IA_cervical,7,0,2024-07-04,0.441,vazia
+E-CA-001378,CA-M-00237,CA-R-0028,caprino,Boer,Caninde,8.1,3,4.5,0.65,0.41,IA_cervical,1,0,2024-01-27,0.329,vazia
+E-CA-001379,CA-M-00024,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,2.8,5,3.8,0.46,0.89,IA_laparoscopica,7,0,2024-07-16,0.786,prenhe
+E-CA-001380,CA-M-00131,CA-R-0014,caprino,Caninde,Anglo Nubiana,5.5,0,2.2,0.5,0.62,IA_cervical,11,0,2025-11-28,0.386,vazia
+E-CA-001381,CA-M-00271,CA-R-0027,caprino,Pardo Alpina,Moxoto,3.9,4,2.9,0.29,0.53,IA_laparoscopica,8,0,2025-08-15,0.844,prenhe
+E-CA-001382,CA-M-00204,CA-R-0029,caprino,Boer,Saanen,8.8,4,3.4,0.7,0.69,IA_laparoscopica,4,1,2025-04-26,0.95,prenhe
+E-CA-001383,CA-M-00058,CA-R-0006,caprino,Alpina,Caninde,6.0,3,2.0,0.67,0.74,IA_cervical,11,0,2025-11-04,0.587,prenhe
+E-CA-001384,CA-M-00210,CA-R-0025,caprino,Saanen,Boer,6.0,0,2.8,0.9,0.61,IA_cervical,5,1,2024-05-08,0.789,prenhe
+E-CA-001385,CA-M-00056,CA-R-0021,caprino,Anglo Nubiana,Boer,7.7,0,4.0,0.71,0.46,IA_cervical,1,0,2025-01-26,0.304,prenhe
+E-CA-001386,CA-M-00105,CA-R-0018,caprino,Anglo Nubiana,Alpina,2.9,5,3.1,0.51,0.49,IA_cervical,8,0,2025-08-02,0.625,prenhe
+E-CA-001387,CA-M-00058,CA-R-0005,caprino,Alpina,Boer,6.0,3,2.0,0.67,0.56,IATF,1,0,2024-01-14,0.519,prenhe
+E-CA-001388,CA-M-00208,CA-R-0020,caprino,Saanen,Boer,8.5,4,3.5,0.34,0.57,IA_cervical,11,0,2024-11-13,0.679,vazia
+E-CA-001389,CA-M-00279,CA-R-0018,caprino,Pardo Alpina,Alpina,2.8,1,3.9,0.66,0.49,IA_cervical,9,0,2024-09-16,0.499,prenhe
+E-CA-001390,CA-M-00013,CA-R-0013,caprino,Anglo Nubiana,Alpina,5.2,0,3.4,0.47,0.4,IA_cervical,5,1,2024-05-09,0.658,vazia
+E-CA-001391,CA-M-00181,CA-R-0017,caprino,Boer,Anglo Nubiana,5.6,4,2.9,0.51,0.61,IA_cervical,6,1,2024-06-12,0.859,prenhe
+E-CA-001392,CA-M-00074,CA-R-0006,caprino,Saanen,Caninde,4.5,4,2.8,0.65,0.74,IATF,12,0,2025-12-07,0.936,prenhe
+E-CA-001393,CA-M-00225,CA-R-0018,caprino,Boer,Alpina,9.2,4,3.3,0.45,0.49,IATF,1,0,2025-01-08,0.555,prenhe
+E-CA-001394,CA-M-00041,CA-R-0004,caprino,Anglo Nubiana,Anglo Nubiana,1.2,0,3.1,0.38,0.77,IATF,2,0,2024-02-29,0.791,prenhe
+E-CA-001395,CA-M-00109,CA-R-0008,caprino,Anglo Nubiana,Alpina,9.4,0,3.1,0.59,0.66,IA_cervical,5,1,2025-05-13,0.635,prenhe
+E-CA-001396,CA-M-00061,CA-R-0014,caprino,Moxoto,Anglo Nubiana,7.8,5,3.3,0.14,0.62,IA_cervical,3,1,2025-03-07,0.681,prenhe
+E-CA-001397,CA-M-00261,CA-R-0004,caprino,Saanen,Anglo Nubiana,1.6,1,3.6,1.0,0.77,IA_cervical,10,0,2024-10-13,0.716,prenhe
+E-CA-001398,CA-M-00024,CA-R-0027,caprino,Pardo Alpina,Moxoto,2.8,5,3.8,0.46,0.53,IATF,10,0,2024-10-16,0.433,vazia
+E-CA-001399,CA-M-00174,CA-R-0026,caprino,Anglo Nubiana,Anglo Nubiana,3.1,1,3.0,0.74,0.71,IA_cervical,1,0,2025-01-27,0.782,prenhe
+E-CA-001400,CA-M-00036,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,1.5,3,3.2,0.13,0.62,IA_cervical,11,0,2025-11-09,0.751,prenhe
+E-CA-001401,CA-M-00179,CA-R-0017,caprino,Saanen,Anglo Nubiana,4.3,0,2.4,0.66,0.61,IA_laparoscopica,7,0,2025-07-08,0.69,prenhe
+E-CA-001402,CA-M-00230,CA-R-0008,caprino,Anglo Nubiana,Alpina,2.9,4,2.8,0.29,0.66,IATF,10,0,2024-10-19,0.759,prenhe
+E-CA-001403,CA-M-00225,CA-R-0006,caprino,Boer,Caninde,9.2,4,3.3,0.45,0.74,IA_cervical,6,1,2024-06-28,0.782,prenhe
+E-CA-001404,CA-M-00010,CA-R-0028,caprino,Boer,Caninde,6.2,3,2.5,0.39,0.41,IA_cervical,3,1,2024-03-20,0.415,prenhe
+E-CA-001405,CA-M-00232,CA-R-0012,caprino,Boer,Alpina,9.1,1,2.9,0.49,0.49,IATF,5,1,2024-05-23,0.623,prenhe
+E-CA-001406,CA-M-00089,CA-R-0028,caprino,Anglo Nubiana,Caninde,6.1,2,3.0,0.53,0.41,IA_cervical,4,1,2024-04-10,0.583,prenhe
+E-CA-001407,CA-M-00204,CA-R-0002,caprino,Boer,Anglo Nubiana,8.8,4,3.4,0.7,0.55,IATF,8,0,2025-08-11,0.756,prenhe
+E-CA-001408,CA-M-00289,CA-R-0003,caprino,Caninde,Anglo Nubiana,6.2,0,3.1,0.51,0.58,IA_cervical,2,0,2025-02-24,0.453,prenhe
+E-CA-001409,CA-M-00035,CA-R-0014,caprino,Saanen,Anglo Nubiana,3.7,1,3.3,0.41,0.62,IATF,1,0,2024-01-28,0.728,vazia
+E-CA-001410,CA-M-00108,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,4.8,4,3.0,0.23,0.76,IATF,11,0,2025-11-07,0.814,prenhe
+E-CA-001411,CA-M-00260,CA-R-0012,caprino,Saanen,Alpina,5.7,0,3.8,0.6,0.49,IA_cervical,4,1,2024-04-19,0.535,prenhe
+E-CA-001412,CA-M-00042,CA-R-0025,caprino,Saanen,Boer,7.9,1,4.2,0.16,0.61,IATF,4,1,2025-04-16,0.283,vazia
+E-CA-001413,CA-M-00078,CA-R-0003,caprino,Boer,Anglo Nubiana,7.2,5,3.3,0.51,0.58,IA_cervical,1,0,2024-01-10,0.484,prenhe
+E-CA-001414,CA-M-00164,CA-R-0025,caprino,Boer,Boer,6.3,5,3.1,0.56,0.61,IA_cervical,3,1,2025-03-05,0.662,prenhe
+E-CA-001415,CA-M-00298,CA-R-0013,caprino,Caninde,Alpina,4.9,4,2.8,0.75,0.4,IA_cervical,2,0,2025-02-09,0.681,vazia
+E-CA-001416,CA-M-00088,CA-R-0008,caprino,Boer,Alpina,8.3,5,3.1,0.62,0.66,IA_laparoscopica,10,0,2025-10-25,0.654,prenhe
+E-CA-001417,CA-M-00115,CA-R-0019,caprino,Anglo Nubiana,Moxoto,7.1,1,2.9,0.31,0.75,IA_cervical,3,1,2025-03-14,0.691,prenhe
+E-CA-001418,CA-M-00238,CA-R-0023,caprino,Boer,Pardo Alpina,5.6,4,2.5,0.28,0.76,IA_cervical,12,0,2024-12-23,0.556,vazia
+E-CA-001419,CA-M-00035,CA-R-0027,caprino,Saanen,Moxoto,3.7,1,3.3,0.41,0.53,IATF,1,0,2025-01-22,0.716,vazia
+E-CA-001420,CA-M-00098,CA-R-0002,caprino,Moxoto,Anglo Nubiana,1.2,4,3.0,0.49,0.55,IATF,4,1,2025-04-07,0.828,prenhe
+E-CA-001421,CA-M-00094,CA-R-0021,caprino,Boer,Boer,1.1,1,3.7,0.35,0.46,IA_cervical,10,0,2024-10-29,0.432,vazia
+E-CA-001422,CA-M-00120,CA-R-0009,caprino,Alpina,Anglo Nubiana,8.8,3,4.4,0.67,0.89,IA_cervical,6,1,2025-06-05,0.583,vazia
+E-CA-001423,CA-M-00172,CA-R-0015,caprino,Anglo Nubiana,Saanen,8.5,3,3.5,0.88,0.71,IA_cervical,1,0,2025-01-21,0.683,vazia
+E-CA-001424,CA-M-00066,CA-R-0013,caprino,Alpina,Alpina,5.1,2,3.4,0.27,0.4,IA_cervical,12,0,2025-12-08,0.583,prenhe
+E-CA-001425,CA-M-00117,CA-R-0023,caprino,Saanen,Pardo Alpina,9.3,1,3.3,0.59,0.76,IATF,5,1,2024-05-21,0.749,vazia
+E-CA-001426,CA-M-00275,CA-R-0011,caprino,Anglo Nubiana,Boer,8.3,5,4.3,0.61,0.48,IATF,6,1,2025-06-16,0.297,vazia
+E-CA-001427,CA-M-00248,CA-R-0008,caprino,Pardo Alpina,Alpina,3.2,5,3.5,0.25,0.66,IA_cervical,8,0,2025-08-26,0.68,prenhe
+E-CA-001428,CA-M-00286,CA-R-0014,caprino,Caninde,Anglo Nubiana,6.6,1,2.8,0.65,0.62,IA_cervical,6,1,2025-06-08,0.673,prenhe
+E-CA-001429,CA-M-00204,CA-R-0020,caprino,Boer,Boer,8.8,4,3.4,0.7,0.57,IA_cervical,12,0,2025-12-16,0.576,prenhe
+E-CA-001430,CA-M-00174,CA-R-0025,caprino,Anglo Nubiana,Boer,3.1,1,3.0,0.74,0.61,IA_cervical,11,0,2024-11-12,0.724,prenhe
+E-CA-001431,CA-M-00064,CA-R-0000,caprino,Pardo Alpina,Moxoto,2.3,5,3.7,0.3,0.55,IA_cervical,1,0,2025-01-29,0.445,prenhe
+E-CA-001432,CA-M-00047,CA-R-0017,caprino,Alpina,Anglo Nubiana,1.3,2,3.2,0.8,0.61,IA_cervical,4,1,2024-04-22,0.872,prenhe
+E-CA-001433,CA-M-00161,CA-R-0002,caprino,Boer,Anglo Nubiana,9.3,3,3.8,0.71,0.55,IA_cervical,9,0,2024-09-30,0.492,vazia
+E-CA-001434,CA-M-00121,CA-R-0018,caprino,Saanen,Alpina,7.7,0,3.1,0.79,0.49,IA_cervical,4,1,2024-04-26,0.643,prenhe
+E-CA-001435,CA-M-00236,CA-R-0018,caprino,Boer,Alpina,8.0,3,3.1,0.49,0.49,IATF,8,0,2025-08-01,0.724,prenhe
+E-CA-001436,CA-M-00002,CA-R-0025,caprino,Pardo Alpina,Boer,1.4,2,3.3,0.64,0.61,IATF,7,0,2025-07-24,0.87,prenhe
+E-CA-001437,CA-M-00267,CA-R-0005,caprino,Saanen,Boer,6.5,1,3.6,0.47,0.56,IA_cervical,5,1,2024-05-20,0.376,vazia
+E-CA-001438,CA-M-00051,CA-R-0023,caprino,Boer,Pardo Alpina,1.1,0,2.8,0.52,0.76,IA_cervical,8,0,2025-08-09,0.7,vazia
+E-CA-001439,CA-M-00118,CA-R-0020,caprino,Boer,Boer,7.5,2,3.1,0.45,0.57,IATF,8,0,2024-08-22,0.615,prenhe
+E-CA-001440,CA-M-00106,CA-R-0019,caprino,Saanen,Moxoto,8.2,5,4.0,0.84,0.75,IA_cervical,6,1,2025-06-16,0.607,prenhe
+E-CA-001441,CA-M-00277,CA-R-0019,caprino,Pardo Alpina,Moxoto,8.8,0,2.5,0.68,0.75,IATF,11,0,2025-11-17,0.429,prenhe
+E-CA-001442,CA-M-00216,CA-R-0016,caprino,Anglo Nubiana,Caninde,6.8,5,3.8,0.53,0.58,IA_cervical,8,0,2025-08-28,0.341,vazia
+E-CA-001443,CA-M-00010,CA-R-0001,caprino,Boer,Anglo Nubiana,6.2,3,2.5,0.39,0.5,IATF,5,1,2024-05-15,0.436,vazia
+E-CA-001444,CA-M-00255,CA-R-0024,caprino,Anglo Nubiana,Boer,8.1,4,3.9,0.59,0.74,IA_cervical,5,1,2024-05-11,0.574,prenhe
+E-CA-001445,CA-M-00203,CA-R-0011,caprino,Anglo Nubiana,Boer,7.7,4,3.7,0.34,0.48,IATF,3,1,2024-03-22,0.452,prenhe
+E-CA-001446,CA-M-00020,CA-R-0003,caprino,Caninde,Anglo Nubiana,3.4,0,2.8,0.66,0.58,IA_cervical,9,0,2025-09-06,0.658,prenhe
+E-CA-001447,CA-M-00234,CA-R-0018,caprino,Boer,Alpina,8.9,2,3.7,0.5,0.49,IATF,2,0,2025-02-02,0.377,vazia
+E-CA-001448,CA-M-00010,CA-R-0028,caprino,Boer,Caninde,6.2,3,2.5,0.39,0.41,IA_laparoscopica,4,1,2024-04-23,0.651,prenhe
+E-CA-001449,CA-M-00127,CA-R-0021,caprino,Boer,Boer,6.9,3,3.3,0.42,0.46,IA_cervical,3,1,2025-03-04,0.652,vazia
+E-CA-001450,CA-M-00048,CA-R-0007,caprino,Boer,Pardo Alpina,1.4,1,4.5,0.73,0.59,IATF,1,0,2025-01-21,0.43,vazia
+E-CA-001451,CA-M-00003,CA-R-0024,caprino,Boer,Boer,7.7,3,4.0,0.53,0.74,IA_cervical,3,1,2025-03-11,0.593,prenhe
+E-CA-001452,CA-M-00167,CA-R-0025,caprino,Boer,Boer,1.4,3,2.3,0.63,0.61,IA_cervical,4,1,2025-04-08,0.612,vazia
+E-CA-001453,CA-M-00206,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,7.5,0,3.1,0.78,0.89,IA_cervical,4,1,2024-04-30,0.839,prenhe
+E-CA-001454,CA-M-00143,CA-R-0015,caprino,Anglo Nubiana,Saanen,1.4,1,3.1,0.55,0.71,IATF,10,0,2024-10-09,0.865,prenhe
+E-CA-001455,CA-M-00102,CA-R-0025,caprino,Alpina,Boer,1.6,4,2.7,0.28,0.61,IATF,6,1,2025-06-10,0.647,prenhe
+E-CA-001456,CA-M-00154,CA-R-0004,caprino,Pardo Alpina,Anglo Nubiana,4.4,3,3.8,0.8,0.77,IA_cervical,10,0,2025-10-25,0.665,prenhe
+E-CA-001457,CA-M-00045,CA-R-0010,caprino,Boer,Caninde,4.2,2,3.0,0.46,0.45,IATF,6,1,2024-06-25,0.759,vazia
+E-CA-001458,CA-M-00014,CA-R-0013,caprino,Saanen,Alpina,6.1,2,3.2,0.81,0.4,IATF,2,0,2025-02-20,0.609,prenhe
+E-CA-001459,CA-M-00047,CA-R-0000,caprino,Alpina,Moxoto,1.3,2,3.2,0.8,0.55,IA_laparoscopica,11,0,2025-11-23,0.95,prenhe
+E-CA-001460,CA-M-00016,CA-R-0005,caprino,Anglo Nubiana,Boer,4.7,0,4.2,0.18,0.56,IA_cervical,3,1,2025-03-14,0.449,vazia
+E-CA-001461,CA-M-00230,CA-R-0018,caprino,Anglo Nubiana,Alpina,2.9,4,2.8,0.29,0.49,IA_cervical,6,1,2024-06-15,0.792,prenhe
+E-CA-001462,CA-M-00182,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,5.9,0,3.4,0.41,0.59,IA_cervical,3,1,2025-03-02,0.757,prenhe
+E-CA-001463,CA-M-00056,CA-R-0007,caprino,Anglo Nubiana,Pardo Alpina,7.7,0,4.0,0.71,0.59,IA_cervical,1,0,2024-01-13,0.397,vazia
+E-CA-001464,CA-M-00170,CA-R-0008,caprino,Pardo Alpina,Alpina,7.3,5,2.5,0.13,0.66,IA_cervical,12,0,2024-12-23,0.262,vazia
+E-CA-001465,CA-M-00145,CA-R-0003,caprino,Alpina,Anglo Nubiana,8.0,3,2.9,0.48,0.58,IATF,2,0,2025-02-18,0.599,prenhe
+E-CA-001466,CA-M-00033,CA-R-0019,caprino,Boer,Moxoto,5.2,3,3.1,0.57,0.75,IA_laparoscopica,2,0,2024-02-11,0.95,prenhe
+E-CA-001467,CA-M-00291,CA-R-0007,caprino,Alpina,Pardo Alpina,6.0,3,3.3,0.4,0.59,IA_laparoscopica,5,1,2024-05-28,0.916,prenhe
+E-CA-001468,CA-M-00281,CA-R-0019,caprino,Anglo Nubiana,Moxoto,5.2,3,3.4,0.77,0.75,IA_cervical,12,0,2025-12-22,0.879,prenhe
+E-CA-001469,CA-M-00227,CA-R-0024,caprino,Anglo Nubiana,Boer,1.6,4,2.2,0.73,0.74,IA_cervical,4,1,2025-04-03,0.702,vazia
+E-CA-001470,CA-M-00242,CA-R-0014,caprino,Anglo Nubiana,Anglo Nubiana,3.9,3,3.3,0.43,0.62,IATF,11,0,2024-11-30,0.801,prenhe
+E-CA-001471,CA-M-00164,CA-R-0027,caprino,Boer,Moxoto,6.3,5,3.1,0.56,0.53,IA_cervical,6,1,2024-06-16,0.629,vazia
+E-CA-001472,CA-M-00241,CA-R-0005,caprino,Boer,Boer,5.5,3,3.1,0.76,0.56,IATF,3,1,2024-03-31,0.803,prenhe
+E-CA-001473,CA-M-00158,CA-R-0028,caprino,Anglo Nubiana,Caninde,9.5,1,2.0,0.56,0.41,IA_cervical,11,0,2024-11-08,0.303,prenhe
+E-CA-001474,CA-M-00049,CA-R-0009,caprino,Anglo Nubiana,Anglo Nubiana,8.2,1,3.1,0.36,0.89,IA_cervical,2,0,2025-02-02,0.58,prenhe
+E-CA-001475,CA-M-00050,CA-R-0009,caprino,Pardo Alpina,Anglo Nubiana,2.1,4,3.4,0.78,0.89,IA_laparoscopica,5,1,2024-05-11,0.95,vazia
+E-CA-001476,CA-M-00256,CA-R-0029,caprino,Caninde,Saanen,2.7,0,3.4,0.69,0.69,IA_laparoscopica,8,0,2025-08-07,0.925,prenhe
+E-CA-001477,CA-M-00133,CA-R-0013,caprino,Anglo Nubiana,Alpina,1.0,3,4.3,0.98,0.4,IA_cervical,11,0,2024-11-09,0.514,prenhe
+E-CA-001478,CA-M-00218,CA-R-0022,caprino,Boer,Boer,3.4,1,2.2,0.65,0.76,IA_laparoscopica,2,0,2024-02-10,0.63,prenhe
+E-CA-001479,CA-M-00043,CA-R-0024,caprino,Anglo Nubiana,Boer,5.4,5,3.3,0.83,0.74,IA_cervical,4,1,2024-04-09,0.817,prenhe
+E-CA-001480,CA-M-00134,CA-R-0013,caprino,Alpina,Alpina,4.9,1,3.3,0.46,0.4,IA_cervical,9,0,2025-09-20,0.626,prenhe
+E-CA-001481,CA-M-00025,CA-R-0009,caprino,Moxoto,Anglo Nubiana,6.1,3,3.5,0.43,0.89,IA_cervical,9,0,2024-09-03,0.748,prenhe
+E-CA-001482,CA-M-00066,CA-R-0014,caprino,Alpina,Anglo Nubiana,5.1,2,3.4,0.27,0.62,IA_laparoscopica,9,0,2024-09-29,0.827,prenhe
+E-CA-001483,CA-M-00032,CA-R-0011,caprino,Boer,Boer,8.2,5,2.5,0.68,0.48,IA_laparoscopica,5,1,2024-05-25,0.628,prenhe
+E-CA-001484,CA-M-00062,CA-R-0012,caprino,Alpina,Alpina,9.7,5,3.2,0.38,0.49,IA_cervical,8,0,2025-08-12,0.396,vazia
+E-CA-001485,CA-M-00181,CA-R-0007,caprino,Boer,Pardo Alpina,5.6,4,2.9,0.51,0.59,IATF,8,0,2025-08-18,0.809,vazia
+E-CA-001486,CA-M-00001,CA-R-0027,caprino,Caninde,Moxoto,2.3,0,3.4,0.57,0.53,IATF,6,1,2024-06-26,0.702,vazia
+E-CA-001487,CA-M-00058,CA-R-0017,caprino,Alpina,Anglo Nubiana,6.0,3,2.0,0.67,0.61,IA_cervical,6,1,2025-06-16,0.602,vazia
+E-CA-001488,CA-M-00207,CA-R-0023,caprino,Anglo Nubiana,Pardo Alpina,3.8,4,3.1,0.47,0.76,IA_cervical,11,0,2024-11-26,0.804,prenhe
+E-CA-001489,CA-M-00044,CA-R-0019,caprino,Saanen,Moxoto,7.0,0,3.5,0.51,0.75,IA_cervical,5,1,2024-05-01,0.72,prenhe
+E-CA-001490,CA-M-00166,CA-R-0010,caprino,Boer,Caninde,8.9,4,3.0,0.68,0.45,IA_cervical,8,0,2025-08-03,0.608,prenhe
+E-CA-001491,CA-M-00260,CA-R-0009,caprino,Saanen,Anglo Nubiana,5.7,0,3.8,0.6,0.89,IATF,3,1,2024-03-01,0.696,prenhe
+E-CA-001492,CA-M-00234,CA-R-0029,caprino,Boer,Saanen,8.9,2,3.7,0.5,0.69,IATF,9,0,2025-09-30,0.534,vazia
+E-CA-001493,CA-M-00036,CA-R-0000,caprino,Anglo Nubiana,Moxoto,1.5,3,3.2,0.13,0.55,IA_cervical,1,0,2024-01-19,0.763,prenhe
+E-CA-001494,CA-M-00044,CA-R-0008,caprino,Saanen,Alpina,7.0,0,3.5,0.51,0.66,IA_cervical,8,0,2024-08-23,0.583,vazia
+E-CA-001495,CA-M-00211,CA-R-0022,caprino,Anglo Nubiana,Boer,5.9,2,2.8,0.56,0.76,IA_cervical,6,1,2024-06-14,0.903,prenhe
+E-CA-001496,CA-M-00103,CA-R-0016,caprino,Boer,Caninde,8.1,3,4.0,0.64,0.58,IA_cervical,6,1,2024-06-20,0.508,prenhe
+E-CA-001497,CA-M-00125,CA-R-0018,caprino,Boer,Alpina,9.7,5,3.3,0.49,0.49,IA_cervical,12,0,2024-12-16,0.463,vazia
+E-CA-001498,CA-M-00143,CA-R-0000,caprino,Anglo Nubiana,Moxoto,1.4,1,3.1,0.55,0.55,IA_cervical,7,0,2025-07-02,0.724,prenhe
+E-CA-001499,CA-M-00173,CA-R-0006,caprino,Anglo Nubiana,Caninde,4.3,5,3.2,0.43,0.74,IA_cervical,10,0,2024-10-18,0.668,prenhe

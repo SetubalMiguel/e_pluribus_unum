@@ -1,4 +1,4 @@
-"""Base declarativa do SQLAlchemy. Centraliza imports dos models para o Alembic."""
+"""Base declarativa do SQLAlchemy."""
 from datetime import datetime
 from uuid import UUID, uuid4
 
@@ -36,13 +36,3 @@ class UUIDMixin:
         default=uuid4,
         nullable=False,
     )
-
-
-# Imports dos models para que o Alembic os descubra via Base.metadata.
-# Esses imports são intencionais e ficam aqui no final do arquivo.
-from app.models.audit_log import AuditLog  # noqa: E402, F401
-from app.models.animal import Animal  # noqa: E402, F401
-from app.models.ciclo_reprodutivo import CicloReprodutivo  # noqa: E402, F401
-from app.models.inseminacao import Inseminacao  # noqa: E402, F401
-from app.models.produtor import Produtor  # noqa: E402, F401
-from app.models.recomendacao_cruzamento import RecomendacaoCruzamento  # noqa: E402, F401

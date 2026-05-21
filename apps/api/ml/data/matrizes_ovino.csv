@@ -1,0 +1,301 @@
+matriz_id,especie,raca,idade,paridade,ecc,historico_sucesso
+OV-M-00000,ovino,Somalis,5.3,2,2.7,0.6
+OV-M-00001,ovino,Dorper,3.3,5,3.3,0.54
+OV-M-00002,ovino,Santa Ines,4.5,5,2.5,0.79
+OV-M-00003,ovino,Santa Ines,5.8,1,3.0,0.48
+OV-M-00004,ovino,Somalis,1.1,5,2.8,0.75
+OV-M-00005,ovino,Santa Ines,3.6,0,3.0,0.22
+OV-M-00006,ovino,Morada Nova,9.9,3,3.2,0.46
+OV-M-00007,ovino,Somalis,1.5,2,2.7,0.76
+OV-M-00008,ovino,Santa Ines,3.9,1,4.0,0.86
+OV-M-00009,ovino,Dorper,3.9,5,3.4,0.4
+OV-M-00010,ovino,Morada Nova,4.4,3,4.1,0.37
+OV-M-00011,ovino,Morada Nova,7.2,0,3.1,0.66
+OV-M-00012,ovino,Santa Ines,3.2,0,2.9,0.43
+OV-M-00013,ovino,Santa Ines,5.1,0,4.1,0.5
+OV-M-00014,ovino,Santa Ines,6.8,1,2.9,0.73
+OV-M-00015,ovino,White Dorper,3.9,0,3.1,0.44
+OV-M-00016,ovino,White Dorper,9.5,1,3.6,0.16
+OV-M-00017,ovino,Dorper,9.8,4,2.6,0.29
+OV-M-00018,ovino,Santa Ines,2.1,5,3.6,0.55
+OV-M-00019,ovino,Morada Nova,4.1,4,3.5,0.18
+OV-M-00020,ovino,Dorper,2.9,2,3.8,0.49
+OV-M-00021,ovino,Somalis,2.7,4,3.6,0.27
+OV-M-00022,ovino,Santa Ines,5.4,5,3.8,0.88
+OV-M-00023,ovino,White Dorper,6.1,0,3.1,0.98
+OV-M-00024,ovino,Santa Ines,4.8,5,2.8,0.34
+OV-M-00025,ovino,Santa Ines,3.5,4,4.3,0.6
+OV-M-00026,ovino,White Dorper,3.5,2,2.4,0.36
+OV-M-00027,ovino,Santa Ines,9.9,2,2.5,0.49
+OV-M-00028,ovino,Santa Ines,9.3,2,3.5,0.91
+OV-M-00029,ovino,Morada Nova,1.7,0,4.0,0.46
+OV-M-00030,ovino,Mestico,6.9,1,3.3,0.49
+OV-M-00031,ovino,Santa Ines,5.1,1,3.7,0.36
+OV-M-00032,ovino,Dorper,7.2,0,2.2,0.78
+OV-M-00033,ovino,Santa Ines,6.4,3,3.0,0.0
+OV-M-00034,ovino,Santa Ines,9.0,2,2.3,0.46
+OV-M-00035,ovino,Santa Ines,1.6,1,3.6,0.54
+OV-M-00036,ovino,Morada Nova,4.1,1,2.4,0.42
+OV-M-00037,ovino,Santa Ines,9.9,5,2.6,0.72
+OV-M-00038,ovino,Santa Ines,2.6,4,3.5,0.79
+OV-M-00039,ovino,Morada Nova,2.1,2,3.7,0.27
+OV-M-00040,ovino,Morada Nova,7.6,4,3.1,0.97
+OV-M-00041,ovino,Somalis,8.0,2,3.5,0.27
+OV-M-00042,ovino,Dorper,7.1,1,3.5,0.81
+OV-M-00043,ovino,Santa Ines,8.0,4,3.1,0.58
+OV-M-00044,ovino,Santa Ines,7.2,4,2.7,0.45
+OV-M-00045,ovino,Santa Ines,2.2,3,3.5,0.47
+OV-M-00046,ovino,Morada Nova,6.5,3,3.5,0.54
+OV-M-00047,ovino,Santa Ines,8.0,0,3.6,0.59
+OV-M-00048,ovino,Santa Ines,8.8,3,3.4,0.37
+OV-M-00049,ovino,Santa Ines,3.2,3,2.6,0.5
+OV-M-00050,ovino,Santa Ines,2.1,2,3.5,0.4
+OV-M-00051,ovino,Mestico,8.0,1,3.2,0.31
+OV-M-00052,ovino,Morada Nova,3.3,5,3.0,0.39
+OV-M-00053,ovino,Santa Ines,1.3,2,3.1,0.32
+OV-M-00054,ovino,Morada Nova,8.4,1,2.9,0.47
+OV-M-00055,ovino,Somalis,5.6,4,3.6,0.64
+OV-M-00056,ovino,Santa Ines,3.9,2,2.5,0.57
+OV-M-00057,ovino,Santa Ines,1.1,3,2.7,0.94
+OV-M-00058,ovino,Somalis,1.3,3,3.0,0.11
+OV-M-00059,ovino,Santa Ines,8.1,2,4.0,0.64
+OV-M-00060,ovino,Morada Nova,5.4,0,3.7,0.55
+OV-M-00061,ovino,Morada Nova,2.3,1,2.4,0.71
+OV-M-00062,ovino,Dorper,4.2,5,3.9,0.69
+OV-M-00063,ovino,Mestico,2.5,3,3.9,0.52
+OV-M-00064,ovino,Dorper,2.0,2,2.6,0.58
+OV-M-00065,ovino,Morada Nova,3.5,1,1.9,0.4
+OV-M-00066,ovino,Santa Ines,5.9,4,3.2,0.67
+OV-M-00067,ovino,Morada Nova,2.9,5,3.8,0.17
+OV-M-00068,ovino,Dorper,4.1,4,4.0,0.71
+OV-M-00069,ovino,Mestico,5.3,3,2.8,0.55
+OV-M-00070,ovino,Dorper,4.8,2,4.1,0.45
+OV-M-00071,ovino,Santa Ines,2.2,5,2.1,0.5
+OV-M-00072,ovino,Somalis,1.3,5,3.0,0.52
+OV-M-00073,ovino,White Dorper,1.3,2,3.0,0.81
+OV-M-00074,ovino,Somalis,4.2,5,3.8,1.0
+OV-M-00075,ovino,Somalis,7.5,4,3.8,0.79
+OV-M-00076,ovino,Morada Nova,2.2,5,3.7,0.44
+OV-M-00077,ovino,Morada Nova,8.1,0,2.5,0.68
+OV-M-00078,ovino,Santa Ines,7.4,0,3.6,0.68
+OV-M-00079,ovino,Santa Ines,1.0,1,3.5,0.36
+OV-M-00080,ovino,Dorper,1.2,4,2.4,0.3
+OV-M-00081,ovino,Mestico,2.8,0,2.2,0.54
+OV-M-00082,ovino,White Dorper,1.5,0,3.7,0.71
+OV-M-00083,ovino,Santa Ines,5.8,0,3.1,0.23
+OV-M-00084,ovino,Santa Ines,1.4,1,2.6,0.41
+OV-M-00085,ovino,Santa Ines,8.2,5,3.1,0.66
+OV-M-00086,ovino,Dorper,5.4,4,3.4,0.56
+OV-M-00087,ovino,Somalis,7.6,4,3.2,0.83
+OV-M-00088,ovino,Mestico,7.8,1,2.4,0.27
+OV-M-00089,ovino,Santa Ines,5.6,3,4.1,1.0
+OV-M-00090,ovino,Morada Nova,9.3,4,3.7,0.24
+OV-M-00091,ovino,Dorper,9.9,3,3.0,0.14
+OV-M-00092,ovino,Santa Ines,4.2,5,3.1,0.54
+OV-M-00093,ovino,Mestico,2.1,3,3.4,0.32
+OV-M-00094,ovino,Morada Nova,4.3,1,2.6,0.54
+OV-M-00095,ovino,Santa Ines,3.0,3,3.4,0.54
+OV-M-00096,ovino,Santa Ines,5.8,5,2.5,0.51
+OV-M-00097,ovino,White Dorper,4.4,4,3.2,0.38
+OV-M-00098,ovino,Morada Nova,5.3,2,2.6,0.64
+OV-M-00099,ovino,Dorper,7.9,3,2.6,0.49
+OV-M-00100,ovino,Dorper,3.5,5,4.0,0.77
+OV-M-00101,ovino,Santa Ines,5.8,4,3.2,0.51
+OV-M-00102,ovino,Dorper,4.0,3,3.3,0.36
+OV-M-00103,ovino,Mestico,8.1,1,2.2,0.21
+OV-M-00104,ovino,Santa Ines,6.8,5,2.9,0.52
+OV-M-00105,ovino,Dorper,1.1,5,3.4,0.3
+OV-M-00106,ovino,Santa Ines,6.9,0,3.3,0.28
+OV-M-00107,ovino,Santa Ines,2.5,0,2.1,0.66
+OV-M-00108,ovino,Santa Ines,7.5,0,3.3,0.19
+OV-M-00109,ovino,White Dorper,6.1,2,3.4,0.83
+OV-M-00110,ovino,Santa Ines,4.6,0,3.8,0.58
+OV-M-00111,ovino,Santa Ines,7.2,5,2.9,0.54
+OV-M-00112,ovino,Somalis,8.7,5,2.1,0.34
+OV-M-00113,ovino,Santa Ines,8.0,1,2.7,0.7
+OV-M-00114,ovino,Dorper,5.9,4,2.7,0.55
+OV-M-00115,ovino,Mestico,7.5,0,3.6,0.41
+OV-M-00116,ovino,Santa Ines,4.7,4,1.8,0.59
+OV-M-00117,ovino,Santa Ines,8.1,2,3.0,0.21
+OV-M-00118,ovino,Mestico,8.5,0,3.9,0.22
+OV-M-00119,ovino,Santa Ines,2.2,2,3.2,0.33
+OV-M-00120,ovino,Santa Ines,3.1,4,3.6,0.62
+OV-M-00121,ovino,Mestico,3.4,5,2.4,0.55
+OV-M-00122,ovino,White Dorper,2.5,0,2.4,0.76
+OV-M-00123,ovino,Somalis,4.5,5,3.9,0.37
+OV-M-00124,ovino,Morada Nova,2.7,1,3.3,0.66
+OV-M-00125,ovino,White Dorper,6.4,2,3.3,0.53
+OV-M-00126,ovino,Somalis,1.9,0,2.6,0.36
+OV-M-00127,ovino,Somalis,3.4,5,3.3,0.63
+OV-M-00128,ovino,Dorper,7.0,4,2.6,0.54
+OV-M-00129,ovino,Somalis,4.6,3,3.8,0.42
+OV-M-00130,ovino,Morada Nova,4.8,4,4.6,0.56
+OV-M-00131,ovino,Santa Ines,8.2,5,3.4,0.52
+OV-M-00132,ovino,Morada Nova,9.9,0,2.9,0.52
+OV-M-00133,ovino,Morada Nova,6.1,1,1.9,0.47
+OV-M-00134,ovino,Santa Ines,1.7,0,2.4,0.29
+OV-M-00135,ovino,Santa Ines,1.9,2,4.0,0.56
+OV-M-00136,ovino,Dorper,9.7,2,2.7,0.39
+OV-M-00137,ovino,Santa Ines,7.1,0,3.0,0.35
+OV-M-00138,ovino,Santa Ines,7.8,3,3.5,0.5
+OV-M-00139,ovino,Santa Ines,7.1,0,3.9,0.7
+OV-M-00140,ovino,Santa Ines,2.6,4,3.1,0.59
+OV-M-00141,ovino,Dorper,5.0,4,3.0,0.44
+OV-M-00142,ovino,Santa Ines,8.2,4,3.2,0.44
+OV-M-00143,ovino,Santa Ines,8.8,0,2.9,0.68
+OV-M-00144,ovino,Dorper,3.1,5,2.9,0.07
+OV-M-00145,ovino,Santa Ines,6.4,3,3.4,0.71
+OV-M-00146,ovino,Santa Ines,2.4,5,3.3,0.18
+OV-M-00147,ovino,Dorper,9.6,4,4.3,0.27
+OV-M-00148,ovino,Morada Nova,3.3,3,3.4,0.45
+OV-M-00149,ovino,Dorper,7.5,0,3.8,0.98
+OV-M-00150,ovino,Dorper,3.1,4,2.7,0.89
+OV-M-00151,ovino,Mestico,6.5,2,3.5,0.69
+OV-M-00152,ovino,Santa Ines,6.9,5,2.8,0.62
+OV-M-00153,ovino,Dorper,4.0,4,3.4,0.18
+OV-M-00154,ovino,Somalis,8.4,0,3.5,0.58
+OV-M-00155,ovino,Santa Ines,9.0,5,3.2,0.44
+OV-M-00156,ovino,Mestico,8.7,0,4.4,0.39
+OV-M-00157,ovino,Santa Ines,4.0,1,3.9,0.58
+OV-M-00158,ovino,White Dorper,7.7,1,3.8,0.46
+OV-M-00159,ovino,Morada Nova,6.0,5,3.6,0.72
+OV-M-00160,ovino,Morada Nova,6.3,0,4.1,0.16
+OV-M-00161,ovino,Santa Ines,5.3,5,2.5,0.57
+OV-M-00162,ovino,White Dorper,6.4,1,3.9,0.37
+OV-M-00163,ovino,Morada Nova,2.2,3,2.7,0.47
+OV-M-00164,ovino,Santa Ines,4.7,0,2.9,0.61
+OV-M-00165,ovino,Santa Ines,2.6,2,3.5,0.33
+OV-M-00166,ovino,Dorper,3.5,3,3.8,0.58
+OV-M-00167,ovino,Santa Ines,2.2,4,2.6,0.51
+OV-M-00168,ovino,Morada Nova,2.9,5,2.9,0.42
+OV-M-00169,ovino,Somalis,8.0,4,3.2,0.46
+OV-M-00170,ovino,Santa Ines,5.9,3,3.1,0.52
+OV-M-00171,ovino,Morada Nova,1.2,1,3.6,0.4
+OV-M-00172,ovino,Santa Ines,8.1,1,4.9,0.55
+OV-M-00173,ovino,Mestico,9.2,5,3.4,0.49
+OV-M-00174,ovino,White Dorper,8.9,3,2.8,0.43
+OV-M-00175,ovino,Santa Ines,8.4,5,2.6,0.87
+OV-M-00176,ovino,Morada Nova,9.9,2,3.0,0.63
+OV-M-00177,ovino,Morada Nova,6.3,2,2.7,0.47
+OV-M-00178,ovino,Mestico,9.7,4,3.4,0.58
+OV-M-00179,ovino,Santa Ines,9.5,4,3.4,0.34
+OV-M-00180,ovino,Morada Nova,3.8,1,3.0,0.46
+OV-M-00181,ovino,White Dorper,8.8,3,4.2,0.49
+OV-M-00182,ovino,Santa Ines,8.1,1,2.8,0.3
+OV-M-00183,ovino,Morada Nova,8.0,4,3.1,0.63
+OV-M-00184,ovino,Santa Ines,9.1,0,3.5,0.45
+OV-M-00185,ovino,Morada Nova,4.5,4,3.6,0.48
+OV-M-00186,ovino,Santa Ines,4.6,5,3.8,0.44
+OV-M-00187,ovino,Mestico,6.8,0,3.4,1.0
+OV-M-00188,ovino,Santa Ines,7.6,3,3.7,0.42
+OV-M-00189,ovino,Santa Ines,8.9,0,2.9,0.14
+OV-M-00190,ovino,Dorper,8.9,2,3.7,0.23
+OV-M-00191,ovino,Dorper,7.5,2,3.7,0.7
+OV-M-00192,ovino,Somalis,9.6,3,4.0,0.82
+OV-M-00193,ovino,Somalis,2.6,5,2.4,0.41
+OV-M-00194,ovino,Santa Ines,9.6,2,2.7,0.81
+OV-M-00195,ovino,Morada Nova,1.6,2,3.6,0.7
+OV-M-00196,ovino,Santa Ines,6.0,0,1.9,0.51
+OV-M-00197,ovino,Santa Ines,1.8,5,3.4,0.5
+OV-M-00198,ovino,Mestico,6.1,1,3.7,0.59
+OV-M-00199,ovino,Somalis,4.5,2,2.9,0.73
+OV-M-00200,ovino,Santa Ines,1.7,0,3.0,0.63
+OV-M-00201,ovino,Santa Ines,6.8,1,2.7,0.41
+OV-M-00202,ovino,Mestico,7.6,3,2.9,0.52
+OV-M-00203,ovino,Santa Ines,2.6,5,3.0,0.95
+OV-M-00204,ovino,Santa Ines,7.2,1,2.9,0.6
+OV-M-00205,ovino,Santa Ines,2.6,3,2.8,0.72
+OV-M-00206,ovino,Santa Ines,2.2,5,3.1,0.66
+OV-M-00207,ovino,Santa Ines,2.3,2,3.1,0.6
+OV-M-00208,ovino,Mestico,6.4,1,4.1,0.57
+OV-M-00209,ovino,Santa Ines,8.0,0,3.0,0.73
+OV-M-00210,ovino,Morada Nova,6.4,5,3.4,0.69
+OV-M-00211,ovino,Somalis,8.3,0,2.9,0.6
+OV-M-00212,ovino,Morada Nova,6.3,1,2.9,0.41
+OV-M-00213,ovino,Somalis,8.2,0,2.3,0.63
+OV-M-00214,ovino,Somalis,9.8,4,2.4,0.54
+OV-M-00215,ovino,Morada Nova,4.5,2,2.6,0.49
+OV-M-00216,ovino,Morada Nova,2.3,4,3.3,1.0
+OV-M-00217,ovino,Dorper,2.2,3,3.7,0.24
+OV-M-00218,ovino,Somalis,6.4,0,2.3,0.74
+OV-M-00219,ovino,Dorper,5.9,1,2.9,0.38
+OV-M-00220,ovino,Santa Ines,2.7,0,2.5,0.58
+OV-M-00221,ovino,Somalis,8.9,0,3.1,1.0
+OV-M-00222,ovino,Somalis,9.6,2,3.7,0.36
+OV-M-00223,ovino,Santa Ines,3.3,1,3.0,0.41
+OV-M-00224,ovino,White Dorper,2.9,0,3.2,0.55
+OV-M-00225,ovino,Santa Ines,2.9,2,3.9,0.38
+OV-M-00226,ovino,Santa Ines,4.5,2,3.4,0.73
+OV-M-00227,ovino,White Dorper,8.7,5,2.8,0.44
+OV-M-00228,ovino,Santa Ines,6.4,3,3.3,0.68
+OV-M-00229,ovino,Santa Ines,1.6,2,2.8,0.28
+OV-M-00230,ovino,Santa Ines,5.3,2,3.4,0.19
+OV-M-00231,ovino,White Dorper,1.8,0,3.5,0.5
+OV-M-00232,ovino,Santa Ines,4.7,2,2.5,0.24
+OV-M-00233,ovino,Somalis,4.6,3,3.3,0.85
+OV-M-00234,ovino,Dorper,6.8,0,3.1,0.24
+OV-M-00235,ovino,Morada Nova,5.9,5,3.5,0.34
+OV-M-00236,ovino,Mestico,8.9,3,3.6,0.63
+OV-M-00237,ovino,Dorper,1.1,4,3.4,0.43
+OV-M-00238,ovino,Santa Ines,8.0,1,3.0,0.25
+OV-M-00239,ovino,Mestico,1.2,5,3.7,0.96
+OV-M-00240,ovino,Morada Nova,3.7,2,2.8,0.35
+OV-M-00241,ovino,Santa Ines,8.9,5,2.5,0.51
+OV-M-00242,ovino,Santa Ines,7.2,3,1.6,0.51
+OV-M-00243,ovino,Morada Nova,2.5,3,3.2,0.69
+OV-M-00244,ovino,Santa Ines,5.4,1,2.8,0.64
+OV-M-00245,ovino,Morada Nova,7.5,5,3.4,0.38
+OV-M-00246,ovino,Santa Ines,9.4,1,2.2,0.48
+OV-M-00247,ovino,Morada Nova,6.7,0,2.9,0.5
+OV-M-00248,ovino,Santa Ines,1.2,2,3.4,0.7
+OV-M-00249,ovino,Dorper,5.5,5,2.7,0.32
+OV-M-00250,ovino,Santa Ines,2.4,5,3.4,0.95
+OV-M-00251,ovino,Santa Ines,1.4,5,2.9,0.4
+OV-M-00252,ovino,Santa Ines,6.4,3,3.2,0.55
+OV-M-00253,ovino,Santa Ines,8.0,5,3.5,0.32
+OV-M-00254,ovino,Morada Nova,1.3,2,3.7,0.29
+OV-M-00255,ovino,Morada Nova,8.1,2,3.2,0.38
+OV-M-00256,ovino,Santa Ines,7.4,1,2.8,0.36
+OV-M-00257,ovino,White Dorper,7.8,4,3.0,0.47
+OV-M-00258,ovino,Santa Ines,3.2,1,3.5,0.35
+OV-M-00259,ovino,Santa Ines,4.5,1,2.7,0.69
+OV-M-00260,ovino,Dorper,2.1,2,3.1,0.39
+OV-M-00261,ovino,Somalis,3.2,3,3.0,0.37
+OV-M-00262,ovino,Morada Nova,3.7,1,3.1,0.47
+OV-M-00263,ovino,Santa Ines,3.9,2,2.7,0.75
+OV-M-00264,ovino,Santa Ines,2.6,1,2.3,0.59
+OV-M-00265,ovino,Morada Nova,2.7,3,3.5,0.53
+OV-M-00266,ovino,Santa Ines,9.1,4,3.7,0.26
+OV-M-00267,ovino,Santa Ines,8.1,4,2.3,0.32
+OV-M-00268,ovino,Mestico,4.1,0,3.4,0.29
+OV-M-00269,ovino,Somalis,9.5,2,3.7,0.81
+OV-M-00270,ovino,Santa Ines,3.2,3,3.5,0.66
+OV-M-00271,ovino,Santa Ines,4.7,1,3.0,0.38
+OV-M-00272,ovino,Somalis,8.3,0,2.7,0.44
+OV-M-00273,ovino,Santa Ines,5.0,1,3.2,0.38
+OV-M-00274,ovino,Santa Ines,3.1,4,3.3,0.37
+OV-M-00275,ovino,Santa Ines,4.3,3,3.2,0.64
+OV-M-00276,ovino,Somalis,5.5,0,3.1,0.49
+OV-M-00277,ovino,Morada Nova,6.6,4,2.7,0.97
+OV-M-00278,ovino,Santa Ines,4.7,1,3.4,0.8
+OV-M-00279,ovino,Santa Ines,4.9,4,3.4,0.81
+OV-M-00280,ovino,Morada Nova,3.4,3,3.3,0.68
+OV-M-00281,ovino,Morada Nova,5.8,0,3.3,0.47
+OV-M-00282,ovino,Somalis,3.0,2,4.0,0.67
+OV-M-00283,ovino,Santa Ines,8.8,4,2.9,0.48
+OV-M-00284,ovino,Somalis,7.7,2,3.8,0.88
+OV-M-00285,ovino,Mestico,4.7,4,2.8,0.63
+OV-M-00286,ovino,Morada Nova,7.7,4,3.8,0.6
+OV-M-00287,ovino,Santa Ines,1.1,0,3.8,0.58
+OV-M-00288,ovino,Somalis,4.1,5,3.1,0.9
+OV-M-00289,ovino,Santa Ines,5.0,2,4.0,0.26
+OV-M-00290,ovino,Santa Ines,5.2,4,3.4,0.92
+OV-M-00291,ovino,Santa Ines,7.7,2,2.8,0.51
+OV-M-00292,ovino,White Dorper,9.7,3,3.0,0.27
+OV-M-00293,ovino,Santa Ines,4.4,2,3.8,0.4
+OV-M-00294,ovino,White Dorper,4.2,5,3.7,0.22
+OV-M-00295,ovino,Morada Nova,6.5,0,2.7,0.68
+OV-M-00296,ovino,Morada Nova,3.5,5,3.1,0.34
+OV-M-00297,ovino,Santa Ines,2.3,1,3.3,0.58
+OV-M-00298,ovino,Morada Nova,9.7,5,2.9,0.78
+OV-M-00299,ovino,Santa Ines,8.3,0,4.4,0.42

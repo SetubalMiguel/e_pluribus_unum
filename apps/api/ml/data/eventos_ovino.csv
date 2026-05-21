@@ -1,0 +1,1501 @@
+evento_id,matriz_id,reprodutor_id,especie,raca_matriz,raca_reprodutor,idade_matriz,paridade,ecc,historico_matriz,taxa_reprodutor,tecnica,mes,estacao_favoravel,data_evento,prob_verdadeira,resultado
+E-OV-000000,OV-M-00282,OV-R-0018,ovino,Somalis,Santa Ines,3.0,2,4.0,0.67,0.6,IA_laparoscopica,12,0,2024-12-18,0.733,prenhe
+E-OV-000001,OV-M-00071,OV-R-0004,ovino,Santa Ines,Mestico,2.2,5,2.1,0.5,0.42,IA_cervical,3,1,2024-03-17,0.4,vazia
+E-OV-000002,OV-M-00207,OV-R-0028,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.86,IA_cervical,11,0,2024-11-28,0.865,prenhe
+E-OV-000003,OV-M-00036,OV-R-0008,ovino,Morada Nova,Dorper,4.1,1,2.4,0.42,0.34,IA_cervical,5,1,2025-05-16,0.37,prenhe
+E-OV-000004,OV-M-00286,OV-R-0023,ovino,Morada Nova,Mestico,7.7,4,3.8,0.6,0.92,IA_cervical,8,0,2024-08-10,0.547,vazia
+E-OV-000005,OV-M-00193,OV-R-0029,ovino,Somalis,Santa Ines,2.6,5,2.4,0.41,0.66,IA_cervical,8,0,2024-08-20,0.297,prenhe
+E-OV-000006,OV-M-00129,OV-R-0007,ovino,Somalis,Santa Ines,4.6,3,3.8,0.42,0.86,IA_cervical,12,0,2024-12-03,0.614,prenhe
+E-OV-000007,OV-M-00103,OV-R-0019,ovino,Mestico,Santa Ines,8.1,1,2.2,0.21,0.87,IA_laparoscopica,9,0,2025-09-24,0.489,vazia
+E-OV-000008,OV-M-00106,OV-R-0001,ovino,Santa Ines,Santa Ines,6.9,0,3.3,0.28,0.86,IA_cervical,3,1,2025-03-16,0.516,vazia
+E-OV-000009,OV-M-00067,OV-R-0019,ovino,Morada Nova,Santa Ines,2.9,5,3.8,0.17,0.87,IA_cervical,11,0,2025-11-01,0.5,vazia
+E-OV-000010,OV-M-00179,OV-R-0013,ovino,Santa Ines,Santa Ines,9.5,4,3.4,0.34,0.72,IA_cervical,2,1,2024-02-15,0.661,vazia
+E-OV-000011,OV-M-00259,OV-R-0002,ovino,Santa Ines,Santa Ines,4.5,1,2.7,0.69,0.71,IA_cervical,9,0,2025-09-11,0.497,prenhe
+E-OV-000012,OV-M-00072,OV-R-0020,ovino,Somalis,Dorper,1.3,5,3.0,0.52,0.57,IA_laparoscopica,2,1,2024-02-01,0.855,prenhe
+E-OV-000013,OV-M-00224,OV-R-0029,ovino,White Dorper,Santa Ines,2.9,0,3.2,0.55,0.66,IA_cervical,8,0,2024-08-23,0.618,vazia
+E-OV-000014,OV-M-00169,OV-R-0002,ovino,Somalis,Santa Ines,8.0,4,3.2,0.46,0.71,IATF,11,0,2024-11-07,0.753,prenhe
+E-OV-000015,OV-M-00232,OV-R-0026,ovino,Santa Ines,Morada Nova,4.7,2,2.5,0.24,0.72,IA_laparoscopica,6,0,2024-06-21,0.717,prenhe
+E-OV-000016,OV-M-00230,OV-R-0025,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.6,IATF,12,0,2025-12-23,0.61,prenhe
+E-OV-000017,OV-M-00011,OV-R-0016,ovino,Morada Nova,Santa Ines,7.2,0,3.1,0.66,0.61,IA_laparoscopica,10,0,2025-10-13,0.68,prenhe
+E-OV-000018,OV-M-00006,OV-R-0027,ovino,Morada Nova,Dorper,9.9,3,3.2,0.46,0.71,IA_cervical,2,1,2025-02-21,0.592,prenhe
+E-OV-000019,OV-M-00274,OV-R-0009,ovino,Santa Ines,White Dorper,3.1,4,3.3,0.37,0.74,IATF,11,0,2024-11-26,0.814,prenhe
+E-OV-000020,OV-M-00046,OV-R-0021,ovino,Morada Nova,Santa Ines,6.5,3,3.5,0.54,0.84,IATF,7,0,2025-07-10,0.691,prenhe
+E-OV-000021,OV-M-00172,OV-R-0020,ovino,Santa Ines,Dorper,8.1,1,4.9,0.55,0.57,IA_cervical,5,1,2025-05-31,0.311,vazia
+E-OV-000022,OV-M-00225,OV-R-0017,ovino,Santa Ines,Santa Ines,2.9,2,3.9,0.38,0.55,IA_cervical,12,0,2024-12-16,0.433,vazia
+E-OV-000023,OV-M-00151,OV-R-0025,ovino,Mestico,Santa Ines,6.5,2,3.5,0.69,0.6,IA_cervical,8,0,2025-08-26,0.612,prenhe
+E-OV-000024,OV-M-00001,OV-R-0026,ovino,Dorper,Morada Nova,3.3,5,3.3,0.54,0.72,IA_laparoscopica,5,1,2024-05-20,0.95,prenhe
+E-OV-000025,OV-M-00003,OV-R-0023,ovino,Santa Ines,Mestico,5.8,1,3.0,0.48,0.92,IA_cervical,7,0,2024-07-21,0.691,prenhe
+E-OV-000026,OV-M-00200,OV-R-0017,ovino,Santa Ines,Santa Ines,1.7,0,3.0,0.63,0.55,IA_laparoscopica,1,0,2024-01-13,0.865,prenhe
+E-OV-000027,OV-M-00269,OV-R-0029,ovino,Somalis,Santa Ines,9.5,2,3.7,0.81,0.66,IA_cervical,3,1,2024-03-27,0.652,prenhe
+E-OV-000028,OV-M-00103,OV-R-0016,ovino,Mestico,Santa Ines,8.1,1,2.2,0.21,0.61,IA_cervical,5,1,2024-05-25,0.174,vazia
+E-OV-000029,OV-M-00163,OV-R-0019,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.87,IA_cervical,4,1,2025-04-01,0.652,vazia
+E-OV-000030,OV-M-00280,OV-R-0005,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.69,IA_cervical,9,0,2025-09-16,0.682,prenhe
+E-OV-000031,OV-M-00247,OV-R-0009,ovino,Morada Nova,White Dorper,6.7,0,2.9,0.5,0.74,IA_cervical,3,1,2025-03-06,0.468,vazia
+E-OV-000032,OV-M-00162,OV-R-0027,ovino,White Dorper,Dorper,6.4,1,3.9,0.37,0.71,IATF,11,0,2024-11-21,0.383,vazia
+E-OV-000033,OV-M-00196,OV-R-0014,ovino,Santa Ines,White Dorper,6.0,0,1.9,0.51,0.52,IA_cervical,7,0,2024-07-16,0.146,vazia
+E-OV-000034,OV-M-00288,OV-R-0015,ovino,Somalis,Dorper,4.1,5,3.1,0.9,0.43,IATF,3,1,2024-03-15,0.751,prenhe
+E-OV-000035,OV-M-00239,OV-R-0024,ovino,Mestico,Santa Ines,1.2,5,3.7,0.96,0.66,IA_laparoscopica,3,1,2025-03-02,0.845,prenhe
+E-OV-000036,OV-M-00124,OV-R-0009,ovino,Morada Nova,White Dorper,2.7,1,3.3,0.66,0.74,IATF,4,1,2024-04-12,0.794,prenhe
+E-OV-000037,OV-M-00207,OV-R-0007,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.86,IA_cervical,7,0,2025-07-30,0.761,prenhe
+E-OV-000038,OV-M-00098,OV-R-0000,ovino,Morada Nova,Santa Ines,5.3,2,2.6,0.64,0.64,IATF,10,0,2024-10-25,0.494,vazia
+E-OV-000039,OV-M-00276,OV-R-0006,ovino,Somalis,Santa Ines,5.5,0,3.1,0.49,0.59,IATF,9,0,2024-09-12,0.574,vazia
+E-OV-000040,OV-M-00028,OV-R-0015,ovino,Santa Ines,Dorper,9.3,2,3.5,0.91,0.43,IA_laparoscopica,1,0,2024-01-20,0.763,prenhe
+E-OV-000041,OV-M-00067,OV-R-0021,ovino,Morada Nova,Santa Ines,2.9,5,3.8,0.17,0.84,IA_cervical,6,0,2024-06-25,0.44,vazia
+E-OV-000042,OV-M-00103,OV-R-0009,ovino,Mestico,White Dorper,8.1,1,2.2,0.21,0.74,IA_laparoscopica,1,0,2024-01-10,0.321,vazia
+E-OV-000043,OV-M-00060,OV-R-0013,ovino,Morada Nova,Santa Ines,5.4,0,3.7,0.55,0.72,IA_cervical,6,0,2025-06-13,0.406,vazia
+E-OV-000044,OV-M-00178,OV-R-0006,ovino,Mestico,Santa Ines,9.7,4,3.4,0.58,0.59,IA_cervical,12,0,2024-12-23,0.545,prenhe
+E-OV-000045,OV-M-00213,OV-R-0024,ovino,Somalis,Santa Ines,8.2,0,2.3,0.63,0.66,IA_laparoscopica,7,0,2025-07-27,0.373,vazia
+E-OV-000046,OV-M-00267,OV-R-0015,ovino,Santa Ines,Dorper,8.1,4,2.3,0.32,0.43,IATF,2,1,2025-02-16,0.24,prenhe
+E-OV-000047,OV-M-00150,OV-R-0004,ovino,Dorper,Mestico,3.1,4,2.7,0.89,0.42,IA_cervical,11,0,2025-11-27,0.464,vazia
+E-OV-000048,OV-M-00186,OV-R-0018,ovino,Santa Ines,Santa Ines,4.6,5,3.8,0.44,0.6,IA_cervical,7,0,2025-07-26,0.39,vazia
+E-OV-000049,OV-M-00179,OV-R-0010,ovino,Santa Ines,Dorper,9.5,4,3.4,0.34,0.65,IATF,4,1,2024-04-17,0.676,prenhe
+E-OV-000050,OV-M-00001,OV-R-0025,ovino,Dorper,Santa Ines,3.3,5,3.3,0.54,0.6,IA_cervical,3,1,2024-03-26,0.648,prenhe
+E-OV-000051,OV-M-00212,OV-R-0008,ovino,Morada Nova,Dorper,6.3,1,2.9,0.41,0.34,IA_cervical,10,0,2025-10-11,0.237,vazia
+E-OV-000052,OV-M-00006,OV-R-0025,ovino,Morada Nova,Santa Ines,9.9,3,3.2,0.46,0.6,IA_laparoscopica,7,0,2024-07-15,0.73,prenhe
+E-OV-000053,OV-M-00164,OV-R-0020,ovino,Santa Ines,Dorper,4.7,0,2.9,0.61,0.57,IATF,7,0,2025-07-12,0.601,vazia
+E-OV-000054,OV-M-00299,OV-R-0004,ovino,Santa Ines,Mestico,8.3,0,4.4,0.42,0.42,IA_cervical,4,1,2025-04-03,0.107,vazia
+E-OV-000055,OV-M-00236,OV-R-0022,ovino,Mestico,Somalis,8.9,3,3.6,0.63,0.59,IA_cervical,5,1,2025-05-27,0.51,vazia
+E-OV-000056,OV-M-00151,OV-R-0021,ovino,Mestico,Santa Ines,6.5,2,3.5,0.69,0.84,IA_cervical,7,0,2024-07-13,0.713,prenhe
+E-OV-000057,OV-M-00095,OV-R-0013,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.72,IA_cervical,8,0,2024-08-16,0.704,vazia
+E-OV-000058,OV-M-00251,OV-R-0004,ovino,Santa Ines,Mestico,1.4,5,2.9,0.4,0.42,IATF,2,1,2025-02-09,0.493,prenhe
+E-OV-000059,OV-M-00257,OV-R-0014,ovino,White Dorper,White Dorper,7.8,4,3.0,0.47,0.52,IATF,1,0,2024-01-17,0.62,prenhe
+E-OV-000060,OV-M-00110,OV-R-0018,ovino,Santa Ines,Santa Ines,4.6,0,3.8,0.58,0.6,IA_cervical,8,0,2024-08-15,0.451,prenhe
+E-OV-000061,OV-M-00032,OV-R-0003,ovino,Dorper,Santa Ines,7.2,0,2.2,0.78,0.81,IA_cervical,1,0,2025-01-05,0.409,vazia
+E-OV-000062,OV-M-00174,OV-R-0010,ovino,White Dorper,Dorper,8.9,3,2.8,0.43,0.65,IA_cervical,5,1,2024-05-29,0.377,vazia
+E-OV-000063,OV-M-00190,OV-R-0021,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.84,IA_cervical,7,0,2024-07-27,0.4,vazia
+E-OV-000064,OV-M-00280,OV-R-0016,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.61,IA_cervical,12,0,2025-12-18,0.814,prenhe
+E-OV-000065,OV-M-00267,OV-R-0029,ovino,Santa Ines,Santa Ines,8.1,4,2.3,0.32,0.66,IA_cervical,7,0,2024-07-30,0.334,prenhe
+E-OV-000066,OV-M-00068,OV-R-0006,ovino,Dorper,Santa Ines,4.1,4,4.0,0.71,0.59,IATF,10,0,2025-10-20,0.645,prenhe
+E-OV-000067,OV-M-00075,OV-R-0023,ovino,Somalis,Mestico,7.5,4,3.8,0.79,0.92,IA_cervical,11,0,2025-11-07,0.648,vazia
+E-OV-000068,OV-M-00299,OV-R-0012,ovino,Santa Ines,Dorper,8.3,0,4.4,0.42,0.64,IA_laparoscopica,5,1,2025-05-06,0.364,prenhe
+E-OV-000069,OV-M-00098,OV-R-0006,ovino,Morada Nova,Santa Ines,5.3,2,2.6,0.64,0.59,IA_cervical,4,1,2024-04-21,0.544,vazia
+E-OV-000070,OV-M-00137,OV-R-0028,ovino,Santa Ines,Santa Ines,7.1,0,3.0,0.35,0.86,IATF,5,1,2024-05-30,0.727,vazia
+E-OV-000071,OV-M-00091,OV-R-0018,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.6,IATF,11,0,2025-11-12,0.515,vazia
+E-OV-000072,OV-M-00118,OV-R-0016,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.61,IA_cervical,1,0,2024-01-02,0.379,vazia
+E-OV-000073,OV-M-00169,OV-R-0008,ovino,Somalis,Dorper,8.0,4,3.2,0.46,0.34,IA_cervical,1,0,2025-01-02,0.468,prenhe
+E-OV-000074,OV-M-00087,OV-R-0026,ovino,Somalis,Morada Nova,7.6,4,3.2,0.83,0.72,IA_laparoscopica,3,1,2025-03-11,0.834,prenhe
+E-OV-000075,OV-M-00123,OV-R-0000,ovino,Somalis,Santa Ines,4.5,5,3.9,0.37,0.64,IA_cervical,9,0,2025-09-03,0.459,prenhe
+E-OV-000076,OV-M-00105,OV-R-0003,ovino,Dorper,Santa Ines,1.1,5,3.4,0.3,0.81,IA_cervical,10,0,2025-10-15,0.628,vazia
+E-OV-000077,OV-M-00032,OV-R-0005,ovino,Dorper,Santa Ines,7.2,0,2.2,0.78,0.69,IA_cervical,7,0,2024-07-26,0.35,prenhe
+E-OV-000078,OV-M-00236,OV-R-0019,ovino,Mestico,Santa Ines,8.9,3,3.6,0.63,0.87,IATF,1,0,2025-01-01,0.611,vazia
+E-OV-000079,OV-M-00267,OV-R-0003,ovino,Santa Ines,Santa Ines,8.1,4,2.3,0.32,0.81,IA_cervical,4,1,2025-04-07,0.398,prenhe
+E-OV-000080,OV-M-00147,OV-R-0023,ovino,Dorper,Mestico,9.6,4,4.3,0.27,0.92,IA_cervical,12,0,2025-12-05,0.457,prenhe
+E-OV-000081,OV-M-00061,OV-R-0005,ovino,Morada Nova,Santa Ines,2.3,1,2.4,0.71,0.69,IA_cervical,2,1,2025-02-10,0.585,prenhe
+E-OV-000082,OV-M-00192,OV-R-0020,ovino,Somalis,Dorper,9.6,3,4.0,0.82,0.57,IA_laparoscopica,3,1,2024-03-29,0.671,vazia
+E-OV-000083,OV-M-00160,OV-R-0023,ovino,Morada Nova,Mestico,6.3,0,4.1,0.16,0.92,IA_cervical,11,0,2025-11-05,0.252,prenhe
+E-OV-000084,OV-M-00165,OV-R-0026,ovino,Santa Ines,Morada Nova,2.6,2,3.5,0.33,0.72,IATF,1,0,2025-01-09,0.79,prenhe
+E-OV-000085,OV-M-00178,OV-R-0008,ovino,Mestico,Dorper,9.7,4,3.4,0.58,0.34,IA_laparoscopica,5,1,2024-05-10,0.724,prenhe
+E-OV-000086,OV-M-00215,OV-R-0002,ovino,Morada Nova,Santa Ines,4.5,2,2.6,0.49,0.71,IA_cervical,5,1,2024-05-18,0.635,prenhe
+E-OV-000087,OV-M-00012,OV-R-0022,ovino,Santa Ines,Somalis,3.2,0,2.9,0.43,0.59,IA_cervical,5,1,2024-05-29,0.494,vazia
+E-OV-000088,OV-M-00029,OV-R-0013,ovino,Morada Nova,Santa Ines,1.7,0,4.0,0.46,0.72,IATF,6,0,2025-06-10,0.467,vazia
+E-OV-000089,OV-M-00028,OV-R-0028,ovino,Santa Ines,Santa Ines,9.3,2,3.5,0.91,0.86,IATF,11,0,2025-11-23,0.694,prenhe
+E-OV-000090,OV-M-00046,OV-R-0005,ovino,Morada Nova,Santa Ines,6.5,3,3.5,0.54,0.69,IA_cervical,11,0,2024-11-18,0.626,prenhe
+E-OV-000091,OV-M-00291,OV-R-0017,ovino,Santa Ines,Santa Ines,7.7,2,2.8,0.51,0.55,IA_cervical,3,1,2024-03-12,0.363,prenhe
+E-OV-000092,OV-M-00219,OV-R-0003,ovino,Dorper,Santa Ines,5.9,1,2.9,0.38,0.81,IA_cervical,10,0,2025-10-10,0.36,vazia
+E-OV-000093,OV-M-00199,OV-R-0014,ovino,Somalis,White Dorper,4.5,2,2.9,0.73,0.52,IA_cervical,4,1,2025-04-08,0.535,prenhe
+E-OV-000094,OV-M-00209,OV-R-0000,ovino,Santa Ines,Santa Ines,8.0,0,3.0,0.73,0.64,IA_cervical,2,1,2025-02-20,0.53,prenhe
+E-OV-000095,OV-M-00010,OV-R-0022,ovino,Morada Nova,Somalis,4.4,3,4.1,0.37,0.59,IA_cervical,2,1,2024-02-14,0.501,prenhe
+E-OV-000096,OV-M-00063,OV-R-0018,ovino,Mestico,Santa Ines,2.5,3,3.9,0.52,0.6,IA_cervical,12,0,2025-12-09,0.523,prenhe
+E-OV-000097,OV-M-00238,OV-R-0002,ovino,Santa Ines,Santa Ines,8.0,1,3.0,0.25,0.71,IATF,2,1,2024-02-26,0.631,vazia
+E-OV-000098,OV-M-00138,OV-R-0014,ovino,Santa Ines,White Dorper,7.8,3,3.5,0.5,0.52,IATF,3,1,2025-03-21,0.602,prenhe
+E-OV-000099,OV-M-00152,OV-R-0012,ovino,Santa Ines,Dorper,6.9,5,2.8,0.62,0.64,IATF,3,1,2025-03-11,0.457,vazia
+E-OV-000100,OV-M-00225,OV-R-0020,ovino,Santa Ines,Dorper,2.9,2,3.9,0.38,0.57,IA_laparoscopica,1,0,2025-01-10,0.693,prenhe
+E-OV-000101,OV-M-00022,OV-R-0014,ovino,Santa Ines,White Dorper,5.4,5,3.8,0.88,0.52,IA_laparoscopica,2,1,2025-02-06,0.621,vazia
+E-OV-000102,OV-M-00239,OV-R-0013,ovino,Mestico,Santa Ines,1.2,5,3.7,0.96,0.72,IA_cervical,10,0,2024-10-17,0.631,prenhe
+E-OV-000103,OV-M-00204,OV-R-0024,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.66,IA_laparoscopica,2,1,2025-02-22,0.702,vazia
+E-OV-000104,OV-M-00121,OV-R-0015,ovino,Mestico,Dorper,3.4,5,2.4,0.55,0.43,IA_cervical,9,0,2024-09-22,0.279,vazia
+E-OV-000105,OV-M-00149,OV-R-0024,ovino,Dorper,Santa Ines,7.5,0,3.8,0.98,0.66,IA_cervical,12,0,2024-12-11,0.327,vazia
+E-OV-000106,OV-M-00022,OV-R-0026,ovino,Santa Ines,Morada Nova,5.4,5,3.8,0.88,0.72,IATF,5,1,2025-05-10,0.536,vazia
+E-OV-000107,OV-M-00061,OV-R-0025,ovino,Morada Nova,Santa Ines,2.3,1,2.4,0.71,0.6,IATF,6,0,2025-06-25,0.467,prenhe
+E-OV-000108,OV-M-00073,OV-R-0028,ovino,White Dorper,Santa Ines,1.3,2,3.0,0.81,0.86,IA_cervical,4,1,2024-04-21,0.907,vazia
+E-OV-000109,OV-M-00263,OV-R-0020,ovino,Santa Ines,Dorper,3.9,2,2.7,0.75,0.57,IA_laparoscopica,12,0,2025-12-25,0.695,vazia
+E-OV-000110,OV-M-00033,OV-R-0016,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.61,IA_cervical,3,1,2024-03-11,0.557,prenhe
+E-OV-000111,OV-M-00087,OV-R-0015,ovino,Somalis,Dorper,7.6,4,3.2,0.83,0.43,IA_cervical,7,0,2024-07-20,0.69,prenhe
+E-OV-000112,OV-M-00039,OV-R-0006,ovino,Morada Nova,Santa Ines,2.1,2,3.7,0.27,0.59,IA_cervical,9,0,2024-09-10,0.456,vazia
+E-OV-000113,OV-M-00085,OV-R-0024,ovino,Santa Ines,Santa Ines,8.2,5,3.1,0.66,0.66,IA_cervical,8,0,2024-08-24,0.546,prenhe
+E-OV-000114,OV-M-00003,OV-R-0020,ovino,Santa Ines,Dorper,5.8,1,3.0,0.48,0.57,IA_laparoscopica,9,0,2024-09-13,0.618,vazia
+E-OV-000115,OV-M-00081,OV-R-0026,ovino,Mestico,Morada Nova,2.8,0,2.2,0.54,0.72,IA_cervical,8,0,2024-08-23,0.448,prenhe
+E-OV-000116,OV-M-00217,OV-R-0021,ovino,Dorper,Santa Ines,2.2,3,3.7,0.24,0.84,IA_cervical,11,0,2024-11-14,0.618,vazia
+E-OV-000117,OV-M-00230,OV-R-0014,ovino,Santa Ines,White Dorper,5.3,2,3.4,0.19,0.52,IATF,7,0,2025-07-11,0.566,prenhe
+E-OV-000118,OV-M-00113,OV-R-0008,ovino,Santa Ines,Dorper,8.0,1,2.7,0.7,0.34,IA_cervical,8,0,2025-08-27,0.354,vazia
+E-OV-000119,OV-M-00211,OV-R-0029,ovino,Somalis,Santa Ines,8.3,0,2.9,0.6,0.66,IA_cervical,9,0,2024-09-11,0.323,vazia
+E-OV-000120,OV-M-00185,OV-R-0022,ovino,Morada Nova,Somalis,4.5,4,3.6,0.48,0.59,IA_cervical,7,0,2024-07-07,0.507,vazia
+E-OV-000121,OV-M-00270,OV-R-0026,ovino,Santa Ines,Morada Nova,3.2,3,3.5,0.66,0.72,IA_cervical,5,1,2025-05-09,0.945,prenhe
+E-OV-000122,OV-M-00241,OV-R-0017,ovino,Santa Ines,Santa Ines,8.9,5,2.5,0.51,0.55,IA_cervical,2,1,2024-02-13,0.414,prenhe
+E-OV-000123,OV-M-00068,OV-R-0015,ovino,Dorper,Dorper,4.1,4,4.0,0.71,0.43,IA_laparoscopica,11,0,2024-11-21,0.573,prenhe
+E-OV-000124,OV-M-00176,OV-R-0001,ovino,Morada Nova,Santa Ines,9.9,2,3.0,0.63,0.86,IATF,6,0,2024-06-09,0.773,prenhe
+E-OV-000125,OV-M-00235,OV-R-0002,ovino,Morada Nova,Santa Ines,5.9,5,3.5,0.34,0.71,IA_cervical,3,1,2025-03-19,0.553,vazia
+E-OV-000126,OV-M-00091,OV-R-0021,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.84,IA_cervical,2,1,2024-02-27,0.719,prenhe
+E-OV-000127,OV-M-00171,OV-R-0006,ovino,Morada Nova,Santa Ines,1.2,1,3.6,0.4,0.59,IA_cervical,8,0,2025-08-28,0.476,prenhe
+E-OV-000128,OV-M-00120,OV-R-0002,ovino,Santa Ines,Santa Ines,3.1,4,3.6,0.62,0.71,IATF,7,0,2024-07-16,0.561,vazia
+E-OV-000129,OV-M-00092,OV-R-0023,ovino,Santa Ines,Mestico,4.2,5,3.1,0.54,0.92,IA_cervical,1,0,2025-01-10,0.769,prenhe
+E-OV-000130,OV-M-00059,OV-R-0018,ovino,Santa Ines,Santa Ines,8.1,2,4.0,0.64,0.6,IA_cervical,2,1,2025-02-21,0.519,prenhe
+E-OV-000131,OV-M-00010,OV-R-0003,ovino,Morada Nova,Santa Ines,4.4,3,4.1,0.37,0.81,IATF,12,0,2024-12-12,0.556,vazia
+E-OV-000132,OV-M-00224,OV-R-0014,ovino,White Dorper,White Dorper,2.9,0,3.2,0.55,0.52,IA_cervical,11,0,2024-11-23,0.607,prenhe
+E-OV-000133,OV-M-00245,OV-R-0014,ovino,Morada Nova,White Dorper,7.5,5,3.4,0.38,0.52,IA_cervical,7,0,2024-07-13,0.509,vazia
+E-OV-000134,OV-M-00195,OV-R-0000,ovino,Morada Nova,Santa Ines,1.6,2,3.6,0.7,0.64,IA_cervical,7,0,2025-07-17,0.607,vazia
+E-OV-000135,OV-M-00072,OV-R-0018,ovino,Somalis,Santa Ines,1.3,5,3.0,0.52,0.6,IA_cervical,1,0,2025-01-11,0.625,prenhe
+E-OV-000136,OV-M-00005,OV-R-0011,ovino,Santa Ines,Morada Nova,3.6,0,3.0,0.22,0.74,IATF,6,0,2024-06-06,0.707,prenhe
+E-OV-000137,OV-M-00189,OV-R-0026,ovino,Santa Ines,Morada Nova,8.9,0,2.9,0.14,0.72,IA_cervical,7,0,2024-07-10,0.388,vazia
+E-OV-000138,OV-M-00059,OV-R-0003,ovino,Santa Ines,Santa Ines,8.1,2,4.0,0.64,0.81,IA_cervical,11,0,2024-11-16,0.558,prenhe
+E-OV-000139,OV-M-00164,OV-R-0025,ovino,Santa Ines,Santa Ines,4.7,0,2.9,0.61,0.6,IA_cervical,9,0,2025-09-07,0.462,vazia
+E-OV-000140,OV-M-00291,OV-R-0000,ovino,Santa Ines,Santa Ines,7.7,2,2.8,0.51,0.64,IA_cervical,12,0,2025-12-02,0.44,prenhe
+E-OV-000141,OV-M-00001,OV-R-0022,ovino,Dorper,Somalis,3.3,5,3.3,0.54,0.59,IA_cervical,10,0,2024-10-10,0.637,prenhe
+E-OV-000142,OV-M-00173,OV-R-0023,ovino,Mestico,Mestico,9.2,5,3.4,0.49,0.92,IATF,10,0,2024-10-15,0.667,vazia
+E-OV-000143,OV-M-00298,OV-R-0012,ovino,Morada Nova,Dorper,9.7,5,2.9,0.78,0.64,IA_cervical,4,1,2024-04-04,0.58,prenhe
+E-OV-000144,OV-M-00100,OV-R-0008,ovino,Dorper,Dorper,3.5,5,4.0,0.77,0.34,IATF,2,1,2025-02-02,0.493,prenhe
+E-OV-000145,OV-M-00244,OV-R-0004,ovino,Santa Ines,Mestico,5.4,1,2.8,0.64,0.42,IATF,6,0,2024-06-24,0.414,prenhe
+E-OV-000146,OV-M-00248,OV-R-0010,ovino,Santa Ines,Dorper,1.2,2,3.4,0.7,0.65,IA_cervical,8,0,2025-08-21,0.754,prenhe
+E-OV-000147,OV-M-00145,OV-R-0020,ovino,Santa Ines,Dorper,6.4,3,3.4,0.71,0.57,IA_laparoscopica,1,0,2025-01-25,0.706,prenhe
+E-OV-000148,OV-M-00092,OV-R-0021,ovino,Santa Ines,Santa Ines,4.2,5,3.1,0.54,0.84,IATF,6,0,2024-06-10,0.765,prenhe
+E-OV-000149,OV-M-00204,OV-R-0005,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.69,IA_laparoscopica,10,0,2025-10-30,0.559,prenhe
+E-OV-000150,OV-M-00185,OV-R-0000,ovino,Morada Nova,Santa Ines,4.5,4,3.6,0.48,0.64,IA_cervical,8,0,2025-08-18,0.571,vazia
+E-OV-000151,OV-M-00142,OV-R-0016,ovino,Santa Ines,Santa Ines,8.2,4,3.2,0.44,0.61,IA_cervical,8,0,2024-08-07,0.567,prenhe
+E-OV-000152,OV-M-00057,OV-R-0017,ovino,Santa Ines,Santa Ines,1.1,3,2.7,0.94,0.55,IA_cervical,3,1,2024-03-28,0.627,prenhe
+E-OV-000153,OV-M-00223,OV-R-0029,ovino,Santa Ines,Santa Ines,3.3,1,3.0,0.41,0.66,IA_laparoscopica,7,0,2024-07-12,0.91,prenhe
+E-OV-000154,OV-M-00063,OV-R-0022,ovino,Mestico,Somalis,2.5,3,3.9,0.52,0.59,IA_cervical,10,0,2024-10-01,0.585,prenhe
+E-OV-000155,OV-M-00040,OV-R-0016,ovino,Morada Nova,Santa Ines,7.6,4,3.1,0.97,0.61,IA_cervical,10,0,2024-10-23,0.747,prenhe
+E-OV-000156,OV-M-00020,OV-R-0017,ovino,Dorper,Santa Ines,2.9,2,3.8,0.49,0.55,IA_cervical,8,0,2025-08-23,0.52,vazia
+E-OV-000157,OV-M-00133,OV-R-0019,ovino,Morada Nova,Santa Ines,6.1,1,1.9,0.47,0.87,IA_cervical,12,0,2025-12-07,0.35,vazia
+E-OV-000158,OV-M-00036,OV-R-0013,ovino,Morada Nova,Santa Ines,4.1,1,2.4,0.42,0.72,IATF,6,0,2025-06-29,0.497,prenhe
+E-OV-000159,OV-M-00100,OV-R-0020,ovino,Dorper,Dorper,3.5,5,4.0,0.77,0.57,IATF,9,0,2025-09-09,0.513,vazia
+E-OV-000160,OV-M-00072,OV-R-0005,ovino,Somalis,Santa Ines,1.3,5,3.0,0.52,0.69,IATF,4,1,2024-04-01,0.797,prenhe
+E-OV-000161,OV-M-00137,OV-R-0024,ovino,Santa Ines,Santa Ines,7.1,0,3.0,0.35,0.66,IA_cervical,4,1,2024-04-19,0.535,prenhe
+E-OV-000162,OV-M-00233,OV-R-0025,ovino,Somalis,Santa Ines,4.6,3,3.3,0.85,0.6,IA_cervical,10,0,2025-10-24,0.697,prenhe
+E-OV-000163,OV-M-00135,OV-R-0013,ovino,Santa Ines,Santa Ines,1.9,2,4.0,0.56,0.72,IATF,3,1,2025-03-24,0.726,prenhe
+E-OV-000164,OV-M-00167,OV-R-0013,ovino,Santa Ines,Santa Ines,2.2,4,2.6,0.51,0.72,IA_cervical,6,0,2024-06-21,0.558,vazia
+E-OV-000165,OV-M-00042,OV-R-0014,ovino,Dorper,White Dorper,7.1,1,3.5,0.81,0.52,IA_laparoscopica,8,0,2025-08-01,0.718,prenhe
+E-OV-000166,OV-M-00033,OV-R-0024,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.66,IA_cervical,5,1,2024-05-07,0.592,prenhe
+E-OV-000167,OV-M-00292,OV-R-0005,ovino,White Dorper,Santa Ines,9.7,3,3.0,0.27,0.69,IA_cervical,7,0,2025-07-14,0.624,vazia
+E-OV-000168,OV-M-00185,OV-R-0010,ovino,Morada Nova,Dorper,4.5,4,3.6,0.48,0.65,IA_cervical,10,0,2025-10-06,0.504,vazia
+E-OV-000169,OV-M-00004,OV-R-0018,ovino,Somalis,Santa Ines,1.1,5,2.8,0.75,0.6,IA_laparoscopica,12,0,2024-12-22,0.663,prenhe
+E-OV-000170,OV-M-00169,OV-R-0020,ovino,Somalis,Dorper,8.0,4,3.2,0.46,0.57,IA_cervical,4,1,2025-04-24,0.592,prenhe
+E-OV-000171,OV-M-00003,OV-R-0008,ovino,Santa Ines,Dorper,5.8,1,3.0,0.48,0.34,IATF,6,0,2025-06-18,0.42,vazia
+E-OV-000172,OV-M-00023,OV-R-0003,ovino,White Dorper,Santa Ines,6.1,0,3.1,0.98,0.81,IA_cervical,10,0,2025-10-04,0.62,prenhe
+E-OV-000173,OV-M-00112,OV-R-0015,ovino,Somalis,Dorper,8.7,5,2.1,0.34,0.43,IA_cervical,3,1,2025-03-02,0.19,vazia
+E-OV-000174,OV-M-00196,OV-R-0019,ovino,Santa Ines,Santa Ines,6.0,0,1.9,0.51,0.87,IA_laparoscopica,8,0,2024-08-02,0.519,prenhe
+E-OV-000175,OV-M-00186,OV-R-0022,ovino,Santa Ines,Somalis,4.6,5,3.8,0.44,0.59,IA_cervical,5,1,2024-05-27,0.53,prenhe
+E-OV-000176,OV-M-00237,OV-R-0000,ovino,Dorper,Santa Ines,1.1,4,3.4,0.43,0.64,IA_cervical,9,0,2024-09-16,0.649,prenhe
+E-OV-000177,OV-M-00053,OV-R-0000,ovino,Santa Ines,Santa Ines,1.3,2,3.1,0.32,0.64,IATF,2,1,2024-02-10,0.875,prenhe
+E-OV-000178,OV-M-00057,OV-R-0011,ovino,Santa Ines,Morada Nova,1.1,3,2.7,0.94,0.74,IA_laparoscopica,5,1,2025-05-25,0.95,prenhe
+E-OV-000179,OV-M-00159,OV-R-0016,ovino,Morada Nova,Santa Ines,6.0,5,3.6,0.72,0.61,IA_cervical,9,0,2024-09-26,0.323,vazia
+E-OV-000180,OV-M-00260,OV-R-0000,ovino,Dorper,Santa Ines,2.1,2,3.1,0.39,0.64,IATF,6,0,2025-06-03,0.805,prenhe
+E-OV-000181,OV-M-00216,OV-R-0005,ovino,Morada Nova,Santa Ines,2.3,4,3.3,1.0,0.69,IA_cervical,2,1,2024-02-15,0.932,prenhe
+E-OV-000182,OV-M-00200,OV-R-0012,ovino,Santa Ines,Dorper,1.7,0,3.0,0.63,0.64,IA_cervical,8,0,2024-08-22,0.634,prenhe
+E-OV-000183,OV-M-00028,OV-R-0008,ovino,Santa Ines,Dorper,9.3,2,3.5,0.91,0.34,IA_cervical,10,0,2024-10-15,0.566,prenhe
+E-OV-000184,OV-M-00263,OV-R-0021,ovino,Santa Ines,Santa Ines,3.9,2,2.7,0.75,0.84,IA_cervical,3,1,2024-03-04,0.755,prenhe
+E-OV-000185,OV-M-00295,OV-R-0001,ovino,Morada Nova,Santa Ines,6.5,0,2.7,0.68,0.86,IA_cervical,8,0,2025-08-28,0.467,prenhe
+E-OV-000186,OV-M-00174,OV-R-0026,ovino,White Dorper,Morada Nova,8.9,3,2.8,0.43,0.72,IA_cervical,3,1,2025-03-12,0.523,vazia
+E-OV-000187,OV-M-00101,OV-R-0005,ovino,Santa Ines,Santa Ines,5.8,4,3.2,0.51,0.69,IA_laparoscopica,9,0,2025-09-08,0.771,prenhe
+E-OV-000188,OV-M-00198,OV-R-0013,ovino,Mestico,Santa Ines,6.1,1,3.7,0.59,0.72,IA_cervical,8,0,2025-08-08,0.315,vazia
+E-OV-000189,OV-M-00192,OV-R-0029,ovino,Somalis,Santa Ines,9.6,3,4.0,0.82,0.66,IA_cervical,1,0,2024-01-25,0.514,vazia
+E-OV-000190,OV-M-00278,OV-R-0019,ovino,Santa Ines,Santa Ines,4.7,1,3.4,0.8,0.87,IATF,9,0,2025-09-23,0.849,prenhe
+E-OV-000191,OV-M-00033,OV-R-0029,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.66,IATF,2,1,2024-02-20,0.663,vazia
+E-OV-000192,OV-M-00154,OV-R-0000,ovino,Somalis,Santa Ines,8.4,0,3.5,0.58,0.64,IA_cervical,9,0,2025-09-27,0.526,vazia
+E-OV-000193,OV-M-00212,OV-R-0021,ovino,Morada Nova,Santa Ines,6.3,1,2.9,0.41,0.84,IATF,5,1,2025-05-04,0.541,vazia
+E-OV-000194,OV-M-00104,OV-R-0002,ovino,Santa Ines,Santa Ines,6.8,5,2.9,0.52,0.71,IATF,8,0,2025-08-21,0.469,prenhe
+E-OV-000195,OV-M-00252,OV-R-0018,ovino,Santa Ines,Santa Ines,6.4,3,3.2,0.55,0.6,IA_cervical,12,0,2024-12-30,0.59,prenhe
+E-OV-000196,OV-M-00019,OV-R-0009,ovino,Morada Nova,White Dorper,4.1,4,3.5,0.18,0.74,IA_cervical,4,1,2024-04-26,0.78,vazia
+E-OV-000197,OV-M-00031,OV-R-0023,ovino,Santa Ines,Mestico,5.1,1,3.7,0.36,0.92,IA_cervical,4,1,2024-04-19,0.523,prenhe
+E-OV-000198,OV-M-00237,OV-R-0003,ovino,Dorper,Santa Ines,1.1,4,3.4,0.43,0.81,IA_laparoscopica,3,1,2024-03-27,0.95,prenhe
+E-OV-000199,OV-M-00037,OV-R-0026,ovino,Santa Ines,Morada Nova,9.9,5,2.6,0.72,0.72,IA_cervical,8,0,2025-08-11,0.376,prenhe
+E-OV-000200,OV-M-00125,OV-R-0014,ovino,White Dorper,White Dorper,6.4,2,3.3,0.53,0.52,IA_cervical,1,0,2025-01-24,0.528,vazia
+E-OV-000201,OV-M-00084,OV-R-0015,ovino,Santa Ines,Dorper,1.4,1,2.6,0.41,0.43,IATF,6,0,2024-06-07,0.382,prenhe
+E-OV-000202,OV-M-00206,OV-R-0017,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.55,IA_cervical,4,1,2024-04-01,0.748,vazia
+E-OV-000203,OV-M-00003,OV-R-0001,ovino,Santa Ines,Santa Ines,5.8,1,3.0,0.48,0.86,IA_cervical,2,1,2024-02-27,0.671,prenhe
+E-OV-000204,OV-M-00107,OV-R-0009,ovino,Santa Ines,White Dorper,2.5,0,2.1,0.66,0.74,IATF,7,0,2024-07-07,0.444,prenhe
+E-OV-000205,OV-M-00295,OV-R-0021,ovino,Morada Nova,Santa Ines,6.5,0,2.7,0.68,0.84,IATF,7,0,2025-07-01,0.456,vazia
+E-OV-000206,OV-M-00110,OV-R-0028,ovino,Santa Ines,Santa Ines,4.6,0,3.8,0.58,0.86,IATF,10,0,2025-10-13,0.603,prenhe
+E-OV-000207,OV-M-00179,OV-R-0029,ovino,Santa Ines,Santa Ines,9.5,4,3.4,0.34,0.66,IA_cervical,3,1,2025-03-19,0.579,prenhe
+E-OV-000208,OV-M-00296,OV-R-0016,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.61,IA_cervical,12,0,2025-12-27,0.48,vazia
+E-OV-000209,OV-M-00182,OV-R-0007,ovino,Santa Ines,Santa Ines,8.1,1,2.8,0.3,0.86,IA_cervical,10,0,2024-10-14,0.437,vazia
+E-OV-000210,OV-M-00226,OV-R-0014,ovino,Santa Ines,White Dorper,4.5,2,3.4,0.73,0.52,IA_cervical,8,0,2024-08-30,0.608,prenhe
+E-OV-000211,OV-M-00287,OV-R-0013,ovino,Santa Ines,Santa Ines,1.1,0,3.8,0.58,0.72,IA_cervical,5,1,2025-05-20,0.617,prenhe
+E-OV-000212,OV-M-00185,OV-R-0011,ovino,Morada Nova,Morada Nova,4.5,4,3.6,0.48,0.74,IATF,4,1,2024-04-08,0.79,prenhe
+E-OV-000213,OV-M-00249,OV-R-0010,ovino,Dorper,Dorper,5.5,5,2.7,0.32,0.65,IA_laparoscopica,10,0,2025-10-27,0.476,prenhe
+E-OV-000214,OV-M-00152,OV-R-0026,ovino,Santa Ines,Morada Nova,6.9,5,2.8,0.62,0.72,IA_cervical,7,0,2025-07-23,0.457,vazia
+E-OV-000215,OV-M-00244,OV-R-0011,ovino,Santa Ines,Morada Nova,5.4,1,2.8,0.64,0.74,IA_cervical,1,0,2024-01-25,0.433,prenhe
+E-OV-000216,OV-M-00192,OV-R-0000,ovino,Somalis,Santa Ines,9.6,3,4.0,0.82,0.64,IA_cervical,5,1,2024-05-16,0.64,prenhe
+E-OV-000217,OV-M-00101,OV-R-0021,ovino,Santa Ines,Santa Ines,5.8,4,3.2,0.51,0.84,IA_cervical,4,1,2025-04-03,0.725,prenhe
+E-OV-000218,OV-M-00167,OV-R-0019,ovino,Santa Ines,Santa Ines,2.2,4,2.6,0.51,0.87,IA_laparoscopica,6,0,2025-06-23,0.702,vazia
+E-OV-000219,OV-M-00100,OV-R-0011,ovino,Dorper,Morada Nova,3.5,5,4.0,0.77,0.74,IA_cervical,6,0,2024-06-08,0.556,prenhe
+E-OV-000220,OV-M-00119,OV-R-0018,ovino,Santa Ines,Santa Ines,2.2,2,3.2,0.33,0.6,IATF,6,0,2025-06-29,0.801,prenhe
+E-OV-000221,OV-M-00087,OV-R-0028,ovino,Somalis,Santa Ines,7.6,4,3.2,0.83,0.86,IA_cervical,12,0,2024-12-12,0.767,vazia
+E-OV-000222,OV-M-00147,OV-R-0027,ovino,Dorper,Dorper,9.6,4,4.3,0.27,0.71,IA_cervical,5,1,2025-05-07,0.352,vazia
+E-OV-000223,OV-M-00104,OV-R-0023,ovino,Santa Ines,Mestico,6.8,5,2.9,0.52,0.92,IATF,11,0,2024-11-05,0.518,prenhe
+E-OV-000224,OV-M-00187,OV-R-0017,ovino,Mestico,Santa Ines,6.8,0,3.4,1.0,0.55,IA_cervical,11,0,2024-11-27,0.599,vazia
+E-OV-000225,OV-M-00110,OV-R-0000,ovino,Santa Ines,Santa Ines,4.6,0,3.8,0.58,0.64,IA_cervical,10,0,2024-10-11,0.458,prenhe
+E-OV-000226,OV-M-00147,OV-R-0015,ovino,Dorper,Dorper,9.6,4,4.3,0.27,0.43,IA_laparoscopica,4,1,2024-04-24,0.577,prenhe
+E-OV-000227,OV-M-00042,OV-R-0024,ovino,Dorper,Santa Ines,7.1,1,3.5,0.81,0.66,IA_cervical,5,1,2024-05-18,0.66,prenhe
+E-OV-000228,OV-M-00115,OV-R-0025,ovino,Mestico,Santa Ines,7.5,0,3.6,0.41,0.6,IA_cervical,5,1,2024-05-02,0.412,prenhe
+E-OV-000229,OV-M-00106,OV-R-0023,ovino,Santa Ines,Mestico,6.9,0,3.3,0.28,0.92,IA_cervical,8,0,2025-08-08,0.592,vazia
+E-OV-000230,OV-M-00288,OV-R-0029,ovino,Somalis,Santa Ines,4.1,5,3.1,0.9,0.66,IA_cervical,11,0,2024-11-04,0.689,prenhe
+E-OV-000231,OV-M-00134,OV-R-0015,ovino,Santa Ines,Dorper,1.7,0,2.4,0.29,0.43,IA_cervical,10,0,2024-10-04,0.199,vazia
+E-OV-000232,OV-M-00006,OV-R-0003,ovino,Morada Nova,Santa Ines,9.9,3,3.2,0.46,0.81,IA_cervical,9,0,2025-09-16,0.697,prenhe
+E-OV-000233,OV-M-00092,OV-R-0014,ovino,Santa Ines,White Dorper,4.2,5,3.1,0.54,0.52,IATF,10,0,2025-10-09,0.653,prenhe
+E-OV-000234,OV-M-00218,OV-R-0009,ovino,Somalis,White Dorper,6.4,0,2.3,0.74,0.74,IATF,6,0,2024-06-19,0.371,prenhe
+E-OV-000235,OV-M-00049,OV-R-0025,ovino,Santa Ines,Santa Ines,3.2,3,2.6,0.5,0.6,IA_cervical,9,0,2024-09-15,0.448,prenhe
+E-OV-000236,OV-M-00048,OV-R-0023,ovino,Santa Ines,Mestico,8.8,3,3.4,0.37,0.92,IA_cervical,10,0,2024-10-27,0.705,vazia
+E-OV-000237,OV-M-00112,OV-R-0012,ovino,Somalis,Dorper,8.7,5,2.1,0.34,0.64,IA_cervical,9,0,2025-09-04,0.218,vazia
+E-OV-000238,OV-M-00107,OV-R-0011,ovino,Santa Ines,Morada Nova,2.5,0,2.1,0.66,0.74,IA_cervical,5,1,2025-05-05,0.495,vazia
+E-OV-000239,OV-M-00144,OV-R-0004,ovino,Dorper,Mestico,3.1,5,2.9,0.07,0.42,IA_cervical,2,1,2025-02-01,0.39,vazia
+E-OV-000240,OV-M-00010,OV-R-0001,ovino,Morada Nova,Santa Ines,4.4,3,4.1,0.37,0.86,IATF,6,0,2024-06-20,0.538,prenhe
+E-OV-000241,OV-M-00216,OV-R-0009,ovino,Morada Nova,White Dorper,2.3,4,3.3,1.0,0.74,IA_cervical,10,0,2024-10-08,0.826,prenhe
+E-OV-000242,OV-M-00064,OV-R-0007,ovino,Dorper,Santa Ines,2.0,2,2.6,0.58,0.86,IA_cervical,1,0,2024-01-22,0.638,prenhe
+E-OV-000243,OV-M-00213,OV-R-0007,ovino,Somalis,Santa Ines,8.2,0,2.3,0.63,0.86,IA_laparoscopica,5,1,2025-05-28,0.567,vazia
+E-OV-000244,OV-M-00169,OV-R-0029,ovino,Somalis,Santa Ines,8.0,4,3.2,0.46,0.66,IATF,11,0,2025-11-01,0.745,prenhe
+E-OV-000245,OV-M-00060,OV-R-0020,ovino,Morada Nova,Dorper,5.4,0,3.7,0.55,0.57,IA_cervical,7,0,2025-07-28,0.344,prenhe
+E-OV-000246,OV-M-00140,OV-R-0016,ovino,Santa Ines,Santa Ines,2.6,4,3.1,0.59,0.61,IA_cervical,8,0,2024-08-13,0.674,prenhe
+E-OV-000247,OV-M-00010,OV-R-0005,ovino,Morada Nova,Santa Ines,4.4,3,4.1,0.37,0.69,IATF,12,0,2024-12-18,0.592,prenhe
+E-OV-000248,OV-M-00210,OV-R-0025,ovino,Morada Nova,Santa Ines,6.4,5,3.4,0.69,0.6,IA_cervical,11,0,2025-11-30,0.506,vazia
+E-OV-000249,OV-M-00091,OV-R-0019,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.87,IA_laparoscopica,11,0,2024-11-06,0.787,prenhe
+E-OV-000250,OV-M-00115,OV-R-0015,ovino,Mestico,Dorper,7.5,0,3.6,0.41,0.43,IA_laparoscopica,9,0,2025-09-04,0.439,vazia
+E-OV-000251,OV-M-00047,OV-R-0013,ovino,Santa Ines,Santa Ines,8.0,0,3.6,0.59,0.72,IA_cervical,2,1,2025-02-25,0.348,vazia
+E-OV-000252,OV-M-00109,OV-R-0016,ovino,White Dorper,Santa Ines,6.1,2,3.4,0.83,0.61,IA_cervical,12,0,2024-12-30,0.628,vazia
+E-OV-000253,OV-M-00118,OV-R-0025,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.6,IA_cervical,3,1,2025-03-03,0.295,vazia
+E-OV-000254,OV-M-00067,OV-R-0021,ovino,Morada Nova,Santa Ines,2.9,5,3.8,0.17,0.84,IA_cervical,6,0,2024-06-12,0.49,prenhe
+E-OV-000255,OV-M-00293,OV-R-0014,ovino,Santa Ines,White Dorper,4.4,2,3.8,0.4,0.52,IA_cervical,11,0,2024-11-06,0.497,vazia
+E-OV-000256,OV-M-00083,OV-R-0020,ovino,Santa Ines,Dorper,5.8,0,3.1,0.23,0.57,IATF,8,0,2024-08-10,0.45,vazia
+E-OV-000257,OV-M-00054,OV-R-0027,ovino,Morada Nova,Dorper,8.4,1,2.9,0.47,0.71,IA_laparoscopica,7,0,2025-07-07,0.562,vazia
+E-OV-000258,OV-M-00164,OV-R-0009,ovino,Santa Ines,White Dorper,4.7,0,2.9,0.61,0.74,IATF,3,1,2025-03-23,0.691,vazia
+E-OV-000259,OV-M-00095,OV-R-0027,ovino,Santa Ines,Dorper,3.0,3,3.4,0.54,0.71,IATF,10,0,2024-10-18,0.817,prenhe
+E-OV-000260,OV-M-00136,OV-R-0018,ovino,Dorper,Santa Ines,9.7,2,2.7,0.39,0.6,IA_laparoscopica,8,0,2025-08-23,0.56,prenhe
+E-OV-000261,OV-M-00217,OV-R-0005,ovino,Dorper,Santa Ines,2.2,3,3.7,0.24,0.69,IA_cervical,11,0,2024-11-26,0.521,prenhe
+E-OV-000262,OV-M-00023,OV-R-0029,ovino,White Dorper,Santa Ines,6.1,0,3.1,0.98,0.66,IA_cervical,11,0,2025-11-26,0.682,prenhe
+E-OV-000263,OV-M-00152,OV-R-0020,ovino,Santa Ines,Dorper,6.9,5,2.8,0.62,0.57,IA_laparoscopica,3,1,2025-03-17,0.601,prenhe
+E-OV-000264,OV-M-00006,OV-R-0011,ovino,Morada Nova,Morada Nova,9.9,3,3.2,0.46,0.74,IA_cervical,10,0,2025-10-08,0.592,vazia
+E-OV-000265,OV-M-00013,OV-R-0006,ovino,Santa Ines,Santa Ines,5.1,0,4.1,0.5,0.59,IA_cervical,12,0,2025-12-21,0.101,vazia
+E-OV-000266,OV-M-00027,OV-R-0027,ovino,Santa Ines,Dorper,9.9,2,2.5,0.49,0.71,IA_cervical,8,0,2024-08-26,0.37,prenhe
+E-OV-000267,OV-M-00048,OV-R-0024,ovino,Santa Ines,Santa Ines,8.8,3,3.4,0.37,0.66,IA_cervical,7,0,2024-07-09,0.545,vazia
+E-OV-000268,OV-M-00104,OV-R-0001,ovino,Santa Ines,Santa Ines,6.8,5,2.9,0.52,0.86,IA_cervical,9,0,2025-09-02,0.423,vazia
+E-OV-000269,OV-M-00280,OV-R-0019,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.87,IATF,6,0,2024-06-18,0.866,prenhe
+E-OV-000270,OV-M-00271,OV-R-0003,ovino,Santa Ines,Santa Ines,4.7,1,3.0,0.38,0.81,IA_cervical,7,0,2025-07-03,0.728,vazia
+E-OV-000271,OV-M-00030,OV-R-0008,ovino,Mestico,Dorper,6.9,1,3.3,0.49,0.34,IA_cervical,5,1,2024-05-09,0.466,prenhe
+E-OV-000272,OV-M-00297,OV-R-0017,ovino,Santa Ines,Santa Ines,2.3,1,3.3,0.58,0.55,IA_cervical,9,0,2025-09-26,0.6,prenhe
+E-OV-000273,OV-M-00190,OV-R-0007,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.86,IA_cervical,5,1,2025-05-18,0.561,prenhe
+E-OV-000274,OV-M-00166,OV-R-0015,ovino,Dorper,Dorper,3.5,3,3.8,0.58,0.43,IA_cervical,1,0,2025-01-15,0.546,vazia
+E-OV-000275,OV-M-00237,OV-R-0012,ovino,Dorper,Dorper,1.1,4,3.4,0.43,0.64,IA_cervical,11,0,2024-11-23,0.647,prenhe
+E-OV-000276,OV-M-00145,OV-R-0017,ovino,Santa Ines,Santa Ines,6.4,3,3.4,0.71,0.55,IA_cervical,4,1,2025-04-10,0.684,prenhe
+E-OV-000277,OV-M-00079,OV-R-0024,ovino,Santa Ines,Santa Ines,1.0,1,3.5,0.36,0.66,IA_laparoscopica,10,0,2024-10-10,0.731,prenhe
+E-OV-000278,OV-M-00158,OV-R-0004,ovino,White Dorper,Mestico,7.7,1,3.8,0.46,0.42,IA_cervical,10,0,2024-10-17,0.196,vazia
+E-OV-000279,OV-M-00217,OV-R-0023,ovino,Dorper,Mestico,2.2,3,3.7,0.24,0.92,IATF,5,1,2024-05-28,0.707,prenhe
+E-OV-000280,OV-M-00204,OV-R-0006,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.59,IATF,4,1,2024-04-25,0.553,prenhe
+E-OV-000281,OV-M-00050,OV-R-0001,ovino,Santa Ines,Santa Ines,2.1,2,3.5,0.4,0.86,IA_cervical,10,0,2025-10-12,0.745,vazia
+E-OV-000282,OV-M-00281,OV-R-0013,ovino,Morada Nova,Santa Ines,5.8,0,3.3,0.47,0.72,IA_cervical,6,0,2025-06-30,0.471,vazia
+E-OV-000283,OV-M-00085,OV-R-0009,ovino,Santa Ines,White Dorper,8.2,5,3.1,0.66,0.74,IA_cervical,11,0,2024-11-19,0.58,prenhe
+E-OV-000284,OV-M-00245,OV-R-0005,ovino,Morada Nova,Santa Ines,7.5,5,3.4,0.38,0.69,IA_laparoscopica,8,0,2025-08-30,0.684,prenhe
+E-OV-000285,OV-M-00093,OV-R-0012,ovino,Mestico,Dorper,2.1,3,3.4,0.32,0.64,IA_laparoscopica,3,1,2025-03-19,0.901,prenhe
+E-OV-000286,OV-M-00019,OV-R-0026,ovino,Morada Nova,Morada Nova,4.1,4,3.5,0.18,0.72,IA_laparoscopica,3,1,2025-03-13,0.95,prenhe
+E-OV-000287,OV-M-00298,OV-R-0017,ovino,Morada Nova,Santa Ines,9.7,5,2.9,0.78,0.55,IATF,3,1,2024-03-23,0.473,vazia
+E-OV-000288,OV-M-00176,OV-R-0021,ovino,Morada Nova,Santa Ines,9.9,2,3.0,0.63,0.84,IA_cervical,1,0,2025-01-27,0.698,vazia
+E-OV-000289,OV-M-00064,OV-R-0004,ovino,Dorper,Mestico,2.0,2,2.6,0.58,0.42,IA_laparoscopica,3,1,2024-03-19,0.714,prenhe
+E-OV-000290,OV-M-00000,OV-R-0002,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.71,IA_cervical,5,1,2025-05-14,0.566,vazia
+E-OV-000291,OV-M-00038,OV-R-0010,ovino,Santa Ines,Dorper,2.6,4,3.5,0.79,0.65,IA_laparoscopica,2,1,2024-02-19,0.95,prenhe
+E-OV-000292,OV-M-00050,OV-R-0023,ovino,Santa Ines,Mestico,2.1,2,3.5,0.4,0.92,IA_cervical,1,0,2025-01-10,0.891,prenhe
+E-OV-000293,OV-M-00277,OV-R-0026,ovino,Morada Nova,Morada Nova,6.6,4,2.7,0.97,0.72,IATF,9,0,2024-09-25,0.554,prenhe
+E-OV-000294,OV-M-00053,OV-R-0003,ovino,Santa Ines,Santa Ines,1.3,2,3.1,0.32,0.81,IA_cervical,4,1,2024-04-05,0.883,prenhe
+E-OV-000295,OV-M-00048,OV-R-0014,ovino,Santa Ines,White Dorper,8.8,3,3.4,0.37,0.52,IA_cervical,12,0,2024-12-11,0.539,prenhe
+E-OV-000296,OV-M-00251,OV-R-0011,ovino,Santa Ines,Morada Nova,1.4,5,2.9,0.4,0.74,IA_cervical,5,1,2024-05-26,0.615,prenhe
+E-OV-000297,OV-M-00263,OV-R-0022,ovino,Santa Ines,Somalis,3.9,2,2.7,0.75,0.59,IATF,6,0,2024-06-27,0.621,prenhe
+E-OV-000298,OV-M-00062,OV-R-0006,ovino,Dorper,Santa Ines,4.2,5,3.9,0.69,0.59,IA_cervical,10,0,2025-10-11,0.475,vazia
+E-OV-000299,OV-M-00195,OV-R-0014,ovino,Morada Nova,White Dorper,1.6,2,3.6,0.7,0.52,IA_cervical,9,0,2024-09-12,0.585,vazia
+E-OV-000300,OV-M-00160,OV-R-0025,ovino,Morada Nova,Santa Ines,6.3,0,4.1,0.16,0.6,IA_cervical,10,0,2024-10-21,0.18,vazia
+E-OV-000301,OV-M-00173,OV-R-0013,ovino,Mestico,Santa Ines,9.2,5,3.4,0.49,0.72,IA_cervical,1,0,2024-01-05,0.614,prenhe
+E-OV-000302,OV-M-00093,OV-R-0023,ovino,Mestico,Mestico,2.1,3,3.4,0.32,0.92,IATF,8,0,2024-08-07,0.852,prenhe
+E-OV-000303,OV-M-00225,OV-R-0018,ovino,Santa Ines,Santa Ines,2.9,2,3.9,0.38,0.6,IATF,9,0,2024-09-13,0.551,vazia
+E-OV-000304,OV-M-00264,OV-R-0017,ovino,Santa Ines,Santa Ines,2.6,1,2.3,0.59,0.55,IATF,6,0,2025-06-08,0.305,prenhe
+E-OV-000305,OV-M-00217,OV-R-0007,ovino,Dorper,Santa Ines,2.2,3,3.7,0.24,0.86,IATF,3,1,2024-03-27,0.631,prenhe
+E-OV-000306,OV-M-00270,OV-R-0029,ovino,Santa Ines,Santa Ines,3.2,3,3.5,0.66,0.66,IA_cervical,11,0,2025-11-09,0.736,prenhe
+E-OV-000307,OV-M-00033,OV-R-0007,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.86,IA_cervical,4,1,2024-04-03,0.599,prenhe
+E-OV-000308,OV-M-00197,OV-R-0027,ovino,Santa Ines,Dorper,1.8,5,3.4,0.5,0.71,IA_cervical,4,1,2025-04-21,0.785,prenhe
+E-OV-000309,OV-M-00299,OV-R-0029,ovino,Santa Ines,Santa Ines,8.3,0,4.4,0.42,0.66,IA_laparoscopica,1,0,2024-01-04,0.322,prenhe
+E-OV-000310,OV-M-00160,OV-R-0015,ovino,Morada Nova,Dorper,6.3,0,4.1,0.16,0.43,IA_cervical,8,0,2025-08-21,0.05,vazia
+E-OV-000311,OV-M-00282,OV-R-0026,ovino,Somalis,Morada Nova,3.0,2,4.0,0.67,0.72,IA_laparoscopica,5,1,2025-05-23,0.849,prenhe
+E-OV-000312,OV-M-00104,OV-R-0021,ovino,Santa Ines,Santa Ines,6.8,5,2.9,0.52,0.84,IA_cervical,9,0,2025-09-03,0.48,prenhe
+E-OV-000313,OV-M-00268,OV-R-0022,ovino,Mestico,Somalis,4.1,0,3.4,0.29,0.59,IA_cervical,11,0,2025-11-10,0.524,vazia
+E-OV-000314,OV-M-00281,OV-R-0002,ovino,Morada Nova,Santa Ines,5.8,0,3.3,0.47,0.71,IA_cervical,8,0,2025-08-31,0.531,prenhe
+E-OV-000315,OV-M-00186,OV-R-0004,ovino,Santa Ines,Mestico,4.6,5,3.8,0.44,0.42,IATF,3,1,2025-03-29,0.506,vazia
+E-OV-000316,OV-M-00211,OV-R-0002,ovino,Somalis,Santa Ines,8.3,0,2.9,0.6,0.71,IA_laparoscopica,9,0,2025-09-04,0.589,vazia
+E-OV-000317,OV-M-00156,OV-R-0000,ovino,Mestico,Santa Ines,8.7,0,4.4,0.39,0.64,IA_cervical,3,1,2024-03-11,0.317,prenhe
+E-OV-000318,OV-M-00095,OV-R-0025,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.6,IATF,4,1,2025-04-16,0.836,vazia
+E-OV-000319,OV-M-00160,OV-R-0005,ovino,Morada Nova,Santa Ines,6.3,0,4.1,0.16,0.69,IATF,12,0,2025-12-23,0.133,vazia
+E-OV-000320,OV-M-00288,OV-R-0000,ovino,Somalis,Santa Ines,4.1,5,3.1,0.9,0.64,IA_cervical,10,0,2024-10-02,0.704,prenhe
+E-OV-000321,OV-M-00004,OV-R-0028,ovino,Somalis,Santa Ines,1.1,5,2.8,0.75,0.86,IATF,12,0,2025-12-13,0.653,vazia
+E-OV-000322,OV-M-00061,OV-R-0008,ovino,Morada Nova,Dorper,2.3,1,2.4,0.71,0.34,IA_cervical,1,0,2025-01-04,0.332,vazia
+E-OV-000323,OV-M-00149,OV-R-0024,ovino,Dorper,Santa Ines,7.5,0,3.8,0.98,0.66,IA_cervical,12,0,2024-12-07,0.383,prenhe
+E-OV-000324,OV-M-00101,OV-R-0028,ovino,Santa Ines,Santa Ines,5.8,4,3.2,0.51,0.86,IA_cervical,8,0,2024-08-07,0.733,prenhe
+E-OV-000325,OV-M-00187,OV-R-0015,ovino,Mestico,Dorper,6.8,0,3.4,1.0,0.43,IA_cervical,3,1,2024-03-19,0.583,prenhe
+E-OV-000326,OV-M-00108,OV-R-0027,ovino,Santa Ines,Dorper,7.5,0,3.3,0.19,0.71,IA_cervical,10,0,2025-10-01,0.406,vazia
+E-OV-000327,OV-M-00197,OV-R-0029,ovino,Santa Ines,Santa Ines,1.8,5,3.4,0.5,0.66,IA_cervical,6,0,2025-06-10,0.621,vazia
+E-OV-000328,OV-M-00031,OV-R-0004,ovino,Santa Ines,Mestico,5.1,1,3.7,0.36,0.42,IA_cervical,10,0,2024-10-19,0.346,vazia
+E-OV-000329,OV-M-00099,OV-R-0004,ovino,Dorper,Mestico,7.9,3,2.6,0.49,0.42,IA_laparoscopica,12,0,2025-12-02,0.539,vazia
+E-OV-000330,OV-M-00207,OV-R-0011,ovino,Santa Ines,Morada Nova,2.3,2,3.1,0.6,0.74,IA_laparoscopica,5,1,2024-05-14,0.95,prenhe
+E-OV-000331,OV-M-00141,OV-R-0016,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.61,IA_cervical,7,0,2025-07-22,0.64,vazia
+E-OV-000332,OV-M-00214,OV-R-0023,ovino,Somalis,Mestico,9.8,4,2.4,0.54,0.92,IA_cervical,11,0,2024-11-26,0.402,vazia
+E-OV-000333,OV-M-00190,OV-R-0005,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.69,IA_cervical,3,1,2025-03-31,0.428,vazia
+E-OV-000334,OV-M-00098,OV-R-0005,ovino,Morada Nova,Santa Ines,5.3,2,2.6,0.64,0.69,IATF,1,0,2024-01-28,0.523,prenhe
+E-OV-000335,OV-M-00128,OV-R-0009,ovino,Dorper,White Dorper,7.0,4,2.6,0.54,0.74,IATF,3,1,2025-03-21,0.585,prenhe
+E-OV-000336,OV-M-00289,OV-R-0008,ovino,Santa Ines,Dorper,5.0,2,4.0,0.26,0.34,IA_cervical,5,1,2025-05-10,0.434,prenhe
+E-OV-000337,OV-M-00288,OV-R-0028,ovino,Somalis,Santa Ines,4.1,5,3.1,0.9,0.86,IA_laparoscopica,12,0,2025-12-14,0.95,prenhe
+E-OV-000338,OV-M-00010,OV-R-0011,ovino,Morada Nova,Morada Nova,4.4,3,4.1,0.37,0.74,IA_cervical,9,0,2024-09-09,0.42,vazia
+E-OV-000339,OV-M-00211,OV-R-0026,ovino,Somalis,Morada Nova,8.3,0,2.9,0.6,0.72,IATF,2,1,2024-02-23,0.489,prenhe
+E-OV-000340,OV-M-00147,OV-R-0001,ovino,Dorper,Santa Ines,9.6,4,4.3,0.27,0.86,IA_cervical,2,1,2024-02-15,0.494,prenhe
+E-OV-000341,OV-M-00000,OV-R-0003,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.81,IA_cervical,4,1,2024-04-19,0.508,prenhe
+E-OV-000342,OV-M-00190,OV-R-0024,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.66,IA_cervical,8,0,2024-08-06,0.387,vazia
+E-OV-000343,OV-M-00006,OV-R-0007,ovino,Morada Nova,Santa Ines,9.9,3,3.2,0.46,0.86,IA_cervical,8,0,2025-08-29,0.735,prenhe
+E-OV-000344,OV-M-00095,OV-R-0002,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.71,IA_cervical,5,1,2024-05-22,0.823,prenhe
+E-OV-000345,OV-M-00207,OV-R-0017,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.55,IA_cervical,4,1,2024-04-15,0.754,prenhe
+E-OV-000346,OV-M-00243,OV-R-0004,ovino,Morada Nova,Mestico,2.5,3,3.2,0.69,0.42,IA_cervical,1,0,2024-01-24,0.712,prenhe
+E-OV-000347,OV-M-00123,OV-R-0001,ovino,Somalis,Santa Ines,4.5,5,3.9,0.37,0.86,IA_laparoscopica,10,0,2024-10-06,0.659,prenhe
+E-OV-000348,OV-M-00242,OV-R-0012,ovino,Santa Ines,Dorper,7.2,3,1.6,0.51,0.64,IA_laparoscopica,3,1,2025-03-16,0.577,prenhe
+E-OV-000349,OV-M-00251,OV-R-0016,ovino,Santa Ines,Santa Ines,1.4,5,2.9,0.4,0.61,IA_cervical,7,0,2024-07-24,0.382,prenhe
+E-OV-000350,OV-M-00134,OV-R-0015,ovino,Santa Ines,Dorper,1.7,0,2.4,0.29,0.43,IATF,12,0,2024-12-27,0.176,vazia
+E-OV-000351,OV-M-00051,OV-R-0017,ovino,Mestico,Santa Ines,8.0,1,3.2,0.31,0.55,IA_cervical,6,0,2024-06-26,0.454,vazia
+E-OV-000352,OV-M-00197,OV-R-0000,ovino,Santa Ines,Santa Ines,1.8,5,3.4,0.5,0.64,IATF,8,0,2025-08-07,0.623,prenhe
+E-OV-000353,OV-M-00004,OV-R-0008,ovino,Somalis,Dorper,1.1,5,2.8,0.75,0.34,IA_cervical,1,0,2024-01-19,0.395,vazia
+E-OV-000354,OV-M-00267,OV-R-0010,ovino,Santa Ines,Dorper,8.1,4,2.3,0.32,0.65,IATF,5,1,2024-05-26,0.47,vazia
+E-OV-000355,OV-M-00116,OV-R-0008,ovino,Santa Ines,Dorper,4.7,4,1.8,0.59,0.34,IATF,2,1,2025-02-17,0.567,prenhe
+E-OV-000356,OV-M-00228,OV-R-0016,ovino,Santa Ines,Santa Ines,6.4,3,3.3,0.68,0.61,IATF,9,0,2025-09-06,0.665,vazia
+E-OV-000357,OV-M-00220,OV-R-0006,ovino,Santa Ines,Santa Ines,2.7,0,2.5,0.58,0.59,IATF,10,0,2024-10-19,0.543,vazia
+E-OV-000358,OV-M-00141,OV-R-0018,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.6,IA_cervical,2,1,2024-02-20,0.788,prenhe
+E-OV-000359,OV-M-00291,OV-R-0028,ovino,Santa Ines,Santa Ines,7.7,2,2.8,0.51,0.86,IA_laparoscopica,2,1,2025-02-06,0.747,vazia
+E-OV-000360,OV-M-00238,OV-R-0019,ovino,Santa Ines,Santa Ines,8.0,1,3.0,0.25,0.87,IA_cervical,7,0,2024-07-16,0.482,vazia
+E-OV-000361,OV-M-00265,OV-R-0011,ovino,Morada Nova,Morada Nova,2.7,3,3.5,0.53,0.74,IA_cervical,8,0,2024-08-10,0.843,prenhe
+E-OV-000362,OV-M-00028,OV-R-0013,ovino,Santa Ines,Santa Ines,9.3,2,3.5,0.91,0.72,IATF,11,0,2025-11-04,0.698,prenhe
+E-OV-000363,OV-M-00145,OV-R-0017,ovino,Santa Ines,Santa Ines,6.4,3,3.4,0.71,0.55,IA_cervical,11,0,2025-11-18,0.661,prenhe
+E-OV-000364,OV-M-00285,OV-R-0021,ovino,Mestico,Santa Ines,4.7,4,2.8,0.63,0.84,IA_cervical,7,0,2024-07-07,0.679,prenhe
+E-OV-000365,OV-M-00243,OV-R-0009,ovino,Morada Nova,White Dorper,2.5,3,3.2,0.69,0.74,IATF,3,1,2025-03-07,0.875,vazia
+E-OV-000366,OV-M-00136,OV-R-0001,ovino,Dorper,Santa Ines,9.7,2,2.7,0.39,0.86,IA_cervical,1,0,2025-01-29,0.498,prenhe
+E-OV-000367,OV-M-00021,OV-R-0021,ovino,Somalis,Santa Ines,2.7,4,3.6,0.27,0.84,IA_cervical,12,0,2025-12-02,0.687,prenhe
+E-OV-000368,OV-M-00084,OV-R-0019,ovino,Santa Ines,Santa Ines,1.4,1,2.6,0.41,0.87,IA_cervical,11,0,2025-11-21,0.647,prenhe
+E-OV-000369,OV-M-00171,OV-R-0003,ovino,Morada Nova,Santa Ines,1.2,1,3.6,0.4,0.81,IATF,9,0,2024-09-12,0.568,prenhe
+E-OV-000370,OV-M-00192,OV-R-0018,ovino,Somalis,Santa Ines,9.6,3,4.0,0.82,0.6,IATF,1,0,2024-01-19,0.478,vazia
+E-OV-000371,OV-M-00277,OV-R-0002,ovino,Morada Nova,Santa Ines,6.6,4,2.7,0.97,0.71,IA_cervical,1,0,2024-01-02,0.543,prenhe
+E-OV-000372,OV-M-00027,OV-R-0019,ovino,Santa Ines,Santa Ines,9.9,2,2.5,0.49,0.87,IA_laparoscopica,1,0,2024-01-04,0.678,prenhe
+E-OV-000373,OV-M-00118,OV-R-0022,ovino,Mestico,Somalis,8.5,0,3.9,0.22,0.59,IA_cervical,7,0,2025-07-24,0.3,vazia
+E-OV-000374,OV-M-00081,OV-R-0000,ovino,Mestico,Santa Ines,2.8,0,2.2,0.54,0.64,IA_laparoscopica,6,0,2025-06-24,0.571,vazia
+E-OV-000375,OV-M-00288,OV-R-0021,ovino,Somalis,Santa Ines,4.1,5,3.1,0.9,0.84,IA_laparoscopica,8,0,2025-08-26,0.891,prenhe
+E-OV-000376,OV-M-00049,OV-R-0003,ovino,Santa Ines,Santa Ines,3.2,3,2.6,0.5,0.81,IATF,4,1,2024-04-11,0.767,prenhe
+E-OV-000377,OV-M-00066,OV-R-0007,ovino,Santa Ines,Santa Ines,5.9,4,3.2,0.67,0.86,IA_cervical,2,1,2024-02-12,0.779,prenhe
+E-OV-000378,OV-M-00089,OV-R-0021,ovino,Santa Ines,Santa Ines,5.6,3,4.1,1.0,0.84,IA_cervical,5,1,2024-05-04,0.578,vazia
+E-OV-000379,OV-M-00031,OV-R-0010,ovino,Santa Ines,Dorper,5.1,1,3.7,0.36,0.65,IA_cervical,4,1,2025-04-01,0.434,vazia
+E-OV-000380,OV-M-00193,OV-R-0029,ovino,Somalis,Santa Ines,2.6,5,2.4,0.41,0.66,IA_cervical,1,0,2024-01-07,0.416,vazia
+E-OV-000381,OV-M-00157,OV-R-0028,ovino,Santa Ines,Santa Ines,4.0,1,3.9,0.58,0.86,IA_cervical,4,1,2025-04-27,0.729,prenhe
+E-OV-000382,OV-M-00167,OV-R-0029,ovino,Santa Ines,Santa Ines,2.2,4,2.6,0.51,0.66,IA_cervical,10,0,2025-10-10,0.519,vazia
+E-OV-000383,OV-M-00272,OV-R-0003,ovino,Somalis,Santa Ines,8.3,0,2.7,0.44,0.81,IA_cervical,4,1,2024-04-16,0.449,prenhe
+E-OV-000384,OV-M-00129,OV-R-0005,ovino,Somalis,Santa Ines,4.6,3,3.8,0.42,0.69,IATF,6,0,2025-06-23,0.578,prenhe
+E-OV-000385,OV-M-00093,OV-R-0005,ovino,Mestico,Santa Ines,2.1,3,3.4,0.32,0.69,IA_cervical,2,1,2025-02-07,0.696,vazia
+E-OV-000386,OV-M-00112,OV-R-0017,ovino,Somalis,Santa Ines,8.7,5,2.1,0.34,0.55,IA_cervical,11,0,2025-11-20,0.163,prenhe
+E-OV-000387,OV-M-00240,OV-R-0012,ovino,Morada Nova,Dorper,3.7,2,2.8,0.35,0.64,IATF,6,0,2024-06-26,0.658,vazia
+E-OV-000388,OV-M-00158,OV-R-0022,ovino,White Dorper,Somalis,7.7,1,3.8,0.46,0.59,IA_cervical,6,0,2024-06-14,0.252,vazia
+E-OV-000389,OV-M-00050,OV-R-0008,ovino,Santa Ines,Dorper,2.1,2,3.5,0.4,0.34,IA_cervical,1,0,2024-01-13,0.575,vazia
+E-OV-000390,OV-M-00206,OV-R-0005,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.69,IA_cervical,5,1,2025-05-29,0.765,prenhe
+E-OV-000391,OV-M-00223,OV-R-0019,ovino,Santa Ines,Santa Ines,3.3,1,3.0,0.41,0.87,IA_cervical,9,0,2025-09-24,0.754,vazia
+E-OV-000392,OV-M-00074,OV-R-0018,ovino,Somalis,Santa Ines,4.2,5,3.8,1.0,0.6,IA_cervical,1,0,2024-01-14,0.502,vazia
+E-OV-000393,OV-M-00167,OV-R-0020,ovino,Santa Ines,Dorper,2.2,4,2.6,0.51,0.57,IA_laparoscopica,12,0,2024-12-24,0.629,prenhe
+E-OV-000394,OV-M-00169,OV-R-0009,ovino,Somalis,White Dorper,8.0,4,3.2,0.46,0.74,IA_cervical,6,0,2025-06-12,0.549,prenhe
+E-OV-000395,OV-M-00052,OV-R-0015,ovino,Morada Nova,Dorper,3.3,5,3.0,0.39,0.43,IA_cervical,7,0,2025-07-24,0.597,prenhe
+E-OV-000396,OV-M-00002,OV-R-0027,ovino,Santa Ines,Dorper,4.5,5,2.5,0.79,0.71,IA_cervical,11,0,2025-11-10,0.503,prenhe
+E-OV-000397,OV-M-00215,OV-R-0018,ovino,Morada Nova,Santa Ines,4.5,2,2.6,0.49,0.6,IA_cervical,6,0,2025-06-11,0.503,vazia
+E-OV-000398,OV-M-00184,OV-R-0027,ovino,Santa Ines,Dorper,9.1,0,3.5,0.45,0.71,IA_cervical,11,0,2025-11-02,0.609,prenhe
+E-OV-000399,OV-M-00214,OV-R-0013,ovino,Somalis,Santa Ines,9.8,4,2.4,0.54,0.72,IATF,12,0,2025-12-26,0.369,vazia
+E-OV-000400,OV-M-00113,OV-R-0001,ovino,Santa Ines,Santa Ines,8.0,1,2.7,0.7,0.86,IA_cervical,11,0,2025-11-08,0.511,prenhe
+E-OV-000401,OV-M-00154,OV-R-0022,ovino,Somalis,Somalis,8.4,0,3.5,0.58,0.59,IA_cervical,11,0,2024-11-15,0.535,prenhe
+E-OV-000402,OV-M-00294,OV-R-0013,ovino,White Dorper,Santa Ines,4.2,5,3.7,0.22,0.72,IA_cervical,10,0,2024-10-24,0.493,vazia
+E-OV-000403,OV-M-00067,OV-R-0001,ovino,Morada Nova,Santa Ines,2.9,5,3.8,0.17,0.86,IA_laparoscopica,11,0,2024-11-08,0.601,prenhe
+E-OV-000404,OV-M-00195,OV-R-0004,ovino,Morada Nova,Mestico,1.6,2,3.6,0.7,0.42,IA_laparoscopica,11,0,2025-11-25,0.642,prenhe
+E-OV-000405,OV-M-00039,OV-R-0009,ovino,Morada Nova,White Dorper,2.1,2,3.7,0.27,0.74,IA_cervical,7,0,2024-07-24,0.555,prenhe
+E-OV-000406,OV-M-00019,OV-R-0005,ovino,Morada Nova,Santa Ines,4.1,4,3.5,0.18,0.69,IA_laparoscopica,7,0,2025-07-03,0.948,prenhe
+E-OV-000407,OV-M-00287,OV-R-0020,ovino,Santa Ines,Dorper,1.1,0,3.8,0.58,0.57,IA_cervical,4,1,2025-04-01,0.476,prenhe
+E-OV-000408,OV-M-00038,OV-R-0018,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.6,IATF,2,1,2024-02-15,0.863,prenhe
+E-OV-000409,OV-M-00196,OV-R-0009,ovino,Santa Ines,White Dorper,6.0,0,1.9,0.51,0.74,IA_cervical,12,0,2024-12-20,0.279,prenhe
+E-OV-000410,OV-M-00154,OV-R-0002,ovino,Somalis,Santa Ines,8.4,0,3.5,0.58,0.71,IA_laparoscopica,5,1,2024-05-22,0.821,prenhe
+E-OV-000411,OV-M-00242,OV-R-0002,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.71,IA_laparoscopica,6,0,2025-06-15,0.56,vazia
+E-OV-000412,OV-M-00163,OV-R-0028,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.86,IA_laparoscopica,11,0,2024-11-22,0.766,prenhe
+E-OV-000413,OV-M-00209,OV-R-0010,ovino,Santa Ines,Dorper,8.0,0,3.0,0.73,0.65,IA_cervical,9,0,2024-09-17,0.509,prenhe
+E-OV-000414,OV-M-00268,OV-R-0003,ovino,Mestico,Santa Ines,4.1,0,3.4,0.29,0.81,IA_laparoscopica,2,1,2024-02-17,0.913,prenhe
+E-OV-000415,OV-M-00248,OV-R-0021,ovino,Santa Ines,Santa Ines,1.2,2,3.4,0.7,0.84,IA_laparoscopica,4,1,2024-04-05,0.95,prenhe
+E-OV-000416,OV-M-00216,OV-R-0026,ovino,Morada Nova,Morada Nova,2.3,4,3.3,1.0,0.72,IA_cervical,7,0,2025-07-11,0.836,prenhe
+E-OV-000417,OV-M-00048,OV-R-0003,ovino,Santa Ines,Santa Ines,8.8,3,3.4,0.37,0.81,IA_cervical,9,0,2025-09-21,0.627,prenhe
+E-OV-000418,OV-M-00050,OV-R-0028,ovino,Santa Ines,Santa Ines,2.1,2,3.5,0.4,0.86,IA_cervical,7,0,2024-07-31,0.733,prenhe
+E-OV-000419,OV-M-00149,OV-R-0021,ovino,Dorper,Santa Ines,7.5,0,3.8,0.98,0.84,IA_cervical,8,0,2025-08-27,0.585,prenhe
+E-OV-000420,OV-M-00197,OV-R-0007,ovino,Santa Ines,Santa Ines,1.8,5,3.4,0.5,0.86,IATF,2,1,2025-02-06,0.862,prenhe
+E-OV-000421,OV-M-00200,OV-R-0023,ovino,Santa Ines,Mestico,1.7,0,3.0,0.63,0.92,IA_cervical,9,0,2024-09-13,0.808,prenhe
+E-OV-000422,OV-M-00236,OV-R-0012,ovino,Mestico,Dorper,8.9,3,3.6,0.63,0.64,IA_laparoscopica,11,0,2024-11-25,0.623,prenhe
+E-OV-000423,OV-M-00031,OV-R-0019,ovino,Santa Ines,Santa Ines,5.1,1,3.7,0.36,0.87,IA_laparoscopica,5,1,2025-05-18,0.694,prenhe
+E-OV-000424,OV-M-00052,OV-R-0003,ovino,Morada Nova,Santa Ines,3.3,5,3.0,0.39,0.81,IA_laparoscopica,10,0,2025-10-25,0.787,prenhe
+E-OV-000425,OV-M-00044,OV-R-0007,ovino,Santa Ines,Santa Ines,7.2,4,2.7,0.45,0.86,IA_laparoscopica,12,0,2024-12-25,0.566,vazia
+E-OV-000426,OV-M-00162,OV-R-0023,ovino,White Dorper,Mestico,6.4,1,3.9,0.37,0.92,IA_laparoscopica,9,0,2024-09-10,0.695,prenhe
+E-OV-000427,OV-M-00190,OV-R-0024,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.66,IA_cervical,7,0,2025-07-09,0.374,prenhe
+E-OV-000428,OV-M-00034,OV-R-0000,ovino,Santa Ines,Santa Ines,9.0,2,2.3,0.46,0.64,IA_cervical,1,0,2025-01-18,0.318,vazia
+E-OV-000429,OV-M-00260,OV-R-0006,ovino,Dorper,Santa Ines,2.1,2,3.1,0.39,0.59,IATF,10,0,2024-10-11,0.662,prenhe
+E-OV-000430,OV-M-00091,OV-R-0018,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.6,IATF,12,0,2024-12-01,0.503,vazia
+E-OV-000431,OV-M-00198,OV-R-0027,ovino,Mestico,Dorper,6.1,1,3.7,0.59,0.71,IA_cervical,1,0,2025-01-26,0.465,prenhe
+E-OV-000432,OV-M-00225,OV-R-0020,ovino,Santa Ines,Dorper,2.9,2,3.9,0.38,0.57,IATF,4,1,2024-04-12,0.711,prenhe
+E-OV-000433,OV-M-00010,OV-R-0021,ovino,Morada Nova,Santa Ines,4.4,3,4.1,0.37,0.84,IATF,2,1,2024-02-12,0.599,prenhe
+E-OV-000434,OV-M-00259,OV-R-0011,ovino,Santa Ines,Morada Nova,4.5,1,2.7,0.69,0.74,IA_cervical,4,1,2025-04-30,0.688,prenhe
+E-OV-000435,OV-M-00291,OV-R-0001,ovino,Santa Ines,Santa Ines,7.7,2,2.8,0.51,0.86,IA_laparoscopica,5,1,2024-05-07,0.776,prenhe
+E-OV-000436,OV-M-00287,OV-R-0022,ovino,Santa Ines,Somalis,1.1,0,3.8,0.58,0.59,IA_laparoscopica,1,0,2025-01-23,0.616,prenhe
+E-OV-000437,OV-M-00041,OV-R-0023,ovino,Somalis,Mestico,8.0,2,3.5,0.27,0.92,IA_cervical,7,0,2025-07-24,0.745,prenhe
+E-OV-000438,OV-M-00117,OV-R-0013,ovino,Santa Ines,Santa Ines,8.1,2,3.0,0.21,0.72,IA_cervical,6,0,2024-06-05,0.537,prenhe
+E-OV-000439,OV-M-00069,OV-R-0015,ovino,Mestico,Dorper,5.3,3,2.8,0.55,0.43,IA_cervical,10,0,2024-10-05,0.404,prenhe
+E-OV-000440,OV-M-00135,OV-R-0007,ovino,Santa Ines,Santa Ines,1.9,2,4.0,0.56,0.86,IATF,12,0,2025-12-15,0.715,prenhe
+E-OV-000441,OV-M-00292,OV-R-0013,ovino,White Dorper,Santa Ines,9.7,3,3.0,0.27,0.72,IA_cervical,1,0,2024-01-26,0.571,vazia
+E-OV-000442,OV-M-00228,OV-R-0007,ovino,Santa Ines,Santa Ines,6.4,3,3.3,0.68,0.86,IATF,7,0,2025-07-05,0.829,vazia
+E-OV-000443,OV-M-00231,OV-R-0012,ovino,White Dorper,Dorper,1.8,0,3.5,0.5,0.64,IA_laparoscopica,5,1,2024-05-02,0.891,prenhe
+E-OV-000444,OV-M-00126,OV-R-0004,ovino,Somalis,Mestico,1.9,0,2.6,0.36,0.42,IA_laparoscopica,10,0,2025-10-23,0.505,prenhe
+E-OV-000445,OV-M-00280,OV-R-0018,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.6,IA_cervical,10,0,2024-10-27,0.805,prenhe
+E-OV-000446,OV-M-00276,OV-R-0007,ovino,Somalis,Santa Ines,5.5,0,3.1,0.49,0.86,IA_cervical,1,0,2024-01-05,0.634,vazia
+E-OV-000447,OV-M-00241,OV-R-0021,ovino,Santa Ines,Santa Ines,8.9,5,2.5,0.51,0.84,IA_cervical,6,0,2025-06-08,0.478,prenhe
+E-OV-000448,OV-M-00244,OV-R-0015,ovino,Santa Ines,Dorper,5.4,1,2.8,0.64,0.43,IA_cervical,4,1,2024-04-17,0.196,vazia
+E-OV-000449,OV-M-00195,OV-R-0026,ovino,Morada Nova,Morada Nova,1.6,2,3.6,0.7,0.72,IA_cervical,9,0,2024-09-22,0.64,vazia
+E-OV-000450,OV-M-00028,OV-R-0006,ovino,Santa Ines,Santa Ines,9.3,2,3.5,0.91,0.59,IA_cervical,1,0,2025-01-01,0.659,prenhe
+E-OV-000451,OV-M-00085,OV-R-0008,ovino,Santa Ines,Dorper,8.2,5,3.1,0.66,0.34,IA_cervical,6,0,2025-06-27,0.416,vazia
+E-OV-000452,OV-M-00230,OV-R-0007,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.86,IA_cervical,11,0,2024-11-01,0.642,prenhe
+E-OV-000453,OV-M-00098,OV-R-0018,ovino,Morada Nova,Santa Ines,5.3,2,2.6,0.64,0.6,IA_cervical,9,0,2025-09-18,0.441,vazia
+E-OV-000454,OV-M-00051,OV-R-0003,ovino,Mestico,Santa Ines,8.0,1,3.2,0.31,0.81,IA_cervical,12,0,2024-12-17,0.6,vazia
+E-OV-000455,OV-M-00284,OV-R-0020,ovino,Somalis,Dorper,7.7,2,3.8,0.88,0.57,IATF,9,0,2024-09-06,0.501,prenhe
+E-OV-000456,OV-M-00146,OV-R-0024,ovino,Santa Ines,Santa Ines,2.4,5,3.3,0.18,0.66,IA_cervical,9,0,2024-09-03,0.655,prenhe
+E-OV-000457,OV-M-00258,OV-R-0020,ovino,Santa Ines,Dorper,3.2,1,3.5,0.35,0.57,IATF,8,0,2025-08-07,0.697,prenhe
+E-OV-000458,OV-M-00085,OV-R-0004,ovino,Santa Ines,Mestico,8.2,5,3.1,0.66,0.42,IA_laparoscopica,4,1,2025-04-30,0.737,prenhe
+E-OV-000459,OV-M-00107,OV-R-0014,ovino,Santa Ines,White Dorper,2.5,0,2.1,0.66,0.52,IA_cervical,4,1,2024-04-02,0.435,vazia
+E-OV-000460,OV-M-00102,OV-R-0016,ovino,Dorper,Santa Ines,4.0,3,3.3,0.36,0.61,IATF,7,0,2025-07-01,0.784,prenhe
+E-OV-000461,OV-M-00111,OV-R-0011,ovino,Santa Ines,Morada Nova,7.2,5,2.9,0.54,0.74,IATF,10,0,2024-10-30,0.485,vazia
+E-OV-000462,OV-M-00131,OV-R-0013,ovino,Santa Ines,Santa Ines,8.2,5,3.4,0.52,0.72,IA_laparoscopica,9,0,2024-09-11,0.716,vazia
+E-OV-000463,OV-M-00089,OV-R-0022,ovino,Santa Ines,Somalis,5.6,3,4.1,1.0,0.59,IA_cervical,3,1,2024-03-12,0.526,prenhe
+E-OV-000464,OV-M-00244,OV-R-0025,ovino,Santa Ines,Santa Ines,5.4,1,2.8,0.64,0.6,IA_cervical,12,0,2025-12-29,0.387,vazia
+E-OV-000465,OV-M-00097,OV-R-0009,ovino,White Dorper,White Dorper,4.4,4,3.2,0.38,0.74,IA_cervical,2,1,2024-02-08,0.908,prenhe
+E-OV-000466,OV-M-00132,OV-R-0009,ovino,Morada Nova,White Dorper,9.9,0,2.9,0.52,0.74,IATF,12,0,2025-12-28,0.465,prenhe
+E-OV-000467,OV-M-00258,OV-R-0006,ovino,Santa Ines,Santa Ines,3.2,1,3.5,0.35,0.59,IA_cervical,2,1,2024-02-17,0.665,prenhe
+E-OV-000468,OV-M-00131,OV-R-0012,ovino,Santa Ines,Dorper,8.2,5,3.4,0.52,0.64,IA_cervical,1,0,2025-01-03,0.627,prenhe
+E-OV-000469,OV-M-00003,OV-R-0016,ovino,Santa Ines,Santa Ines,5.8,1,3.0,0.48,0.61,IA_cervical,3,1,2024-03-17,0.495,prenhe
+E-OV-000470,OV-M-00000,OV-R-0021,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.84,IA_cervical,12,0,2024-12-25,0.548,vazia
+E-OV-000471,OV-M-00130,OV-R-0008,ovino,Morada Nova,Dorper,4.8,4,4.6,0.56,0.34,IA_cervical,9,0,2025-09-02,0.303,prenhe
+E-OV-000472,OV-M-00194,OV-R-0006,ovino,Santa Ines,Santa Ines,9.6,2,2.7,0.81,0.59,IA_cervical,3,1,2025-03-06,0.632,prenhe
+E-OV-000473,OV-M-00282,OV-R-0000,ovino,Somalis,Santa Ines,3.0,2,4.0,0.67,0.64,IATF,1,0,2025-01-31,0.643,vazia
+E-OV-000474,OV-M-00039,OV-R-0002,ovino,Morada Nova,Santa Ines,2.1,2,3.7,0.27,0.71,IA_cervical,3,1,2024-03-27,0.568,vazia
+E-OV-000475,OV-M-00162,OV-R-0001,ovino,White Dorper,Santa Ines,6.4,1,3.9,0.37,0.86,IA_cervical,11,0,2025-11-22,0.415,prenhe
+E-OV-000476,OV-M-00086,OV-R-0006,ovino,Dorper,Santa Ines,5.4,4,3.4,0.56,0.59,IA_cervical,10,0,2024-10-01,0.542,vazia
+E-OV-000477,OV-M-00135,OV-R-0020,ovino,Santa Ines,Dorper,1.9,2,4.0,0.56,0.57,IA_cervical,1,0,2025-01-27,0.515,vazia
+E-OV-000478,OV-M-00132,OV-R-0023,ovino,Morada Nova,Mestico,9.9,0,2.9,0.52,0.92,IA_laparoscopica,10,0,2025-10-17,0.596,vazia
+E-OV-000479,OV-M-00093,OV-R-0029,ovino,Mestico,Santa Ines,2.1,3,3.4,0.32,0.66,IA_cervical,4,1,2025-04-03,0.73,prenhe
+E-OV-000480,OV-M-00005,OV-R-0016,ovino,Santa Ines,Santa Ines,3.6,0,3.0,0.22,0.61,IATF,6,0,2025-06-20,0.612,prenhe
+E-OV-000481,OV-M-00022,OV-R-0013,ovino,Santa Ines,Santa Ines,5.4,5,3.8,0.88,0.72,IATF,5,1,2024-05-14,0.594,vazia
+E-OV-000482,OV-M-00156,OV-R-0026,ovino,Mestico,Morada Nova,8.7,0,4.4,0.39,0.72,IATF,12,0,2024-12-01,0.226,prenhe
+E-OV-000483,OV-M-00067,OV-R-0004,ovino,Morada Nova,Mestico,2.9,5,3.8,0.17,0.42,IATF,1,0,2025-01-29,0.279,vazia
+E-OV-000484,OV-M-00098,OV-R-0018,ovino,Morada Nova,Santa Ines,5.3,2,2.6,0.64,0.6,IA_cervical,5,1,2024-05-08,0.524,vazia
+E-OV-000485,OV-M-00027,OV-R-0024,ovino,Santa Ines,Santa Ines,9.9,2,2.5,0.49,0.66,IA_cervical,10,0,2024-10-08,0.449,vazia
+E-OV-000486,OV-M-00014,OV-R-0015,ovino,Santa Ines,Dorper,6.8,1,2.9,0.73,0.43,IA_cervical,8,0,2025-08-29,0.365,vazia
+E-OV-000487,OV-M-00038,OV-R-0007,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.86,IATF,11,0,2025-11-10,0.94,prenhe
+E-OV-000488,OV-M-00113,OV-R-0018,ovino,Santa Ines,Santa Ines,8.0,1,2.7,0.7,0.6,IA_cervical,8,0,2025-08-24,0.469,vazia
+E-OV-000489,OV-M-00049,OV-R-0029,ovino,Santa Ines,Santa Ines,3.2,3,2.6,0.5,0.66,IA_cervical,11,0,2025-11-12,0.604,vazia
+E-OV-000490,OV-M-00069,OV-R-0007,ovino,Mestico,Santa Ines,5.3,3,2.8,0.55,0.86,IA_cervical,12,0,2025-12-29,0.648,prenhe
+E-OV-000491,OV-M-00090,OV-R-0016,ovino,Morada Nova,Santa Ines,9.3,4,3.7,0.24,0.61,IA_laparoscopica,5,1,2024-05-24,0.767,vazia
+E-OV-000492,OV-M-00087,OV-R-0001,ovino,Somalis,Santa Ines,7.6,4,3.2,0.83,0.86,IA_laparoscopica,9,0,2025-09-16,0.832,prenhe
+E-OV-000493,OV-M-00003,OV-R-0006,ovino,Santa Ines,Santa Ines,5.8,1,3.0,0.48,0.59,IA_cervical,3,1,2025-03-28,0.482,vazia
+E-OV-000494,OV-M-00035,OV-R-0023,ovino,Santa Ines,Mestico,1.6,1,3.6,0.54,0.92,IA_cervical,9,0,2025-09-18,0.616,prenhe
+E-OV-000495,OV-M-00285,OV-R-0014,ovino,Mestico,White Dorper,4.7,4,2.8,0.63,0.52,IA_cervical,4,1,2025-04-10,0.629,prenhe
+E-OV-000496,OV-M-00200,OV-R-0005,ovino,Santa Ines,Santa Ines,1.7,0,3.0,0.63,0.69,IATF,4,1,2024-04-01,0.788,vazia
+E-OV-000497,OV-M-00037,OV-R-0010,ovino,Santa Ines,Dorper,9.9,5,2.6,0.72,0.65,IA_cervical,2,1,2025-02-14,0.499,prenhe
+E-OV-000498,OV-M-00085,OV-R-0003,ovino,Santa Ines,Santa Ines,8.2,5,3.1,0.66,0.81,IA_cervical,7,0,2025-07-09,0.592,vazia
+E-OV-000499,OV-M-00114,OV-R-0023,ovino,Dorper,Mestico,5.9,4,2.7,0.55,0.92,IA_laparoscopica,3,1,2024-03-31,0.763,prenhe
+E-OV-000500,OV-M-00271,OV-R-0028,ovino,Santa Ines,Santa Ines,4.7,1,3.0,0.38,0.86,IA_cervical,1,0,2025-01-03,0.703,prenhe
+E-OV-000501,OV-M-00263,OV-R-0003,ovino,Santa Ines,Santa Ines,3.9,2,2.7,0.75,0.81,IATF,4,1,2025-04-22,0.784,prenhe
+E-OV-000502,OV-M-00231,OV-R-0007,ovino,White Dorper,Santa Ines,1.8,0,3.5,0.5,0.86,IA_cervical,12,0,2024-12-04,0.746,vazia
+E-OV-000503,OV-M-00031,OV-R-0025,ovino,Santa Ines,Santa Ines,5.1,1,3.7,0.36,0.6,IATF,8,0,2025-08-06,0.348,prenhe
+E-OV-000504,OV-M-00147,OV-R-0026,ovino,Dorper,Morada Nova,9.6,4,4.3,0.27,0.72,IA_cervical,4,1,2024-04-02,0.368,vazia
+E-OV-000505,OV-M-00145,OV-R-0023,ovino,Santa Ines,Mestico,6.4,3,3.4,0.71,0.92,IA_cervical,9,0,2024-09-09,0.769,prenhe
+E-OV-000506,OV-M-00191,OV-R-0021,ovino,Dorper,Santa Ines,7.5,2,3.7,0.7,0.84,IATF,11,0,2025-11-25,0.576,vazia
+E-OV-000507,OV-M-00253,OV-R-0025,ovino,Santa Ines,Santa Ines,8.0,5,3.5,0.32,0.6,IA_cervical,1,0,2025-01-10,0.51,prenhe
+E-OV-000508,OV-M-00096,OV-R-0011,ovino,Santa Ines,Morada Nova,5.8,5,2.5,0.51,0.74,IATF,5,1,2024-05-12,0.462,prenhe
+E-OV-000509,OV-M-00167,OV-R-0026,ovino,Santa Ines,Morada Nova,2.2,4,2.6,0.51,0.72,IA_cervical,3,1,2024-03-25,0.603,vazia
+E-OV-000510,OV-M-00079,OV-R-0026,ovino,Santa Ines,Morada Nova,1.0,1,3.5,0.36,0.72,IA_cervical,3,1,2025-03-09,0.765,prenhe
+E-OV-000511,OV-M-00063,OV-R-0006,ovino,Mestico,Santa Ines,2.5,3,3.9,0.52,0.59,IA_cervical,11,0,2025-11-10,0.55,prenhe
+E-OV-000512,OV-M-00093,OV-R-0002,ovino,Mestico,Santa Ines,2.1,3,3.4,0.32,0.71,IA_cervical,2,1,2024-02-05,0.745,vazia
+E-OV-000513,OV-M-00220,OV-R-0015,ovino,Santa Ines,Dorper,2.7,0,2.5,0.58,0.43,IATF,3,1,2024-03-20,0.575,prenhe
+E-OV-000514,OV-M-00131,OV-R-0022,ovino,Santa Ines,Somalis,8.2,5,3.4,0.52,0.59,IA_cervical,9,0,2024-09-30,0.586,prenhe
+E-OV-000515,OV-M-00204,OV-R-0025,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.6,IA_cervical,6,0,2024-06-01,0.339,vazia
+E-OV-000516,OV-M-00207,OV-R-0004,ovino,Santa Ines,Mestico,2.3,2,3.1,0.6,0.42,IA_cervical,3,1,2024-03-29,0.802,prenhe
+E-OV-000517,OV-M-00108,OV-R-0011,ovino,Santa Ines,Morada Nova,7.5,0,3.3,0.19,0.74,IA_cervical,8,0,2024-08-05,0.345,prenhe
+E-OV-000518,OV-M-00286,OV-R-0023,ovino,Morada Nova,Mestico,7.7,4,3.8,0.6,0.92,IA_cervical,4,1,2025-04-14,0.682,prenhe
+E-OV-000519,OV-M-00013,OV-R-0001,ovino,Santa Ines,Santa Ines,5.1,0,4.1,0.5,0.86,IATF,8,0,2025-08-25,0.311,vazia
+E-OV-000520,OV-M-00269,OV-R-0021,ovino,Somalis,Santa Ines,9.5,2,3.7,0.81,0.84,IA_cervical,8,0,2024-08-11,0.607,vazia
+E-OV-000521,OV-M-00002,OV-R-0008,ovino,Santa Ines,Dorper,4.5,5,2.5,0.79,0.34,IA_cervical,5,1,2025-05-26,0.436,vazia
+E-OV-000522,OV-M-00114,OV-R-0000,ovino,Dorper,Santa Ines,5.9,4,2.7,0.55,0.64,IA_cervical,8,0,2025-08-23,0.423,vazia
+E-OV-000523,OV-M-00247,OV-R-0007,ovino,Morada Nova,Santa Ines,6.7,0,2.9,0.5,0.86,IA_cervical,1,0,2024-01-06,0.363,prenhe
+E-OV-000524,OV-M-00205,OV-R-0022,ovino,Santa Ines,Somalis,2.6,3,2.8,0.72,0.59,IA_cervical,9,0,2025-09-14,0.559,vazia
+E-OV-000525,OV-M-00096,OV-R-0026,ovino,Santa Ines,Morada Nova,5.8,5,2.5,0.51,0.72,IA_laparoscopica,5,1,2024-05-13,0.721,prenhe
+E-OV-000526,OV-M-00265,OV-R-0002,ovino,Morada Nova,Santa Ines,2.7,3,3.5,0.53,0.71,IA_laparoscopica,5,1,2025-05-15,0.95,prenhe
+E-OV-000527,OV-M-00041,OV-R-0013,ovino,Somalis,Santa Ines,8.0,2,3.5,0.27,0.72,IATF,7,0,2025-07-01,0.728,vazia
+E-OV-000528,OV-M-00201,OV-R-0006,ovino,Santa Ines,Santa Ines,6.8,1,2.7,0.41,0.59,IA_cervical,9,0,2025-09-09,0.309,prenhe
+E-OV-000529,OV-M-00155,OV-R-0020,ovino,Santa Ines,Dorper,9.0,5,3.2,0.44,0.57,IA_laparoscopica,10,0,2024-10-21,0.721,vazia
+E-OV-000530,OV-M-00062,OV-R-0023,ovino,Dorper,Mestico,4.2,5,3.9,0.69,0.92,IATF,4,1,2025-04-26,0.665,prenhe
+E-OV-000531,OV-M-00276,OV-R-0028,ovino,Somalis,Santa Ines,5.5,0,3.1,0.49,0.86,IATF,1,0,2024-01-20,0.608,prenhe
+E-OV-000532,OV-M-00229,OV-R-0010,ovino,Santa Ines,Dorper,1.6,2,2.8,0.28,0.65,IATF,11,0,2024-11-22,0.529,vazia
+E-OV-000533,OV-M-00002,OV-R-0008,ovino,Santa Ines,Dorper,4.5,5,2.5,0.79,0.34,IA_cervical,12,0,2025-12-04,0.481,vazia
+E-OV-000534,OV-M-00026,OV-R-0009,ovino,White Dorper,White Dorper,3.5,2,2.4,0.36,0.74,IATF,4,1,2024-04-25,0.597,prenhe
+E-OV-000535,OV-M-00016,OV-R-0022,ovino,White Dorper,Somalis,9.5,1,3.6,0.16,0.59,IATF,4,1,2024-04-20,0.304,prenhe
+E-OV-000536,OV-M-00124,OV-R-0013,ovino,Morada Nova,Santa Ines,2.7,1,3.3,0.66,0.72,IATF,5,1,2025-05-26,0.794,vazia
+E-OV-000537,OV-M-00125,OV-R-0000,ovino,White Dorper,Santa Ines,6.4,2,3.3,0.53,0.64,IA_laparoscopica,1,0,2025-01-07,0.721,prenhe
+E-OV-000538,OV-M-00217,OV-R-0028,ovino,Dorper,Santa Ines,2.2,3,3.7,0.24,0.86,IATF,11,0,2024-11-28,0.679,prenhe
+E-OV-000539,OV-M-00202,OV-R-0003,ovino,Mestico,Santa Ines,7.6,3,2.9,0.52,0.81,IA_cervical,6,0,2024-06-30,0.528,vazia
+E-OV-000540,OV-M-00004,OV-R-0027,ovino,Somalis,Dorper,1.1,5,2.8,0.75,0.71,IA_laparoscopica,5,1,2024-05-05,0.789,prenhe
+E-OV-000541,OV-M-00142,OV-R-0004,ovino,Santa Ines,Mestico,8.2,4,3.2,0.44,0.42,IA_laparoscopica,6,0,2025-06-22,0.639,prenhe
+E-OV-000542,OV-M-00235,OV-R-0016,ovino,Morada Nova,Santa Ines,5.9,5,3.5,0.34,0.61,IA_laparoscopica,9,0,2024-09-18,0.678,prenhe
+E-OV-000543,OV-M-00269,OV-R-0009,ovino,Somalis,White Dorper,9.5,2,3.7,0.81,0.74,IATF,7,0,2025-07-21,0.512,vazia
+E-OV-000544,OV-M-00087,OV-R-0020,ovino,Somalis,Dorper,7.6,4,3.2,0.83,0.57,IA_cervical,11,0,2024-11-19,0.647,prenhe
+E-OV-000545,OV-M-00013,OV-R-0012,ovino,Santa Ines,Dorper,5.1,0,4.1,0.5,0.64,IA_cervical,10,0,2024-10-16,0.235,vazia
+E-OV-000546,OV-M-00045,OV-R-0011,ovino,Santa Ines,Morada Nova,2.2,3,3.5,0.47,0.74,IA_cervical,6,0,2024-06-16,0.736,vazia
+E-OV-000547,OV-M-00102,OV-R-0014,ovino,Dorper,White Dorper,4.0,3,3.3,0.36,0.52,IA_laparoscopica,4,1,2025-04-25,0.92,prenhe
+E-OV-000548,OV-M-00132,OV-R-0029,ovino,Morada Nova,Santa Ines,9.9,0,2.9,0.52,0.66,IA_laparoscopica,7,0,2024-07-26,0.513,vazia
+E-OV-000549,OV-M-00105,OV-R-0007,ovino,Dorper,Santa Ines,1.1,5,3.4,0.3,0.86,IATF,10,0,2025-10-25,0.759,prenhe
+E-OV-000550,OV-M-00027,OV-R-0006,ovino,Santa Ines,Santa Ines,9.9,2,2.5,0.49,0.59,IATF,10,0,2024-10-25,0.377,vazia
+E-OV-000551,OV-M-00102,OV-R-0001,ovino,Dorper,Santa Ines,4.0,3,3.3,0.36,0.86,IA_cervical,8,0,2025-08-17,0.807,prenhe
+E-OV-000552,OV-M-00086,OV-R-0022,ovino,Dorper,Somalis,5.4,4,3.4,0.56,0.59,IA_cervical,12,0,2024-12-09,0.629,prenhe
+E-OV-000553,OV-M-00146,OV-R-0020,ovino,Santa Ines,Dorper,2.4,5,3.3,0.18,0.57,IA_laparoscopica,10,0,2024-10-29,0.74,prenhe
+E-OV-000554,OV-M-00023,OV-R-0018,ovino,White Dorper,Santa Ines,6.1,0,3.1,0.98,0.6,IATF,11,0,2024-11-26,0.646,vazia
+E-OV-000555,OV-M-00237,OV-R-0000,ovino,Dorper,Santa Ines,1.1,4,3.4,0.43,0.64,IA_laparoscopica,11,0,2024-11-18,0.877,vazia
+E-OV-000556,OV-M-00125,OV-R-0023,ovino,White Dorper,Mestico,6.4,2,3.3,0.53,0.92,IATF,12,0,2024-12-15,0.799,prenhe
+E-OV-000557,OV-M-00095,OV-R-0024,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.66,IATF,10,0,2025-10-09,0.785,prenhe
+E-OV-000558,OV-M-00271,OV-R-0028,ovino,Santa Ines,Santa Ines,4.7,1,3.0,0.38,0.86,IA_cervical,5,1,2025-05-28,0.753,prenhe
+E-OV-000559,OV-M-00223,OV-R-0027,ovino,Santa Ines,Dorper,3.3,1,3.0,0.41,0.71,IA_laparoscopica,1,0,2024-01-26,0.897,prenhe
+E-OV-000560,OV-M-00041,OV-R-0007,ovino,Somalis,Santa Ines,8.0,2,3.5,0.27,0.86,IA_cervical,2,1,2024-02-12,0.626,vazia
+E-OV-000561,OV-M-00043,OV-R-0021,ovino,Santa Ines,Santa Ines,8.0,4,3.1,0.58,0.84,IA_cervical,1,0,2024-01-17,0.696,vazia
+E-OV-000562,OV-M-00000,OV-R-0012,ovino,Somalis,Dorper,5.3,2,2.7,0.6,0.64,IA_cervical,5,1,2025-05-19,0.497,prenhe
+E-OV-000563,OV-M-00168,OV-R-0017,ovino,Morada Nova,Santa Ines,2.9,5,2.9,0.42,0.55,IA_cervical,5,1,2024-05-30,0.472,vazia
+E-OV-000564,OV-M-00106,OV-R-0009,ovino,Santa Ines,White Dorper,6.9,0,3.3,0.28,0.74,IA_cervical,10,0,2024-10-08,0.491,prenhe
+E-OV-000565,OV-M-00112,OV-R-0019,ovino,Somalis,Santa Ines,8.7,5,2.1,0.34,0.87,IA_laparoscopica,8,0,2025-08-27,0.441,vazia
+E-OV-000566,OV-M-00152,OV-R-0028,ovino,Santa Ines,Santa Ines,6.9,5,2.8,0.62,0.86,IA_cervical,4,1,2024-04-06,0.554,vazia
+E-OV-000567,OV-M-00161,OV-R-0019,ovino,Santa Ines,Santa Ines,5.3,5,2.5,0.57,0.87,IA_cervical,4,1,2024-04-21,0.525,vazia
+E-OV-000568,OV-M-00000,OV-R-0027,ovino,Somalis,Dorper,5.3,2,2.7,0.6,0.71,IA_cervical,2,1,2024-02-27,0.513,vazia
+E-OV-000569,OV-M-00032,OV-R-0027,ovino,Dorper,Dorper,7.2,0,2.2,0.78,0.71,IA_cervical,7,0,2024-07-27,0.367,vazia
+E-OV-000570,OV-M-00236,OV-R-0003,ovino,Mestico,Santa Ines,8.9,3,3.6,0.63,0.81,IATF,3,1,2024-03-06,0.65,prenhe
+E-OV-000571,OV-M-00286,OV-R-0028,ovino,Morada Nova,Santa Ines,7.7,4,3.8,0.6,0.86,IA_cervical,4,1,2025-04-04,0.636,prenhe
+E-OV-000572,OV-M-00251,OV-R-0024,ovino,Santa Ines,Santa Ines,1.4,5,2.9,0.4,0.66,IA_cervical,6,0,2025-06-21,0.525,vazia
+E-OV-000573,OV-M-00271,OV-R-0012,ovino,Santa Ines,Dorper,4.7,1,3.0,0.38,0.64,IATF,5,1,2024-05-14,0.842,prenhe
+E-OV-000574,OV-M-00139,OV-R-0018,ovino,Santa Ines,Santa Ines,7.1,0,3.9,0.7,0.6,IATF,1,0,2025-01-17,0.419,vazia
+E-OV-000575,OV-M-00247,OV-R-0018,ovino,Morada Nova,Santa Ines,6.7,0,2.9,0.5,0.6,IA_laparoscopica,8,0,2024-08-09,0.465,prenhe
+E-OV-000576,OV-M-00264,OV-R-0023,ovino,Santa Ines,Mestico,2.6,1,2.3,0.59,0.92,IATF,2,1,2024-02-28,0.585,prenhe
+E-OV-000577,OV-M-00267,OV-R-0024,ovino,Santa Ines,Santa Ines,8.1,4,2.3,0.32,0.66,IA_cervical,12,0,2024-12-06,0.298,vazia
+E-OV-000578,OV-M-00044,OV-R-0003,ovino,Santa Ines,Santa Ines,7.2,4,2.7,0.45,0.81,IATF,5,1,2025-05-24,0.659,prenhe
+E-OV-000579,OV-M-00044,OV-R-0000,ovino,Santa Ines,Santa Ines,7.2,4,2.7,0.45,0.64,IA_cervical,6,0,2024-06-15,0.424,vazia
+E-OV-000580,OV-M-00120,OV-R-0007,ovino,Santa Ines,Santa Ines,3.1,4,3.6,0.62,0.86,IA_cervical,7,0,2025-07-29,0.486,prenhe
+E-OV-000581,OV-M-00151,OV-R-0015,ovino,Mestico,Dorper,6.5,2,3.5,0.69,0.43,IA_cervical,12,0,2025-12-25,0.584,prenhe
+E-OV-000582,OV-M-00287,OV-R-0025,ovino,Santa Ines,Santa Ines,1.1,0,3.8,0.58,0.6,IATF,2,1,2024-02-11,0.623,prenhe
+E-OV-000583,OV-M-00095,OV-R-0019,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.87,IA_cervical,4,1,2024-04-29,0.881,prenhe
+E-OV-000584,OV-M-00249,OV-R-0004,ovino,Dorper,Mestico,5.5,5,2.7,0.32,0.42,IA_cervical,7,0,2024-07-30,0.261,vazia
+E-OV-000585,OV-M-00266,OV-R-0021,ovino,Santa Ines,Santa Ines,9.1,4,3.7,0.26,0.84,IA_cervical,9,0,2025-09-12,0.479,prenhe
+E-OV-000586,OV-M-00289,OV-R-0014,ovino,Santa Ines,White Dorper,5.0,2,4.0,0.26,0.52,IA_laparoscopica,4,1,2024-04-13,0.676,prenhe
+E-OV-000587,OV-M-00056,OV-R-0011,ovino,Santa Ines,Morada Nova,3.9,2,2.5,0.57,0.74,IA_cervical,12,0,2024-12-09,0.664,vazia
+E-OV-000588,OV-M-00072,OV-R-0023,ovino,Somalis,Mestico,1.3,5,3.0,0.52,0.92,IA_cervical,1,0,2025-01-27,0.689,prenhe
+E-OV-000589,OV-M-00065,OV-R-0008,ovino,Morada Nova,Dorper,3.5,1,1.9,0.4,0.34,IA_cervical,4,1,2024-04-04,0.333,vazia
+E-OV-000590,OV-M-00220,OV-R-0018,ovino,Santa Ines,Santa Ines,2.7,0,2.5,0.58,0.6,IATF,1,0,2024-01-31,0.488,prenhe
+E-OV-000591,OV-M-00206,OV-R-0005,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.69,IA_cervical,3,1,2024-03-27,0.727,prenhe
+E-OV-000592,OV-M-00122,OV-R-0011,ovino,White Dorper,Morada Nova,2.5,0,2.4,0.76,0.74,IATF,2,1,2024-02-11,0.583,prenhe
+E-OV-000593,OV-M-00026,OV-R-0016,ovino,White Dorper,Santa Ines,3.5,2,2.4,0.36,0.61,IA_cervical,12,0,2024-12-31,0.472,vazia
+E-OV-000594,OV-M-00156,OV-R-0018,ovino,Mestico,Santa Ines,8.7,0,4.4,0.39,0.6,IA_cervical,11,0,2025-11-14,0.24,vazia
+E-OV-000595,OV-M-00219,OV-R-0027,ovino,Dorper,Dorper,5.9,1,2.9,0.38,0.71,IA_cervical,9,0,2024-09-15,0.406,vazia
+E-OV-000596,OV-M-00142,OV-R-0008,ovino,Santa Ines,Dorper,8.2,4,3.2,0.44,0.34,IA_cervical,7,0,2024-07-06,0.369,vazia
+E-OV-000597,OV-M-00080,OV-R-0026,ovino,Dorper,Morada Nova,1.2,4,2.4,0.3,0.72,IA_cervical,6,0,2024-06-20,0.371,prenhe
+E-OV-000598,OV-M-00177,OV-R-0024,ovino,Morada Nova,Santa Ines,6.3,2,2.7,0.47,0.66,IA_cervical,12,0,2025-12-17,0.426,vazia
+E-OV-000599,OV-M-00198,OV-R-0010,ovino,Mestico,Dorper,6.1,1,3.7,0.59,0.65,IATF,12,0,2025-12-01,0.436,prenhe
+E-OV-000600,OV-M-00177,OV-R-0004,ovino,Morada Nova,Mestico,6.3,2,2.7,0.47,0.42,IA_cervical,4,1,2025-04-18,0.377,vazia
+E-OV-000601,OV-M-00261,OV-R-0007,ovino,Somalis,Santa Ines,3.2,3,3.0,0.37,0.86,IA_cervical,12,0,2024-12-04,0.873,prenhe
+E-OV-000602,OV-M-00094,OV-R-0019,ovino,Morada Nova,Santa Ines,4.3,1,2.6,0.54,0.87,IA_cervical,4,1,2024-04-26,0.681,prenhe
+E-OV-000603,OV-M-00182,OV-R-0023,ovino,Santa Ines,Mestico,8.1,1,2.8,0.3,0.92,IA_cervical,11,0,2025-11-09,0.465,vazia
+E-OV-000604,OV-M-00256,OV-R-0018,ovino,Santa Ines,Santa Ines,7.4,1,2.8,0.36,0.6,IA_cervical,1,0,2024-01-01,0.371,vazia
+E-OV-000605,OV-M-00063,OV-R-0021,ovino,Mestico,Santa Ines,2.5,3,3.9,0.52,0.84,IA_cervical,4,1,2024-04-29,0.713,prenhe
+E-OV-000606,OV-M-00084,OV-R-0003,ovino,Santa Ines,Santa Ines,1.4,1,2.6,0.41,0.81,IA_cervical,5,1,2025-05-10,0.756,prenhe
+E-OV-000607,OV-M-00014,OV-R-0015,ovino,Santa Ines,Dorper,6.8,1,2.9,0.73,0.43,IA_cervical,5,1,2024-05-13,0.361,vazia
+E-OV-000608,OV-M-00112,OV-R-0026,ovino,Somalis,Morada Nova,8.7,5,2.1,0.34,0.72,IATF,3,1,2024-03-20,0.336,vazia
+E-OV-000609,OV-M-00013,OV-R-0011,ovino,Santa Ines,Morada Nova,5.1,0,4.1,0.5,0.74,IA_laparoscopica,3,1,2025-03-11,0.469,prenhe
+E-OV-000610,OV-M-00223,OV-R-0026,ovino,Santa Ines,Morada Nova,3.3,1,3.0,0.41,0.72,IATF,1,0,2024-01-20,0.808,prenhe
+E-OV-000611,OV-M-00026,OV-R-0003,ovino,White Dorper,Santa Ines,3.5,2,2.4,0.36,0.81,IA_cervical,7,0,2024-07-16,0.526,prenhe
+E-OV-000612,OV-M-00207,OV-R-0029,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.66,IATF,4,1,2025-04-14,0.847,vazia
+E-OV-000613,OV-M-00173,OV-R-0023,ovino,Mestico,Mestico,9.2,5,3.4,0.49,0.92,IA_cervical,5,1,2024-05-15,0.653,prenhe
+E-OV-000614,OV-M-00296,OV-R-0018,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.6,IA_cervical,7,0,2025-07-08,0.657,prenhe
+E-OV-000615,OV-M-00104,OV-R-0018,ovino,Santa Ines,Santa Ines,6.8,5,2.9,0.52,0.6,IATF,3,1,2024-03-10,0.472,vazia
+E-OV-000616,OV-M-00103,OV-R-0028,ovino,Mestico,Santa Ines,8.1,1,2.2,0.21,0.86,IA_cervical,3,1,2025-03-23,0.447,vazia
+E-OV-000617,OV-M-00072,OV-R-0011,ovino,Somalis,Morada Nova,1.3,5,3.0,0.52,0.74,IA_cervical,2,1,2024-02-25,0.757,vazia
+E-OV-000618,OV-M-00161,OV-R-0004,ovino,Santa Ines,Mestico,5.3,5,2.5,0.57,0.42,IATF,6,0,2025-06-18,0.338,vazia
+E-OV-000619,OV-M-00065,OV-R-0027,ovino,Morada Nova,Dorper,3.5,1,1.9,0.4,0.71,IA_laparoscopica,7,0,2025-07-03,0.599,prenhe
+E-OV-000620,OV-M-00034,OV-R-0003,ovino,Santa Ines,Santa Ines,9.0,2,2.3,0.46,0.81,IA_cervical,8,0,2025-08-03,0.345,vazia
+E-OV-000621,OV-M-00284,OV-R-0019,ovino,Somalis,Santa Ines,7.7,2,3.8,0.88,0.87,IA_cervical,7,0,2024-07-24,0.577,vazia
+E-OV-000622,OV-M-00203,OV-R-0007,ovino,Santa Ines,Santa Ines,2.6,5,3.0,0.95,0.86,IA_cervical,6,0,2024-06-21,0.755,prenhe
+E-OV-000623,OV-M-00035,OV-R-0027,ovino,Santa Ines,Dorper,1.6,1,3.6,0.54,0.71,IATF,12,0,2025-12-15,0.607,vazia
+E-OV-000624,OV-M-00185,OV-R-0029,ovino,Morada Nova,Santa Ines,4.5,4,3.6,0.48,0.66,IA_cervical,6,0,2025-06-16,0.588,prenhe
+E-OV-000625,OV-M-00091,OV-R-0014,ovino,Dorper,White Dorper,9.9,3,3.0,0.14,0.52,IA_cervical,5,1,2024-05-13,0.596,vazia
+E-OV-000626,OV-M-00054,OV-R-0015,ovino,Morada Nova,Dorper,8.4,1,2.9,0.47,0.43,IA_cervical,1,0,2024-01-22,0.309,vazia
+E-OV-000627,OV-M-00141,OV-R-0013,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.72,IATF,9,0,2024-09-15,0.78,prenhe
+E-OV-000628,OV-M-00236,OV-R-0012,ovino,Mestico,Dorper,8.9,3,3.6,0.63,0.64,IATF,4,1,2025-04-30,0.65,prenhe
+E-OV-000629,OV-M-00000,OV-R-0028,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.86,IA_cervical,9,0,2024-09-30,0.569,vazia
+E-OV-000630,OV-M-00106,OV-R-0008,ovino,Santa Ines,Dorper,6.9,0,3.3,0.28,0.34,IATF,8,0,2025-08-12,0.441,vazia
+E-OV-000631,OV-M-00276,OV-R-0028,ovino,Somalis,Santa Ines,5.5,0,3.1,0.49,0.86,IA_cervical,12,0,2024-12-31,0.645,vazia
+E-OV-000632,OV-M-00118,OV-R-0019,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.87,IATF,12,0,2025-12-24,0.396,vazia
+E-OV-000633,OV-M-00029,OV-R-0028,ovino,Morada Nova,Santa Ines,1.7,0,4.0,0.46,0.86,IA_cervical,9,0,2025-09-27,0.545,prenhe
+E-OV-000634,OV-M-00128,OV-R-0018,ovino,Dorper,Santa Ines,7.0,4,2.6,0.54,0.6,IA_cervical,12,0,2024-12-10,0.447,prenhe
+E-OV-000635,OV-M-00204,OV-R-0024,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.66,IA_cervical,9,0,2025-09-01,0.337,prenhe
+E-OV-000636,OV-M-00298,OV-R-0014,ovino,Morada Nova,White Dorper,9.7,5,2.9,0.78,0.52,IATF,11,0,2024-11-23,0.338,vazia
+E-OV-000637,OV-M-00188,OV-R-0013,ovino,Santa Ines,Santa Ines,7.6,3,3.7,0.42,0.72,IATF,1,0,2024-01-08,0.417,vazia
+E-OV-000638,OV-M-00015,OV-R-0007,ovino,White Dorper,Santa Ines,3.9,0,3.1,0.44,0.86,IA_cervical,8,0,2024-08-12,0.687,prenhe
+E-OV-000639,OV-M-00242,OV-R-0006,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.59,IA_cervical,10,0,2024-10-25,0.281,vazia
+E-OV-000640,OV-M-00234,OV-R-0001,ovino,Dorper,Santa Ines,6.8,0,3.1,0.24,0.86,IA_cervical,12,0,2025-12-13,0.45,prenhe
+E-OV-000641,OV-M-00195,OV-R-0011,ovino,Morada Nova,Morada Nova,1.6,2,3.6,0.7,0.74,IA_cervical,8,0,2025-08-27,0.633,vazia
+E-OV-000642,OV-M-00268,OV-R-0029,ovino,Mestico,Santa Ines,4.1,0,3.4,0.29,0.66,IA_cervical,4,1,2024-04-17,0.657,prenhe
+E-OV-000643,OV-M-00230,OV-R-0028,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.86,IA_cervical,1,0,2024-01-01,0.671,prenhe
+E-OV-000644,OV-M-00069,OV-R-0020,ovino,Mestico,Dorper,5.3,3,2.8,0.55,0.57,IA_laparoscopica,1,0,2025-01-21,0.679,prenhe
+E-OV-000645,OV-M-00126,OV-R-0010,ovino,Somalis,Dorper,1.9,0,2.6,0.36,0.65,IA_laparoscopica,1,0,2025-01-24,0.625,vazia
+E-OV-000646,OV-M-00152,OV-R-0015,ovino,Santa Ines,Dorper,6.9,5,2.8,0.62,0.43,IATF,6,0,2025-06-20,0.291,vazia
+E-OV-000647,OV-M-00146,OV-R-0022,ovino,Santa Ines,Somalis,2.4,5,3.3,0.18,0.59,IA_cervical,7,0,2024-07-08,0.584,prenhe
+E-OV-000648,OV-M-00191,OV-R-0000,ovino,Dorper,Santa Ines,7.5,2,3.7,0.7,0.64,IA_cervical,8,0,2025-08-15,0.456,vazia
+E-OV-000649,OV-M-00210,OV-R-0027,ovino,Morada Nova,Dorper,6.4,5,3.4,0.69,0.71,IA_cervical,10,0,2024-10-28,0.56,vazia
+E-OV-000650,OV-M-00031,OV-R-0026,ovino,Santa Ines,Morada Nova,5.1,1,3.7,0.36,0.72,IA_cervical,9,0,2024-09-01,0.327,vazia
+E-OV-000651,OV-M-00170,OV-R-0029,ovino,Santa Ines,Santa Ines,5.9,3,3.1,0.52,0.66,IA_laparoscopica,11,0,2024-11-02,0.755,prenhe
+E-OV-000652,OV-M-00011,OV-R-0002,ovino,Morada Nova,Santa Ines,7.2,0,3.1,0.66,0.71,IATF,11,0,2025-11-20,0.587,prenhe
+E-OV-000653,OV-M-00153,OV-R-0028,ovino,Dorper,Santa Ines,4.0,4,3.4,0.18,0.86,IA_cervical,10,0,2024-10-12,0.78,vazia
+E-OV-000654,OV-M-00126,OV-R-0018,ovino,Somalis,Santa Ines,1.9,0,2.6,0.36,0.6,IA_cervical,2,1,2025-02-13,0.508,vazia
+E-OV-000655,OV-M-00061,OV-R-0016,ovino,Morada Nova,Santa Ines,2.3,1,2.4,0.71,0.61,IATF,10,0,2025-10-13,0.567,prenhe
+E-OV-000656,OV-M-00297,OV-R-0005,ovino,Santa Ines,Santa Ines,2.3,1,3.3,0.58,0.69,IA_cervical,1,0,2024-01-14,0.736,vazia
+E-OV-000657,OV-M-00077,OV-R-0014,ovino,Morada Nova,White Dorper,8.1,0,2.5,0.68,0.52,IA_cervical,1,0,2025-01-26,0.325,vazia
+E-OV-000658,OV-M-00016,OV-R-0010,ovino,White Dorper,Dorper,9.5,1,3.6,0.16,0.65,IA_laparoscopica,6,0,2025-06-01,0.467,vazia
+E-OV-000659,OV-M-00107,OV-R-0029,ovino,Santa Ines,Santa Ines,2.5,0,2.1,0.66,0.66,IA_cervical,10,0,2025-10-21,0.334,vazia
+E-OV-000660,OV-M-00227,OV-R-0010,ovino,White Dorper,Dorper,8.7,5,2.8,0.44,0.65,IA_cervical,2,1,2024-02-14,0.38,prenhe
+E-OV-000661,OV-M-00002,OV-R-0006,ovino,Santa Ines,Santa Ines,4.5,5,2.5,0.79,0.59,IATF,6,0,2025-06-14,0.519,vazia
+E-OV-000662,OV-M-00147,OV-R-0028,ovino,Dorper,Santa Ines,9.6,4,4.3,0.27,0.86,IATF,8,0,2025-08-08,0.28,prenhe
+E-OV-000663,OV-M-00125,OV-R-0005,ovino,White Dorper,Santa Ines,6.4,2,3.3,0.53,0.69,IA_cervical,9,0,2024-09-13,0.562,vazia
+E-OV-000664,OV-M-00259,OV-R-0027,ovino,Santa Ines,Dorper,4.5,1,2.7,0.69,0.71,IA_cervical,6,0,2025-06-28,0.642,vazia
+E-OV-000665,OV-M-00000,OV-R-0028,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.86,IA_laparoscopica,12,0,2024-12-26,0.722,prenhe
+E-OV-000666,OV-M-00005,OV-R-0009,ovino,Santa Ines,White Dorper,3.6,0,3.0,0.22,0.74,IA_laparoscopica,4,1,2025-04-25,0.841,prenhe
+E-OV-000667,OV-M-00169,OV-R-0020,ovino,Somalis,Dorper,8.0,4,3.2,0.46,0.57,IA_cervical,10,0,2024-10-11,0.57,vazia
+E-OV-000668,OV-M-00053,OV-R-0023,ovino,Santa Ines,Mestico,1.3,2,3.1,0.32,0.92,IA_cervical,5,1,2024-05-09,0.774,prenhe
+E-OV-000669,OV-M-00211,OV-R-0016,ovino,Somalis,Santa Ines,8.3,0,2.9,0.6,0.61,IA_laparoscopica,8,0,2025-08-27,0.518,prenhe
+E-OV-000670,OV-M-00083,OV-R-0020,ovino,Santa Ines,Dorper,5.8,0,3.1,0.23,0.57,IA_cervical,6,0,2024-06-07,0.468,vazia
+E-OV-000671,OV-M-00168,OV-R-0003,ovino,Morada Nova,Santa Ines,2.9,5,2.9,0.42,0.81,IA_cervical,5,1,2024-05-16,0.592,prenhe
+E-OV-000672,OV-M-00011,OV-R-0015,ovino,Morada Nova,Dorper,7.2,0,3.1,0.66,0.43,IA_cervical,10,0,2025-10-08,0.345,prenhe
+E-OV-000673,OV-M-00208,OV-R-0015,ovino,Mestico,Dorper,6.4,1,4.1,0.57,0.43,IA_cervical,11,0,2025-11-14,0.175,vazia
+E-OV-000674,OV-M-00155,OV-R-0016,ovino,Santa Ines,Santa Ines,9.0,5,3.2,0.44,0.61,IATF,3,1,2025-03-20,0.676,vazia
+E-OV-000675,OV-M-00000,OV-R-0028,ovino,Somalis,Santa Ines,5.3,2,2.7,0.6,0.86,IA_cervical,2,1,2025-02-27,0.617,vazia
+E-OV-000676,OV-M-00079,OV-R-0024,ovino,Santa Ines,Santa Ines,1.0,1,3.5,0.36,0.66,IA_cervical,9,0,2024-09-20,0.575,prenhe
+E-OV-000677,OV-M-00017,OV-R-0018,ovino,Dorper,Santa Ines,9.8,4,2.6,0.29,0.6,IATF,3,1,2025-03-22,0.606,prenhe
+E-OV-000678,OV-M-00013,OV-R-0012,ovino,Santa Ines,Dorper,5.1,0,4.1,0.5,0.64,IA_cervical,3,1,2025-03-20,0.233,vazia
+E-OV-000679,OV-M-00209,OV-R-0012,ovino,Santa Ines,Dorper,8.0,0,3.0,0.73,0.64,IA_cervical,1,0,2025-01-12,0.52,prenhe
+E-OV-000680,OV-M-00128,OV-R-0000,ovino,Dorper,Santa Ines,7.0,4,2.6,0.54,0.64,IA_cervical,4,1,2025-04-23,0.452,vazia
+E-OV-000681,OV-M-00240,OV-R-0016,ovino,Morada Nova,Santa Ines,3.7,2,2.8,0.35,0.61,IA_laparoscopica,2,1,2025-02-08,0.712,vazia
+E-OV-000682,OV-M-00077,OV-R-0007,ovino,Morada Nova,Santa Ines,8.1,0,2.5,0.68,0.86,IA_laparoscopica,10,0,2025-10-03,0.597,vazia
+E-OV-000683,OV-M-00215,OV-R-0026,ovino,Morada Nova,Morada Nova,4.5,2,2.6,0.49,0.72,IATF,5,1,2025-05-02,0.738,prenhe
+E-OV-000684,OV-M-00184,OV-R-0023,ovino,Santa Ines,Mestico,9.1,0,3.5,0.45,0.92,IA_cervical,10,0,2024-10-08,0.653,vazia
+E-OV-000685,OV-M-00198,OV-R-0027,ovino,Mestico,Dorper,6.1,1,3.7,0.59,0.71,IA_cervical,4,1,2025-04-23,0.473,vazia
+E-OV-000686,OV-M-00248,OV-R-0029,ovino,Santa Ines,Santa Ines,1.2,2,3.4,0.7,0.66,IA_cervical,6,0,2024-06-16,0.713,prenhe
+E-OV-000687,OV-M-00212,OV-R-0012,ovino,Morada Nova,Dorper,6.3,1,2.9,0.41,0.64,IATF,6,0,2024-06-05,0.422,vazia
+E-OV-000688,OV-M-00223,OV-R-0012,ovino,Santa Ines,Dorper,3.3,1,3.0,0.41,0.64,IA_cervical,8,0,2025-08-26,0.673,prenhe
+E-OV-000689,OV-M-00221,OV-R-0018,ovino,Somalis,Santa Ines,8.9,0,3.1,1.0,0.6,IA_laparoscopica,3,1,2025-03-01,0.842,vazia
+E-OV-000690,OV-M-00134,OV-R-0012,ovino,Santa Ines,Dorper,1.7,0,2.4,0.29,0.64,IA_laparoscopica,2,1,2024-02-09,0.578,vazia
+E-OV-000691,OV-M-00217,OV-R-0008,ovino,Dorper,Dorper,2.2,3,3.7,0.24,0.34,IA_cervical,9,0,2024-09-15,0.368,prenhe
+E-OV-000692,OV-M-00252,OV-R-0021,ovino,Santa Ines,Santa Ines,6.4,3,3.2,0.55,0.84,IA_cervical,12,0,2025-12-19,0.681,prenhe
+E-OV-000693,OV-M-00221,OV-R-0013,ovino,Somalis,Santa Ines,8.9,0,3.1,1.0,0.72,IA_cervical,4,1,2025-04-10,0.689,prenhe
+E-OV-000694,OV-M-00182,OV-R-0028,ovino,Santa Ines,Santa Ines,8.1,1,2.8,0.3,0.86,IA_cervical,9,0,2025-09-26,0.468,prenhe
+E-OV-000695,OV-M-00022,OV-R-0006,ovino,Santa Ines,Santa Ines,5.4,5,3.8,0.88,0.59,IATF,2,1,2025-02-03,0.633,vazia
+E-OV-000696,OV-M-00130,OV-R-0013,ovino,Morada Nova,Santa Ines,4.8,4,4.6,0.56,0.72,IA_cervical,2,1,2024-02-01,0.579,prenhe
+E-OV-000697,OV-M-00018,OV-R-0015,ovino,Santa Ines,Dorper,2.1,5,3.6,0.55,0.43,IATF,5,1,2024-05-11,0.522,vazia
+E-OV-000698,OV-M-00031,OV-R-0027,ovino,Santa Ines,Dorper,5.1,1,3.7,0.36,0.71,IA_cervical,3,1,2024-03-08,0.459,prenhe
+E-OV-000699,OV-M-00108,OV-R-0017,ovino,Santa Ines,Santa Ines,7.5,0,3.3,0.19,0.55,IA_cervical,6,0,2025-06-20,0.355,vazia
+E-OV-000700,OV-M-00139,OV-R-0002,ovino,Santa Ines,Santa Ines,7.1,0,3.9,0.7,0.71,IATF,7,0,2025-07-06,0.472,vazia
+E-OV-000701,OV-M-00158,OV-R-0010,ovino,White Dorper,Dorper,7.7,1,3.8,0.46,0.65,IATF,11,0,2024-11-29,0.434,vazia
+E-OV-000702,OV-M-00270,OV-R-0026,ovino,Santa Ines,Morada Nova,3.2,3,3.5,0.66,0.72,IA_cervical,6,0,2025-06-12,0.759,vazia
+E-OV-000703,OV-M-00228,OV-R-0008,ovino,Santa Ines,Dorper,6.4,3,3.3,0.68,0.34,IA_laparoscopica,2,1,2025-02-06,0.807,vazia
+E-OV-000704,OV-M-00126,OV-R-0010,ovino,Somalis,Dorper,1.9,0,2.6,0.36,0.65,IATF,6,0,2025-06-24,0.473,vazia
+E-OV-000705,OV-M-00100,OV-R-0004,ovino,Dorper,Mestico,3.5,5,4.0,0.77,0.42,IATF,5,1,2025-05-06,0.513,vazia
+E-OV-000706,OV-M-00213,OV-R-0021,ovino,Somalis,Santa Ines,8.2,0,2.3,0.63,0.84,IA_laparoscopica,11,0,2024-11-28,0.52,prenhe
+E-OV-000707,OV-M-00082,OV-R-0004,ovino,White Dorper,Mestico,1.5,0,3.7,0.71,0.42,IA_cervical,4,1,2025-04-21,0.492,prenhe
+E-OV-000708,OV-M-00265,OV-R-0011,ovino,Morada Nova,Morada Nova,2.7,3,3.5,0.53,0.74,IA_cervical,8,0,2024-08-20,0.81,prenhe
+E-OV-000709,OV-M-00234,OV-R-0021,ovino,Dorper,Santa Ines,6.8,0,3.1,0.24,0.84,IA_laparoscopica,6,0,2025-06-30,0.736,vazia
+E-OV-000710,OV-M-00204,OV-R-0026,ovino,Santa Ines,Morada Nova,7.2,1,2.9,0.6,0.72,IA_cervical,10,0,2025-10-28,0.413,vazia
+E-OV-000711,OV-M-00074,OV-R-0006,ovino,Somalis,Santa Ines,4.2,5,3.8,1.0,0.59,IA_cervical,5,1,2024-05-30,0.602,vazia
+E-OV-000712,OV-M-00186,OV-R-0009,ovino,Santa Ines,White Dorper,4.6,5,3.8,0.44,0.74,IA_cervical,5,1,2025-05-01,0.574,vazia
+E-OV-000713,OV-M-00246,OV-R-0003,ovino,Santa Ines,Santa Ines,9.4,1,2.2,0.48,0.81,IA_cervical,3,1,2024-03-21,0.428,prenhe
+E-OV-000714,OV-M-00021,OV-R-0013,ovino,Somalis,Santa Ines,2.7,4,3.6,0.27,0.72,IA_cervical,10,0,2024-10-02,0.556,vazia
+E-OV-000715,OV-M-00053,OV-R-0029,ovino,Santa Ines,Santa Ines,1.3,2,3.1,0.32,0.66,IA_cervical,5,1,2025-05-03,0.783,prenhe
+E-OV-000716,OV-M-00154,OV-R-0009,ovino,Somalis,White Dorper,8.4,0,3.5,0.58,0.74,IA_cervical,7,0,2024-07-21,0.537,prenhe
+E-OV-000717,OV-M-00107,OV-R-0007,ovino,Santa Ines,Santa Ines,2.5,0,2.1,0.66,0.86,IA_cervical,6,0,2024-06-21,0.516,vazia
+E-OV-000718,OV-M-00212,OV-R-0011,ovino,Morada Nova,Morada Nova,6.3,1,2.9,0.41,0.74,IATF,10,0,2024-10-07,0.404,prenhe
+E-OV-000719,OV-M-00120,OV-R-0026,ovino,Santa Ines,Morada Nova,3.1,4,3.6,0.62,0.72,IA_laparoscopica,3,1,2024-03-24,0.95,prenhe
+E-OV-000720,OV-M-00298,OV-R-0016,ovino,Morada Nova,Santa Ines,9.7,5,2.9,0.78,0.61,IA_cervical,4,1,2025-04-01,0.498,vazia
+E-OV-000721,OV-M-00089,OV-R-0018,ovino,Santa Ines,Santa Ines,5.6,3,4.1,1.0,0.6,IA_cervical,4,1,2024-04-05,0.424,vazia
+E-OV-000722,OV-M-00108,OV-R-0023,ovino,Santa Ines,Mestico,7.5,0,3.3,0.19,0.92,IA_cervical,8,0,2024-08-31,0.545,prenhe
+E-OV-000723,OV-M-00001,OV-R-0021,ovino,Dorper,Santa Ines,3.3,5,3.3,0.54,0.84,IA_laparoscopica,8,0,2024-08-16,0.943,prenhe
+E-OV-000724,OV-M-00074,OV-R-0017,ovino,Somalis,Santa Ines,4.2,5,3.8,1.0,0.55,IA_laparoscopica,12,0,2025-12-07,0.693,prenhe
+E-OV-000725,OV-M-00070,OV-R-0016,ovino,Dorper,Santa Ines,4.8,2,4.1,0.45,0.61,IA_laparoscopica,12,0,2025-12-25,0.529,prenhe
+E-OV-000726,OV-M-00228,OV-R-0015,ovino,Santa Ines,Dorper,6.4,3,3.3,0.68,0.43,IA_laparoscopica,2,1,2024-02-27,0.746,prenhe
+E-OV-000727,OV-M-00101,OV-R-0005,ovino,Santa Ines,Santa Ines,5.8,4,3.2,0.51,0.69,IA_cervical,4,1,2024-04-24,0.715,prenhe
+E-OV-000728,OV-M-00061,OV-R-0012,ovino,Morada Nova,Dorper,2.3,1,2.4,0.71,0.64,IA_cervical,6,0,2025-06-18,0.35,vazia
+E-OV-000729,OV-M-00094,OV-R-0025,ovino,Morada Nova,Santa Ines,4.3,1,2.6,0.54,0.6,IA_cervical,8,0,2024-08-05,0.416,vazia
+E-OV-000730,OV-M-00168,OV-R-0001,ovino,Morada Nova,Santa Ines,2.9,5,2.9,0.42,0.86,IA_cervical,4,1,2025-04-15,0.645,vazia
+E-OV-000731,OV-M-00235,OV-R-0024,ovino,Morada Nova,Santa Ines,5.9,5,3.5,0.34,0.66,IA_cervical,11,0,2025-11-03,0.471,prenhe
+E-OV-000732,OV-M-00293,OV-R-0016,ovino,Santa Ines,Santa Ines,4.4,2,3.8,0.4,0.61,IA_laparoscopica,4,1,2024-04-28,0.739,prenhe
+E-OV-000733,OV-M-00014,OV-R-0010,ovino,Santa Ines,Dorper,6.8,1,2.9,0.73,0.65,IA_cervical,12,0,2025-12-04,0.391,prenhe
+E-OV-000734,OV-M-00252,OV-R-0003,ovino,Santa Ines,Santa Ines,6.4,3,3.2,0.55,0.81,IA_laparoscopica,2,1,2024-02-08,0.85,prenhe
+E-OV-000735,OV-M-00116,OV-R-0022,ovino,Santa Ines,Somalis,4.7,4,1.8,0.59,0.59,IA_cervical,6,0,2024-06-16,0.468,prenhe
+E-OV-000736,OV-M-00242,OV-R-0000,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.64,IA_cervical,1,0,2025-01-05,0.278,vazia
+E-OV-000737,OV-M-00011,OV-R-0016,ovino,Morada Nova,Santa Ines,7.2,0,3.1,0.66,0.61,IA_laparoscopica,10,0,2025-10-04,0.659,prenhe
+E-OV-000738,OV-M-00187,OV-R-0004,ovino,Mestico,Mestico,6.8,0,3.4,1.0,0.42,IA_cervical,2,1,2025-02-08,0.595,prenhe
+E-OV-000739,OV-M-00279,OV-R-0027,ovino,Santa Ines,Dorper,4.9,4,3.4,0.81,0.71,IA_cervical,4,1,2024-04-11,0.873,prenhe
+E-OV-000740,OV-M-00011,OV-R-0005,ovino,Morada Nova,Santa Ines,7.2,0,3.1,0.66,0.69,IA_cervical,6,0,2024-06-30,0.503,vazia
+E-OV-000741,OV-M-00237,OV-R-0024,ovino,Dorper,Santa Ines,1.1,4,3.4,0.43,0.66,IA_laparoscopica,7,0,2025-07-09,0.791,prenhe
+E-OV-000742,OV-M-00034,OV-R-0017,ovino,Santa Ines,Santa Ines,9.0,2,2.3,0.46,0.55,IA_cervical,2,1,2025-02-13,0.37,vazia
+E-OV-000743,OV-M-00294,OV-R-0001,ovino,White Dorper,Santa Ines,4.2,5,3.7,0.22,0.86,IATF,1,0,2024-01-10,0.552,prenhe
+E-OV-000744,OV-M-00223,OV-R-0021,ovino,Santa Ines,Santa Ines,3.3,1,3.0,0.41,0.84,IATF,1,0,2025-01-01,0.752,prenhe
+E-OV-000745,OV-M-00273,OV-R-0026,ovino,Santa Ines,Morada Nova,5.0,1,3.2,0.38,0.72,IATF,10,0,2024-10-23,0.672,vazia
+E-OV-000746,OV-M-00269,OV-R-0006,ovino,Somalis,Santa Ines,9.5,2,3.7,0.81,0.59,IA_cervical,1,0,2024-01-01,0.459,prenhe
+E-OV-000747,OV-M-00094,OV-R-0029,ovino,Morada Nova,Santa Ines,4.3,1,2.6,0.54,0.66,IA_laparoscopica,6,0,2024-06-29,0.716,vazia
+E-OV-000748,OV-M-00124,OV-R-0023,ovino,Morada Nova,Mestico,2.7,1,3.3,0.66,0.92,IA_cervical,11,0,2025-11-13,0.815,prenhe
+E-OV-000749,OV-M-00207,OV-R-0022,ovino,Santa Ines,Somalis,2.3,2,3.1,0.6,0.59,IATF,5,1,2025-05-28,0.928,prenhe
+E-OV-000750,OV-M-00052,OV-R-0010,ovino,Morada Nova,Dorper,3.3,5,3.0,0.39,0.65,IA_cervical,2,1,2024-02-21,0.733,prenhe
+E-OV-000751,OV-M-00091,OV-R-0003,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.81,IA_cervical,1,0,2024-01-12,0.577,vazia
+E-OV-000752,OV-M-00029,OV-R-0012,ovino,Morada Nova,Dorper,1.7,0,4.0,0.46,0.64,IA_cervical,9,0,2024-09-09,0.475,vazia
+E-OV-000753,OV-M-00266,OV-R-0024,ovino,Santa Ines,Santa Ines,9.1,4,3.7,0.26,0.66,IATF,12,0,2024-12-05,0.428,vazia
+E-OV-000754,OV-M-00074,OV-R-0017,ovino,Somalis,Santa Ines,4.2,5,3.8,1.0,0.55,IATF,11,0,2024-11-27,0.582,prenhe
+E-OV-000755,OV-M-00123,OV-R-0019,ovino,Somalis,Santa Ines,4.5,5,3.9,0.37,0.87,IA_cervical,5,1,2025-05-23,0.677,prenhe
+E-OV-000756,OV-M-00135,OV-R-0023,ovino,Santa Ines,Mestico,1.9,2,4.0,0.56,0.92,IA_cervical,5,1,2024-05-06,0.705,prenhe
+E-OV-000757,OV-M-00112,OV-R-0010,ovino,Somalis,Dorper,8.7,5,2.1,0.34,0.65,IATF,2,1,2024-02-04,0.339,vazia
+E-OV-000758,OV-M-00233,OV-R-0001,ovino,Somalis,Santa Ines,4.6,3,3.3,0.85,0.86,IATF,5,1,2025-05-06,0.95,prenhe
+E-OV-000759,OV-M-00274,OV-R-0026,ovino,Santa Ines,Morada Nova,3.1,4,3.3,0.37,0.72,IATF,10,0,2025-10-17,0.787,vazia
+E-OV-000760,OV-M-00171,OV-R-0018,ovino,Morada Nova,Santa Ines,1.2,1,3.6,0.4,0.6,IA_cervical,5,1,2024-05-02,0.522,prenhe
+E-OV-000761,OV-M-00251,OV-R-0016,ovino,Santa Ines,Santa Ines,1.4,5,2.9,0.4,0.61,IA_laparoscopica,9,0,2024-09-20,0.529,prenhe
+E-OV-000762,OV-M-00033,OV-R-0017,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.55,IATF,4,1,2025-04-02,0.466,vazia
+E-OV-000763,OV-M-00289,OV-R-0025,ovino,Santa Ines,Santa Ines,5.0,2,4.0,0.26,0.6,IA_cervical,4,1,2024-04-30,0.666,prenhe
+E-OV-000764,OV-M-00034,OV-R-0023,ovino,Santa Ines,Mestico,9.0,2,2.3,0.46,0.92,IA_cervical,9,0,2025-09-19,0.435,vazia
+E-OV-000765,OV-M-00019,OV-R-0020,ovino,Morada Nova,Dorper,4.1,4,3.5,0.18,0.57,IA_cervical,6,0,2024-06-13,0.595,prenhe
+E-OV-000766,OV-M-00006,OV-R-0023,ovino,Morada Nova,Mestico,9.9,3,3.2,0.46,0.92,IA_cervical,1,0,2025-01-23,0.707,prenhe
+E-OV-000767,OV-M-00073,OV-R-0008,ovino,White Dorper,Dorper,1.3,2,3.0,0.81,0.34,IATF,9,0,2024-09-04,0.661,prenhe
+E-OV-000768,OV-M-00251,OV-R-0021,ovino,Santa Ines,Santa Ines,1.4,5,2.9,0.4,0.84,IA_cervical,5,1,2025-05-02,0.589,prenhe
+E-OV-000769,OV-M-00090,OV-R-0029,ovino,Morada Nova,Santa Ines,9.3,4,3.7,0.24,0.66,IA_cervical,5,1,2024-05-24,0.405,vazia
+E-OV-000770,OV-M-00237,OV-R-0007,ovino,Dorper,Santa Ines,1.1,4,3.4,0.43,0.86,IA_cervical,3,1,2024-03-12,0.799,prenhe
+E-OV-000771,OV-M-00127,OV-R-0017,ovino,Somalis,Santa Ines,3.4,5,3.3,0.63,0.55,IATF,1,0,2025-01-07,0.571,prenhe
+E-OV-000772,OV-M-00031,OV-R-0020,ovino,Santa Ines,Dorper,5.1,1,3.7,0.36,0.57,IATF,9,0,2025-09-23,0.28,prenhe
+E-OV-000773,OV-M-00141,OV-R-0015,ovino,Dorper,Dorper,5.0,4,3.0,0.44,0.43,IA_cervical,4,1,2025-04-07,0.751,prenhe
+E-OV-000774,OV-M-00069,OV-R-0029,ovino,Mestico,Santa Ines,5.3,3,2.8,0.55,0.66,IA_laparoscopica,7,0,2025-07-05,0.565,prenhe
+E-OV-000775,OV-M-00087,OV-R-0012,ovino,Somalis,Dorper,7.6,4,3.2,0.83,0.64,IA_cervical,11,0,2024-11-12,0.679,vazia
+E-OV-000776,OV-M-00155,OV-R-0006,ovino,Santa Ines,Santa Ines,9.0,5,3.2,0.44,0.59,IATF,4,1,2024-04-12,0.652,prenhe
+E-OV-000777,OV-M-00237,OV-R-0004,ovino,Dorper,Mestico,1.1,4,3.4,0.43,0.42,IA_laparoscopica,11,0,2024-11-07,0.795,prenhe
+E-OV-000778,OV-M-00176,OV-R-0025,ovino,Morada Nova,Santa Ines,9.9,2,3.0,0.63,0.6,IA_cervical,12,0,2025-12-21,0.581,prenhe
+E-OV-000779,OV-M-00066,OV-R-0020,ovino,Santa Ines,Dorper,5.9,4,3.2,0.67,0.57,IATF,7,0,2025-07-24,0.649,prenhe
+E-OV-000780,OV-M-00215,OV-R-0017,ovino,Morada Nova,Santa Ines,4.5,2,2.6,0.49,0.55,IA_cervical,5,1,2025-05-28,0.567,prenhe
+E-OV-000781,OV-M-00208,OV-R-0012,ovino,Mestico,Dorper,6.4,1,4.1,0.57,0.64,IA_laparoscopica,8,0,2024-08-07,0.52,vazia
+E-OV-000782,OV-M-00071,OV-R-0012,ovino,Santa Ines,Dorper,2.2,5,2.1,0.5,0.64,IA_cervical,3,1,2025-03-13,0.54,vazia
+E-OV-000783,OV-M-00255,OV-R-0028,ovino,Morada Nova,Santa Ines,8.1,2,3.2,0.38,0.86,IA_laparoscopica,3,1,2025-03-30,0.95,prenhe
+E-OV-000784,OV-M-00252,OV-R-0020,ovino,Santa Ines,Dorper,6.4,3,3.2,0.55,0.57,IA_cervical,4,1,2025-04-22,0.54,prenhe
+E-OV-000785,OV-M-00181,OV-R-0028,ovino,White Dorper,Santa Ines,8.8,3,4.2,0.49,0.86,IA_cervical,10,0,2025-10-13,0.38,prenhe
+E-OV-000786,OV-M-00088,OV-R-0024,ovino,Mestico,Santa Ines,7.8,1,2.4,0.27,0.66,IA_cervical,5,1,2025-05-12,0.308,vazia
+E-OV-000787,OV-M-00106,OV-R-0023,ovino,Santa Ines,Mestico,6.9,0,3.3,0.28,0.92,IATF,6,0,2024-06-10,0.627,prenhe
+E-OV-000788,OV-M-00131,OV-R-0016,ovino,Santa Ines,Santa Ines,8.2,5,3.4,0.52,0.61,IA_cervical,6,0,2024-06-10,0.412,vazia
+E-OV-000789,OV-M-00056,OV-R-0007,ovino,Santa Ines,Santa Ines,3.9,2,2.5,0.57,0.86,IA_laparoscopica,3,1,2025-03-28,0.821,vazia
+E-OV-000790,OV-M-00091,OV-R-0019,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.87,IA_cervical,9,0,2025-09-24,0.671,prenhe
+E-OV-000791,OV-M-00040,OV-R-0021,ovino,Morada Nova,Santa Ines,7.6,4,3.1,0.97,0.84,IATF,11,0,2025-11-23,0.782,vazia
+E-OV-000792,OV-M-00046,OV-R-0015,ovino,Morada Nova,Dorper,6.5,3,3.5,0.54,0.43,IA_cervical,3,1,2025-03-21,0.516,vazia
+E-OV-000793,OV-M-00223,OV-R-0000,ovino,Santa Ines,Santa Ines,3.3,1,3.0,0.41,0.64,IA_cervical,1,0,2025-01-21,0.593,prenhe
+E-OV-000794,OV-M-00038,OV-R-0028,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.86,IATF,8,0,2025-08-18,0.932,prenhe
+E-OV-000795,OV-M-00140,OV-R-0024,ovino,Santa Ines,Santa Ines,2.6,4,3.1,0.59,0.66,IA_cervical,12,0,2025-12-14,0.701,prenhe
+E-OV-000796,OV-M-00128,OV-R-0010,ovino,Dorper,Dorper,7.0,4,2.6,0.54,0.65,IA_cervical,1,0,2024-01-21,0.44,prenhe
+E-OV-000797,OV-M-00013,OV-R-0014,ovino,Santa Ines,White Dorper,5.1,0,4.1,0.5,0.52,IATF,8,0,2024-08-14,0.169,vazia
+E-OV-000798,OV-M-00249,OV-R-0003,ovino,Dorper,Santa Ines,5.5,5,2.7,0.32,0.81,IA_cervical,8,0,2024-08-31,0.281,vazia
+E-OV-000799,OV-M-00295,OV-R-0028,ovino,Morada Nova,Santa Ines,6.5,0,2.7,0.68,0.86,IA_cervical,2,1,2025-02-15,0.591,prenhe
+E-OV-000800,OV-M-00191,OV-R-0006,ovino,Dorper,Santa Ines,7.5,2,3.7,0.7,0.59,IA_cervical,8,0,2024-08-03,0.456,vazia
+E-OV-000801,OV-M-00201,OV-R-0011,ovino,Santa Ines,Morada Nova,6.8,1,2.7,0.41,0.74,IATF,8,0,2024-08-15,0.421,vazia
+E-OV-000802,OV-M-00069,OV-R-0012,ovino,Mestico,Dorper,5.3,3,2.8,0.55,0.64,IATF,1,0,2024-01-18,0.45,vazia
+E-OV-000803,OV-M-00253,OV-R-0007,ovino,Santa Ines,Santa Ines,8.0,5,3.5,0.32,0.86,IA_laparoscopica,1,0,2024-01-03,0.811,vazia
+E-OV-000804,OV-M-00235,OV-R-0019,ovino,Morada Nova,Santa Ines,5.9,5,3.5,0.34,0.87,IA_laparoscopica,11,0,2024-11-24,0.776,prenhe
+E-OV-000805,OV-M-00131,OV-R-0029,ovino,Santa Ines,Santa Ines,8.2,5,3.4,0.52,0.66,IA_cervical,12,0,2025-12-29,0.575,vazia
+E-OV-000806,OV-M-00211,OV-R-0025,ovino,Somalis,Santa Ines,8.3,0,2.9,0.6,0.6,IA_cervical,8,0,2024-08-03,0.291,prenhe
+E-OV-000807,OV-M-00286,OV-R-0015,ovino,Morada Nova,Dorper,7.7,4,3.8,0.6,0.43,IA_cervical,6,0,2024-06-24,0.355,prenhe
+E-OV-000808,OV-M-00180,OV-R-0003,ovino,Morada Nova,Santa Ines,3.8,1,3.0,0.46,0.81,IA_cervical,7,0,2024-07-12,0.746,prenhe
+E-OV-000809,OV-M-00059,OV-R-0025,ovino,Santa Ines,Santa Ines,8.1,2,4.0,0.64,0.6,IA_cervical,12,0,2025-12-11,0.4,prenhe
+E-OV-000810,OV-M-00099,OV-R-0007,ovino,Dorper,Santa Ines,7.9,3,2.6,0.49,0.86,IA_laparoscopica,4,1,2025-04-29,0.757,prenhe
+E-OV-000811,OV-M-00055,OV-R-0027,ovino,Somalis,Dorper,5.6,4,3.6,0.64,0.71,IA_cervical,4,1,2025-04-21,0.523,prenhe
+E-OV-000812,OV-M-00099,OV-R-0011,ovino,Dorper,Morada Nova,7.9,3,2.6,0.49,0.74,IA_cervical,5,1,2024-05-18,0.554,vazia
+E-OV-000813,OV-M-00267,OV-R-0015,ovino,Santa Ines,Dorper,8.1,4,2.3,0.32,0.43,IA_cervical,10,0,2025-10-21,0.13,vazia
+E-OV-000814,OV-M-00056,OV-R-0013,ovino,Santa Ines,Santa Ines,3.9,2,2.5,0.57,0.72,IA_cervical,5,1,2024-05-23,0.701,prenhe
+E-OV-000815,OV-M-00267,OV-R-0013,ovino,Santa Ines,Santa Ines,8.1,4,2.3,0.32,0.72,IA_cervical,12,0,2025-12-07,0.328,vazia
+E-OV-000816,OV-M-00085,OV-R-0004,ovino,Santa Ines,Mestico,8.2,5,3.1,0.66,0.42,IA_cervical,11,0,2025-11-26,0.44,prenhe
+E-OV-000817,OV-M-00149,OV-R-0016,ovino,Dorper,Santa Ines,7.5,0,3.8,0.98,0.61,IA_cervical,2,1,2025-02-18,0.502,vazia
+E-OV-000818,OV-M-00158,OV-R-0012,ovino,White Dorper,Dorper,7.7,1,3.8,0.46,0.64,IA_cervical,9,0,2025-09-25,0.34,prenhe
+E-OV-000819,OV-M-00037,OV-R-0025,ovino,Santa Ines,Santa Ines,9.9,5,2.6,0.72,0.6,IATF,12,0,2025-12-30,0.38,vazia
+E-OV-000820,OV-M-00055,OV-R-0014,ovino,Somalis,White Dorper,5.6,4,3.6,0.64,0.52,IATF,2,1,2025-02-27,0.553,prenhe
+E-OV-000821,OV-M-00091,OV-R-0028,ovino,Dorper,Santa Ines,9.9,3,3.0,0.14,0.86,IATF,7,0,2025-07-14,0.681,prenhe
+E-OV-000822,OV-M-00017,OV-R-0008,ovino,Dorper,Dorper,9.8,4,2.6,0.29,0.34,IA_laparoscopica,3,1,2025-03-07,0.489,vazia
+E-OV-000823,OV-M-00226,OV-R-0009,ovino,Santa Ines,White Dorper,4.5,2,3.4,0.73,0.74,IATF,1,0,2025-01-17,0.822,prenhe
+E-OV-000824,OV-M-00163,OV-R-0001,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.86,IA_cervical,9,0,2024-09-01,0.619,vazia
+E-OV-000825,OV-M-00253,OV-R-0022,ovino,Santa Ines,Somalis,8.0,5,3.5,0.32,0.59,IA_laparoscopica,4,1,2025-04-23,0.682,prenhe
+E-OV-000826,OV-M-00258,OV-R-0002,ovino,Santa Ines,Santa Ines,3.2,1,3.5,0.35,0.71,IA_cervical,7,0,2024-07-14,0.74,prenhe
+E-OV-000827,OV-M-00104,OV-R-0008,ovino,Santa Ines,Dorper,6.8,5,2.9,0.52,0.34,IA_cervical,5,1,2024-05-21,0.316,vazia
+E-OV-000828,OV-M-00245,OV-R-0027,ovino,Morada Nova,Dorper,7.5,5,3.4,0.38,0.71,IA_cervical,7,0,2024-07-20,0.511,prenhe
+E-OV-000829,OV-M-00018,OV-R-0018,ovino,Santa Ines,Santa Ines,2.1,5,3.6,0.55,0.6,IA_cervical,1,0,2024-01-09,0.413,prenhe
+E-OV-000830,OV-M-00128,OV-R-0016,ovino,Dorper,Santa Ines,7.0,4,2.6,0.54,0.61,IATF,11,0,2025-11-12,0.499,prenhe
+E-OV-000831,OV-M-00199,OV-R-0024,ovino,Somalis,Santa Ines,4.5,2,2.9,0.73,0.66,IA_cervical,7,0,2024-07-06,0.569,vazia
+E-OV-000832,OV-M-00139,OV-R-0023,ovino,Santa Ines,Mestico,7.1,0,3.9,0.7,0.92,IA_laparoscopica,8,0,2025-08-06,0.615,vazia
+E-OV-000833,OV-M-00221,OV-R-0026,ovino,Somalis,Morada Nova,8.9,0,3.1,1.0,0.72,IATF,11,0,2024-11-13,0.707,prenhe
+E-OV-000834,OV-M-00257,OV-R-0019,ovino,White Dorper,Santa Ines,7.8,4,3.0,0.47,0.87,IA_cervical,9,0,2024-09-04,0.691,prenhe
+E-OV-000835,OV-M-00127,OV-R-0013,ovino,Somalis,Santa Ines,3.4,5,3.3,0.63,0.72,IA_cervical,6,0,2024-06-15,0.569,vazia
+E-OV-000836,OV-M-00082,OV-R-0003,ovino,White Dorper,Santa Ines,1.5,0,3.7,0.71,0.81,IA_cervical,8,0,2025-08-22,0.548,prenhe
+E-OV-000837,OV-M-00174,OV-R-0011,ovino,White Dorper,Morada Nova,8.9,3,2.8,0.43,0.74,IA_cervical,1,0,2025-01-10,0.448,prenhe
+E-OV-000838,OV-M-00260,OV-R-0021,ovino,Dorper,Santa Ines,2.1,2,3.1,0.39,0.84,IATF,11,0,2024-11-24,0.807,prenhe
+E-OV-000839,OV-M-00296,OV-R-0007,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.86,IA_laparoscopica,4,1,2025-04-25,0.95,prenhe
+E-OV-000840,OV-M-00244,OV-R-0020,ovino,Santa Ines,Dorper,5.4,1,2.8,0.64,0.57,IA_laparoscopica,8,0,2025-08-08,0.456,vazia
+E-OV-000841,OV-M-00073,OV-R-0004,ovino,White Dorper,Mestico,1.3,2,3.0,0.81,0.42,IA_cervical,4,1,2025-04-23,0.628,prenhe
+E-OV-000842,OV-M-00061,OV-R-0001,ovino,Morada Nova,Santa Ines,2.3,1,2.4,0.71,0.86,IA_laparoscopica,12,0,2024-12-07,0.657,prenhe
+E-OV-000843,OV-M-00171,OV-R-0010,ovino,Morada Nova,Dorper,1.2,1,3.6,0.4,0.65,IA_laparoscopica,10,0,2025-10-14,0.674,vazia
+E-OV-000844,OV-M-00120,OV-R-0006,ovino,Santa Ines,Santa Ines,3.1,4,3.6,0.62,0.59,IA_cervical,10,0,2025-10-15,0.389,vazia
+E-OV-000845,OV-M-00183,OV-R-0026,ovino,Morada Nova,Morada Nova,8.0,4,3.1,0.63,0.72,IA_cervical,12,0,2025-12-06,0.602,vazia
+E-OV-000846,OV-M-00276,OV-R-0011,ovino,Somalis,Morada Nova,5.5,0,3.1,0.49,0.74,IA_cervical,3,1,2024-03-07,0.508,prenhe
+E-OV-000847,OV-M-00164,OV-R-0012,ovino,Santa Ines,Dorper,4.7,0,2.9,0.61,0.64,IA_cervical,10,0,2025-10-12,0.456,vazia
+E-OV-000848,OV-M-00106,OV-R-0012,ovino,Santa Ines,Dorper,6.9,0,3.3,0.28,0.64,IATF,5,1,2024-05-21,0.67,vazia
+E-OV-000849,OV-M-00260,OV-R-0009,ovino,Dorper,White Dorper,2.1,2,3.1,0.39,0.74,IA_laparoscopica,3,1,2025-03-28,0.95,prenhe
+E-OV-000850,OV-M-00131,OV-R-0027,ovino,Santa Ines,Dorper,8.2,5,3.4,0.52,0.71,IA_cervical,4,1,2025-04-25,0.613,vazia
+E-OV-000851,OV-M-00181,OV-R-0022,ovino,White Dorper,Somalis,8.8,3,4.2,0.49,0.59,IATF,5,1,2024-05-30,0.466,vazia
+E-OV-000852,OV-M-00040,OV-R-0004,ovino,Morada Nova,Mestico,7.6,4,3.1,0.97,0.42,IA_cervical,1,0,2024-01-06,0.593,vazia
+E-OV-000853,OV-M-00152,OV-R-0006,ovino,Santa Ines,Santa Ines,6.9,5,2.8,0.62,0.59,IA_cervical,11,0,2025-11-19,0.329,vazia
+E-OV-000854,OV-M-00127,OV-R-0002,ovino,Somalis,Santa Ines,3.4,5,3.3,0.63,0.71,IATF,10,0,2025-10-12,0.786,prenhe
+E-OV-000855,OV-M-00036,OV-R-0007,ovino,Morada Nova,Santa Ines,4.1,1,2.4,0.42,0.86,IATF,5,1,2024-05-07,0.622,prenhe
+E-OV-000856,OV-M-00063,OV-R-0019,ovino,Mestico,Santa Ines,2.5,3,3.9,0.52,0.87,IA_laparoscopica,3,1,2025-03-14,0.916,vazia
+E-OV-000857,OV-M-00210,OV-R-0028,ovino,Morada Nova,Santa Ines,6.4,5,3.4,0.69,0.86,IA_cervical,4,1,2024-04-20,0.705,vazia
+E-OV-000858,OV-M-00054,OV-R-0014,ovino,Morada Nova,White Dorper,8.4,1,2.9,0.47,0.52,IATF,2,1,2025-02-17,0.425,prenhe
+E-OV-000859,OV-M-00039,OV-R-0002,ovino,Morada Nova,Santa Ines,2.1,2,3.7,0.27,0.71,IATF,8,0,2024-08-19,0.624,prenhe
+E-OV-000860,OV-M-00017,OV-R-0001,ovino,Dorper,Santa Ines,9.8,4,2.6,0.29,0.86,IA_laparoscopica,7,0,2025-07-02,0.625,prenhe
+E-OV-000861,OV-M-00007,OV-R-0012,ovino,Somalis,Dorper,1.5,2,2.7,0.76,0.64,IA_cervical,2,1,2025-02-22,0.74,vazia
+E-OV-000862,OV-M-00130,OV-R-0007,ovino,Morada Nova,Santa Ines,4.8,4,4.6,0.56,0.86,IA_cervical,12,0,2024-12-29,0.494,prenhe
+E-OV-000863,OV-M-00146,OV-R-0017,ovino,Santa Ines,Santa Ines,2.4,5,3.3,0.18,0.55,IATF,5,1,2025-05-12,0.738,prenhe
+E-OV-000864,OV-M-00187,OV-R-0003,ovino,Mestico,Santa Ines,6.8,0,3.4,1.0,0.81,IATF,12,0,2024-12-13,0.728,prenhe
+E-OV-000865,OV-M-00171,OV-R-0006,ovino,Morada Nova,Santa Ines,1.2,1,3.6,0.4,0.59,IA_cervical,1,0,2024-01-10,0.408,prenhe
+E-OV-000866,OV-M-00161,OV-R-0016,ovino,Santa Ines,Santa Ines,5.3,5,2.5,0.57,0.61,IA_cervical,3,1,2025-03-11,0.443,vazia
+E-OV-000867,OV-M-00299,OV-R-0008,ovino,Santa Ines,Dorper,8.3,0,4.4,0.42,0.34,IA_laparoscopica,7,0,2025-07-21,0.227,vazia
+E-OV-000868,OV-M-00074,OV-R-0010,ovino,Somalis,Dorper,4.2,5,3.8,1.0,0.65,IA_cervical,12,0,2024-12-23,0.572,prenhe
+E-OV-000869,OV-M-00213,OV-R-0006,ovino,Somalis,Santa Ines,8.2,0,2.3,0.63,0.59,IA_cervical,5,1,2024-05-07,0.278,prenhe
+E-OV-000870,OV-M-00023,OV-R-0001,ovino,White Dorper,Santa Ines,6.1,0,3.1,0.98,0.86,IA_cervical,1,0,2024-01-06,0.663,vazia
+E-OV-000871,OV-M-00254,OV-R-0010,ovino,Morada Nova,Dorper,1.3,2,3.7,0.29,0.65,IA_cervical,8,0,2024-08-04,0.555,vazia
+E-OV-000872,OV-M-00108,OV-R-0009,ovino,Santa Ines,White Dorper,7.5,0,3.3,0.19,0.74,IATF,7,0,2025-07-14,0.54,prenhe
+E-OV-000873,OV-M-00103,OV-R-0026,ovino,Mestico,Morada Nova,8.1,1,2.2,0.21,0.72,IA_cervical,8,0,2024-08-23,0.184,vazia
+E-OV-000874,OV-M-00040,OV-R-0026,ovino,Morada Nova,Morada Nova,7.6,4,3.1,0.97,0.72,IA_cervical,11,0,2025-11-28,0.659,vazia
+E-OV-000875,OV-M-00152,OV-R-0012,ovino,Santa Ines,Dorper,6.9,5,2.8,0.62,0.64,IATF,8,0,2024-08-30,0.424,vazia
+E-OV-000876,OV-M-00119,OV-R-0008,ovino,Santa Ines,Dorper,2.2,2,3.2,0.33,0.34,IA_laparoscopica,11,0,2024-11-08,0.759,prenhe
+E-OV-000877,OV-M-00292,OV-R-0012,ovino,White Dorper,Dorper,9.7,3,3.0,0.27,0.64,IA_cervical,7,0,2025-07-09,0.506,prenhe
+E-OV-000878,OV-M-00053,OV-R-0018,ovino,Santa Ines,Santa Ines,1.3,2,3.1,0.32,0.6,IA_cervical,3,1,2025-03-24,0.824,vazia
+E-OV-000879,OV-M-00125,OV-R-0011,ovino,White Dorper,Morada Nova,6.4,2,3.3,0.53,0.74,IATF,1,0,2024-01-30,0.723,prenhe
+E-OV-000880,OV-M-00270,OV-R-0022,ovino,Santa Ines,Somalis,3.2,3,3.5,0.66,0.59,IA_cervical,2,1,2024-02-25,0.777,prenhe
+E-OV-000881,OV-M-00242,OV-R-0028,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.86,IA_cervical,5,1,2024-05-23,0.45,vazia
+E-OV-000882,OV-M-00229,OV-R-0012,ovino,Santa Ines,Dorper,1.6,2,2.8,0.28,0.64,IA_cervical,9,0,2025-09-28,0.491,vazia
+E-OV-000883,OV-M-00157,OV-R-0003,ovino,Santa Ines,Santa Ines,4.0,1,3.9,0.58,0.81,IA_cervical,1,0,2024-01-17,0.563,vazia
+E-OV-000884,OV-M-00261,OV-R-0003,ovino,Somalis,Santa Ines,3.2,3,3.0,0.37,0.81,IA_laparoscopica,2,1,2024-02-22,0.95,prenhe
+E-OV-000885,OV-M-00067,OV-R-0026,ovino,Morada Nova,Morada Nova,2.9,5,3.8,0.17,0.72,IA_cervical,7,0,2025-07-22,0.481,prenhe
+E-OV-000886,OV-M-00242,OV-R-0012,ovino,Santa Ines,Dorper,7.2,3,1.6,0.51,0.64,IA_cervical,3,1,2025-03-30,0.4,vazia
+E-OV-000887,OV-M-00174,OV-R-0009,ovino,White Dorper,White Dorper,8.9,3,2.8,0.43,0.74,IA_cervical,12,0,2025-12-19,0.476,prenhe
+E-OV-000888,OV-M-00104,OV-R-0018,ovino,Santa Ines,Santa Ines,6.8,5,2.9,0.52,0.6,IA_cervical,6,0,2024-06-09,0.365,vazia
+E-OV-000889,OV-M-00065,OV-R-0028,ovino,Morada Nova,Santa Ines,3.5,1,1.9,0.4,0.86,IA_cervical,4,1,2025-04-26,0.547,prenhe
+E-OV-000890,OV-M-00156,OV-R-0012,ovino,Mestico,Dorper,8.7,0,4.4,0.39,0.64,IATF,4,1,2024-04-08,0.344,vazia
+E-OV-000891,OV-M-00000,OV-R-0009,ovino,Somalis,White Dorper,5.3,2,2.7,0.6,0.74,IA_cervical,3,1,2025-03-06,0.586,vazia
+E-OV-000892,OV-M-00214,OV-R-0025,ovino,Somalis,Santa Ines,9.8,4,2.4,0.54,0.6,IA_cervical,3,1,2024-03-18,0.412,prenhe
+E-OV-000893,OV-M-00070,OV-R-0002,ovino,Dorper,Santa Ines,4.8,2,4.1,0.45,0.71,IA_cervical,10,0,2025-10-24,0.425,vazia
+E-OV-000894,OV-M-00116,OV-R-0025,ovino,Santa Ines,Santa Ines,4.7,4,1.8,0.59,0.6,IA_laparoscopica,10,0,2024-10-30,0.594,prenhe
+E-OV-000895,OV-M-00057,OV-R-0015,ovino,Santa Ines,Dorper,1.1,3,2.7,0.94,0.43,IA_cervical,7,0,2024-07-05,0.536,prenhe
+E-OV-000896,OV-M-00139,OV-R-0000,ovino,Santa Ines,Santa Ines,7.1,0,3.9,0.7,0.64,IATF,12,0,2025-12-19,0.371,prenhe
+E-OV-000897,OV-M-00111,OV-R-0006,ovino,Santa Ines,Santa Ines,7.2,5,2.9,0.54,0.59,IA_laparoscopica,2,1,2024-02-18,0.51,prenhe
+E-OV-000898,OV-M-00056,OV-R-0020,ovino,Santa Ines,Dorper,3.9,2,2.5,0.57,0.57,IA_cervical,8,0,2025-08-06,0.566,prenhe
+E-OV-000899,OV-M-00266,OV-R-0022,ovino,Santa Ines,Somalis,9.1,4,3.7,0.26,0.59,IA_laparoscopica,1,0,2025-01-07,0.545,prenhe
+E-OV-000900,OV-M-00227,OV-R-0005,ovino,White Dorper,Santa Ines,8.7,5,2.8,0.44,0.69,IA_cervical,5,1,2025-05-16,0.357,vazia
+E-OV-000901,OV-M-00116,OV-R-0019,ovino,Santa Ines,Santa Ines,4.7,4,1.8,0.59,0.87,IATF,7,0,2024-07-09,0.594,prenhe
+E-OV-000902,OV-M-00017,OV-R-0029,ovino,Dorper,Santa Ines,9.8,4,2.6,0.29,0.66,IATF,10,0,2025-10-05,0.423,prenhe
+E-OV-000903,OV-M-00253,OV-R-0020,ovino,Santa Ines,Dorper,8.0,5,3.5,0.32,0.57,IA_cervical,11,0,2024-11-25,0.451,prenhe
+E-OV-000904,OV-M-00209,OV-R-0021,ovino,Santa Ines,Santa Ines,8.0,0,3.0,0.73,0.84,IA_laparoscopica,11,0,2024-11-01,0.738,prenhe
+E-OV-000905,OV-M-00166,OV-R-0005,ovino,Dorper,Santa Ines,3.5,3,3.8,0.58,0.69,IA_cervical,11,0,2024-11-29,0.514,prenhe
+E-OV-000906,OV-M-00181,OV-R-0019,ovino,White Dorper,Santa Ines,8.8,3,4.2,0.49,0.87,IA_cervical,8,0,2024-08-04,0.432,prenhe
+E-OV-000907,OV-M-00002,OV-R-0021,ovino,Santa Ines,Santa Ines,4.5,5,2.5,0.79,0.84,IATF,8,0,2024-08-20,0.577,vazia
+E-OV-000908,OV-M-00142,OV-R-0003,ovino,Santa Ines,Santa Ines,8.2,4,3.2,0.44,0.81,IATF,4,1,2024-04-12,0.76,prenhe
+E-OV-000909,OV-M-00056,OV-R-0009,ovino,Santa Ines,White Dorper,3.9,2,2.5,0.57,0.74,IA_cervical,12,0,2024-12-21,0.584,vazia
+E-OV-000910,OV-M-00195,OV-R-0026,ovino,Morada Nova,Morada Nova,1.6,2,3.6,0.7,0.72,IA_laparoscopica,12,0,2024-12-12,0.792,prenhe
+E-OV-000911,OV-M-00279,OV-R-0029,ovino,Santa Ines,Santa Ines,4.9,4,3.4,0.81,0.66,IA_laparoscopica,10,0,2024-10-04,0.95,prenhe
+E-OV-000912,OV-M-00159,OV-R-0005,ovino,Morada Nova,Santa Ines,6.0,5,3.6,0.72,0.69,IA_cervical,12,0,2025-12-20,0.48,prenhe
+E-OV-000913,OV-M-00181,OV-R-0021,ovino,White Dorper,Santa Ines,8.8,3,4.2,0.49,0.84,IA_laparoscopica,3,1,2024-03-23,0.574,prenhe
+E-OV-000914,OV-M-00200,OV-R-0015,ovino,Santa Ines,Dorper,1.7,0,3.0,0.63,0.43,IA_laparoscopica,10,0,2025-10-26,0.782,prenhe
+E-OV-000915,OV-M-00278,OV-R-0017,ovino,Santa Ines,Santa Ines,4.7,1,3.4,0.8,0.55,IATF,9,0,2025-09-24,0.614,prenhe
+E-OV-000916,OV-M-00011,OV-R-0015,ovino,Morada Nova,Dorper,7.2,0,3.1,0.66,0.43,IATF,1,0,2024-01-17,0.554,prenhe
+E-OV-000917,OV-M-00093,OV-R-0026,ovino,Mestico,Morada Nova,2.1,3,3.4,0.32,0.72,IA_cervical,5,1,2025-05-26,0.69,vazia
+E-OV-000918,OV-M-00080,OV-R-0013,ovino,Dorper,Santa Ines,1.2,4,2.4,0.3,0.72,IA_cervical,6,0,2024-06-01,0.56,prenhe
+E-OV-000919,OV-M-00214,OV-R-0017,ovino,Somalis,Santa Ines,9.8,4,2.4,0.54,0.55,IA_cervical,1,0,2024-01-31,0.269,prenhe
+E-OV-000920,OV-M-00134,OV-R-0020,ovino,Santa Ines,Dorper,1.7,0,2.4,0.29,0.57,IA_cervical,9,0,2025-09-20,0.341,vazia
+E-OV-000921,OV-M-00231,OV-R-0016,ovino,White Dorper,Santa Ines,1.8,0,3.5,0.5,0.61,IA_cervical,3,1,2024-03-25,0.738,prenhe
+E-OV-000922,OV-M-00141,OV-R-0026,ovino,Dorper,Morada Nova,5.0,4,3.0,0.44,0.72,IATF,8,0,2024-08-06,0.764,prenhe
+E-OV-000923,OV-M-00292,OV-R-0007,ovino,White Dorper,Santa Ines,9.7,3,3.0,0.27,0.86,IA_cervical,3,1,2024-03-11,0.69,prenhe
+E-OV-000924,OV-M-00230,OV-R-0028,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.86,IA_laparoscopica,4,1,2024-04-13,0.83,prenhe
+E-OV-000925,OV-M-00005,OV-R-0020,ovino,Santa Ines,Dorper,3.6,0,3.0,0.22,0.57,IA_cervical,2,1,2024-02-15,0.651,vazia
+E-OV-000926,OV-M-00296,OV-R-0028,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.86,IA_cervical,9,0,2025-09-06,0.671,vazia
+E-OV-000927,OV-M-00285,OV-R-0011,ovino,Mestico,Morada Nova,4.7,4,2.8,0.63,0.74,IATF,2,1,2024-02-13,0.701,prenhe
+E-OV-000928,OV-M-00013,OV-R-0014,ovino,Santa Ines,White Dorper,5.1,0,4.1,0.5,0.52,IA_laparoscopica,7,0,2025-07-08,0.375,prenhe
+E-OV-000929,OV-M-00117,OV-R-0001,ovino,Santa Ines,Santa Ines,8.1,2,3.0,0.21,0.86,IA_cervical,4,1,2024-04-24,0.651,prenhe
+E-OV-000930,OV-M-00291,OV-R-0027,ovino,Santa Ines,Dorper,7.7,2,2.8,0.51,0.71,IATF,10,0,2025-10-29,0.48,vazia
+E-OV-000931,OV-M-00251,OV-R-0024,ovino,Santa Ines,Santa Ines,1.4,5,2.9,0.4,0.66,IA_cervical,9,0,2025-09-10,0.459,prenhe
+E-OV-000932,OV-M-00140,OV-R-0008,ovino,Santa Ines,Dorper,2.6,4,3.1,0.59,0.34,IA_cervical,4,1,2025-04-04,0.662,prenhe
+E-OV-000933,OV-M-00163,OV-R-0001,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.86,IA_cervical,8,0,2025-08-27,0.603,vazia
+E-OV-000934,OV-M-00008,OV-R-0020,ovino,Santa Ines,Dorper,3.9,1,4.0,0.86,0.57,IA_laparoscopica,8,0,2024-08-05,0.797,vazia
+E-OV-000935,OV-M-00169,OV-R-0020,ovino,Somalis,Dorper,8.0,4,3.2,0.46,0.57,IA_cervical,7,0,2025-07-25,0.54,vazia
+E-OV-000936,OV-M-00199,OV-R-0015,ovino,Somalis,Dorper,4.5,2,2.9,0.73,0.43,IATF,6,0,2024-06-10,0.54,vazia
+E-OV-000937,OV-M-00107,OV-R-0004,ovino,Santa Ines,Mestico,2.5,0,2.1,0.66,0.42,IA_cervical,3,1,2025-03-24,0.361,vazia
+E-OV-000938,OV-M-00092,OV-R-0027,ovino,Santa Ines,Dorper,4.2,5,3.1,0.54,0.71,IA_cervical,11,0,2025-11-02,0.695,vazia
+E-OV-000939,OV-M-00248,OV-R-0012,ovino,Santa Ines,Dorper,1.2,2,3.4,0.7,0.64,IATF,6,0,2025-06-12,0.754,vazia
+E-OV-000940,OV-M-00134,OV-R-0021,ovino,Santa Ines,Santa Ines,1.7,0,2.4,0.29,0.84,IA_cervical,7,0,2024-07-15,0.405,prenhe
+E-OV-000941,OV-M-00079,OV-R-0025,ovino,Santa Ines,Santa Ines,1.0,1,3.5,0.36,0.6,IA_cervical,6,0,2025-06-23,0.635,prenhe
+E-OV-000942,OV-M-00112,OV-R-0016,ovino,Somalis,Santa Ines,8.7,5,2.1,0.34,0.61,IA_cervical,10,0,2025-10-06,0.103,vazia
+E-OV-000943,OV-M-00147,OV-R-0002,ovino,Dorper,Santa Ines,9.6,4,4.3,0.27,0.71,IA_cervical,10,0,2025-10-11,0.388,vazia
+E-OV-000944,OV-M-00077,OV-R-0026,ovino,Morada Nova,Morada Nova,8.1,0,2.5,0.68,0.72,IA_cervical,6,0,2025-06-23,0.457,vazia
+E-OV-000945,OV-M-00168,OV-R-0020,ovino,Morada Nova,Dorper,2.9,5,2.9,0.42,0.57,IA_cervical,6,0,2025-06-18,0.382,vazia
+E-OV-000946,OV-M-00258,OV-R-0026,ovino,Santa Ines,Morada Nova,3.2,1,3.5,0.35,0.72,IA_cervical,7,0,2025-07-26,0.612,prenhe
+E-OV-000947,OV-M-00222,OV-R-0018,ovino,Somalis,Santa Ines,9.6,2,3.7,0.36,0.6,IA_cervical,6,0,2025-06-21,0.383,vazia
+E-OV-000948,OV-M-00069,OV-R-0027,ovino,Mestico,Dorper,5.3,3,2.8,0.55,0.71,IA_cervical,4,1,2024-04-07,0.463,prenhe
+E-OV-000949,OV-M-00141,OV-R-0026,ovino,Dorper,Morada Nova,5.0,4,3.0,0.44,0.72,IA_cervical,8,0,2025-08-09,0.804,prenhe
+E-OV-000950,OV-M-00163,OV-R-0006,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.59,IA_cervical,5,1,2024-05-11,0.577,vazia
+E-OV-000951,OV-M-00204,OV-R-0005,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.69,IA_laparoscopica,2,1,2025-02-10,0.747,vazia
+E-OV-000952,OV-M-00226,OV-R-0004,ovino,Santa Ines,Mestico,4.5,2,3.4,0.73,0.42,IA_laparoscopica,9,0,2024-09-04,0.813,vazia
+E-OV-000953,OV-M-00145,OV-R-0023,ovino,Santa Ines,Mestico,6.4,3,3.4,0.71,0.92,IA_cervical,6,0,2024-06-04,0.734,prenhe
+E-OV-000954,OV-M-00094,OV-R-0007,ovino,Morada Nova,Santa Ines,4.3,1,2.6,0.54,0.86,IA_cervical,7,0,2024-07-24,0.655,prenhe
+E-OV-000955,OV-M-00197,OV-R-0013,ovino,Santa Ines,Santa Ines,1.8,5,3.4,0.5,0.72,IA_cervical,3,1,2024-03-02,0.732,prenhe
+E-OV-000956,OV-M-00037,OV-R-0023,ovino,Santa Ines,Mestico,9.9,5,2.6,0.72,0.92,IA_cervical,11,0,2024-11-16,0.506,prenhe
+E-OV-000957,OV-M-00202,OV-R-0012,ovino,Mestico,Dorper,7.6,3,2.9,0.52,0.64,IA_cervical,11,0,2024-11-01,0.475,vazia
+E-OV-000958,OV-M-00268,OV-R-0001,ovino,Mestico,Santa Ines,4.1,0,3.4,0.29,0.86,IA_laparoscopica,10,0,2024-10-21,0.814,prenhe
+E-OV-000959,OV-M-00212,OV-R-0010,ovino,Morada Nova,Dorper,6.3,1,2.9,0.41,0.65,IA_laparoscopica,3,1,2024-03-07,0.549,prenhe
+E-OV-000960,OV-M-00130,OV-R-0002,ovino,Morada Nova,Santa Ines,4.8,4,4.6,0.56,0.71,IA_cervical,3,1,2025-03-18,0.493,prenhe
+E-OV-000961,OV-M-00246,OV-R-0011,ovino,Santa Ines,Morada Nova,9.4,1,2.2,0.48,0.74,IATF,5,1,2024-05-03,0.461,vazia
+E-OV-000962,OV-M-00159,OV-R-0022,ovino,Morada Nova,Somalis,6.0,5,3.6,0.72,0.59,IA_cervical,9,0,2025-09-16,0.379,vazia
+E-OV-000963,OV-M-00162,OV-R-0015,ovino,White Dorper,Dorper,6.4,1,3.9,0.37,0.43,IATF,1,0,2024-01-18,0.359,prenhe
+E-OV-000964,OV-M-00255,OV-R-0020,ovino,Morada Nova,Dorper,8.1,2,3.2,0.38,0.57,IATF,2,1,2024-02-10,0.65,prenhe
+E-OV-000965,OV-M-00057,OV-R-0003,ovino,Santa Ines,Santa Ines,1.1,3,2.7,0.94,0.81,IA_cervical,8,0,2024-08-07,0.63,vazia
+E-OV-000966,OV-M-00233,OV-R-0022,ovino,Somalis,Somalis,4.6,3,3.3,0.85,0.59,IA_cervical,10,0,2024-10-24,0.648,prenhe
+E-OV-000967,OV-M-00203,OV-R-0012,ovino,Santa Ines,Dorper,2.6,5,3.0,0.95,0.64,IA_cervical,12,0,2025-12-09,0.869,prenhe
+E-OV-000968,OV-M-00158,OV-R-0008,ovino,White Dorper,Dorper,7.7,1,3.8,0.46,0.34,IATF,1,0,2025-01-18,0.314,prenhe
+E-OV-000969,OV-M-00023,OV-R-0019,ovino,White Dorper,Santa Ines,6.1,0,3.1,0.98,0.87,IA_cervical,10,0,2024-10-03,0.681,vazia
+E-OV-000970,OV-M-00229,OV-R-0004,ovino,Santa Ines,Mestico,1.6,2,2.8,0.28,0.42,IATF,9,0,2025-09-03,0.478,vazia
+E-OV-000971,OV-M-00065,OV-R-0014,ovino,Morada Nova,White Dorper,3.5,1,1.9,0.4,0.52,IA_cervical,6,0,2024-06-24,0.256,prenhe
+E-OV-000972,OV-M-00268,OV-R-0012,ovino,Mestico,Dorper,4.1,0,3.4,0.29,0.64,IA_cervical,10,0,2025-10-16,0.534,prenhe
+E-OV-000973,OV-M-00237,OV-R-0004,ovino,Dorper,Mestico,1.1,4,3.4,0.43,0.42,IA_laparoscopica,10,0,2024-10-21,0.881,prenhe
+E-OV-000974,OV-M-00109,OV-R-0028,ovino,White Dorper,Santa Ines,6.1,2,3.4,0.83,0.86,IA_cervical,8,0,2024-08-16,0.773,prenhe
+E-OV-000975,OV-M-00130,OV-R-0010,ovino,Morada Nova,Dorper,4.8,4,4.6,0.56,0.65,IA_cervical,8,0,2024-08-07,0.424,prenhe
+E-OV-000976,OV-M-00007,OV-R-0001,ovino,Somalis,Santa Ines,1.5,2,2.7,0.76,0.86,IATF,1,0,2024-01-08,0.675,prenhe
+E-OV-000977,OV-M-00149,OV-R-0013,ovino,Dorper,Santa Ines,7.5,0,3.8,0.98,0.72,IA_cervical,5,1,2025-05-06,0.498,prenhe
+E-OV-000978,OV-M-00017,OV-R-0028,ovino,Dorper,Santa Ines,9.8,4,2.6,0.29,0.86,IATF,2,1,2025-02-25,0.576,prenhe
+E-OV-000979,OV-M-00296,OV-R-0020,ovino,Morada Nova,Dorper,3.5,5,3.1,0.34,0.57,IATF,4,1,2025-04-08,0.808,prenhe
+E-OV-000980,OV-M-00192,OV-R-0019,ovino,Somalis,Santa Ines,9.6,3,4.0,0.82,0.87,IA_cervical,4,1,2025-04-20,0.643,prenhe
+E-OV-000981,OV-M-00070,OV-R-0027,ovino,Dorper,Dorper,4.8,2,4.1,0.45,0.71,IA_cervical,1,0,2024-01-20,0.405,vazia
+E-OV-000982,OV-M-00241,OV-R-0002,ovino,Santa Ines,Santa Ines,8.9,5,2.5,0.51,0.71,IA_cervical,10,0,2025-10-02,0.363,prenhe
+E-OV-000983,OV-M-00005,OV-R-0016,ovino,Santa Ines,Santa Ines,3.6,0,3.0,0.22,0.61,IA_laparoscopica,1,0,2025-01-08,0.741,vazia
+E-OV-000984,OV-M-00164,OV-R-0009,ovino,Santa Ines,White Dorper,4.7,0,2.9,0.61,0.74,IATF,5,1,2025-05-19,0.574,vazia
+E-OV-000985,OV-M-00033,OV-R-0020,ovino,Santa Ines,Dorper,6.4,3,3.0,0.0,0.57,IATF,1,0,2024-01-27,0.528,vazia
+E-OV-000986,OV-M-00016,OV-R-0025,ovino,White Dorper,Santa Ines,9.5,1,3.6,0.16,0.6,IATF,7,0,2025-07-09,0.392,prenhe
+E-OV-000987,OV-M-00073,OV-R-0002,ovino,White Dorper,Santa Ines,1.3,2,3.0,0.81,0.71,IA_cervical,5,1,2025-05-09,0.893,prenhe
+E-OV-000988,OV-M-00088,OV-R-0004,ovino,Mestico,Mestico,7.8,1,2.4,0.27,0.42,IA_cervical,9,0,2024-09-25,0.092,vazia
+E-OV-000989,OV-M-00217,OV-R-0028,ovino,Dorper,Santa Ines,2.2,3,3.7,0.24,0.86,IA_cervical,11,0,2025-11-14,0.556,prenhe
+E-OV-000990,OV-M-00267,OV-R-0014,ovino,Santa Ines,White Dorper,8.1,4,2.3,0.32,0.52,IATF,4,1,2025-04-19,0.279,prenhe
+E-OV-000991,OV-M-00232,OV-R-0009,ovino,Santa Ines,White Dorper,4.7,2,2.5,0.24,0.74,IA_cervical,10,0,2025-10-24,0.527,prenhe
+E-OV-000992,OV-M-00221,OV-R-0004,ovino,Somalis,Mestico,8.9,0,3.1,1.0,0.42,IA_cervical,8,0,2025-08-22,0.514,vazia
+E-OV-000993,OV-M-00169,OV-R-0010,ovino,Somalis,Dorper,8.0,4,3.2,0.46,0.65,IA_cervical,5,1,2024-05-30,0.617,vazia
+E-OV-000994,OV-M-00111,OV-R-0000,ovino,Santa Ines,Santa Ines,7.2,5,2.9,0.54,0.64,IA_cervical,12,0,2025-12-28,0.441,prenhe
+E-OV-000995,OV-M-00076,OV-R-0006,ovino,Morada Nova,Santa Ines,2.2,5,3.7,0.44,0.59,IA_cervical,6,0,2025-06-26,0.474,vazia
+E-OV-000996,OV-M-00283,OV-R-0005,ovino,Santa Ines,Santa Ines,8.8,4,2.9,0.48,0.69,IA_cervical,5,1,2024-05-18,0.422,vazia
+E-OV-000997,OV-M-00156,OV-R-0002,ovino,Mestico,Santa Ines,8.7,0,4.4,0.39,0.71,IATF,8,0,2025-08-01,0.183,prenhe
+E-OV-000998,OV-M-00169,OV-R-0029,ovino,Somalis,Santa Ines,8.0,4,3.2,0.46,0.66,IATF,11,0,2024-11-09,0.587,prenhe
+E-OV-000999,OV-M-00004,OV-R-0023,ovino,Somalis,Mestico,1.1,5,2.8,0.75,0.92,IA_cervical,9,0,2025-09-22,0.707,prenhe
+E-OV-001000,OV-M-00137,OV-R-0028,ovino,Santa Ines,Santa Ines,7.1,0,3.0,0.35,0.86,IATF,5,1,2024-05-06,0.719,vazia
+E-OV-001001,OV-M-00204,OV-R-0007,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.86,IA_cervical,7,0,2024-07-08,0.555,vazia
+E-OV-001002,OV-M-00148,OV-R-0008,ovino,Morada Nova,Dorper,3.3,3,3.4,0.45,0.34,IATF,9,0,2024-09-10,0.637,vazia
+E-OV-001003,OV-M-00184,OV-R-0008,ovino,Santa Ines,Dorper,9.1,0,3.5,0.45,0.34,IA_cervical,11,0,2024-11-25,0.346,vazia
+E-OV-001004,OV-M-00242,OV-R-0016,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.61,IA_cervical,4,1,2025-04-05,0.324,prenhe
+E-OV-001005,OV-M-00006,OV-R-0005,ovino,Morada Nova,Santa Ines,9.9,3,3.2,0.46,0.69,IA_cervical,6,0,2024-06-10,0.615,vazia
+E-OV-001006,OV-M-00271,OV-R-0007,ovino,Santa Ines,Santa Ines,4.7,1,3.0,0.38,0.86,IA_cervical,5,1,2025-05-30,0.8,vazia
+E-OV-001007,OV-M-00245,OV-R-0029,ovino,Morada Nova,Santa Ines,7.5,5,3.4,0.38,0.66,IA_cervical,1,0,2024-01-18,0.478,vazia
+E-OV-001008,OV-M-00125,OV-R-0010,ovino,White Dorper,Dorper,6.4,2,3.3,0.53,0.65,IATF,8,0,2024-08-29,0.727,prenhe
+E-OV-001009,OV-M-00229,OV-R-0023,ovino,Santa Ines,Mestico,1.6,2,2.8,0.28,0.92,IATF,4,1,2025-04-26,0.738,prenhe
+E-OV-001010,OV-M-00019,OV-R-0006,ovino,Morada Nova,Santa Ines,4.1,4,3.5,0.18,0.59,IA_cervical,7,0,2024-07-12,0.699,prenhe
+E-OV-001011,OV-M-00092,OV-R-0027,ovino,Santa Ines,Dorper,4.2,5,3.1,0.54,0.71,IA_cervical,11,0,2024-11-10,0.593,prenhe
+E-OV-001012,OV-M-00032,OV-R-0020,ovino,Dorper,Dorper,7.2,0,2.2,0.78,0.57,IATF,3,1,2025-03-18,0.508,vazia
+E-OV-001013,OV-M-00190,OV-R-0025,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.6,IA_cervical,6,0,2024-06-30,0.327,vazia
+E-OV-001014,OV-M-00256,OV-R-0015,ovino,Santa Ines,Dorper,7.4,1,2.8,0.36,0.43,IA_cervical,12,0,2025-12-04,0.289,vazia
+E-OV-001015,OV-M-00180,OV-R-0027,ovino,Morada Nova,Dorper,3.8,1,3.0,0.46,0.71,IA_cervical,9,0,2025-09-10,0.729,prenhe
+E-OV-001016,OV-M-00213,OV-R-0010,ovino,Somalis,Dorper,8.2,0,2.3,0.63,0.65,IA_cervical,12,0,2025-12-09,0.221,vazia
+E-OV-001017,OV-M-00042,OV-R-0014,ovino,Dorper,White Dorper,7.1,1,3.5,0.81,0.52,IA_cervical,12,0,2024-12-27,0.591,prenhe
+E-OV-001018,OV-M-00280,OV-R-0001,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.86,IA_cervical,9,0,2024-09-07,0.884,vazia
+E-OV-001019,OV-M-00057,OV-R-0005,ovino,Santa Ines,Santa Ines,1.1,3,2.7,0.94,0.69,IA_cervical,12,0,2025-12-27,0.618,vazia
+E-OV-001020,OV-M-00157,OV-R-0023,ovino,Santa Ines,Mestico,4.0,1,3.9,0.58,0.92,IA_laparoscopica,6,0,2025-06-15,0.769,prenhe
+E-OV-001021,OV-M-00204,OV-R-0009,ovino,Santa Ines,White Dorper,7.2,1,2.9,0.6,0.74,IATF,8,0,2025-08-02,0.478,vazia
+E-OV-001022,OV-M-00256,OV-R-0003,ovino,Santa Ines,Santa Ines,7.4,1,2.8,0.36,0.81,IA_laparoscopica,5,1,2024-05-13,0.66,prenhe
+E-OV-001023,OV-M-00280,OV-R-0008,ovino,Morada Nova,Dorper,3.4,3,3.3,0.68,0.34,IA_cervical,9,0,2025-09-26,0.702,prenhe
+E-OV-001024,OV-M-00179,OV-R-0010,ovino,Santa Ines,Dorper,9.5,4,3.4,0.34,0.65,IATF,1,0,2025-01-20,0.643,prenhe
+E-OV-001025,OV-M-00172,OV-R-0021,ovino,Santa Ines,Santa Ines,8.1,1,4.9,0.55,0.84,IA_laparoscopica,7,0,2025-07-18,0.532,prenhe
+E-OV-001026,OV-M-00125,OV-R-0002,ovino,White Dorper,Santa Ines,6.4,2,3.3,0.53,0.71,IA_cervical,8,0,2025-08-25,0.65,prenhe
+E-OV-001027,OV-M-00170,OV-R-0000,ovino,Santa Ines,Santa Ines,5.9,3,3.1,0.52,0.64,IA_cervical,3,1,2024-03-18,0.568,prenhe
+E-OV-001028,OV-M-00202,OV-R-0021,ovino,Mestico,Santa Ines,7.6,3,2.9,0.52,0.84,IA_laparoscopica,3,1,2024-03-13,0.729,prenhe
+E-OV-001029,OV-M-00194,OV-R-0004,ovino,Santa Ines,Mestico,9.6,2,2.7,0.81,0.42,IA_cervical,2,1,2024-02-17,0.484,vazia
+E-OV-001030,OV-M-00177,OV-R-0012,ovino,Morada Nova,Dorper,6.3,2,2.7,0.47,0.64,IA_laparoscopica,4,1,2025-04-14,0.726,prenhe
+E-OV-001031,OV-M-00132,OV-R-0020,ovino,Morada Nova,Dorper,9.9,0,2.9,0.52,0.57,IATF,10,0,2025-10-30,0.352,vazia
+E-OV-001032,OV-M-00058,OV-R-0015,ovino,Somalis,Dorper,1.3,3,3.0,0.11,0.43,IATF,1,0,2024-01-22,0.677,vazia
+E-OV-001033,OV-M-00016,OV-R-0003,ovino,White Dorper,Santa Ines,9.5,1,3.6,0.16,0.81,IATF,4,1,2024-04-10,0.539,prenhe
+E-OV-001034,OV-M-00126,OV-R-0021,ovino,Somalis,Santa Ines,1.9,0,2.6,0.36,0.84,IA_laparoscopica,12,0,2024-12-20,0.654,prenhe
+E-OV-001035,OV-M-00118,OV-R-0001,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.86,IATF,10,0,2024-10-12,0.391,prenhe
+E-OV-001036,OV-M-00182,OV-R-0006,ovino,Santa Ines,Santa Ines,8.1,1,2.8,0.3,0.59,IATF,3,1,2024-03-16,0.456,vazia
+E-OV-001037,OV-M-00270,OV-R-0003,ovino,Santa Ines,Santa Ines,3.2,3,3.5,0.66,0.81,IA_cervical,3,1,2025-03-21,0.874,prenhe
+E-OV-001038,OV-M-00210,OV-R-0015,ovino,Morada Nova,Dorper,6.4,5,3.4,0.69,0.43,IA_laparoscopica,10,0,2025-10-22,0.717,prenhe
+E-OV-001039,OV-M-00241,OV-R-0020,ovino,Santa Ines,Dorper,8.9,5,2.5,0.51,0.57,IA_cervical,6,0,2024-06-03,0.255,prenhe
+E-OV-001040,OV-M-00173,OV-R-0019,ovino,Mestico,Santa Ines,9.2,5,3.4,0.49,0.87,IA_cervical,1,0,2024-01-03,0.612,vazia
+E-OV-001041,OV-M-00278,OV-R-0004,ovino,Santa Ines,Mestico,4.7,1,3.4,0.8,0.42,IA_cervical,6,0,2024-06-13,0.675,prenhe
+E-OV-001042,OV-M-00281,OV-R-0010,ovino,Morada Nova,Dorper,5.8,0,3.3,0.47,0.65,IA_cervical,5,1,2024-05-14,0.548,vazia
+E-OV-001043,OV-M-00045,OV-R-0004,ovino,Santa Ines,Mestico,2.2,3,3.5,0.47,0.42,IA_cervical,12,0,2024-12-06,0.595,prenhe
+E-OV-001044,OV-M-00191,OV-R-0010,ovino,Dorper,Dorper,7.5,2,3.7,0.7,0.65,IA_cervical,3,1,2024-03-19,0.536,vazia
+E-OV-001045,OV-M-00151,OV-R-0006,ovino,Mestico,Santa Ines,6.5,2,3.5,0.69,0.59,IA_cervical,9,0,2024-09-20,0.645,prenhe
+E-OV-001046,OV-M-00291,OV-R-0022,ovino,Santa Ines,Somalis,7.7,2,2.8,0.51,0.59,IA_laparoscopica,3,1,2024-03-28,0.633,prenhe
+E-OV-001047,OV-M-00175,OV-R-0022,ovino,Santa Ines,Somalis,8.4,5,2.6,0.87,0.59,IATF,5,1,2025-05-08,0.467,vazia
+E-OV-001048,OV-M-00004,OV-R-0024,ovino,Somalis,Santa Ines,1.1,5,2.8,0.75,0.66,IATF,12,0,2024-12-08,0.632,prenhe
+E-OV-001049,OV-M-00062,OV-R-0006,ovino,Dorper,Santa Ines,4.2,5,3.9,0.69,0.59,IA_cervical,2,1,2024-02-24,0.584,vazia
+E-OV-001050,OV-M-00038,OV-R-0000,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.64,IA_cervical,2,1,2024-02-01,0.904,prenhe
+E-OV-001051,OV-M-00060,OV-R-0001,ovino,Morada Nova,Santa Ines,5.4,0,3.7,0.55,0.86,IATF,12,0,2024-12-22,0.502,prenhe
+E-OV-001052,OV-M-00028,OV-R-0025,ovino,Santa Ines,Santa Ines,9.3,2,3.5,0.91,0.6,IA_cervical,3,1,2025-03-08,0.841,vazia
+E-OV-001053,OV-M-00234,OV-R-0027,ovino,Dorper,Dorper,6.8,0,3.1,0.24,0.71,IATF,5,1,2024-05-07,0.648,vazia
+E-OV-001054,OV-M-00148,OV-R-0006,ovino,Morada Nova,Santa Ines,3.3,3,3.4,0.45,0.59,IA_laparoscopica,8,0,2024-08-24,0.83,prenhe
+E-OV-001055,OV-M-00201,OV-R-0026,ovino,Santa Ines,Morada Nova,6.8,1,2.7,0.41,0.72,IA_cervical,3,1,2025-03-18,0.484,vazia
+E-OV-001056,OV-M-00299,OV-R-0015,ovino,Santa Ines,Dorper,8.3,0,4.4,0.42,0.43,IA_cervical,12,0,2024-12-09,0.088,vazia
+E-OV-001057,OV-M-00194,OV-R-0005,ovino,Santa Ines,Santa Ines,9.6,2,2.7,0.81,0.69,IA_cervical,3,1,2024-03-25,0.555,vazia
+E-OV-001058,OV-M-00143,OV-R-0009,ovino,Santa Ines,White Dorper,8.8,0,2.9,0.68,0.74,IA_cervical,10,0,2024-10-12,0.321,prenhe
+E-OV-001059,OV-M-00080,OV-R-0007,ovino,Dorper,Santa Ines,1.2,4,2.4,0.3,0.86,IA_cervical,5,1,2024-05-24,0.56,prenhe
+E-OV-001060,OV-M-00226,OV-R-0022,ovino,Santa Ines,Somalis,4.5,2,3.4,0.73,0.59,IATF,11,0,2025-11-07,0.819,vazia
+E-OV-001061,OV-M-00152,OV-R-0005,ovino,Santa Ines,Santa Ines,6.9,5,2.8,0.62,0.69,IA_laparoscopica,8,0,2025-08-09,0.557,prenhe
+E-OV-001062,OV-M-00227,OV-R-0005,ovino,White Dorper,Santa Ines,8.7,5,2.8,0.44,0.69,IA_cervical,8,0,2024-08-15,0.289,vazia
+E-OV-001063,OV-M-00006,OV-R-0021,ovino,Morada Nova,Santa Ines,9.9,3,3.2,0.46,0.84,IA_cervical,6,0,2024-06-20,0.582,prenhe
+E-OV-001064,OV-M-00048,OV-R-0009,ovino,Santa Ines,White Dorper,8.8,3,3.4,0.37,0.74,IA_cervical,4,1,2024-04-08,0.786,prenhe
+E-OV-001065,OV-M-00038,OV-R-0007,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.86,IA_cervical,6,0,2025-06-22,0.878,vazia
+E-OV-001066,OV-M-00204,OV-R-0024,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.66,IA_laparoscopica,11,0,2025-11-01,0.533,vazia
+E-OV-001067,OV-M-00155,OV-R-0027,ovino,Santa Ines,Dorper,9.0,5,3.2,0.44,0.71,IA_laparoscopica,7,0,2024-07-18,0.725,vazia
+E-OV-001068,OV-M-00095,OV-R-0016,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.61,IATF,4,1,2025-04-12,0.95,prenhe
+E-OV-001069,OV-M-00092,OV-R-0024,ovino,Santa Ines,Santa Ines,4.2,5,3.1,0.54,0.66,IA_cervical,6,0,2024-06-20,0.683,prenhe
+E-OV-001070,OV-M-00182,OV-R-0025,ovino,Santa Ines,Santa Ines,8.1,1,2.8,0.3,0.6,IA_cervical,10,0,2025-10-31,0.171,vazia
+E-OV-001071,OV-M-00289,OV-R-0017,ovino,Santa Ines,Santa Ines,5.0,2,4.0,0.26,0.55,IATF,8,0,2024-08-06,0.645,prenhe
+E-OV-001072,OV-M-00298,OV-R-0024,ovino,Morada Nova,Santa Ines,9.7,5,2.9,0.78,0.66,IA_laparoscopica,3,1,2024-03-11,0.568,prenhe
+E-OV-001073,OV-M-00141,OV-R-0000,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.64,IA_laparoscopica,10,0,2025-10-05,0.874,prenhe
+E-OV-001074,OV-M-00201,OV-R-0001,ovino,Santa Ines,Santa Ines,6.8,1,2.7,0.41,0.86,IA_cervical,11,0,2025-11-21,0.379,vazia
+E-OV-001075,OV-M-00025,OV-R-0026,ovino,Santa Ines,Morada Nova,3.5,4,4.3,0.6,0.72,IATF,10,0,2024-10-16,0.511,vazia
+E-OV-001076,OV-M-00283,OV-R-0004,ovino,Santa Ines,Mestico,8.8,4,2.9,0.48,0.42,IA_cervical,10,0,2025-10-24,0.338,prenhe
+E-OV-001077,OV-M-00005,OV-R-0021,ovino,Santa Ines,Santa Ines,3.6,0,3.0,0.22,0.84,IA_cervical,6,0,2024-06-26,0.536,vazia
+E-OV-001078,OV-M-00102,OV-R-0012,ovino,Dorper,Dorper,4.0,3,3.3,0.36,0.64,IATF,7,0,2024-07-16,0.733,prenhe
+E-OV-001079,OV-M-00217,OV-R-0023,ovino,Dorper,Mestico,2.2,3,3.7,0.24,0.92,IA_cervical,1,0,2025-01-26,0.663,prenhe
+E-OV-001080,OV-M-00290,OV-R-0019,ovino,Santa Ines,Santa Ines,5.2,4,3.4,0.92,0.87,IATF,3,1,2025-03-14,0.85,prenhe
+E-OV-001081,OV-M-00051,OV-R-0002,ovino,Mestico,Santa Ines,8.0,1,3.2,0.31,0.71,IA_cervical,10,0,2024-10-08,0.456,prenhe
+E-OV-001082,OV-M-00198,OV-R-0010,ovino,Mestico,Dorper,6.1,1,3.7,0.59,0.65,IA_cervical,8,0,2025-08-06,0.381,vazia
+E-OV-001083,OV-M-00056,OV-R-0021,ovino,Santa Ines,Santa Ines,3.9,2,2.5,0.57,0.84,IA_cervical,7,0,2025-07-30,0.623,prenhe
+E-OV-001084,OV-M-00015,OV-R-0027,ovino,White Dorper,Dorper,3.9,0,3.1,0.44,0.71,IATF,3,1,2024-03-29,0.732,vazia
+E-OV-001085,OV-M-00127,OV-R-0024,ovino,Somalis,Santa Ines,3.4,5,3.3,0.63,0.66,IATF,12,0,2025-12-24,0.661,vazia
+E-OV-001086,OV-M-00172,OV-R-0026,ovino,Santa Ines,Morada Nova,8.1,1,4.9,0.55,0.72,IA_cervical,4,1,2024-04-26,0.414,prenhe
+E-OV-001087,OV-M-00079,OV-R-0028,ovino,Santa Ines,Santa Ines,1.0,1,3.5,0.36,0.86,IA_cervical,1,0,2025-01-19,0.756,vazia
+E-OV-001088,OV-M-00291,OV-R-0026,ovino,Santa Ines,Morada Nova,7.7,2,2.8,0.51,0.72,IA_cervical,11,0,2024-11-04,0.397,vazia
+E-OV-001089,OV-M-00184,OV-R-0017,ovino,Santa Ines,Santa Ines,9.1,0,3.5,0.45,0.55,IA_cervical,11,0,2024-11-25,0.394,prenhe
+E-OV-001090,OV-M-00131,OV-R-0010,ovino,Santa Ines,Dorper,8.2,5,3.4,0.52,0.65,IA_laparoscopica,4,1,2024-04-03,0.781,vazia
+E-OV-001091,OV-M-00145,OV-R-0015,ovino,Santa Ines,Dorper,6.4,3,3.4,0.71,0.43,IA_cervical,9,0,2024-09-07,0.496,prenhe
+E-OV-001092,OV-M-00139,OV-R-0023,ovino,Santa Ines,Mestico,7.1,0,3.9,0.7,0.92,IA_cervical,1,0,2024-01-23,0.477,vazia
+E-OV-001093,OV-M-00033,OV-R-0012,ovino,Santa Ines,Dorper,6.4,3,3.0,0.0,0.64,IA_cervical,12,0,2025-12-11,0.559,prenhe
+E-OV-001094,OV-M-00181,OV-R-0024,ovino,White Dorper,Santa Ines,8.8,3,4.2,0.49,0.66,IA_cervical,4,1,2024-04-15,0.399,vazia
+E-OV-001095,OV-M-00235,OV-R-0021,ovino,Morada Nova,Santa Ines,5.9,5,3.5,0.34,0.84,IA_laparoscopica,12,0,2024-12-18,0.673,vazia
+E-OV-001096,OV-M-00126,OV-R-0006,ovino,Somalis,Santa Ines,1.9,0,2.6,0.36,0.59,IA_laparoscopica,6,0,2024-06-06,0.598,vazia
+E-OV-001097,OV-M-00127,OV-R-0027,ovino,Somalis,Dorper,3.4,5,3.3,0.63,0.71,IA_cervical,5,1,2024-05-09,0.761,vazia
+E-OV-001098,OV-M-00273,OV-R-0025,ovino,Santa Ines,Santa Ines,5.0,1,3.2,0.38,0.6,IATF,10,0,2024-10-11,0.668,prenhe
+E-OV-001099,OV-M-00183,OV-R-0017,ovino,Morada Nova,Santa Ines,8.0,4,3.1,0.63,0.55,IA_cervical,12,0,2025-12-08,0.6,vazia
+E-OV-001100,OV-M-00089,OV-R-0005,ovino,Santa Ines,Santa Ines,5.6,3,4.1,1.0,0.69,IATF,12,0,2024-12-15,0.521,prenhe
+E-OV-001101,OV-M-00001,OV-R-0006,ovino,Dorper,Santa Ines,3.3,5,3.3,0.54,0.59,IA_laparoscopica,12,0,2025-12-02,0.806,prenhe
+E-OV-001102,OV-M-00246,OV-R-0025,ovino,Santa Ines,Santa Ines,9.4,1,2.2,0.48,0.6,IA_cervical,8,0,2025-08-26,0.243,prenhe
+E-OV-001103,OV-M-00187,OV-R-0000,ovino,Mestico,Santa Ines,6.8,0,3.4,1.0,0.64,IATF,11,0,2024-11-14,0.739,vazia
+E-OV-001104,OV-M-00187,OV-R-0014,ovino,Mestico,White Dorper,6.8,0,3.4,1.0,0.52,IA_cervical,10,0,2025-10-19,0.598,vazia
+E-OV-001105,OV-M-00084,OV-R-0018,ovino,Santa Ines,Santa Ines,1.4,1,2.6,0.41,0.6,IA_laparoscopica,9,0,2024-09-11,0.684,prenhe
+E-OV-001106,OV-M-00055,OV-R-0006,ovino,Somalis,Santa Ines,5.6,4,3.6,0.64,0.59,IA_cervical,1,0,2025-01-01,0.431,vazia
+E-OV-001107,OV-M-00148,OV-R-0025,ovino,Morada Nova,Santa Ines,3.3,3,3.4,0.45,0.6,IA_cervical,5,1,2025-05-11,0.72,vazia
+E-OV-001108,OV-M-00227,OV-R-0015,ovino,White Dorper,Dorper,8.7,5,2.8,0.44,0.43,IATF,3,1,2025-03-06,0.426,prenhe
+E-OV-001109,OV-M-00089,OV-R-0001,ovino,Santa Ines,Santa Ines,5.6,3,4.1,1.0,0.86,IA_cervical,8,0,2025-08-28,0.511,prenhe
+E-OV-001110,OV-M-00158,OV-R-0009,ovino,White Dorper,White Dorper,7.7,1,3.8,0.46,0.74,IA_cervical,4,1,2024-04-28,0.449,vazia
+E-OV-001111,OV-M-00298,OV-R-0011,ovino,Morada Nova,Morada Nova,9.7,5,2.9,0.78,0.74,IA_cervical,12,0,2024-12-29,0.42,vazia
+E-OV-001112,OV-M-00065,OV-R-0006,ovino,Morada Nova,Santa Ines,3.5,1,1.9,0.4,0.59,IA_cervical,4,1,2025-04-30,0.388,vazia
+E-OV-001113,OV-M-00069,OV-R-0028,ovino,Mestico,Santa Ines,5.3,3,2.8,0.55,0.86,IATF,8,0,2024-08-29,0.617,prenhe
+E-OV-001114,OV-M-00070,OV-R-0010,ovino,Dorper,Dorper,4.8,2,4.1,0.45,0.65,IA_laparoscopica,9,0,2025-09-24,0.654,prenhe
+E-OV-001115,OV-M-00273,OV-R-0015,ovino,Santa Ines,Dorper,5.0,1,3.2,0.38,0.43,IATF,8,0,2024-08-08,0.617,prenhe
+E-OV-001116,OV-M-00158,OV-R-0016,ovino,White Dorper,Santa Ines,7.7,1,3.8,0.46,0.61,IA_cervical,8,0,2024-08-07,0.344,prenhe
+E-OV-001117,OV-M-00275,OV-R-0006,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.59,IA_cervical,8,0,2024-08-26,0.69,prenhe
+E-OV-001118,OV-M-00284,OV-R-0017,ovino,Somalis,Santa Ines,7.7,2,3.8,0.88,0.55,IA_cervical,5,1,2025-05-08,0.429,prenhe
+E-OV-001119,OV-M-00126,OV-R-0010,ovino,Somalis,Dorper,1.9,0,2.6,0.36,0.65,IA_cervical,3,1,2024-03-27,0.431,vazia
+E-OV-001120,OV-M-00016,OV-R-0000,ovino,White Dorper,Santa Ines,9.5,1,3.6,0.16,0.64,IA_laparoscopica,4,1,2024-04-14,0.521,prenhe
+E-OV-001121,OV-M-00091,OV-R-0012,ovino,Dorper,Dorper,9.9,3,3.0,0.14,0.64,IA_cervical,7,0,2025-07-22,0.469,prenhe
+E-OV-001122,OV-M-00163,OV-R-0017,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.55,IA_cervical,5,1,2024-05-31,0.598,prenhe
+E-OV-001123,OV-M-00114,OV-R-0003,ovino,Dorper,Santa Ines,5.9,4,2.7,0.55,0.81,IATF,3,1,2024-03-17,0.665,vazia
+E-OV-001124,OV-M-00000,OV-R-0023,ovino,Somalis,Mestico,5.3,2,2.7,0.6,0.92,IA_cervical,7,0,2024-07-11,0.542,prenhe
+E-OV-001125,OV-M-00296,OV-R-0019,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.87,IA_cervical,10,0,2024-10-17,0.766,prenhe
+E-OV-001126,OV-M-00090,OV-R-0009,ovino,Morada Nova,White Dorper,9.3,4,3.7,0.24,0.74,IA_laparoscopica,1,0,2024-01-25,0.545,prenhe
+E-OV-001127,OV-M-00185,OV-R-0017,ovino,Morada Nova,Santa Ines,4.5,4,3.6,0.48,0.55,IA_cervical,9,0,2025-09-01,0.499,vazia
+E-OV-001128,OV-M-00284,OV-R-0009,ovino,Somalis,White Dorper,7.7,2,3.8,0.88,0.74,IATF,3,1,2024-03-26,0.659,prenhe
+E-OV-001129,OV-M-00163,OV-R-0019,ovino,Morada Nova,Santa Ines,2.2,3,2.7,0.47,0.87,IA_laparoscopica,10,0,2024-10-21,0.867,prenhe
+E-OV-001130,OV-M-00208,OV-R-0004,ovino,Mestico,Mestico,6.4,1,4.1,0.57,0.42,IA_cervical,5,1,2024-05-27,0.277,vazia
+E-OV-001131,OV-M-00010,OV-R-0018,ovino,Morada Nova,Santa Ines,4.4,3,4.1,0.37,0.6,IA_cervical,8,0,2024-08-03,0.411,vazia
+E-OV-001132,OV-M-00209,OV-R-0001,ovino,Santa Ines,Santa Ines,8.0,0,3.0,0.73,0.86,IA_cervical,2,1,2024-02-03,0.617,prenhe
+E-OV-001133,OV-M-00254,OV-R-0000,ovino,Morada Nova,Santa Ines,1.3,2,3.7,0.29,0.64,IA_laparoscopica,11,0,2025-11-23,0.639,prenhe
+E-OV-001134,OV-M-00275,OV-R-0007,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.86,IA_cervical,11,0,2025-11-15,0.887,vazia
+E-OV-001135,OV-M-00025,OV-R-0005,ovino,Santa Ines,Santa Ines,3.5,4,4.3,0.6,0.69,IA_laparoscopica,4,1,2024-04-02,0.642,vazia
+E-OV-001136,OV-M-00068,OV-R-0014,ovino,Dorper,White Dorper,4.1,4,4.0,0.71,0.52,IA_cervical,5,1,2024-05-24,0.687,vazia
+E-OV-001137,OV-M-00014,OV-R-0004,ovino,Santa Ines,Mestico,6.8,1,2.9,0.73,0.42,IA_cervical,10,0,2025-10-07,0.349,vazia
+E-OV-001138,OV-M-00275,OV-R-0007,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.86,IA_cervical,10,0,2024-10-29,0.795,vazia
+E-OV-001139,OV-M-00082,OV-R-0002,ovino,White Dorper,Santa Ines,1.5,0,3.7,0.71,0.71,IA_cervical,2,1,2024-02-15,0.554,vazia
+E-OV-001140,OV-M-00159,OV-R-0026,ovino,Morada Nova,Morada Nova,6.0,5,3.6,0.72,0.72,IA_cervical,4,1,2024-04-09,0.587,prenhe
+E-OV-001141,OV-M-00142,OV-R-0022,ovino,Santa Ines,Somalis,8.2,4,3.2,0.44,0.59,IA_cervical,10,0,2024-10-28,0.625,vazia
+E-OV-001142,OV-M-00206,OV-R-0006,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.59,IATF,2,1,2025-02-11,0.772,prenhe
+E-OV-001143,OV-M-00268,OV-R-0003,ovino,Mestico,Santa Ines,4.1,0,3.4,0.29,0.81,IA_cervical,4,1,2025-04-06,0.729,prenhe
+E-OV-001144,OV-M-00097,OV-R-0025,ovino,White Dorper,Santa Ines,4.4,4,3.2,0.38,0.6,IA_laparoscopica,4,1,2024-04-21,0.904,prenhe
+E-OV-001145,OV-M-00237,OV-R-0020,ovino,Dorper,Dorper,1.1,4,3.4,0.43,0.57,IA_cervical,9,0,2024-09-27,0.681,prenhe
+E-OV-001146,OV-M-00087,OV-R-0026,ovino,Somalis,Morada Nova,7.6,4,3.2,0.83,0.72,IA_laparoscopica,7,0,2024-07-09,0.83,prenhe
+E-OV-001147,OV-M-00059,OV-R-0005,ovino,Santa Ines,Santa Ines,8.1,2,4.0,0.64,0.69,IA_cervical,1,0,2025-01-25,0.46,vazia
+E-OV-001148,OV-M-00031,OV-R-0010,ovino,Santa Ines,Dorper,5.1,1,3.7,0.36,0.65,IA_laparoscopica,8,0,2024-08-22,0.613,prenhe
+E-OV-001149,OV-M-00111,OV-R-0003,ovino,Santa Ines,Santa Ines,7.2,5,2.9,0.54,0.81,IA_cervical,5,1,2024-05-28,0.487,vazia
+E-OV-001150,OV-M-00168,OV-R-0012,ovino,Morada Nova,Dorper,2.9,5,2.9,0.42,0.64,IA_cervical,8,0,2025-08-18,0.398,prenhe
+E-OV-001151,OV-M-00234,OV-R-0004,ovino,Dorper,Mestico,6.8,0,3.1,0.24,0.42,IA_cervical,2,1,2025-02-19,0.358,vazia
+E-OV-001152,OV-M-00254,OV-R-0000,ovino,Morada Nova,Santa Ines,1.3,2,3.7,0.29,0.64,IA_cervical,12,0,2024-12-11,0.51,vazia
+E-OV-001153,OV-M-00158,OV-R-0015,ovino,White Dorper,Dorper,7.7,1,3.8,0.46,0.43,IA_cervical,4,1,2024-04-08,0.316,vazia
+E-OV-001154,OV-M-00122,OV-R-0029,ovino,White Dorper,Santa Ines,2.5,0,2.4,0.76,0.66,IA_cervical,2,1,2024-02-21,0.498,prenhe
+E-OV-001155,OV-M-00052,OV-R-0019,ovino,Morada Nova,Santa Ines,3.3,5,3.0,0.39,0.87,IATF,8,0,2025-08-04,0.675,prenhe
+E-OV-001156,OV-M-00274,OV-R-0022,ovino,Santa Ines,Somalis,3.1,4,3.3,0.37,0.59,IA_cervical,12,0,2025-12-08,0.705,prenhe
+E-OV-001157,OV-M-00118,OV-R-0024,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.66,IA_cervical,3,1,2025-03-02,0.295,vazia
+E-OV-001158,OV-M-00229,OV-R-0029,ovino,Santa Ines,Santa Ines,1.6,2,2.8,0.28,0.66,IATF,1,0,2024-01-29,0.562,vazia
+E-OV-001159,OV-M-00187,OV-R-0003,ovino,Mestico,Santa Ines,6.8,0,3.4,1.0,0.81,IA_laparoscopica,12,0,2024-12-17,0.817,prenhe
+E-OV-001160,OV-M-00279,OV-R-0007,ovino,Santa Ines,Santa Ines,4.9,4,3.4,0.81,0.86,IA_cervical,7,0,2024-07-23,0.95,prenhe
+E-OV-001161,OV-M-00291,OV-R-0018,ovino,Santa Ines,Santa Ines,7.7,2,2.8,0.51,0.6,IA_cervical,2,1,2024-02-09,0.491,prenhe
+E-OV-001162,OV-M-00212,OV-R-0024,ovino,Morada Nova,Santa Ines,6.3,1,2.9,0.41,0.66,IA_cervical,4,1,2024-04-13,0.533,prenhe
+E-OV-001163,OV-M-00198,OV-R-0023,ovino,Mestico,Mestico,6.1,1,3.7,0.59,0.92,IA_cervical,12,0,2024-12-30,0.524,vazia
+E-OV-001164,OV-M-00041,OV-R-0021,ovino,Somalis,Santa Ines,8.0,2,3.5,0.27,0.84,IA_cervical,11,0,2024-11-07,0.691,prenhe
+E-OV-001165,OV-M-00004,OV-R-0009,ovino,Somalis,White Dorper,1.1,5,2.8,0.75,0.74,IATF,2,1,2025-02-15,0.676,prenhe
+E-OV-001166,OV-M-00163,OV-R-0010,ovino,Morada Nova,Dorper,2.2,3,2.7,0.47,0.65,IATF,5,1,2025-05-21,0.691,prenhe
+E-OV-001167,OV-M-00211,OV-R-0002,ovino,Somalis,Santa Ines,8.3,0,2.9,0.6,0.71,IA_cervical,7,0,2024-07-12,0.425,vazia
+E-OV-001168,OV-M-00223,OV-R-0009,ovino,Santa Ines,White Dorper,3.3,1,3.0,0.41,0.74,IA_cervical,7,0,2024-07-28,0.733,prenhe
+E-OV-001169,OV-M-00075,OV-R-0004,ovino,Somalis,Mestico,7.5,4,3.8,0.79,0.42,IA_cervical,5,1,2025-05-09,0.493,prenhe
+E-OV-001170,OV-M-00150,OV-R-0028,ovino,Dorper,Santa Ines,3.1,4,2.7,0.89,0.86,IA_cervical,5,1,2024-05-23,0.776,prenhe
+E-OV-001171,OV-M-00258,OV-R-0002,ovino,Santa Ines,Santa Ines,3.2,1,3.5,0.35,0.71,IA_cervical,2,1,2024-02-26,0.736,prenhe
+E-OV-001172,OV-M-00028,OV-R-0010,ovino,Santa Ines,Dorper,9.3,2,3.5,0.91,0.65,IA_laparoscopica,9,0,2025-09-15,0.909,prenhe
+E-OV-001173,OV-M-00115,OV-R-0026,ovino,Mestico,Morada Nova,7.5,0,3.6,0.41,0.72,IA_cervical,6,0,2024-06-01,0.397,vazia
+E-OV-001174,OV-M-00283,OV-R-0028,ovino,Santa Ines,Santa Ines,8.8,4,2.9,0.48,0.86,IATF,3,1,2024-03-29,0.6,vazia
+E-OV-001175,OV-M-00059,OV-R-0011,ovino,Santa Ines,Morada Nova,8.1,2,4.0,0.64,0.74,IA_cervical,6,0,2025-06-22,0.447,prenhe
+E-OV-001176,OV-M-00095,OV-R-0013,ovino,Santa Ines,Santa Ines,3.0,3,3.4,0.54,0.72,IA_cervical,1,0,2025-01-23,0.711,prenhe
+E-OV-001177,OV-M-00140,OV-R-0015,ovino,Santa Ines,Dorper,2.6,4,3.1,0.59,0.43,IA_cervical,4,1,2024-04-17,0.771,prenhe
+E-OV-001178,OV-M-00206,OV-R-0024,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.66,IA_laparoscopica,9,0,2025-09-12,0.81,prenhe
+E-OV-001179,OV-M-00076,OV-R-0023,ovino,Morada Nova,Mestico,2.2,5,3.7,0.44,0.92,IA_cervical,6,0,2024-06-28,0.607,vazia
+E-OV-001180,OV-M-00237,OV-R-0015,ovino,Dorper,Dorper,1.1,4,3.4,0.43,0.43,IA_cervical,5,1,2025-05-08,0.725,prenhe
+E-OV-001181,OV-M-00070,OV-R-0011,ovino,Dorper,Morada Nova,4.8,2,4.1,0.45,0.74,IA_cervical,4,1,2025-04-20,0.529,prenhe
+E-OV-001182,OV-M-00110,OV-R-0011,ovino,Santa Ines,Morada Nova,4.6,0,3.8,0.58,0.74,IA_laparoscopica,8,0,2025-08-28,0.76,vazia
+E-OV-001183,OV-M-00171,OV-R-0019,ovino,Morada Nova,Santa Ines,1.2,1,3.6,0.4,0.87,IATF,6,0,2025-06-16,0.545,prenhe
+E-OV-001184,OV-M-00003,OV-R-0025,ovino,Santa Ines,Santa Ines,5.8,1,3.0,0.48,0.6,IA_cervical,5,1,2025-05-28,0.679,prenhe
+E-OV-001185,OV-M-00230,OV-R-0002,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.71,IA_cervical,2,1,2024-02-07,0.648,vazia
+E-OV-001186,OV-M-00200,OV-R-0023,ovino,Santa Ines,Mestico,1.7,0,3.0,0.63,0.92,IA_cervical,11,0,2025-11-15,0.65,prenhe
+E-OV-001187,OV-M-00250,OV-R-0014,ovino,Santa Ines,White Dorper,2.4,5,3.4,0.95,0.52,IA_cervical,4,1,2024-04-02,0.838,prenhe
+E-OV-001188,OV-M-00082,OV-R-0004,ovino,White Dorper,Mestico,1.5,0,3.7,0.71,0.42,IATF,7,0,2024-07-04,0.499,vazia
+E-OV-001189,OV-M-00119,OV-R-0002,ovino,Santa Ines,Santa Ines,2.2,2,3.2,0.33,0.71,IA_cervical,11,0,2024-11-21,0.689,prenhe
+E-OV-001190,OV-M-00269,OV-R-0010,ovino,Somalis,Dorper,9.5,2,3.7,0.81,0.65,IA_laparoscopica,7,0,2024-07-29,0.614,prenhe
+E-OV-001191,OV-M-00020,OV-R-0007,ovino,Dorper,Santa Ines,2.9,2,3.8,0.49,0.86,IATF,3,1,2025-03-08,0.684,prenhe
+E-OV-001192,OV-M-00147,OV-R-0003,ovino,Dorper,Santa Ines,9.6,4,4.3,0.27,0.81,IA_laparoscopica,2,1,2024-02-08,0.719,prenhe
+E-OV-001193,OV-M-00145,OV-R-0008,ovino,Santa Ines,Dorper,6.4,3,3.4,0.71,0.34,IA_cervical,11,0,2024-11-27,0.462,vazia
+E-OV-001194,OV-M-00134,OV-R-0025,ovino,Santa Ines,Santa Ines,1.7,0,2.4,0.29,0.6,IA_laparoscopica,9,0,2024-09-12,0.405,vazia
+E-OV-001195,OV-M-00130,OV-R-0021,ovino,Morada Nova,Santa Ines,4.8,4,4.6,0.56,0.84,IA_cervical,4,1,2025-04-17,0.631,prenhe
+E-OV-001196,OV-M-00224,OV-R-0006,ovino,White Dorper,Santa Ines,2.9,0,3.2,0.55,0.59,IA_cervical,1,0,2025-01-14,0.524,prenhe
+E-OV-001197,OV-M-00059,OV-R-0020,ovino,Santa Ines,Dorper,8.1,2,4.0,0.64,0.57,IATF,7,0,2025-07-05,0.417,vazia
+E-OV-001198,OV-M-00267,OV-R-0013,ovino,Santa Ines,Santa Ines,8.1,4,2.3,0.32,0.72,IA_cervical,4,1,2024-04-30,0.442,vazia
+E-OV-001199,OV-M-00268,OV-R-0022,ovino,Mestico,Somalis,4.1,0,3.4,0.29,0.59,IA_cervical,11,0,2025-11-24,0.577,vazia
+E-OV-001200,OV-M-00053,OV-R-0007,ovino,Santa Ines,Santa Ines,1.3,2,3.1,0.32,0.86,IA_cervical,10,0,2024-10-13,0.749,prenhe
+E-OV-001201,OV-M-00292,OV-R-0001,ovino,White Dorper,Santa Ines,9.7,3,3.0,0.27,0.86,IA_cervical,9,0,2024-09-12,0.629,vazia
+E-OV-001202,OV-M-00078,OV-R-0009,ovino,Santa Ines,White Dorper,7.4,0,3.6,0.68,0.74,IA_laparoscopica,2,1,2025-02-04,0.63,prenhe
+E-OV-001203,OV-M-00015,OV-R-0029,ovino,White Dorper,Santa Ines,3.9,0,3.1,0.44,0.66,IATF,4,1,2024-04-29,0.739,prenhe
+E-OV-001204,OV-M-00119,OV-R-0016,ovino,Santa Ines,Santa Ines,2.2,2,3.2,0.33,0.61,IA_laparoscopica,8,0,2025-08-17,0.812,prenhe
+E-OV-001205,OV-M-00238,OV-R-0001,ovino,Santa Ines,Santa Ines,8.0,1,3.0,0.25,0.86,IA_cervical,7,0,2024-07-11,0.545,prenhe
+E-OV-001206,OV-M-00253,OV-R-0029,ovino,Santa Ines,Santa Ines,8.0,5,3.5,0.32,0.66,IA_cervical,11,0,2025-11-08,0.447,vazia
+E-OV-001207,OV-M-00193,OV-R-0024,ovino,Somalis,Santa Ines,2.6,5,2.4,0.41,0.66,IA_cervical,4,1,2024-04-18,0.4,prenhe
+E-OV-001208,OV-M-00243,OV-R-0016,ovino,Morada Nova,Santa Ines,2.5,3,3.2,0.69,0.61,IA_cervical,9,0,2025-09-22,0.794,vazia
+E-OV-001209,OV-M-00078,OV-R-0022,ovino,Santa Ines,Somalis,7.4,0,3.6,0.68,0.59,IATF,10,0,2024-10-14,0.421,prenhe
+E-OV-001210,OV-M-00263,OV-R-0005,ovino,Santa Ines,Santa Ines,3.9,2,2.7,0.75,0.69,IA_laparoscopica,3,1,2025-03-19,0.829,prenhe
+E-OV-001211,OV-M-00190,OV-R-0017,ovino,Dorper,Santa Ines,8.9,2,3.7,0.23,0.55,IATF,9,0,2025-09-28,0.316,vazia
+E-OV-001212,OV-M-00040,OV-R-0027,ovino,Morada Nova,Dorper,7.6,4,3.1,0.97,0.71,IATF,4,1,2024-04-04,0.83,prenhe
+E-OV-001213,OV-M-00038,OV-R-0013,ovino,Santa Ines,Santa Ines,2.6,4,3.5,0.79,0.72,IA_cervical,9,0,2024-09-10,0.914,prenhe
+E-OV-001214,OV-M-00080,OV-R-0001,ovino,Dorper,Santa Ines,1.2,4,2.4,0.3,0.86,IA_laparoscopica,11,0,2025-11-23,0.623,vazia
+E-OV-001215,OV-M-00020,OV-R-0022,ovino,Dorper,Somalis,2.9,2,3.8,0.49,0.59,IA_laparoscopica,4,1,2024-04-18,0.776,prenhe
+E-OV-001216,OV-M-00084,OV-R-0021,ovino,Santa Ines,Santa Ines,1.4,1,2.6,0.41,0.84,IATF,3,1,2024-03-16,0.692,vazia
+E-OV-001217,OV-M-00298,OV-R-0022,ovino,Morada Nova,Somalis,9.7,5,2.9,0.78,0.59,IA_cervical,1,0,2025-01-16,0.367,vazia
+E-OV-001218,OV-M-00072,OV-R-0019,ovino,Somalis,Santa Ines,1.3,5,3.0,0.52,0.87,IA_laparoscopica,1,0,2024-01-19,0.889,prenhe
+E-OV-001219,OV-M-00190,OV-R-0004,ovino,Dorper,Mestico,8.9,2,3.7,0.23,0.42,IA_cervical,12,0,2025-12-25,0.332,vazia
+E-OV-001220,OV-M-00293,OV-R-0003,ovino,Santa Ines,Santa Ines,4.4,2,3.8,0.4,0.81,IA_laparoscopica,10,0,2025-10-21,0.797,prenhe
+E-OV-001221,OV-M-00075,OV-R-0023,ovino,Somalis,Mestico,7.5,4,3.8,0.79,0.92,IATF,5,1,2024-05-17,0.758,prenhe
+E-OV-001222,OV-M-00208,OV-R-0025,ovino,Mestico,Santa Ines,6.4,1,4.1,0.57,0.6,IATF,5,1,2024-05-06,0.423,prenhe
+E-OV-001223,OV-M-00135,OV-R-0002,ovino,Santa Ines,Santa Ines,1.9,2,4.0,0.56,0.71,IA_cervical,7,0,2025-07-21,0.631,prenhe
+E-OV-001224,OV-M-00085,OV-R-0017,ovino,Santa Ines,Santa Ines,8.2,5,3.1,0.66,0.55,IA_cervical,1,0,2025-01-15,0.581,prenhe
+E-OV-001225,OV-M-00285,OV-R-0015,ovino,Mestico,Dorper,4.7,4,2.8,0.63,0.43,IATF,8,0,2025-08-24,0.605,prenhe
+E-OV-001226,OV-M-00197,OV-R-0010,ovino,Santa Ines,Dorper,1.8,5,3.4,0.5,0.65,IA_laparoscopica,12,0,2025-12-07,0.936,prenhe
+E-OV-001227,OV-M-00131,OV-R-0019,ovino,Santa Ines,Santa Ines,8.2,5,3.4,0.52,0.87,IATF,10,0,2024-10-19,0.713,prenhe
+E-OV-001228,OV-M-00243,OV-R-0027,ovino,Morada Nova,Dorper,2.5,3,3.2,0.69,0.71,IA_cervical,7,0,2024-07-04,0.749,vazia
+E-OV-001229,OV-M-00270,OV-R-0024,ovino,Santa Ines,Santa Ines,3.2,3,3.5,0.66,0.66,IATF,3,1,2025-03-28,0.928,prenhe
+E-OV-001230,OV-M-00234,OV-R-0004,ovino,Dorper,Mestico,6.8,0,3.1,0.24,0.42,IA_laparoscopica,4,1,2025-04-08,0.642,prenhe
+E-OV-001231,OV-M-00260,OV-R-0013,ovino,Dorper,Santa Ines,2.1,2,3.1,0.39,0.72,IA_cervical,11,0,2024-11-11,0.822,prenhe
+E-OV-001232,OV-M-00096,OV-R-0028,ovino,Santa Ines,Santa Ines,5.8,5,2.5,0.51,0.86,IA_cervical,8,0,2024-08-06,0.378,prenhe
+E-OV-001233,OV-M-00103,OV-R-0007,ovino,Mestico,Santa Ines,8.1,1,2.2,0.21,0.86,IA_laparoscopica,7,0,2024-07-10,0.504,prenhe
+E-OV-001234,OV-M-00069,OV-R-0025,ovino,Mestico,Santa Ines,5.3,3,2.8,0.55,0.6,IA_cervical,1,0,2025-01-15,0.376,vazia
+E-OV-001235,OV-M-00208,OV-R-0014,ovino,Mestico,White Dorper,6.4,1,4.1,0.57,0.52,IATF,11,0,2024-11-07,0.308,vazia
+E-OV-001236,OV-M-00240,OV-R-0015,ovino,Morada Nova,Dorper,3.7,2,2.8,0.35,0.43,IA_cervical,11,0,2024-11-29,0.421,prenhe
+E-OV-001237,OV-M-00198,OV-R-0007,ovino,Mestico,Santa Ines,6.1,1,3.7,0.59,0.86,IA_cervical,3,1,2024-03-10,0.576,vazia
+E-OV-001238,OV-M-00179,OV-R-0027,ovino,Santa Ines,Dorper,9.5,4,3.4,0.34,0.71,IA_cervical,10,0,2025-10-04,0.511,vazia
+E-OV-001239,OV-M-00231,OV-R-0015,ovino,White Dorper,Dorper,1.8,0,3.5,0.5,0.43,IATF,5,1,2025-05-31,0.702,vazia
+E-OV-001240,OV-M-00054,OV-R-0017,ovino,Morada Nova,Santa Ines,8.4,1,2.9,0.47,0.55,IA_laparoscopica,11,0,2025-11-01,0.514,vazia
+E-OV-001241,OV-M-00109,OV-R-0013,ovino,White Dorper,Santa Ines,6.1,2,3.4,0.83,0.72,IATF,8,0,2025-08-28,0.742,prenhe
+E-OV-001242,OV-M-00212,OV-R-0002,ovino,Morada Nova,Santa Ines,6.3,1,2.9,0.41,0.71,IATF,3,1,2025-03-27,0.604,prenhe
+E-OV-001243,OV-M-00015,OV-R-0023,ovino,White Dorper,Mestico,3.9,0,3.1,0.44,0.92,IA_cervical,8,0,2024-08-12,0.697,prenhe
+E-OV-001244,OV-M-00273,OV-R-0009,ovino,Santa Ines,White Dorper,5.0,1,3.2,0.38,0.74,IATF,4,1,2025-04-22,0.829,prenhe
+E-OV-001245,OV-M-00051,OV-R-0007,ovino,Mestico,Santa Ines,8.0,1,3.2,0.31,0.86,IA_cervical,2,1,2025-02-17,0.671,prenhe
+E-OV-001246,OV-M-00236,OV-R-0023,ovino,Mestico,Mestico,8.9,3,3.6,0.63,0.92,IA_cervical,11,0,2025-11-05,0.564,vazia
+E-OV-001247,OV-M-00184,OV-R-0005,ovino,Santa Ines,Santa Ines,9.1,0,3.5,0.45,0.69,IA_cervical,6,0,2024-06-18,0.607,vazia
+E-OV-001248,OV-M-00254,OV-R-0020,ovino,Morada Nova,Dorper,1.3,2,3.7,0.29,0.57,IA_cervical,1,0,2024-01-19,0.479,vazia
+E-OV-001249,OV-M-00232,OV-R-0014,ovino,Santa Ines,White Dorper,4.7,2,2.5,0.24,0.52,IA_laparoscopica,4,1,2024-04-03,0.678,prenhe
+E-OV-001250,OV-M-00154,OV-R-0023,ovino,Somalis,Mestico,8.4,0,3.5,0.58,0.92,IA_cervical,5,1,2024-05-07,0.788,prenhe
+E-OV-001251,OV-M-00226,OV-R-0001,ovino,Santa Ines,Santa Ines,4.5,2,3.4,0.73,0.86,IA_laparoscopica,4,1,2025-04-29,0.95,prenhe
+E-OV-001252,OV-M-00103,OV-R-0023,ovino,Mestico,Mestico,8.1,1,2.2,0.21,0.92,IATF,4,1,2024-04-17,0.37,prenhe
+E-OV-001253,OV-M-00175,OV-R-0006,ovino,Santa Ines,Santa Ines,8.4,5,2.6,0.87,0.59,IA_cervical,4,1,2024-04-07,0.433,prenhe
+E-OV-001254,OV-M-00274,OV-R-0026,ovino,Santa Ines,Morada Nova,3.1,4,3.3,0.37,0.72,IA_cervical,10,0,2024-10-16,0.66,prenhe
+E-OV-001255,OV-M-00025,OV-R-0010,ovino,Santa Ines,Dorper,3.5,4,4.3,0.6,0.65,IA_laparoscopica,7,0,2025-07-24,0.56,prenhe
+E-OV-001256,OV-M-00106,OV-R-0000,ovino,Santa Ines,Santa Ines,6.9,0,3.3,0.28,0.64,IA_cervical,11,0,2024-11-05,0.424,vazia
+E-OV-001257,OV-M-00005,OV-R-0014,ovino,Santa Ines,White Dorper,3.6,0,3.0,0.22,0.52,IATF,7,0,2024-07-17,0.558,prenhe
+E-OV-001258,OV-M-00160,OV-R-0001,ovino,Morada Nova,Santa Ines,6.3,0,4.1,0.16,0.86,IA_cervical,7,0,2024-07-26,0.295,vazia
+E-OV-001259,OV-M-00234,OV-R-0008,ovino,Dorper,Dorper,6.8,0,3.1,0.24,0.34,IA_cervical,8,0,2025-08-20,0.345,vazia
+E-OV-001260,OV-M-00011,OV-R-0021,ovino,Morada Nova,Santa Ines,7.2,0,3.1,0.66,0.84,IA_cervical,11,0,2024-11-12,0.627,prenhe
+E-OV-001261,OV-M-00164,OV-R-0016,ovino,Santa Ines,Santa Ines,4.7,0,2.9,0.61,0.61,IA_cervical,9,0,2024-09-26,0.411,vazia
+E-OV-001262,OV-M-00124,OV-R-0021,ovino,Morada Nova,Santa Ines,2.7,1,3.3,0.66,0.84,IA_cervical,7,0,2025-07-18,0.822,prenhe
+E-OV-001263,OV-M-00234,OV-R-0026,ovino,Dorper,Morada Nova,6.8,0,3.1,0.24,0.72,IA_cervical,9,0,2024-09-26,0.536,vazia
+E-OV-001264,OV-M-00066,OV-R-0014,ovino,Santa Ines,White Dorper,5.9,4,3.2,0.67,0.52,IA_cervical,9,0,2024-09-17,0.592,prenhe
+E-OV-001265,OV-M-00048,OV-R-0016,ovino,Santa Ines,Santa Ines,8.8,3,3.4,0.37,0.61,IATF,7,0,2025-07-01,0.619,prenhe
+E-OV-001266,OV-M-00028,OV-R-0001,ovino,Santa Ines,Santa Ines,9.3,2,3.5,0.91,0.86,IA_cervical,8,0,2024-08-27,0.693,prenhe
+E-OV-001267,OV-M-00122,OV-R-0008,ovino,White Dorper,Dorper,2.5,0,2.4,0.76,0.34,IA_cervical,1,0,2025-01-07,0.331,vazia
+E-OV-001268,OV-M-00146,OV-R-0021,ovino,Santa Ines,Santa Ines,2.4,5,3.3,0.18,0.84,IA_cervical,4,1,2025-04-30,0.821,prenhe
+E-OV-001269,OV-M-00275,OV-R-0001,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.86,IA_cervical,5,1,2024-05-26,0.928,prenhe
+E-OV-001270,OV-M-00139,OV-R-0010,ovino,Santa Ines,Dorper,7.1,0,3.9,0.7,0.65,IA_cervical,4,1,2024-04-03,0.41,prenhe
+E-OV-001271,OV-M-00051,OV-R-0004,ovino,Mestico,Mestico,8.0,1,3.2,0.31,0.42,IATF,9,0,2025-09-12,0.452,vazia
+E-OV-001272,OV-M-00209,OV-R-0025,ovino,Santa Ines,Santa Ines,8.0,0,3.0,0.73,0.6,IA_cervical,8,0,2024-08-04,0.495,prenhe
+E-OV-001273,OV-M-00018,OV-R-0016,ovino,Santa Ines,Santa Ines,2.1,5,3.6,0.55,0.61,IA_laparoscopica,9,0,2024-09-05,0.626,prenhe
+E-OV-001274,OV-M-00103,OV-R-0019,ovino,Mestico,Santa Ines,8.1,1,2.2,0.21,0.87,IA_cervical,3,1,2025-03-06,0.412,prenhe
+E-OV-001275,OV-M-00196,OV-R-0020,ovino,Santa Ines,Dorper,6.0,0,1.9,0.51,0.57,IA_cervical,3,1,2024-03-16,0.284,prenhe
+E-OV-001276,OV-M-00076,OV-R-0006,ovino,Morada Nova,Santa Ines,2.2,5,3.7,0.44,0.59,IA_cervical,2,1,2024-02-03,0.564,vazia
+E-OV-001277,OV-M-00178,OV-R-0001,ovino,Mestico,Santa Ines,9.7,4,3.4,0.58,0.86,IA_laparoscopica,10,0,2024-10-30,0.889,prenhe
+E-OV-001278,OV-M-00135,OV-R-0011,ovino,Santa Ines,Morada Nova,1.9,2,4.0,0.56,0.74,IATF,12,0,2025-12-07,0.605,prenhe
+E-OV-001279,OV-M-00285,OV-R-0005,ovino,Mestico,Santa Ines,4.7,4,2.8,0.63,0.69,IA_cervical,2,1,2025-02-22,0.647,prenhe
+E-OV-001280,OV-M-00086,OV-R-0009,ovino,Dorper,White Dorper,5.4,4,3.4,0.56,0.74,IATF,2,1,2025-02-26,0.74,prenhe
+E-OV-001281,OV-M-00271,OV-R-0009,ovino,Santa Ines,White Dorper,4.7,1,3.0,0.38,0.74,IA_cervical,3,1,2025-03-21,0.753,prenhe
+E-OV-001282,OV-M-00187,OV-R-0023,ovino,Mestico,Mestico,6.8,0,3.4,1.0,0.92,IA_cervical,9,0,2025-09-20,0.788,vazia
+E-OV-001283,OV-M-00224,OV-R-0009,ovino,White Dorper,White Dorper,2.9,0,3.2,0.55,0.74,IA_laparoscopica,9,0,2025-09-01,0.944,prenhe
+E-OV-001284,OV-M-00050,OV-R-0004,ovino,Santa Ines,Mestico,2.1,2,3.5,0.4,0.42,IA_cervical,1,0,2024-01-18,0.65,vazia
+E-OV-001285,OV-M-00005,OV-R-0028,ovino,Santa Ines,Santa Ines,3.6,0,3.0,0.22,0.86,IA_cervical,1,0,2025-01-30,0.654,prenhe
+E-OV-001286,OV-M-00219,OV-R-0001,ovino,Dorper,Santa Ines,5.9,1,2.9,0.38,0.86,IA_cervical,2,1,2025-02-03,0.442,prenhe
+E-OV-001287,OV-M-00144,OV-R-0006,ovino,Dorper,Santa Ines,3.1,5,2.9,0.07,0.59,IA_laparoscopica,6,0,2024-06-12,0.551,vazia
+E-OV-001288,OV-M-00092,OV-R-0010,ovino,Santa Ines,Dorper,4.2,5,3.1,0.54,0.65,IA_cervical,12,0,2025-12-12,0.608,prenhe
+E-OV-001289,OV-M-00268,OV-R-0001,ovino,Mestico,Santa Ines,4.1,0,3.4,0.29,0.86,IATF,7,0,2024-07-10,0.794,prenhe
+E-OV-001290,OV-M-00097,OV-R-0026,ovino,White Dorper,Morada Nova,4.4,4,3.2,0.38,0.72,IA_cervical,8,0,2025-08-31,0.644,prenhe
+E-OV-001291,OV-M-00130,OV-R-0010,ovino,Morada Nova,Dorper,4.8,4,4.6,0.56,0.65,IATF,3,1,2024-03-14,0.611,vazia
+E-OV-001292,OV-M-00217,OV-R-0023,ovino,Dorper,Mestico,2.2,3,3.7,0.24,0.92,IA_cervical,3,1,2025-03-15,0.642,vazia
+E-OV-001293,OV-M-00288,OV-R-0004,ovino,Somalis,Mestico,4.1,5,3.1,0.9,0.42,IA_laparoscopica,6,0,2025-06-21,0.808,vazia
+E-OV-001294,OV-M-00269,OV-R-0015,ovino,Somalis,Dorper,9.5,2,3.7,0.81,0.43,IA_cervical,1,0,2025-01-03,0.427,prenhe
+E-OV-001295,OV-M-00195,OV-R-0003,ovino,Morada Nova,Santa Ines,1.6,2,3.6,0.7,0.81,IA_cervical,3,1,2024-03-18,0.785,prenhe
+E-OV-001296,OV-M-00033,OV-R-0006,ovino,Santa Ines,Santa Ines,6.4,3,3.0,0.0,0.59,IA_cervical,3,1,2024-03-31,0.543,prenhe
+E-OV-001297,OV-M-00032,OV-R-0012,ovino,Dorper,Dorper,7.2,0,2.2,0.78,0.64,IA_laparoscopica,3,1,2025-03-18,0.57,vazia
+E-OV-001298,OV-M-00207,OV-R-0025,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.6,IA_cervical,9,0,2025-09-21,0.687,prenhe
+E-OV-001299,OV-M-00152,OV-R-0009,ovino,Santa Ines,White Dorper,6.9,5,2.8,0.62,0.74,IA_cervical,3,1,2025-03-11,0.492,vazia
+E-OV-001300,OV-M-00039,OV-R-0022,ovino,Morada Nova,Somalis,2.1,2,3.7,0.27,0.59,IATF,3,1,2024-03-14,0.66,prenhe
+E-OV-001301,OV-M-00208,OV-R-0002,ovino,Mestico,Santa Ines,6.4,1,4.1,0.57,0.71,IA_cervical,7,0,2025-07-27,0.325,vazia
+E-OV-001302,OV-M-00282,OV-R-0007,ovino,Somalis,Santa Ines,3.0,2,4.0,0.67,0.86,IA_cervical,12,0,2024-12-01,0.642,vazia
+E-OV-001303,OV-M-00019,OV-R-0018,ovino,Morada Nova,Santa Ines,4.1,4,3.5,0.18,0.6,IA_cervical,2,1,2024-02-24,0.702,prenhe
+E-OV-001304,OV-M-00247,OV-R-0014,ovino,Morada Nova,White Dorper,6.7,0,2.9,0.5,0.52,IA_cervical,9,0,2024-09-25,0.319,vazia
+E-OV-001305,OV-M-00103,OV-R-0015,ovino,Mestico,Dorper,8.1,1,2.2,0.21,0.43,IA_cervical,5,1,2024-05-28,0.149,vazia
+E-OV-001306,OV-M-00119,OV-R-0020,ovino,Santa Ines,Dorper,2.2,2,3.2,0.33,0.57,IA_laparoscopica,12,0,2025-12-21,0.787,vazia
+E-OV-001307,OV-M-00215,OV-R-0002,ovino,Morada Nova,Santa Ines,4.5,2,2.6,0.49,0.71,IA_cervical,10,0,2025-10-25,0.602,vazia
+E-OV-001308,OV-M-00074,OV-R-0020,ovino,Somalis,Dorper,4.2,5,3.8,1.0,0.57,IA_cervical,3,1,2024-03-18,0.596,prenhe
+E-OV-001309,OV-M-00047,OV-R-0025,ovino,Santa Ines,Santa Ines,8.0,0,3.6,0.59,0.6,IA_laparoscopica,2,1,2025-02-21,0.505,prenhe
+E-OV-001310,OV-M-00289,OV-R-0022,ovino,Santa Ines,Somalis,5.0,2,4.0,0.26,0.59,IA_cervical,1,0,2024-01-06,0.546,vazia
+E-OV-001311,OV-M-00104,OV-R-0008,ovino,Santa Ines,Dorper,6.8,5,2.9,0.52,0.34,IA_cervical,11,0,2024-11-30,0.165,vazia
+E-OV-001312,OV-M-00050,OV-R-0010,ovino,Santa Ines,Dorper,2.1,2,3.5,0.4,0.65,IATF,4,1,2024-04-23,0.82,prenhe
+E-OV-001313,OV-M-00206,OV-R-0028,ovino,Santa Ines,Santa Ines,2.2,5,3.1,0.66,0.86,IA_cervical,6,0,2025-06-29,0.725,vazia
+E-OV-001314,OV-M-00065,OV-R-0023,ovino,Morada Nova,Mestico,3.5,1,1.9,0.4,0.92,IA_cervical,2,1,2024-02-22,0.553,prenhe
+E-OV-001315,OV-M-00232,OV-R-0027,ovino,Santa Ines,Dorper,4.7,2,2.5,0.24,0.71,IATF,10,0,2025-10-20,0.528,prenhe
+E-OV-001316,OV-M-00021,OV-R-0027,ovino,Somalis,Dorper,2.7,4,3.6,0.27,0.71,IA_laparoscopica,6,0,2024-06-17,0.744,prenhe
+E-OV-001317,OV-M-00155,OV-R-0013,ovino,Santa Ines,Santa Ines,9.0,5,3.2,0.44,0.72,IATF,7,0,2024-07-10,0.582,prenhe
+E-OV-001318,OV-M-00120,OV-R-0003,ovino,Santa Ines,Santa Ines,3.1,4,3.6,0.62,0.81,IATF,10,0,2025-10-08,0.737,prenhe
+E-OV-001319,OV-M-00287,OV-R-0006,ovino,Santa Ines,Santa Ines,1.1,0,3.8,0.58,0.59,IA_cervical,10,0,2025-10-20,0.412,vazia
+E-OV-001320,OV-M-00156,OV-R-0008,ovino,Mestico,Dorper,8.7,0,4.4,0.39,0.34,IA_cervical,3,1,2024-03-11,0.261,prenhe
+E-OV-001321,OV-M-00277,OV-R-0025,ovino,Morada Nova,Santa Ines,6.6,4,2.7,0.97,0.6,IA_laparoscopica,3,1,2024-03-20,0.659,prenhe
+E-OV-001322,OV-M-00074,OV-R-0008,ovino,Somalis,Dorper,4.2,5,3.8,1.0,0.34,IA_laparoscopica,9,0,2025-09-15,0.547,vazia
+E-OV-001323,OV-M-00142,OV-R-0010,ovino,Santa Ines,Dorper,8.2,4,3.2,0.44,0.65,IA_laparoscopica,12,0,2025-12-14,0.846,prenhe
+E-OV-001324,OV-M-00244,OV-R-0025,ovino,Santa Ines,Santa Ines,5.4,1,2.8,0.64,0.6,IA_cervical,12,0,2024-12-22,0.402,vazia
+E-OV-001325,OV-M-00048,OV-R-0004,ovino,Santa Ines,Mestico,8.8,3,3.4,0.37,0.42,IATF,4,1,2024-04-30,0.619,prenhe
+E-OV-001326,OV-M-00278,OV-R-0019,ovino,Santa Ines,Santa Ines,4.7,1,3.4,0.8,0.87,IA_cervical,4,1,2024-04-21,0.92,prenhe
+E-OV-001327,OV-M-00231,OV-R-0016,ovino,White Dorper,Santa Ines,1.8,0,3.5,0.5,0.61,IA_cervical,7,0,2024-07-13,0.633,prenhe
+E-OV-001328,OV-M-00203,OV-R-0029,ovino,Santa Ines,Santa Ines,2.6,5,3.0,0.95,0.66,IA_cervical,5,1,2025-05-15,0.829,prenhe
+E-OV-001329,OV-M-00072,OV-R-0014,ovino,Somalis,White Dorper,1.3,5,3.0,0.52,0.52,IA_cervical,3,1,2024-03-11,0.624,vazia
+E-OV-001330,OV-M-00245,OV-R-0015,ovino,Morada Nova,Dorper,7.5,5,3.4,0.38,0.43,IA_laparoscopica,4,1,2025-04-13,0.699,prenhe
+E-OV-001331,OV-M-00252,OV-R-0025,ovino,Santa Ines,Santa Ines,6.4,3,3.2,0.55,0.6,IA_cervical,8,0,2025-08-09,0.613,vazia
+E-OV-001332,OV-M-00087,OV-R-0029,ovino,Somalis,Santa Ines,7.6,4,3.2,0.83,0.66,IA_laparoscopica,4,1,2024-04-14,0.95,prenhe
+E-OV-001333,OV-M-00176,OV-R-0021,ovino,Morada Nova,Santa Ines,9.9,2,3.0,0.63,0.84,IA_cervical,12,0,2025-12-19,0.78,prenhe
+E-OV-001334,OV-M-00018,OV-R-0020,ovino,Santa Ines,Dorper,2.1,5,3.6,0.55,0.57,IA_cervical,12,0,2025-12-21,0.465,vazia
+E-OV-001335,OV-M-00118,OV-R-0026,ovino,Mestico,Morada Nova,8.5,0,3.9,0.22,0.72,IA_cervical,8,0,2024-08-04,0.231,prenhe
+E-OV-001336,OV-M-00045,OV-R-0029,ovino,Santa Ines,Santa Ines,2.2,3,3.5,0.47,0.66,IA_cervical,3,1,2024-03-22,0.887,prenhe
+E-OV-001337,OV-M-00166,OV-R-0022,ovino,Dorper,Somalis,3.5,3,3.8,0.58,0.59,IA_laparoscopica,8,0,2024-08-25,0.671,prenhe
+E-OV-001338,OV-M-00164,OV-R-0008,ovino,Santa Ines,Dorper,4.7,0,2.9,0.61,0.34,IA_cervical,7,0,2024-07-07,0.365,prenhe
+E-OV-001339,OV-M-00159,OV-R-0019,ovino,Morada Nova,Santa Ines,6.0,5,3.6,0.72,0.87,IA_cervical,7,0,2024-07-22,0.459,vazia
+E-OV-001340,OV-M-00203,OV-R-0007,ovino,Santa Ines,Santa Ines,2.6,5,3.0,0.95,0.86,IA_cervical,11,0,2025-11-06,0.792,prenhe
+E-OV-001341,OV-M-00277,OV-R-0015,ovino,Morada Nova,Dorper,6.6,4,2.7,0.97,0.43,IA_cervical,4,1,2024-04-23,0.544,vazia
+E-OV-001342,OV-M-00059,OV-R-0013,ovino,Santa Ines,Santa Ines,8.1,2,4.0,0.64,0.72,IA_cervical,8,0,2024-08-19,0.488,vazia
+E-OV-001343,OV-M-00064,OV-R-0029,ovino,Dorper,Santa Ines,2.0,2,2.6,0.58,0.66,IATF,7,0,2025-07-28,0.646,prenhe
+E-OV-001344,OV-M-00064,OV-R-0016,ovino,Dorper,Santa Ines,2.0,2,2.6,0.58,0.61,IA_cervical,2,1,2024-02-11,0.589,prenhe
+E-OV-001345,OV-M-00278,OV-R-0028,ovino,Santa Ines,Santa Ines,4.7,1,3.4,0.8,0.86,IA_cervical,2,1,2024-02-14,0.885,prenhe
+E-OV-001346,OV-M-00027,OV-R-0024,ovino,Santa Ines,Santa Ines,9.9,2,2.5,0.49,0.66,IATF,8,0,2024-08-08,0.434,vazia
+E-OV-001347,OV-M-00009,OV-R-0025,ovino,Dorper,Santa Ines,3.9,5,3.4,0.4,0.6,IA_laparoscopica,12,0,2025-12-07,0.77,prenhe
+E-OV-001348,OV-M-00048,OV-R-0005,ovino,Santa Ines,Santa Ines,8.8,3,3.4,0.37,0.69,IA_cervical,9,0,2025-09-04,0.574,vazia
+E-OV-001349,OV-M-00230,OV-R-0023,ovino,Santa Ines,Mestico,5.3,2,3.4,0.19,0.92,IA_laparoscopica,11,0,2025-11-07,0.908,prenhe
+E-OV-001350,OV-M-00173,OV-R-0007,ovino,Mestico,Santa Ines,9.2,5,3.4,0.49,0.86,IATF,9,0,2025-09-22,0.629,prenhe
+E-OV-001351,OV-M-00275,OV-R-0017,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.55,IA_cervical,3,1,2024-03-27,0.682,prenhe
+E-OV-001352,OV-M-00061,OV-R-0014,ovino,Morada Nova,White Dorper,2.3,1,2.4,0.71,0.52,IA_cervical,10,0,2024-10-19,0.46,prenhe
+E-OV-001353,OV-M-00118,OV-R-0007,ovino,Mestico,Santa Ines,8.5,0,3.9,0.22,0.86,IATF,1,0,2025-01-21,0.42,prenhe
+E-OV-001354,OV-M-00166,OV-R-0029,ovino,Dorper,Santa Ines,3.5,3,3.8,0.58,0.66,IATF,5,1,2024-05-01,0.693,prenhe
+E-OV-001355,OV-M-00021,OV-R-0026,ovino,Somalis,Morada Nova,2.7,4,3.6,0.27,0.72,IATF,12,0,2025-12-25,0.56,prenhe
+E-OV-001356,OV-M-00275,OV-R-0017,ovino,Santa Ines,Santa Ines,4.3,3,3.2,0.64,0.55,IA_cervical,3,1,2025-03-16,0.741,prenhe
+E-OV-001357,OV-M-00241,OV-R-0000,ovino,Santa Ines,Santa Ines,8.9,5,2.5,0.51,0.64,IATF,9,0,2025-09-14,0.485,prenhe
+E-OV-001358,OV-M-00043,OV-R-0005,ovino,Santa Ines,Santa Ines,8.0,4,3.1,0.58,0.69,IA_cervical,7,0,2024-07-07,0.625,vazia
+E-OV-001359,OV-M-00252,OV-R-0006,ovino,Santa Ines,Santa Ines,6.4,3,3.2,0.55,0.59,IA_laparoscopica,6,0,2025-06-06,0.669,vazia
+E-OV-001360,OV-M-00134,OV-R-0029,ovino,Santa Ines,Santa Ines,1.7,0,2.4,0.29,0.66,IATF,3,1,2024-03-18,0.458,prenhe
+E-OV-001361,OV-M-00100,OV-R-0012,ovino,Dorper,Dorper,3.5,5,4.0,0.77,0.64,IA_cervical,1,0,2024-01-17,0.58,prenhe
+E-OV-001362,OV-M-00283,OV-R-0001,ovino,Santa Ines,Santa Ines,8.8,4,2.9,0.48,0.86,IA_cervical,4,1,2025-04-12,0.588,prenhe
+E-OV-001363,OV-M-00155,OV-R-0017,ovino,Santa Ines,Santa Ines,9.0,5,3.2,0.44,0.55,IA_cervical,2,1,2024-02-19,0.493,vazia
+E-OV-001364,OV-M-00068,OV-R-0028,ovino,Dorper,Santa Ines,4.1,4,4.0,0.71,0.86,IATF,7,0,2024-07-20,0.676,prenhe
+E-OV-001365,OV-M-00242,OV-R-0016,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.61,IA_cervical,8,0,2025-08-02,0.26,prenhe
+E-OV-001366,OV-M-00214,OV-R-0013,ovino,Somalis,Santa Ines,9.8,4,2.4,0.54,0.72,IATF,12,0,2024-12-29,0.482,vazia
+E-OV-001367,OV-M-00057,OV-R-0005,ovino,Santa Ines,Santa Ines,1.1,3,2.7,0.94,0.69,IA_cervical,10,0,2024-10-01,0.65,prenhe
+E-OV-001368,OV-M-00203,OV-R-0026,ovino,Santa Ines,Morada Nova,2.6,5,3.0,0.95,0.72,IA_cervical,7,0,2024-07-31,0.674,prenhe
+E-OV-001369,OV-M-00188,OV-R-0003,ovino,Santa Ines,Santa Ines,7.6,3,3.7,0.42,0.81,IA_cervical,5,1,2025-05-02,0.567,vazia
+E-OV-001370,OV-M-00082,OV-R-0028,ovino,White Dorper,Santa Ines,1.5,0,3.7,0.71,0.86,IATF,11,0,2025-11-27,0.633,vazia
+E-OV-001371,OV-M-00129,OV-R-0006,ovino,Somalis,Santa Ines,4.6,3,3.8,0.42,0.59,IA_cervical,6,0,2025-06-23,0.488,vazia
+E-OV-001372,OV-M-00251,OV-R-0004,ovino,Santa Ines,Mestico,1.4,5,2.9,0.4,0.42,IA_cervical,9,0,2024-09-19,0.307,prenhe
+E-OV-001373,OV-M-00052,OV-R-0010,ovino,Morada Nova,Dorper,3.3,5,3.0,0.39,0.65,IA_cervical,11,0,2024-11-04,0.565,prenhe
+E-OV-001374,OV-M-00216,OV-R-0000,ovino,Morada Nova,Santa Ines,2.3,4,3.3,1.0,0.64,IATF,3,1,2024-03-16,0.95,prenhe
+E-OV-001375,OV-M-00249,OV-R-0000,ovino,Dorper,Santa Ines,5.5,5,2.7,0.32,0.64,IATF,4,1,2024-04-14,0.442,vazia
+E-OV-001376,OV-M-00281,OV-R-0005,ovino,Morada Nova,Santa Ines,5.8,0,3.3,0.47,0.69,IA_cervical,7,0,2024-07-14,0.524,prenhe
+E-OV-001377,OV-M-00097,OV-R-0020,ovino,White Dorper,Dorper,4.4,4,3.2,0.38,0.57,IA_cervical,10,0,2024-10-09,0.676,prenhe
+E-OV-001378,OV-M-00079,OV-R-0024,ovino,Santa Ines,Santa Ines,1.0,1,3.5,0.36,0.66,IA_cervical,12,0,2025-12-23,0.662,vazia
+E-OV-001379,OV-M-00280,OV-R-0007,ovino,Morada Nova,Santa Ines,3.4,3,3.3,0.68,0.86,IA_cervical,9,0,2025-09-27,0.817,vazia
+E-OV-001380,OV-M-00138,OV-R-0019,ovino,Santa Ines,Santa Ines,7.8,3,3.5,0.5,0.87,IATF,3,1,2024-03-23,0.798,vazia
+E-OV-001381,OV-M-00170,OV-R-0010,ovino,Santa Ines,Dorper,5.9,3,3.1,0.52,0.65,IA_cervical,8,0,2024-08-29,0.652,prenhe
+E-OV-001382,OV-M-00153,OV-R-0012,ovino,Dorper,Dorper,4.0,4,3.4,0.18,0.64,IA_cervical,2,1,2024-02-11,0.803,prenhe
+E-OV-001383,OV-M-00154,OV-R-0010,ovino,Somalis,Dorper,8.4,0,3.5,0.58,0.65,IA_laparoscopica,2,1,2024-02-15,0.705,prenhe
+E-OV-001384,OV-M-00187,OV-R-0026,ovino,Mestico,Morada Nova,6.8,0,3.4,1.0,0.72,IA_cervical,9,0,2024-09-30,0.608,prenhe
+E-OV-001385,OV-M-00126,OV-R-0015,ovino,Somalis,Dorper,1.9,0,2.6,0.36,0.43,IA_cervical,12,0,2025-12-01,0.376,prenhe
+E-OV-001386,OV-M-00117,OV-R-0015,ovino,Santa Ines,Dorper,8.1,2,3.0,0.21,0.43,IA_cervical,5,1,2024-05-15,0.618,vazia
+E-OV-001387,OV-M-00120,OV-R-0025,ovino,Santa Ines,Santa Ines,3.1,4,3.6,0.62,0.6,IA_cervical,5,1,2025-05-11,0.723,prenhe
+E-OV-001388,OV-M-00196,OV-R-0019,ovino,Santa Ines,Santa Ines,6.0,0,1.9,0.51,0.87,IA_laparoscopica,10,0,2024-10-13,0.45,prenhe
+E-OV-001389,OV-M-00245,OV-R-0004,ovino,Morada Nova,Mestico,7.5,5,3.4,0.38,0.42,IA_cervical,1,0,2025-01-29,0.458,vazia
+E-OV-001390,OV-M-00166,OV-R-0005,ovino,Dorper,Santa Ines,3.5,3,3.8,0.58,0.69,IA_cervical,9,0,2025-09-26,0.585,vazia
+E-OV-001391,OV-M-00203,OV-R-0010,ovino,Santa Ines,Dorper,2.6,5,3.0,0.95,0.65,IA_cervical,8,0,2025-08-28,0.782,prenhe
+E-OV-001392,OV-M-00123,OV-R-0002,ovino,Somalis,Santa Ines,4.5,5,3.9,0.37,0.71,IA_laparoscopica,8,0,2025-08-27,0.687,prenhe
+E-OV-001393,OV-M-00232,OV-R-0020,ovino,Santa Ines,Dorper,4.7,2,2.5,0.24,0.57,IA_cervical,10,0,2024-10-27,0.403,vazia
+E-OV-001394,OV-M-00118,OV-R-0014,ovino,Mestico,White Dorper,8.5,0,3.9,0.22,0.52,IA_cervical,2,1,2024-02-05,0.319,vazia
+E-OV-001395,OV-M-00126,OV-R-0001,ovino,Somalis,Santa Ines,1.9,0,2.6,0.36,0.86,IA_cervical,12,0,2025-12-20,0.556,prenhe
+E-OV-001396,OV-M-00016,OV-R-0012,ovino,White Dorper,Dorper,9.5,1,3.6,0.16,0.64,IA_cervical,12,0,2025-12-26,0.297,vazia
+E-OV-001397,OV-M-00078,OV-R-0024,ovino,Santa Ines,Santa Ines,7.4,0,3.6,0.68,0.66,IA_cervical,9,0,2025-09-18,0.348,vazia
+E-OV-001398,OV-M-00221,OV-R-0027,ovino,Somalis,Dorper,8.9,0,3.1,1.0,0.71,IA_cervical,12,0,2024-12-14,0.535,vazia
+E-OV-001399,OV-M-00026,OV-R-0028,ovino,White Dorper,Santa Ines,3.5,2,2.4,0.36,0.86,IATF,7,0,2024-07-23,0.59,prenhe
+E-OV-001400,OV-M-00067,OV-R-0027,ovino,Morada Nova,Dorper,2.9,5,3.8,0.17,0.71,IA_cervical,5,1,2024-05-07,0.518,vazia
+E-OV-001401,OV-M-00232,OV-R-0018,ovino,Santa Ines,Santa Ines,4.7,2,2.5,0.24,0.6,IA_laparoscopica,9,0,2024-09-27,0.612,prenhe
+E-OV-001402,OV-M-00261,OV-R-0027,ovino,Somalis,Dorper,3.2,3,3.0,0.37,0.71,IA_cervical,9,0,2024-09-01,0.702,prenhe
+E-OV-001403,OV-M-00124,OV-R-0028,ovino,Morada Nova,Santa Ines,2.7,1,3.3,0.66,0.86,IA_cervical,7,0,2024-07-20,0.794,prenhe
+E-OV-001404,OV-M-00122,OV-R-0019,ovino,White Dorper,Santa Ines,2.5,0,2.4,0.76,0.87,IA_cervical,11,0,2025-11-24,0.462,prenhe
+E-OV-001405,OV-M-00152,OV-R-0012,ovino,Santa Ines,Dorper,6.9,5,2.8,0.62,0.64,IA_cervical,4,1,2025-04-26,0.44,prenhe
+E-OV-001406,OV-M-00231,OV-R-0028,ovino,White Dorper,Santa Ines,1.8,0,3.5,0.5,0.86,IA_laparoscopica,6,0,2024-06-11,0.797,prenhe
+E-OV-001407,OV-M-00140,OV-R-0012,ovino,Santa Ines,Dorper,2.6,4,3.1,0.59,0.64,IATF,4,1,2025-04-11,0.931,prenhe
+E-OV-001408,OV-M-00052,OV-R-0004,ovino,Morada Nova,Mestico,3.3,5,3.0,0.39,0.42,IATF,5,1,2025-05-29,0.657,prenhe
+E-OV-001409,OV-M-00129,OV-R-0003,ovino,Somalis,Santa Ines,4.6,3,3.8,0.42,0.81,IA_cervical,1,0,2025-01-16,0.543,vazia
+E-OV-001410,OV-M-00076,OV-R-0017,ovino,Morada Nova,Santa Ines,2.2,5,3.7,0.44,0.55,IA_laparoscopica,11,0,2025-11-22,0.475,vazia
+E-OV-001411,OV-M-00205,OV-R-0001,ovino,Santa Ines,Santa Ines,2.6,3,2.8,0.72,0.86,IA_cervical,12,0,2025-12-06,0.729,prenhe
+E-OV-001412,OV-M-00042,OV-R-0003,ovino,Dorper,Santa Ines,7.1,1,3.5,0.81,0.81,IA_cervical,11,0,2024-11-11,0.694,vazia
+E-OV-001413,OV-M-00182,OV-R-0007,ovino,Santa Ines,Santa Ines,8.1,1,2.8,0.3,0.86,IA_cervical,12,0,2024-12-10,0.425,vazia
+E-OV-001414,OV-M-00038,OV-R-0015,ovino,Santa Ines,Dorper,2.6,4,3.5,0.79,0.43,IA_cervical,6,0,2024-06-07,0.733,vazia
+E-OV-001415,OV-M-00291,OV-R-0014,ovino,Santa Ines,White Dorper,7.7,2,2.8,0.51,0.52,IA_laparoscopica,7,0,2025-07-26,0.593,prenhe
+E-OV-001416,OV-M-00192,OV-R-0015,ovino,Somalis,Dorper,9.6,3,4.0,0.82,0.43,IATF,11,0,2025-11-10,0.456,vazia
+E-OV-001417,OV-M-00041,OV-R-0015,ovino,Somalis,Dorper,8.0,2,3.5,0.27,0.43,IA_cervical,4,1,2025-04-25,0.523,vazia
+E-OV-001418,OV-M-00287,OV-R-0029,ovino,Santa Ines,Santa Ines,1.1,0,3.8,0.58,0.66,IA_cervical,5,1,2024-05-26,0.529,prenhe
+E-OV-001419,OV-M-00172,OV-R-0006,ovino,Santa Ines,Santa Ines,8.1,1,4.9,0.55,0.59,IA_laparoscopica,1,0,2025-01-13,0.457,prenhe
+E-OV-001420,OV-M-00181,OV-R-0014,ovino,White Dorper,White Dorper,8.8,3,4.2,0.49,0.52,IATF,8,0,2025-08-03,0.386,vazia
+E-OV-001421,OV-M-00018,OV-R-0018,ovino,Santa Ines,Santa Ines,2.1,5,3.6,0.55,0.6,IA_laparoscopica,1,0,2024-01-31,0.635,prenhe
+E-OV-001422,OV-M-00056,OV-R-0008,ovino,Santa Ines,Dorper,3.9,2,2.5,0.57,0.34,IA_cervical,3,1,2025-03-06,0.594,prenhe
+E-OV-001423,OV-M-00242,OV-R-0005,ovino,Santa Ines,Santa Ines,7.2,3,1.6,0.51,0.69,IA_cervical,4,1,2025-04-24,0.437,prenhe
+E-OV-001424,OV-M-00140,OV-R-0001,ovino,Santa Ines,Santa Ines,2.6,4,3.1,0.59,0.86,IA_laparoscopica,1,0,2025-01-26,0.95,prenhe
+E-OV-001425,OV-M-00184,OV-R-0009,ovino,Santa Ines,White Dorper,9.1,0,3.5,0.45,0.74,IA_cervical,4,1,2025-04-14,0.716,prenhe
+E-OV-001426,OV-M-00296,OV-R-0007,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.86,IATF,10,0,2025-10-15,0.825,prenhe
+E-OV-001427,OV-M-00128,OV-R-0005,ovino,Dorper,Santa Ines,7.0,4,2.6,0.54,0.69,IATF,4,1,2024-04-01,0.658,prenhe
+E-OV-001428,OV-M-00114,OV-R-0008,ovino,Dorper,Dorper,5.9,4,2.7,0.55,0.34,IATF,2,1,2025-02-20,0.396,prenhe
+E-OV-001429,OV-M-00240,OV-R-0020,ovino,Morada Nova,Dorper,3.7,2,2.8,0.35,0.57,IA_cervical,8,0,2025-08-04,0.598,prenhe
+E-OV-001430,OV-M-00019,OV-R-0024,ovino,Morada Nova,Santa Ines,4.1,4,3.5,0.18,0.66,IA_laparoscopica,8,0,2025-08-23,0.836,prenhe
+E-OV-001431,OV-M-00136,OV-R-0015,ovino,Dorper,Dorper,9.7,2,2.7,0.39,0.43,IA_laparoscopica,12,0,2024-12-06,0.479,prenhe
+E-OV-001432,OV-M-00256,OV-R-0001,ovino,Santa Ines,Santa Ines,7.4,1,2.8,0.36,0.86,IA_cervical,12,0,2025-12-29,0.318,vazia
+E-OV-001433,OV-M-00068,OV-R-0022,ovino,Dorper,Somalis,4.1,4,4.0,0.71,0.59,IA_cervical,8,0,2024-08-24,0.584,prenhe
+E-OV-001434,OV-M-00091,OV-R-0004,ovino,Dorper,Mestico,9.9,3,3.0,0.14,0.42,IA_cervical,11,0,2024-11-17,0.372,prenhe
+E-OV-001435,OV-M-00141,OV-R-0001,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.86,IA_cervical,8,0,2025-08-24,0.812,vazia
+E-OV-001436,OV-M-00022,OV-R-0017,ovino,Santa Ines,Santa Ines,5.4,5,3.8,0.88,0.55,IATF,11,0,2024-11-16,0.368,prenhe
+E-OV-001437,OV-M-00021,OV-R-0012,ovino,Somalis,Dorper,2.7,4,3.6,0.27,0.64,IATF,9,0,2024-09-07,0.64,prenhe
+E-OV-001438,OV-M-00075,OV-R-0009,ovino,Somalis,White Dorper,7.5,4,3.8,0.79,0.74,IA_cervical,2,1,2025-02-09,0.622,prenhe
+E-OV-001439,OV-M-00269,OV-R-0029,ovino,Somalis,Santa Ines,9.5,2,3.7,0.81,0.66,IA_cervical,3,1,2025-03-29,0.68,prenhe
+E-OV-001440,OV-M-00066,OV-R-0002,ovino,Santa Ines,Santa Ines,5.9,4,3.2,0.67,0.71,IA_cervical,12,0,2025-12-09,0.597,prenhe
+E-OV-001441,OV-M-00219,OV-R-0001,ovino,Dorper,Santa Ines,5.9,1,2.9,0.38,0.86,IA_cervical,3,1,2025-03-27,0.587,vazia
+E-OV-001442,OV-M-00127,OV-R-0017,ovino,Somalis,Santa Ines,3.4,5,3.3,0.63,0.55,IA_cervical,5,1,2024-05-15,0.616,vazia
+E-OV-001443,OV-M-00228,OV-R-0012,ovino,Santa Ines,Dorper,6.4,3,3.3,0.68,0.64,IA_laparoscopica,2,1,2024-02-08,0.892,prenhe
+E-OV-001444,OV-M-00099,OV-R-0024,ovino,Dorper,Santa Ines,7.9,3,2.6,0.49,0.66,IA_laparoscopica,12,0,2025-12-07,0.57,vazia
+E-OV-001445,OV-M-00262,OV-R-0001,ovino,Morada Nova,Santa Ines,3.7,1,3.1,0.47,0.86,IATF,11,0,2024-11-04,0.776,vazia
+E-OV-001446,OV-M-00111,OV-R-0012,ovino,Santa Ines,Dorper,7.2,5,2.9,0.54,0.64,IATF,5,1,2024-05-27,0.448,vazia
+E-OV-001447,OV-M-00237,OV-R-0004,ovino,Dorper,Mestico,1.1,4,3.4,0.43,0.42,IA_cervical,6,0,2024-06-11,0.568,prenhe
+E-OV-001448,OV-M-00249,OV-R-0001,ovino,Dorper,Santa Ines,5.5,5,2.7,0.32,0.86,IA_laparoscopica,3,1,2024-03-18,0.585,vazia
+E-OV-001449,OV-M-00129,OV-R-0013,ovino,Somalis,Santa Ines,4.6,3,3.8,0.42,0.72,IA_cervical,5,1,2024-05-25,0.62,vazia
+E-OV-001450,OV-M-00200,OV-R-0022,ovino,Santa Ines,Somalis,1.7,0,3.0,0.63,0.59,IA_cervical,7,0,2025-07-23,0.628,prenhe
+E-OV-001451,OV-M-00035,OV-R-0004,ovino,Santa Ines,Mestico,1.6,1,3.6,0.54,0.42,IA_cervical,4,1,2025-04-23,0.554,vazia
+E-OV-001452,OV-M-00148,OV-R-0025,ovino,Morada Nova,Santa Ines,3.3,3,3.4,0.45,0.6,IA_cervical,3,1,2025-03-13,0.785,prenhe
+E-OV-001453,OV-M-00112,OV-R-0015,ovino,Somalis,Dorper,8.7,5,2.1,0.34,0.43,IA_cervical,1,0,2024-01-09,0.178,vazia
+E-OV-001454,OV-M-00286,OV-R-0014,ovino,Morada Nova,White Dorper,7.7,4,3.8,0.6,0.52,IA_cervical,5,1,2025-05-05,0.394,prenhe
+E-OV-001455,OV-M-00280,OV-R-0027,ovino,Morada Nova,Dorper,3.4,3,3.3,0.68,0.71,IA_cervical,12,0,2025-12-08,0.758,prenhe
+E-OV-001456,OV-M-00235,OV-R-0009,ovino,Morada Nova,White Dorper,5.9,5,3.5,0.34,0.74,IATF,11,0,2025-11-04,0.6,prenhe
+E-OV-001457,OV-M-00284,OV-R-0006,ovino,Somalis,Santa Ines,7.7,2,3.8,0.88,0.59,IA_cervical,10,0,2024-10-15,0.489,prenhe
+E-OV-001458,OV-M-00292,OV-R-0023,ovino,White Dorper,Mestico,9.7,3,3.0,0.27,0.92,IA_cervical,3,1,2025-03-14,0.689,prenhe
+E-OV-001459,OV-M-00230,OV-R-0003,ovino,Santa Ines,Santa Ines,5.3,2,3.4,0.19,0.81,IATF,8,0,2024-08-06,0.689,prenhe
+E-OV-001460,OV-M-00178,OV-R-0026,ovino,Mestico,Morada Nova,9.7,4,3.4,0.58,0.72,IA_cervical,10,0,2025-10-10,0.607,prenhe
+E-OV-001461,OV-M-00061,OV-R-0024,ovino,Morada Nova,Santa Ines,2.3,1,2.4,0.71,0.66,IA_cervical,11,0,2025-11-02,0.407,prenhe
+E-OV-001462,OV-M-00244,OV-R-0029,ovino,Santa Ines,Santa Ines,5.4,1,2.8,0.64,0.66,IATF,6,0,2024-06-11,0.476,vazia
+E-OV-001463,OV-M-00058,OV-R-0013,ovino,Somalis,Santa Ines,1.3,3,3.0,0.11,0.72,IA_cervical,12,0,2024-12-21,0.67,vazia
+E-OV-001464,OV-M-00055,OV-R-0018,ovino,Somalis,Santa Ines,5.6,4,3.6,0.64,0.6,IA_cervical,6,0,2024-06-21,0.402,prenhe
+E-OV-001465,OV-M-00263,OV-R-0026,ovino,Santa Ines,Morada Nova,3.9,2,2.7,0.75,0.72,IA_cervical,3,1,2025-03-24,0.68,prenhe
+E-OV-001466,OV-M-00034,OV-R-0003,ovino,Santa Ines,Santa Ines,9.0,2,2.3,0.46,0.81,IA_cervical,8,0,2024-08-01,0.323,vazia
+E-OV-001467,OV-M-00042,OV-R-0009,ovino,Dorper,White Dorper,7.1,1,3.5,0.81,0.74,IATF,5,1,2025-05-22,0.748,prenhe
+E-OV-001468,OV-M-00153,OV-R-0014,ovino,Dorper,White Dorper,4.0,4,3.4,0.18,0.52,IA_cervical,12,0,2025-12-17,0.659,prenhe
+E-OV-001469,OV-M-00175,OV-R-0018,ovino,Santa Ines,Santa Ines,8.4,5,2.6,0.87,0.6,IA_laparoscopica,9,0,2025-09-28,0.586,vazia
+E-OV-001470,OV-M-00013,OV-R-0020,ovino,Santa Ines,Dorper,5.1,0,4.1,0.5,0.57,IA_laparoscopica,5,1,2024-05-13,0.496,vazia
+E-OV-001471,OV-M-00113,OV-R-0027,ovino,Santa Ines,Dorper,8.0,1,2.7,0.7,0.71,IATF,4,1,2024-04-04,0.59,prenhe
+E-OV-001472,OV-M-00067,OV-R-0014,ovino,Morada Nova,White Dorper,2.9,5,3.8,0.17,0.52,IA_cervical,8,0,2025-08-17,0.321,vazia
+E-OV-001473,OV-M-00090,OV-R-0005,ovino,Morada Nova,Santa Ines,9.3,4,3.7,0.24,0.69,IA_cervical,2,1,2024-02-29,0.382,prenhe
+E-OV-001474,OV-M-00054,OV-R-0005,ovino,Morada Nova,Santa Ines,8.4,1,2.9,0.47,0.69,IATF,10,0,2024-10-19,0.384,vazia
+E-OV-001475,OV-M-00203,OV-R-0024,ovino,Santa Ines,Santa Ines,2.6,5,3.0,0.95,0.66,IA_laparoscopica,12,0,2025-12-26,0.88,vazia
+E-OV-001476,OV-M-00141,OV-R-0013,ovino,Dorper,Santa Ines,5.0,4,3.0,0.44,0.72,IA_cervical,11,0,2024-11-23,0.699,prenhe
+E-OV-001477,OV-M-00287,OV-R-0018,ovino,Santa Ines,Santa Ines,1.1,0,3.8,0.58,0.6,IA_cervical,1,0,2024-01-07,0.495,vazia
+E-OV-001478,OV-M-00002,OV-R-0016,ovino,Santa Ines,Santa Ines,4.5,5,2.5,0.79,0.61,IATF,12,0,2025-12-12,0.611,vazia
+E-OV-001479,OV-M-00233,OV-R-0024,ovino,Somalis,Santa Ines,4.6,3,3.3,0.85,0.66,IA_cervical,5,1,2025-05-31,0.95,prenhe
+E-OV-001480,OV-M-00272,OV-R-0006,ovino,Somalis,Santa Ines,8.3,0,2.7,0.44,0.59,IA_cervical,8,0,2024-08-29,0.246,prenhe
+E-OV-001481,OV-M-00145,OV-R-0005,ovino,Santa Ines,Santa Ines,6.4,3,3.4,0.71,0.69,IATF,3,1,2025-03-22,0.858,prenhe
+E-OV-001482,OV-M-00209,OV-R-0022,ovino,Santa Ines,Somalis,8.0,0,3.0,0.73,0.59,IA_cervical,3,1,2025-03-22,0.672,prenhe
+E-OV-001483,OV-M-00132,OV-R-0013,ovino,Morada Nova,Santa Ines,9.9,0,2.9,0.52,0.72,IA_cervical,2,1,2025-02-07,0.42,prenhe
+E-OV-001484,OV-M-00178,OV-R-0024,ovino,Mestico,Santa Ines,9.7,4,3.4,0.58,0.66,IA_laparoscopica,12,0,2025-12-02,0.814,prenhe
+E-OV-001485,OV-M-00272,OV-R-0003,ovino,Somalis,Santa Ines,8.3,0,2.7,0.44,0.81,IATF,7,0,2025-07-27,0.484,prenhe
+E-OV-001486,OV-M-00159,OV-R-0008,ovino,Morada Nova,Dorper,6.0,5,3.6,0.72,0.34,IA_cervical,7,0,2024-07-08,0.257,prenhe
+E-OV-001487,OV-M-00173,OV-R-0028,ovino,Mestico,Santa Ines,9.2,5,3.4,0.49,0.86,IA_laparoscopica,12,0,2025-12-25,0.765,vazia
+E-OV-001488,OV-M-00296,OV-R-0025,ovino,Morada Nova,Santa Ines,3.5,5,3.1,0.34,0.6,IA_cervical,12,0,2025-12-03,0.557,prenhe
+E-OV-001489,OV-M-00148,OV-R-0001,ovino,Morada Nova,Santa Ines,3.3,3,3.4,0.45,0.86,IA_cervical,2,1,2024-02-04,0.756,prenhe
+E-OV-001490,OV-M-00051,OV-R-0024,ovino,Mestico,Santa Ines,8.0,1,3.2,0.31,0.66,IATF,8,0,2024-08-04,0.56,vazia
+E-OV-001491,OV-M-00204,OV-R-0001,ovino,Santa Ines,Santa Ines,7.2,1,2.9,0.6,0.86,IA_cervical,3,1,2025-03-24,0.519,prenhe
+E-OV-001492,OV-M-00207,OV-R-0003,ovino,Santa Ines,Santa Ines,2.3,2,3.1,0.6,0.81,IA_cervical,10,0,2025-10-03,0.75,prenhe
+E-OV-001493,OV-M-00071,OV-R-0026,ovino,Santa Ines,Morada Nova,2.2,5,2.1,0.5,0.72,IATF,6,0,2025-06-07,0.469,vazia
+E-OV-001494,OV-M-00218,OV-R-0003,ovino,Somalis,Santa Ines,6.4,0,2.3,0.74,0.81,IA_cervical,2,1,2025-02-23,0.339,vazia
+E-OV-001495,OV-M-00019,OV-R-0009,ovino,Morada Nova,White Dorper,4.1,4,3.5,0.18,0.74,IA_cervical,8,0,2024-08-11,0.732,prenhe
+E-OV-001496,OV-M-00096,OV-R-0004,ovino,Santa Ines,Mestico,5.8,5,2.5,0.51,0.42,IATF,3,1,2024-03-11,0.404,vazia
+E-OV-001497,OV-M-00256,OV-R-0017,ovino,Santa Ines,Santa Ines,7.4,1,2.8,0.36,0.55,IA_cervical,10,0,2025-10-13,0.282,vazia
+E-OV-001498,OV-M-00185,OV-R-0001,ovino,Morada Nova,Santa Ines,4.5,4,3.6,0.48,0.86,IA_laparoscopica,1,0,2025-01-23,0.807,prenhe
+E-OV-001499,OV-M-00182,OV-R-0008,ovino,Santa Ines,Dorper,8.1,1,2.8,0.3,0.34,IA_cervical,11,0,2024-11-29,0.146,vazia

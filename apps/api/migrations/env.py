@@ -7,18 +7,17 @@ from alembic import context
 
 from app.core.config import settings
 from app.db.base import Base
+import app.models  # noqa: F401  -- registra os models em Base.metadata
 
 # Configuração do logging do Alembic
 config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Metadata das tabelas (Alembic descobre os models por aqui)
 target_metadata = Base.metadata
 
 
 def run_migrations_offline() -> None:
-    """Migrations sem conexão ao banco (gera SQL puro)."""
     context.configure(
         url=settings.database_url,
         target_metadata=target_metadata,
@@ -32,7 +31,6 @@ def run_migrations_offline() -> None:
 
 
 def run_migrations_online() -> None:
-    """Migrations conectado ao banco (modo normal)."""
     connectable = create_engine(
         settings.database_url,
         poolclass=pool.NullPool,
