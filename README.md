@@ -49,9 +49,50 @@ Documentação interativa: http://localhost:8000/docs
 - 4500 inseminações com resultados já preenchidos
 - Modelo de IA treinado com AUC ROC ~0.80
 
-### Frontend (⬜ a fazer)
+### Frontend (✅ MVP funcional)
 
-A construir em `apps/web/` usando Next.js 14 (App Router) + TypeScript.
+Em `apps/web/`, Next.js 14 (App Router) + TypeScript + Tailwind + shadcn/ui.
+Mobile-first, instalável como PWA.
+
+```bash
+cd apps/web
+npm install
+npm run dev   # http://localhost:3000
+```
+
+API_URL configurável via `NEXT_PUBLIC_API_URL` (default `http://localhost:8000`).
+
+**Telas implementadas:**
+- `/` — dashboard com `/stats` consolidado + por espécie e atalhos rápidos
+  (empty-state com CTA "Cadastrar primeiro animal" quando ainda não há dados)
+- `/animais` — listagem com chips de espécie/sexo com contagens, busca
+  debounced, paginação 20 (mobile) / 50 (desktop), status da última IA por
+  matriz
+- `/animais/novo` — wizard 3 passos no mobile (Básico → Genético →
+  Confirmação), 2 colunas no desktop; validação `react-hook-form` + `zod`;
+  raça filtrada por espécie; ECC com slider
+- `/animais/[id]` — ficha completa: identificação, dados genéticos
+  formatados, histórico de inseminações, CTA contextual por sexo
+- `/inseminacoes` — histórico com filtros por resultado e espécie
+- `/inseminacoes/nova` — wizard com **predição automática da IA** ao
+  preencher os 4 campos chave (debounce 400 ms), barra de probabilidade,
+  top 4 fatores positivos/negativos, modal "🤖 Recomendar com IA"
+- `/recomendacoes` — top 5 reprodutores ranqueados por matriz, com fatores
+  positivos e CTA "Selecionar e registrar inseminação" que pré-preenche o
+  wizard de inseminação
+- `/not-found.tsx` — 404 customizado
+
+**Diferenciais já entregues:**
+- IA com explicabilidade (fatores +/- em todo lugar onde aparece probabilidade)
+- Recomendação com filtro de parentesco
+- Mobile-first real (tabelas viram cards, FABs, bottom nav, touch targets ≥ 44px)
+- PWA com manifest + ícones 192/512 PNG + 512 maskable + SVG
+- Toaster global (`sonner`) para feedback de submits e ações de IA
+
+**Documentação detalhada:**
+- `apps/web/README.md` — como rodar, deps, decisões de design
+- `apps/web/STATUS.md` — checklist do que está pronto + limitações + roadmap
+  pós-hackathon
 
 ## Decisões de arquitetura (NÃO revisitar sem motivo forte)
 
@@ -90,5 +131,48 @@ A construir em `apps/web/` usando Next.js 14 (App Router) + TypeScript.
 - NÃO usar APIs pagas (OpenAI, Anthropic, etc) no caminho crítico
 - API_URL deve ser configurável via variável de ambiente NEXT_PUBLIC_API_URL (default: http://localhost:8000)
 
-## Estrutura desejada de apps/web/
+## Estrutura de apps/web/
+
+```
+apps/web/
+├── public/
+│   ├── icon-192.png      # PWA
+│   ├── icon-512.png
+│   ├── icon.svg
+│   └── manifest.json
+├── src/
+│   ├── app/
+│   │   ├── animais/
+│   │   │   ├── [id]/page.tsx       # detalhe + histórico de IA
+│   │   │   ├── novo/page.tsx       # wizard de cadastro
+│   │   │   └── page.tsx            # listagem
+│   │   ├── inseminacoes/
+│   │   │   ├── nova/page.tsx       # wizard + predição automática + modal recommend
+│   │   │   └── page.tsx            # histórico
+│   │   ├── recomendacoes/page.tsx  # top 5 reprodutores
+│   │   ├── globals.css
+│   │   ├── layout.tsx              # AppShell + Toaster
+│   │   ├── not-found.tsx           # 404 customizado
+│   │   └── page.tsx                # dashboard
+│   ├── components/
+│   │   ├── ui/                     # shadcn (button, card, dialog, …)
+│   │   ├── animal-search-input.tsx # autocomplete reutilizado
+│   │   ├── app-shell.tsx           # header + sidebar + bottom-tab
+│   │   └── nav-items.ts
+│   ├── hooks/
+│   │   ├── use-debounce.ts
+│   │   └── use-media-query.ts
+│   └── lib/
+│       ├── api.ts                  # apiFetch<T> tipado + helpers por endpoint
+│       ├── types.ts                # tipos espelhando o backend
+│       └── utils.ts
+├── next.config.mjs                 # reactStrictMode + NEXT_PUBLIC_API_URL
+├── tailwind.config.ts              # tokens shadcn + primary verde-700 #15803d
+└── tsconfig.json                   # strict + alias "@/*"
+```
+
+**Stack:** Next.js 14.2 · React 18 · TypeScript 5 · Tailwind 3 · shadcn/ui
+(neutral, light only) · lucide-react · react-hook-form + zod · sonner ·
+Radix UI primitives (Dialog, Select, RadioGroup, Slider, Label).
+Todas as deps MIT/Apache-2.0/ISC — GPLv3-compatíveis.
 
