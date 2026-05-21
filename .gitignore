@@ -1,0 +1,40 @@
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.next/
+dist/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Modelos treinados (grandes, gerados localmente)
+apps/api/ml/models/*.joblib
+apps/api/ml/models/*.onnx
+
+# Dados sintéticos (gerados, não versionar)
+apps/api/data/*.csv
+
+# Docker
+.docker/
+
+# Build artifacts
+*.tsbuildinfo
