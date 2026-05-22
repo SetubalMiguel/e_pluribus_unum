@@ -14,6 +14,11 @@ import type {
   AnimalUpdate,
   DadosGeneticosFemea,
   DadosGeneticosMacho,
+  Ciclo,
+  CicloCreate,
+  CicloListParams,
+  CicloListResponse,
+  CicloUpdate,
   Inseminacao,
   InseminacaoCreate,
   InseminacaoListParams,
@@ -193,6 +198,46 @@ export function updateInsemination(
     method: "PATCH",
     body: JSON.stringify(body),
   });
+}
+
+// --------------------------- Cycles ---------------------------------------
+
+export function listCycles(
+  params?: CicloListParams,
+  init?: RequestInit,
+): Promise<CicloListResponse> {
+  return apiFetch<CicloListResponse>(`/cycles${buildQuery(params)}`, init);
+}
+
+export function getCycle(id: string, init?: RequestInit): Promise<Ciclo> {
+  return apiFetch<Ciclo>(`/cycles/${id}`, init);
+}
+
+export function createCycle(
+  body: CicloCreate,
+  init?: RequestInit,
+): Promise<Ciclo> {
+  return apiFetch<Ciclo>(`/cycles`, {
+    ...init,
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+}
+
+export function updateCycle(
+  id: string,
+  body: CicloUpdate,
+  init?: RequestInit,
+): Promise<Ciclo> {
+  return apiFetch<Ciclo>(`/cycles/${id}`, {
+    ...init,
+    method: "PATCH",
+    body: JSON.stringify(body),
+  });
+}
+
+export function deleteCycle(id: string, init?: RequestInit): Promise<void> {
+  return apiFetch<void>(`/cycles/${id}`, { ...init, method: "DELETE" });
 }
 
 // --------------------------- IA: predict / recommend -----------------------

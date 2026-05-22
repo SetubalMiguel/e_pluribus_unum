@@ -44,6 +44,10 @@ FEATURES_NUMERICAS = [
     "taxa_reprodutor",
     "mes",
     "estacao_favoravel",
+    # v0.2.0 — features derivadas do ciclo reprodutivo.
+    "tentativa_no_ciclo",
+    "dias_desde_parto",
+    "ciclos_anteriores_falha",
 ]
 FEATURES_CATEGORICAS = [
     "especie",
@@ -53,7 +57,7 @@ FEATURES_CATEGORICAS = [
 ]
 TARGET = "resultado"
 
-MODELO_VERSAO = "v0.1.0"
+MODELO_VERSAO = "v0.2.0"
 DATA_DIR = Path("ml/data")
 MODELS_DIR = Path("ml/models")
 

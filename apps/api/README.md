@@ -66,6 +66,11 @@ Documentação interativa: **http://localhost:8000/docs** (Swagger) ou
 | `POST` | `/inseminations` | Registra; aceita `predicao_prenhez` + `predicao_features` opcionais para auditoria |
 | `PATCH` | `/inseminations/{id}` | Atualiza diagnóstico (`resultado_diagnostico` + `data_diagnostico`) |
 | `DELETE` | `/inseminations/{id}` | Remove |
+| `GET` | `/cycles` | Lista ciclos reprodutivos (filtros: `matriz_id`, `especie`, `status`, paginação) |
+| `GET` | `/cycles/{id}` | Detalhes do ciclo |
+| `POST` | `/cycles` | Cria ciclo (`matriz_id`, `data_inicio`, `status`, `data_fim?`, `parto_data?`, `cria_id?`) |
+| `PATCH` | `/cycles/{id}` | Atualiza (fechar com parto/falha, registrar cria) |
+| `DELETE` | `/cycles/{id}` | Remove |
 | `POST` | `/predict` | IA: predição de prenhez (`matriz_id`, `reprodutor_id`, `tecnica`, `data_evento`) → probabilidade + top fatores |
 | `POST` | `/recommend` | IA: top-N reprodutores para uma matriz (com filtro opcional de parentesco) |
 | `GET` | `/stats` | Agregados para dashboard (totais consolidados + por espécie + taxa de prenhez) |
@@ -89,23 +94,49 @@ StatusCiclo:           "ativo" | "concluido_sucesso" | "concluido_falha"
 ml/
 ├── data_synth.py       # gera dataset sintético calibrado por literatura BR
 ├── train.py            # treina Gradient Boosting + serializa joblib
-├── data/               # CSVs gerados (eventos_consolidado.csv, etc)
+├── data/               # CSVs (eventos/ciclos por espécie + consolidados)
 └── models/             # artefatos versionados (prenhez_v1.joblib, metricas_v1.json)
 ```
 
 - **Algoritmo:** `GradientBoostingClassifier` (scikit-learn) em pipeline com
   `OneHotEncoder` para variáveis categóricas.
-- **Features:** idade da matriz, paridade, ECC, histórico de sucesso da
-  matriz, taxa histórica do reprodutor, mês do evento, estação favorável,
-  espécie, raça da matriz, raça do reprodutor, técnica.
+- **Versão atual:** **v0.2.0** — dataset gerado por simulação de ciclos
+  reprodutivos completos (cio → 1..3 tentativas → prenhe ou falha → próximo
+  ciclo após puerpério). 9,6 k eventos em 6 k ciclos.
+- **Features (v0.2.0):**
+  - Animal/evento: idade da matriz, paridade, ECC, histórico de sucesso da
+    matriz, taxa histórica do reprodutor, mês do evento, estação favorável,
+    espécie, raça da matriz, raça do reprodutor, técnica.
+  - **Ciclo (novas):** `tentativa_no_ciclo` (1..3+, penalty progressiva),
+    `dias_desde_parto` (-1 = nulípara; curva clássica do puerpério),
+    `ciclos_anteriores_falha` (proxy de subfertilidade crônica).
+- **Importância relativa:** ECC (17,6 %) > ciclos anteriores com falha
+  (11,0 %) > idade da matriz (10,9 %) > tentativa no ciclo (10,5 %) > dias
+  desde parto (9,1 %). As 3 features de ciclo combinadas pesam ≈ 30 % do
+  modelo.
 - **Calibração:** taxas de prenhez por espécie/técnica seguem referências
-  Embrapa, ABCZ e ASBIA.
-- **Métrica de referência:** AUC ROC ≈ 0,80 (5-fold CV + hold-out 80/20).
+  Embrapa, ABCZ e ASBIA. Modificadores do puerpério e do repeat-breeding
+  derivados da literatura zootécnica clássica.
+- **Métrica de referência:** AUC ROC ≈ **0,71** no hold-out (0,62 em
+  5-fold CV). Mais conservador que o v0.1.0 sintético (0,80) — está dentro
+  da faixa reportada em estudos de produção (0,65–0,78).
 - **Explicabilidade:** o serviço (`app/services/predictor.py`) devolve os
-  top fatores positivos/negativos por evento, já traduzidos para PT-BR para
-  o frontend mostrar sem mapeamento extra.
+  top fatores positivos/negativos por evento, já traduzidos para PT-BR.
+- **Contexto de ciclo no `/predict`:** o router consulta o banco e deriva
+  automaticamente `tentativa_no_ciclo` (a partir do ciclo ativo da matriz),
+  `dias_desde_parto` (último `parto_data` em ciclo concluído) e
+  `ciclos_anteriores_falha`. Defaults conservadores quando a matriz ainda
+  não tem ciclos cadastrados (1, -1, 0).
 - **Estado:** modelo é **estático** (`.joblib` carregado no boot). Não há
   pipeline automático de retreino com inseminações novas — é roadmap pós-MVP.
+
+### Como regerar dataset + retreinar
+
+```bash
+docker compose exec api python -m ml.data_synth   # gera CSVs em ml/data/
+docker compose exec api python -m ml.train         # treina + salva v1.joblib
+docker compose restart api                         # carrega o modelo novo
+```
 
 ## Estrutura
 

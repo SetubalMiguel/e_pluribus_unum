@@ -83,6 +83,10 @@ class PrenhezPredictor:
         ecc: float,
         historico_matriz: float,
         taxa_reprodutor: float,
+        # v0.2.0 — derivadas do ciclo. Defaults conservadores quando ausentes.
+        tentativa_no_ciclo: int = 1,
+        dias_desde_parto: int = -1,
+        ciclos_anteriores_falha: int = 0,
     ) -> dict[str, Any]:
         mes = data_evento.month
         estacao_favoravel = int(mes in ESTACAO_PICO.get(especie, set()))
@@ -94,6 +98,9 @@ class PrenhezPredictor:
             "taxa_reprodutor": float(taxa_reprodutor),
             "mes": int(mes),
             "estacao_favoravel": int(estacao_favoravel),
+            "tentativa_no_ciclo": int(tentativa_no_ciclo),
+            "dias_desde_parto": int(dias_desde_parto),
+            "ciclos_anteriores_falha": int(ciclos_anteriores_falha),
             "especie": especie,
             "raca_matriz": raca_matriz,
             "raca_reprodutor": raca_reprodutor,
@@ -155,6 +162,9 @@ class PrenhezPredictor:
             "num__taxa_reprodutor": "Histórico do reprodutor",
             "num__mes": "Mês do evento",
             "num__estacao_favoravel": "Estação favorável",
+            "num__tentativa_no_ciclo": "Tentativa no ciclo",
+            "num__dias_desde_parto": "Dias desde o último parto",
+            "num__ciclos_anteriores_falha": "Ciclos anteriores com falha",
         }
         if nome_tecnico in mapa:
             return mapa[nome_tecnico]

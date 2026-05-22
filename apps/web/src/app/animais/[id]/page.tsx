@@ -6,8 +6,10 @@ import { useParams, useRouter } from "next/navigation";
 import {
   AlertTriangle,
   ArrowLeft,
+  Baby,
   Beef,
   Calendar,
+  CalendarRange,
   CheckCircle2,
   ChevronRight,
   Dna,
@@ -15,11 +17,15 @@ import {
   Mars,
   Pencil,
   Plus,
+  Repeat,
   Sparkles,
   Syringe,
+  Trash2,
   Venus,
 } from "lucide-react";
+import { toast } from "sonner";
 
+import { CicloDialog } from "@/components/ciclo-dialog";
 import { UpdateDiagnosticoDialog } from "@/components/update-diagnostico-dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -33,15 +39,24 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { ApiError, getAnimal, listInseminations } from "@/lib/api";
+import {
+  ApiError,
+  deleteCycle,
+  getAnimal,
+  listCycles,
+  listInseminations,
+} from "@/lib/api";
 import { cn } from "@/lib/utils";
 import {
   ESPECIE_LABEL,
   RESULTADO_LABEL,
+  STATUS_CICLO_LABEL,
   type Animal,
+  type Ciclo,
   type Inseminacao,
   type ResultadoDiagnostico,
   type Sexo,
+  type StatusCiclo,
 } from "@/lib/types";
 
 const STATUS_VARIANT: Record<
@@ -82,6 +97,10 @@ export default function AnimalDetailPage() {
   const [inseminacoes, setInseminacoes] = useState<Inseminacao[]>([]);
   const [insemLoading, setInsemLoading] = useState(false);
   const [insemError, setInsemError] = useState<string | null>(null);
+
+  const [ciclos, setCiclos] = useState<Ciclo[]>([]);
+  const [ciclosLoading, setCiclosLoading] = useState(false);
+  const [ciclosError, setCiclosError] = useState<string | null>(null);
 
   // Busca o animal.
   useEffect(() => {
@@ -135,6 +154,30 @@ export default function AnimalDetailPage() {
       })
       .finally(() => {
         if (active) setInsemLoading(false);
+      });
+    return () => {
+      active = false;
+    };
+  }, [animal]);
+
+  // Busca ciclos reprodutivos apenas para fêmeas.
+  useEffect(() => {
+    if (!animal || animal.sexo !== "F") return;
+    let active = true;
+    setCiclosLoading(true);
+    setCiclosError(null);
+    listCycles({ matriz_id: animal.id, page: 1, page_size: 50 })
+      .then((res) => {
+        if (active) setCiclos(res.items);
+      })
+      .catch((err: unknown) => {
+        if (!active) return;
+        setCiclosError(
+          err instanceof Error ? err.message : "Erro ao buscar ciclos",
+        );
+      })
+      .finally(() => {
+        if (active) setCiclosLoading(false);
       });
     return () => {
       active = false;
@@ -195,16 +238,25 @@ export default function AnimalDetailPage() {
       )}
 
       {animal && animal.sexo === "F" ? (
-        <InseminacoesSection
-          loading={insemLoading}
-          error={insemError}
-          items={inseminacoes}
-          onItemUpdated={(updated) =>
-            setInseminacoes((prev) =>
-              prev.map((i) => (i.id === updated.id ? updated : i)),
-            )
-          }
-        />
+        <>
+          <CiclosSection
+            matriz={animal}
+            loading={ciclosLoading}
+            error={ciclosError}
+            items={ciclos}
+            onChange={setCiclos}
+          />
+          <InseminacoesSection
+            loading={insemLoading}
+            error={insemError}
+            items={inseminacoes}
+            onItemUpdated={(updated) =>
+              setInseminacoes((prev) =>
+                prev.map((i) => (i.id === updated.id ? updated : i)),
+              )
+            }
+          />
+        </>
       ) : null}
 
       {/* Ação primária — inline desktop, fixa no rodapé mobile */}
@@ -363,6 +415,196 @@ function formatGeneticValue(key: string, raw: unknown): string {
     default:
       return Number.isInteger(raw) ? String(raw) : raw.toFixed(2);
   }
+}
+
+// --------------------------- Ciclos Reprodutivos ---------------------------
+
+const CICLO_STATUS_VARIANT: Record<
+  StatusCiclo,
+  "success" | "warning" | "destructive"
+> = {
+  ativo: "warning",
+  concluido_sucesso: "success",
+  concluido_falha: "destructive",
+};
+
+function CiclosSection({
+  matriz,
+  loading,
+  error,
+  items,
+  onChange,
+}: {
+  matriz: Animal;
+  loading: boolean;
+  error: string | null;
+  items: Ciclo[];
+  onChange: (updater: (prev: Ciclo[]) => Ciclo[]) => void;
+}) {
+  const [creating, setCreating] = useState(false);
+  const [editing, setEditing] = useState<Ciclo | null>(null);
+  const [deleting, setDeleting] = useState<string | null>(null);
+
+  async function handleDelete(id: string) {
+    const ok = window.confirm("Remover este ciclo?");
+    if (!ok) return;
+    setDeleting(id);
+    try {
+      await deleteCycle(id);
+      onChange((prev) => prev.filter((c) => c.id !== id));
+      toast.success("Ciclo removido");
+    } catch (err) {
+      const message =
+        err instanceof ApiError
+          ? err.message
+          : err instanceof Error
+            ? err.message
+            : "Erro desconhecido";
+      toast.error("Falha ao remover ciclo", { description: message });
+    } finally {
+      setDeleting(null);
+    }
+  }
+
+  function handleSaved(updated: Ciclo) {
+    onChange((prev) => {
+      const exists = prev.some((c) => c.id === updated.id);
+      if (exists) return prev.map((c) => (c.id === updated.id ? updated : c));
+      return [updated, ...prev];
+    });
+  }
+
+  return (
+    <section className="flex flex-col gap-3">
+      <div className="flex items-center justify-between gap-2">
+        <h2 className="flex items-center gap-2 text-base font-semibold">
+          <Repeat className="h-4 w-4 text-primary" aria-hidden />
+          Ciclos reprodutivos
+          {items.length > 0 ? (
+            <span className="text-xs font-normal text-muted-foreground">
+              · {items.length}
+            </span>
+          ) : null}
+        </h2>
+        <Button
+          type="button"
+          size="sm"
+          variant="outline"
+          onClick={() => setCreating(true)}
+        >
+          <Plus className="h-4 w-4" aria-hidden />
+          Novo ciclo
+        </Button>
+      </div>
+
+      {loading ? (
+        <Skeleton className="h-24 w-full rounded-md" />
+      ) : error ? (
+        <div className="rounded-md border border-destructive/40 bg-destructive/5 p-3 text-sm text-destructive">
+          {error}
+        </div>
+      ) : items.length === 0 ? (
+        <div className="rounded-md border border-dashed border-border bg-muted/30 px-4 py-6 text-center text-sm text-muted-foreground">
+          Esta matriz ainda não tem ciclos registrados. Comece pelo cio mais
+          recente.
+        </div>
+      ) : (
+        <ul className="flex flex-col gap-2">
+          {items.map((c) => (
+            <CicloListItem
+              key={c.id}
+              ciclo={c}
+              onEdit={() => setEditing(c)}
+              onDelete={() => handleDelete(c.id)}
+              deleting={deleting === c.id}
+            />
+          ))}
+        </ul>
+      )}
+
+      <CicloDialog
+        open={creating}
+        onOpenChange={setCreating}
+        defaultMatriz={{
+          id: matriz.id,
+          identificacao: matriz.identificacao,
+          especie: matriz.especie,
+        }}
+        onSaved={handleSaved}
+      />
+      <CicloDialog
+        open={editing !== null}
+        onOpenChange={(open) => {
+          if (!open) setEditing(null);
+        }}
+        ciclo={editing}
+        onSaved={handleSaved}
+      />
+    </section>
+  );
+}
+
+function CicloListItem({
+  ciclo,
+  onEdit,
+  onDelete,
+  deleting,
+}: {
+  ciclo: Ciclo;
+  onEdit: () => void;
+  onDelete: () => void;
+  deleting: boolean;
+}) {
+  return (
+    <li className="flex flex-col gap-2 rounded-md border border-border bg-card p-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+      <div className="flex flex-1 flex-col gap-1">
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge variant={CICLO_STATUS_VARIANT[ciclo.status]}>
+            {STATUS_CICLO_LABEL[ciclo.status]}
+          </Badge>
+          <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
+            <CalendarRange className="h-3 w-3" aria-hidden />
+            {formatDate(ciclo.data_inicio)}
+            {ciclo.data_fim ? ` → ${formatDate(ciclo.data_fim)}` : null}
+          </span>
+        </div>
+        <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+          {ciclo.parto_data ? (
+            <span className="inline-flex items-center gap-1">
+              <Baby className="h-3 w-3" aria-hidden />
+              Parto em {formatDate(ciclo.parto_data)}
+            </span>
+          ) : null}
+          {ciclo.cria ? (
+            <Link
+              href={`/animais/${ciclo.cria.id}`}
+              className="inline-flex items-center gap-1 hover:text-primary hover:underline"
+            >
+              Cria: {ciclo.cria.identificacao}
+              <ChevronRight className="h-3 w-3" aria-hidden />
+            </Link>
+          ) : null}
+        </div>
+      </div>
+      <div className="flex gap-2 sm:gap-1">
+        <Button type="button" size="sm" variant="ghost" onClick={onEdit}>
+          <Pencil className="h-4 w-4" aria-hidden />
+          <span className="sr-only sm:not-sr-only">Editar</span>
+        </Button>
+        <Button
+          type="button"
+          size="sm"
+          variant="ghost"
+          className="text-destructive hover:text-destructive"
+          onClick={onDelete}
+          disabled={deleting}
+          aria-label="Remover ciclo"
+        >
+          <Trash2 className="h-4 w-4" aria-hidden />
+        </Button>
+      </div>
+    </li>
+  );
 }
 
 // --------------------------- Inseminações ----------------------------------
@@ -563,6 +805,16 @@ function formatDateTime(iso: string): string {
     year: "2-digit",
     hour: "2-digit",
     minute: "2-digit",
+  }).format(d);
+}
+
+function formatDate(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "—";
+  return new Intl.DateTimeFormat("pt-BR", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "2-digit",
   }).format(d);
 }
 

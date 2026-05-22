@@ -1,4 +1,11 @@
-import { Beef, Home, Sparkles, Syringe, type LucideIcon } from "lucide-react";
+import {
+  Beef,
+  Home,
+  Repeat,
+  Sparkles,
+  Syringe,
+  type LucideIcon,
+} from "lucide-react";
 
 // Itens de navegação compartilhados entre header, sidebar e bottom tab bar.
 export interface NavItem {
@@ -11,5 +18,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Início", href: "/", icon: Home },
   { label: "Animais", href: "/animais", icon: Beef },
   { label: "Inseminações", href: "/inseminacoes", icon: Syringe },
+  { label: "Ciclos", href: "/ciclos", icon: Repeat },
   { label: "Recomendações", href: "/recomendacoes", icon: Sparkles },
 ];

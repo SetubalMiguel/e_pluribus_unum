@@ -1,301 +1,501 @@
 matriz_id,especie,raca,idade,paridade,ecc,historico_sucesso
-CA-M-00000,caprino,Saanen,9.8,4,3.3,0.65
-CA-M-00001,caprino,Caninde,2.3,0,3.4,0.57
-CA-M-00002,caprino,Pardo Alpina,1.4,2,3.3,0.64
-CA-M-00003,caprino,Boer,7.7,3,4.0,0.53
-CA-M-00004,caprino,Caninde,9.2,3,3.4,0.63
-CA-M-00005,caprino,Boer,9.5,5,3.0,0.7
-CA-M-00006,caprino,Anglo Nubiana,8.4,2,3.5,0.62
-CA-M-00007,caprino,Saanen,2.8,2,3.7,0.61
-CA-M-00008,caprino,Boer,2.4,5,3.6,0.83
-CA-M-00009,caprino,Saanen,1.5,2,3.6,0.23
-CA-M-00010,caprino,Boer,6.2,3,2.5,0.39
-CA-M-00011,caprino,Pardo Alpina,5.4,0,2.0,0.56
-CA-M-00012,caprino,Moxoto,2.0,0,3.8,0.4
-CA-M-00013,caprino,Anglo Nubiana,5.2,0,3.4,0.47
-CA-M-00014,caprino,Saanen,6.1,2,3.2,0.81
-CA-M-00015,caprino,Alpina,7.5,5,3.5,0.52
-CA-M-00016,caprino,Anglo Nubiana,4.7,0,4.2,0.18
-CA-M-00017,caprino,Pardo Alpina,3.9,5,3.9,0.47
-CA-M-00018,caprino,Saanen,7.0,5,3.7,0.56
-CA-M-00019,caprino,Anglo Nubiana,7.2,0,2.8,0.56
-CA-M-00020,caprino,Caninde,3.4,0,2.8,0.66
-CA-M-00021,caprino,Boer,1.2,5,2.0,0.64
-CA-M-00022,caprino,Anglo Nubiana,9.5,3,3.5,0.52
-CA-M-00023,caprino,Anglo Nubiana,7.8,1,3.8,0.31
-CA-M-00024,caprino,Pardo Alpina,2.8,5,3.8,0.46
-CA-M-00025,caprino,Moxoto,6.1,3,3.5,0.43
-CA-M-00026,caprino,Boer,6.4,3,3.1,0.49
-CA-M-00027,caprino,Anglo Nubiana,2.1,4,2.9,0.69
-CA-M-00028,caprino,Anglo Nubiana,2.7,1,2.8,0.63
-CA-M-00029,caprino,Alpina,9.6,2,3.1,0.71
-CA-M-00030,caprino,Boer,5.6,0,2.7,0.47
-CA-M-00031,caprino,Boer,2.7,3,4.1,0.85
-CA-M-00032,caprino,Boer,8.2,5,2.5,0.68
-CA-M-00033,caprino,Boer,5.2,3,3.1,0.57
-CA-M-00034,caprino,Saanen,6.7,4,2.2,0.67
-CA-M-00035,caprino,Saanen,3.7,1,3.3,0.41
-CA-M-00036,caprino,Anglo Nubiana,1.5,3,3.2,0.13
-CA-M-00037,caprino,Boer,2.5,5,3.0,0.43
-CA-M-00038,caprino,Boer,9.8,0,2.7,0.7
-CA-M-00039,caprino,Saanen,6.6,1,3.2,0.57
-CA-M-00040,caprino,Anglo Nubiana,8.5,4,2.9,0.52
-CA-M-00041,caprino,Anglo Nubiana,1.2,0,3.1,0.38
-CA-M-00042,caprino,Saanen,7.9,1,4.2,0.16
-CA-M-00043,caprino,Anglo Nubiana,5.4,5,3.3,0.83
-CA-M-00044,caprino,Saanen,7.0,0,3.5,0.51
-CA-M-00045,caprino,Boer,4.2,2,3.0,0.46
-CA-M-00046,caprino,Anglo Nubiana,6.6,1,2.8,0.42
-CA-M-00047,caprino,Alpina,1.3,2,3.2,0.8
-CA-M-00048,caprino,Boer,1.4,1,4.5,0.73
-CA-M-00049,caprino,Anglo Nubiana,8.2,1,3.1,0.36
-CA-M-00050,caprino,Pardo Alpina,2.1,4,3.4,0.78
-CA-M-00051,caprino,Boer,1.1,0,2.8,0.52
-CA-M-00052,caprino,Caninde,9.2,0,1.8,0.43
-CA-M-00053,caprino,Anglo Nubiana,3.4,1,2.8,0.49
-CA-M-00054,caprino,Caninde,6.2,4,4.4,0.39
-CA-M-00055,caprino,Pardo Alpina,8.6,2,3.5,0.29
-CA-M-00056,caprino,Anglo Nubiana,7.7,0,4.0,0.71
-CA-M-00057,caprino,Saanen,1.4,3,3.0,0.51
-CA-M-00058,caprino,Alpina,6.0,3,2.0,0.67
-CA-M-00059,caprino,Boer,5.9,2,2.6,0.61
-CA-M-00060,caprino,Boer,4.2,0,3.4,0.66
-CA-M-00061,caprino,Moxoto,7.8,5,3.3,0.14
-CA-M-00062,caprino,Alpina,9.7,5,3.2,0.38
-CA-M-00063,caprino,Moxoto,2.3,5,2.9,0.66
-CA-M-00064,caprino,Pardo Alpina,2.3,5,3.7,0.3
-CA-M-00065,caprino,Pardo Alpina,7.6,1,2.9,0.62
-CA-M-00066,caprino,Alpina,5.1,2,3.4,0.27
-CA-M-00067,caprino,Saanen,8.2,5,3.3,0.55
-CA-M-00068,caprino,Caninde,2.3,2,3.0,0.87
-CA-M-00069,caprino,Saanen,1.4,5,2.8,0.7
-CA-M-00070,caprino,Anglo Nubiana,7.3,3,3.0,0.18
-CA-M-00071,caprino,Saanen,10.0,5,4.1,0.72
-CA-M-00072,caprino,Anglo Nubiana,1.9,0,3.8,0.91
-CA-M-00073,caprino,Moxoto,8.8,4,3.7,1.0
-CA-M-00074,caprino,Saanen,4.5,4,2.8,0.65
-CA-M-00075,caprino,Saanen,1.2,1,2.5,0.28
-CA-M-00076,caprino,Anglo Nubiana,5.6,4,3.7,0.64
-CA-M-00077,caprino,Saanen,3.5,1,3.7,0.87
-CA-M-00078,caprino,Boer,7.2,5,3.3,0.51
-CA-M-00079,caprino,Alpina,3.6,5,3.0,0.76
-CA-M-00080,caprino,Saanen,5.3,0,2.5,0.38
-CA-M-00081,caprino,Boer,2.8,3,3.6,0.62
-CA-M-00082,caprino,Anglo Nubiana,8.5,2,3.8,0.05
-CA-M-00083,caprino,Saanen,9.3,5,2.9,0.36
-CA-M-00084,caprino,Boer,4.6,1,2.8,0.55
-CA-M-00085,caprino,Caninde,5.0,4,3.8,0.48
-CA-M-00086,caprino,Caninde,9.8,0,2.9,0.29
-CA-M-00087,caprino,Pardo Alpina,2.3,1,4.1,0.45
-CA-M-00088,caprino,Boer,8.3,5,3.1,0.62
-CA-M-00089,caprino,Anglo Nubiana,6.1,2,3.0,0.53
-CA-M-00090,caprino,Caninde,8.9,4,3.2,0.56
-CA-M-00091,caprino,Moxoto,3.6,5,3.0,0.7
-CA-M-00092,caprino,Anglo Nubiana,3.7,5,3.8,0.48
-CA-M-00093,caprino,Alpina,3.9,0,3.6,0.82
-CA-M-00094,caprino,Boer,1.1,1,3.7,0.35
-CA-M-00095,caprino,Anglo Nubiana,2.5,4,3.3,0.94
-CA-M-00096,caprino,Moxoto,10.0,5,3.0,0.77
-CA-M-00097,caprino,Moxoto,3.2,5,3.2,0.48
-CA-M-00098,caprino,Moxoto,1.2,4,3.0,0.49
-CA-M-00099,caprino,Anglo Nubiana,3.5,0,3.9,0.59
-CA-M-00100,caprino,Boer,4.7,4,3.7,0.67
-CA-M-00101,caprino,Caninde,5.9,1,3.2,0.77
-CA-M-00102,caprino,Alpina,1.6,4,2.7,0.28
-CA-M-00103,caprino,Boer,8.1,3,4.0,0.64
-CA-M-00104,caprino,Saanen,8.4,1,3.3,0.13
-CA-M-00105,caprino,Anglo Nubiana,2.9,5,3.1,0.51
-CA-M-00106,caprino,Saanen,8.2,5,4.0,0.84
-CA-M-00107,caprino,Caninde,4.3,3,2.9,0.27
-CA-M-00108,caprino,Anglo Nubiana,4.8,4,3.0,0.23
-CA-M-00109,caprino,Anglo Nubiana,9.4,0,3.1,0.59
-CA-M-00110,caprino,Saanen,9.0,1,2.5,0.83
-CA-M-00111,caprino,Saanen,4.4,0,3.4,0.62
-CA-M-00112,caprino,Boer,5.4,1,2.8,0.17
-CA-M-00113,caprino,Anglo Nubiana,3.6,2,2.9,0.21
-CA-M-00114,caprino,Alpina,5.6,2,2.8,0.57
-CA-M-00115,caprino,Anglo Nubiana,7.1,1,2.9,0.31
-CA-M-00116,caprino,Saanen,1.8,3,2.8,0.58
-CA-M-00117,caprino,Saanen,9.3,1,3.3,0.59
-CA-M-00118,caprino,Boer,7.5,2,3.1,0.45
-CA-M-00119,caprino,Saanen,1.9,5,3.2,0.91
-CA-M-00120,caprino,Alpina,8.8,3,4.4,0.67
-CA-M-00121,caprino,Saanen,7.7,0,3.1,0.79
-CA-M-00122,caprino,Saanen,3.8,1,3.5,0.73
-CA-M-00123,caprino,Boer,5.7,4,3.6,0.52
-CA-M-00124,caprino,Boer,8.7,1,3.2,0.51
-CA-M-00125,caprino,Boer,9.7,5,3.3,0.49
-CA-M-00126,caprino,Boer,3.5,1,3.2,0.69
-CA-M-00127,caprino,Boer,6.9,3,3.3,0.42
-CA-M-00128,caprino,Anglo Nubiana,8.7,2,2.9,0.9
-CA-M-00129,caprino,Alpina,9.9,3,3.0,0.4
-CA-M-00130,caprino,Anglo Nubiana,1.6,4,3.2,0.59
-CA-M-00131,caprino,Caninde,5.5,0,2.2,0.5
-CA-M-00132,caprino,Saanen,8.9,2,3.9,0.46
-CA-M-00133,caprino,Anglo Nubiana,1.0,3,4.3,0.98
-CA-M-00134,caprino,Alpina,4.9,1,3.3,0.46
-CA-M-00135,caprino,Boer,6.3,2,3.5,0.49
-CA-M-00136,caprino,Caninde,5.7,5,3.7,0.42
-CA-M-00137,caprino,Moxoto,7.6,1,2.5,0.56
-CA-M-00138,caprino,Pardo Alpina,1.6,1,3.7,0.53
-CA-M-00139,caprino,Saanen,8.1,3,3.0,0.33
-CA-M-00140,caprino,Caninde,3.5,0,4.3,0.47
-CA-M-00141,caprino,Saanen,8.4,0,3.1,0.67
-CA-M-00142,caprino,Caninde,4.8,5,3.7,0.76
-CA-M-00143,caprino,Anglo Nubiana,1.4,1,3.1,0.55
-CA-M-00144,caprino,Caninde,9.7,0,4.3,0.56
-CA-M-00145,caprino,Alpina,8.0,3,2.9,0.48
-CA-M-00146,caprino,Boer,4.1,2,3.8,0.45
-CA-M-00147,caprino,Moxoto,3.4,2,3.5,0.37
-CA-M-00148,caprino,Alpina,6.3,2,3.4,0.24
-CA-M-00149,caprino,Caninde,9.9,0,3.3,0.41
-CA-M-00150,caprino,Anglo Nubiana,3.6,5,2.9,0.73
-CA-M-00151,caprino,Saanen,9.5,0,1.9,0.47
-CA-M-00152,caprino,Alpina,4.0,2,3.7,0.48
-CA-M-00153,caprino,Anglo Nubiana,7.3,1,3.0,0.48
-CA-M-00154,caprino,Pardo Alpina,4.4,3,3.8,0.8
-CA-M-00155,caprino,Alpina,1.8,3,3.4,0.36
-CA-M-00156,caprino,Anglo Nubiana,9.4,2,3.8,0.61
-CA-M-00157,caprino,Alpina,2.5,3,3.6,0.54
-CA-M-00158,caprino,Anglo Nubiana,9.5,1,2.0,0.56
-CA-M-00159,caprino,Pardo Alpina,1.9,0,3.5,0.6
-CA-M-00160,caprino,Caninde,3.4,5,3.0,0.56
-CA-M-00161,caprino,Boer,9.3,3,3.8,0.71
-CA-M-00162,caprino,Saanen,6.9,3,3.5,0.54
-CA-M-00163,caprino,Boer,2.7,5,3.5,0.9
-CA-M-00164,caprino,Boer,6.3,5,3.1,0.56
-CA-M-00165,caprino,Caninde,2.6,3,2.7,0.21
-CA-M-00166,caprino,Boer,8.9,4,3.0,0.68
-CA-M-00167,caprino,Boer,1.4,3,2.3,0.63
-CA-M-00168,caprino,Anglo Nubiana,5.8,1,2.9,0.56
-CA-M-00169,caprino,Alpina,1.6,3,2.5,0.5
-CA-M-00170,caprino,Pardo Alpina,7.3,5,2.5,0.13
-CA-M-00171,caprino,Anglo Nubiana,9.4,5,3.3,0.16
-CA-M-00172,caprino,Anglo Nubiana,8.5,3,3.5,0.88
-CA-M-00173,caprino,Anglo Nubiana,4.3,5,3.2,0.43
-CA-M-00174,caprino,Anglo Nubiana,3.1,1,3.0,0.74
-CA-M-00175,caprino,Boer,2.1,0,2.7,0.23
-CA-M-00176,caprino,Pardo Alpina,8.9,2,3.0,0.34
-CA-M-00177,caprino,Saanen,1.7,1,2.8,0.69
-CA-M-00178,caprino,Anglo Nubiana,6.7,5,3.2,0.53
-CA-M-00179,caprino,Saanen,4.3,0,2.4,0.66
-CA-M-00180,caprino,Pardo Alpina,10.0,3,3.6,0.55
-CA-M-00181,caprino,Boer,5.6,4,2.9,0.51
-CA-M-00182,caprino,Anglo Nubiana,5.9,0,3.4,0.41
-CA-M-00183,caprino,Pardo Alpina,9.3,0,3.6,0.31
-CA-M-00184,caprino,Anglo Nubiana,9.7,3,3.4,0.83
-CA-M-00185,caprino,Pardo Alpina,6.3,5,3.6,0.86
-CA-M-00186,caprino,Pardo Alpina,8.2,0,2.2,0.34
-CA-M-00187,caprino,Caninde,6.7,0,3.0,0.33
-CA-M-00188,caprino,Anglo Nubiana,4.8,5,3.8,0.48
-CA-M-00189,caprino,Anglo Nubiana,1.5,3,3.5,0.62
-CA-M-00190,caprino,Caninde,7.5,4,4.1,0.51
-CA-M-00191,caprino,Boer,7.3,1,4.1,0.65
-CA-M-00192,caprino,Boer,2.1,1,3.3,0.54
-CA-M-00193,caprino,Saanen,3.1,2,3.1,0.53
-CA-M-00194,caprino,Anglo Nubiana,7.6,1,2.7,1.0
-CA-M-00195,caprino,Saanen,2.3,2,3.0,0.44
-CA-M-00196,caprino,Moxoto,7.2,5,3.0,0.88
-CA-M-00197,caprino,Alpina,7.5,4,2.9,0.84
-CA-M-00198,caprino,Boer,4.2,5,2.7,0.65
-CA-M-00199,caprino,Moxoto,3.3,2,3.4,0.16
-CA-M-00200,caprino,Alpina,4.4,4,4.0,0.56
-CA-M-00201,caprino,Anglo Nubiana,4.2,2,3.7,0.45
-CA-M-00202,caprino,Alpina,6.5,3,3.0,0.55
-CA-M-00203,caprino,Anglo Nubiana,7.7,4,3.7,0.34
-CA-M-00204,caprino,Boer,8.8,4,3.4,0.7
-CA-M-00205,caprino,Saanen,1.3,5,3.2,0.75
-CA-M-00206,caprino,Anglo Nubiana,7.5,0,3.1,0.78
-CA-M-00207,caprino,Anglo Nubiana,3.8,4,3.1,0.47
-CA-M-00208,caprino,Saanen,8.5,4,3.5,0.34
-CA-M-00209,caprino,Anglo Nubiana,1.7,4,3.3,0.62
-CA-M-00210,caprino,Saanen,6.0,0,2.8,0.9
-CA-M-00211,caprino,Anglo Nubiana,5.9,2,2.8,0.56
-CA-M-00212,caprino,Alpina,3.9,5,3.4,0.64
-CA-M-00213,caprino,Caninde,9.7,5,3.4,0.5
-CA-M-00214,caprino,Anglo Nubiana,2.0,1,3.0,0.45
-CA-M-00215,caprino,Pardo Alpina,2.2,2,2.6,0.68
-CA-M-00216,caprino,Anglo Nubiana,6.8,5,3.8,0.53
-CA-M-00217,caprino,Boer,5.6,5,3.7,0.63
-CA-M-00218,caprino,Boer,3.4,1,2.2,0.65
-CA-M-00219,caprino,Anglo Nubiana,3.7,4,3.9,0.62
-CA-M-00220,caprino,Anglo Nubiana,2.4,5,3.1,0.66
-CA-M-00221,caprino,Pardo Alpina,8.8,0,3.3,0.38
-CA-M-00222,caprino,Pardo Alpina,6.1,0,3.8,0.37
-CA-M-00223,caprino,Moxoto,3.2,0,4.0,0.54
-CA-M-00224,caprino,Moxoto,4.5,0,3.7,0.55
-CA-M-00225,caprino,Boer,9.2,4,3.3,0.45
-CA-M-00226,caprino,Anglo Nubiana,9.0,2,2.5,0.6
-CA-M-00227,caprino,Anglo Nubiana,1.6,4,2.2,0.73
-CA-M-00228,caprino,Saanen,6.9,0,3.6,0.79
-CA-M-00229,caprino,Caninde,2.4,3,3.9,0.83
-CA-M-00230,caprino,Anglo Nubiana,2.9,4,2.8,0.29
-CA-M-00231,caprino,Anglo Nubiana,8.8,5,3.1,0.32
-CA-M-00232,caprino,Boer,9.1,1,2.9,0.49
-CA-M-00233,caprino,Caninde,1.7,3,2.9,0.57
-CA-M-00234,caprino,Boer,8.9,2,3.7,0.5
-CA-M-00235,caprino,Alpina,7.6,2,3.3,0.44
-CA-M-00236,caprino,Boer,8.0,3,3.1,0.49
-CA-M-00237,caprino,Boer,8.1,3,4.5,0.65
-CA-M-00238,caprino,Boer,5.6,4,2.5,0.28
-CA-M-00239,caprino,Pardo Alpina,9.5,0,3.5,1.0
-CA-M-00240,caprino,Pardo Alpina,2.8,1,2.7,0.55
-CA-M-00241,caprino,Boer,5.5,3,3.1,0.76
-CA-M-00242,caprino,Anglo Nubiana,3.9,3,3.3,0.43
-CA-M-00243,caprino,Anglo Nubiana,8.4,5,3.6,0.66
-CA-M-00244,caprino,Anglo Nubiana,1.7,4,3.1,0.57
-CA-M-00245,caprino,Anglo Nubiana,4.9,0,3.0,0.72
-CA-M-00246,caprino,Anglo Nubiana,8.0,2,3.1,0.51
-CA-M-00247,caprino,Alpina,3.8,5,2.7,0.86
-CA-M-00248,caprino,Pardo Alpina,3.2,5,3.5,0.25
-CA-M-00249,caprino,Alpina,3.4,4,3.3,0.74
-CA-M-00250,caprino,Alpina,7.4,2,3.4,0.57
-CA-M-00251,caprino,Moxoto,3.6,0,3.2,0.35
-CA-M-00252,caprino,Moxoto,4.6,1,3.1,0.94
-CA-M-00253,caprino,Anglo Nubiana,5.9,5,3.8,0.92
-CA-M-00254,caprino,Anglo Nubiana,9.5,2,3.7,0.14
-CA-M-00255,caprino,Anglo Nubiana,8.1,4,3.9,0.59
-CA-M-00256,caprino,Caninde,2.7,0,3.4,0.69
-CA-M-00257,caprino,Anglo Nubiana,8.9,2,3.9,0.64
-CA-M-00258,caprino,Boer,8.6,5,3.0,0.85
-CA-M-00259,caprino,Saanen,7.7,1,3.1,0.81
-CA-M-00260,caprino,Saanen,5.7,0,3.8,0.6
-CA-M-00261,caprino,Saanen,1.6,1,3.6,1.0
-CA-M-00262,caprino,Pardo Alpina,7.4,0,3.1,0.74
-CA-M-00263,caprino,Saanen,5.7,3,2.7,0.48
-CA-M-00264,caprino,Caninde,3.8,1,3.1,0.44
-CA-M-00265,caprino,Anglo Nubiana,1.1,1,2.9,0.8
-CA-M-00266,caprino,Caninde,3.1,3,4.1,0.39
-CA-M-00267,caprino,Saanen,6.5,1,3.6,0.47
-CA-M-00268,caprino,Anglo Nubiana,2.0,3,2.8,0.5
-CA-M-00269,caprino,Moxoto,6.9,5,2.7,0.62
-CA-M-00270,caprino,Moxoto,8.4,5,2.8,0.51
-CA-M-00271,caprino,Pardo Alpina,3.9,4,2.9,0.29
-CA-M-00272,caprino,Caninde,1.7,5,3.1,0.78
-CA-M-00273,caprino,Boer,2.3,4,3.8,0.47
-CA-M-00274,caprino,Anglo Nubiana,4.2,0,2.7,0.95
-CA-M-00275,caprino,Anglo Nubiana,8.3,5,4.3,0.61
-CA-M-00276,caprino,Caninde,6.7,3,2.7,0.8
-CA-M-00277,caprino,Pardo Alpina,8.8,0,2.5,0.68
-CA-M-00278,caprino,Moxoto,9.9,3,4.0,0.81
-CA-M-00279,caprino,Pardo Alpina,2.8,1,3.9,0.66
-CA-M-00280,caprino,Saanen,7.3,3,3.1,0.6
-CA-M-00281,caprino,Anglo Nubiana,5.2,3,3.4,0.77
-CA-M-00282,caprino,Anglo Nubiana,5.4,0,3.4,1.0
-CA-M-00283,caprino,Boer,3.9,2,3.3,0.5
-CA-M-00284,caprino,Pardo Alpina,4.1,0,2.6,0.71
-CA-M-00285,caprino,Anglo Nubiana,7.1,0,2.0,0.55
-CA-M-00286,caprino,Caninde,6.6,1,2.8,0.65
-CA-M-00287,caprino,Alpina,3.9,4,4.1,0.56
-CA-M-00288,caprino,Boer,2.1,2,4.1,0.12
-CA-M-00289,caprino,Caninde,6.2,0,3.1,0.51
-CA-M-00290,caprino,Saanen,7.7,4,2.7,0.75
-CA-M-00291,caprino,Alpina,6.0,3,3.3,0.4
-CA-M-00292,caprino,Boer,1.0,0,3.4,0.73
-CA-M-00293,caprino,Boer,3.5,3,3.5,0.59
-CA-M-00294,caprino,Anglo Nubiana,8.0,1,1.9,0.51
-CA-M-00295,caprino,Saanen,7.7,3,4.8,0.73
-CA-M-00296,caprino,Pardo Alpina,1.1,5,3.8,0.69
-CA-M-00297,caprino,Moxoto,5.2,1,3.1,0.63
-CA-M-00298,caprino,Caninde,4.9,4,2.8,0.75
-CA-M-00299,caprino,Anglo Nubiana,6.9,0,3.7,0.59
+CA-M-00000,caprino,Anglo Nubiana,5.0,0,3.2,0.46
+CA-M-00001,caprino,Anglo Nubiana,5.1,4,2.6,0.49
+CA-M-00002,caprino,Boer,9.5,5,2.6,0.7
+CA-M-00003,caprino,Anglo Nubiana,9.0,3,3.1,0.36
+CA-M-00004,caprino,Boer,2.7,4,3.8,0.74
+CA-M-00005,caprino,Pardo Alpina,3.5,1,3.1,0.61
+CA-M-00006,caprino,Anglo Nubiana,3.7,5,3.1,0.29
+CA-M-00007,caprino,Caninde,1.1,5,2.8,0.49
+CA-M-00008,caprino,Anglo Nubiana,5.8,2,2.3,0.65
+CA-M-00009,caprino,Alpina,5.3,5,3.4,0.56
+CA-M-00010,caprino,Anglo Nubiana,2.1,4,3.1,0.63
+CA-M-00011,caprino,Pardo Alpina,9.9,1,3.4,0.43
+CA-M-00012,caprino,Anglo Nubiana,7.9,5,3.3,0.66
+CA-M-00013,caprino,Boer,2.6,3,2.7,0.47
+CA-M-00014,caprino,Moxoto,7.3,0,3.3,1.0
+CA-M-00015,caprino,Anglo Nubiana,4.1,0,2.6,0.29
+CA-M-00016,caprino,Pardo Alpina,6.7,3,3.3,1.0
+CA-M-00017,caprino,Alpina,5.2,3,3.2,0.36
+CA-M-00018,caprino,Boer,2.2,5,4.0,0.8
+CA-M-00019,caprino,Anglo Nubiana,5.1,3,2.8,0.72
+CA-M-00020,caprino,Pardo Alpina,9.7,2,2.5,0.37
+CA-M-00021,caprino,Caninde,7.7,1,3.0,0.67
+CA-M-00022,caprino,Anglo Nubiana,6.6,3,3.5,0.45
+CA-M-00023,caprino,Pardo Alpina,8.6,1,1.8,0.6
+CA-M-00024,caprino,Pardo Alpina,8.5,4,3.6,0.58
+CA-M-00025,caprino,Saanen,9.0,0,3.1,0.48
+CA-M-00026,caprino,Pardo Alpina,2.0,4,2.6,0.46
+CA-M-00027,caprino,Anglo Nubiana,2.2,1,3.0,0.62
+CA-M-00028,caprino,Boer,8.2,1,2.8,0.37
+CA-M-00029,caprino,Moxoto,10.0,5,2.6,0.38
+CA-M-00030,caprino,Pardo Alpina,6.1,2,2.2,0.74
+CA-M-00031,caprino,Anglo Nubiana,9.7,4,3.6,0.64
+CA-M-00032,caprino,Saanen,7.0,2,2.9,0.29
+CA-M-00033,caprino,Anglo Nubiana,1.8,5,3.0,0.35
+CA-M-00034,caprino,Anglo Nubiana,9.3,0,3.6,0.12
+CA-M-00035,caprino,Anglo Nubiana,8.6,2,3.2,0.73
+CA-M-00036,caprino,Anglo Nubiana,5.8,0,2.4,0.69
+CA-M-00037,caprino,Boer,7.7,3,3.5,0.33
+CA-M-00038,caprino,Boer,4.2,4,3.9,0.68
+CA-M-00039,caprino,Pardo Alpina,6.5,2,3.5,0.95
+CA-M-00040,caprino,Caninde,4.7,5,2.8,0.24
+CA-M-00041,caprino,Boer,5.7,4,2.5,0.43
+CA-M-00042,caprino,Anglo Nubiana,6.7,5,2.7,0.24
+CA-M-00043,caprino,Moxoto,1.5,5,3.3,0.74
+CA-M-00044,caprino,Anglo Nubiana,1.9,5,3.9,0.53
+CA-M-00045,caprino,Saanen,1.7,2,2.8,0.47
+CA-M-00046,caprino,Anglo Nubiana,6.4,5,2.9,0.6
+CA-M-00047,caprino,Moxoto,4.7,3,3.7,0.44
+CA-M-00048,caprino,Boer,5.5,0,3.0,0.47
+CA-M-00049,caprino,Moxoto,5.5,0,4.1,0.6
+CA-M-00050,caprino,Moxoto,1.4,2,3.1,0.43
+CA-M-00051,caprino,Moxoto,8.2,3,3.8,0.46
+CA-M-00052,caprino,Pardo Alpina,7.3,0,3.4,0.52
+CA-M-00053,caprino,Alpina,7.2,3,3.6,0.57
+CA-M-00054,caprino,Moxoto,1.3,4,3.1,0.67
+CA-M-00055,caprino,Anglo Nubiana,6.9,4,3.1,0.67
+CA-M-00056,caprino,Pardo Alpina,5.5,5,3.4,0.25
+CA-M-00057,caprino,Anglo Nubiana,7.8,2,3.6,0.83
+CA-M-00058,caprino,Boer,1.9,0,3.5,0.56
+CA-M-00059,caprino,Boer,7.7,5,2.3,0.48
+CA-M-00060,caprino,Moxoto,9.7,3,3.3,0.37
+CA-M-00061,caprino,Boer,8.7,3,2.9,0.95
+CA-M-00062,caprino,Saanen,9.0,3,2.9,1.0
+CA-M-00063,caprino,Saanen,1.7,2,3.4,0.92
+CA-M-00064,caprino,Alpina,5.8,0,4.0,0.57
+CA-M-00065,caprino,Anglo Nubiana,3.2,3,3.1,0.62
+CA-M-00066,caprino,Saanen,5.9,5,4.2,0.85
+CA-M-00067,caprino,Saanen,7.4,0,2.7,0.5
+CA-M-00068,caprino,Caninde,7.7,2,3.8,0.66
+CA-M-00069,caprino,Moxoto,9.9,5,3.4,0.6
+CA-M-00070,caprino,Anglo Nubiana,9.6,2,3.3,0.93
+CA-M-00071,caprino,Anglo Nubiana,3.2,0,3.9,0.84
+CA-M-00072,caprino,Alpina,9.2,5,2.9,0.52
+CA-M-00073,caprino,Boer,9.0,0,3.8,0.86
+CA-M-00074,caprino,Alpina,7.5,1,3.1,0.55
+CA-M-00075,caprino,Pardo Alpina,3.3,2,2.9,0.44
+CA-M-00076,caprino,Anglo Nubiana,2.7,2,2.5,0.49
+CA-M-00077,caprino,Caninde,4.9,2,4.0,0.58
+CA-M-00078,caprino,Anglo Nubiana,1.4,4,3.8,0.39
+CA-M-00079,caprino,Moxoto,3.6,3,3.0,0.45
+CA-M-00080,caprino,Boer,1.7,2,3.5,0.26
+CA-M-00081,caprino,Caninde,5.7,4,3.3,0.39
+CA-M-00082,caprino,Anglo Nubiana,6.5,3,3.0,0.6
+CA-M-00083,caprino,Saanen,2.0,3,3.7,0.76
+CA-M-00084,caprino,Anglo Nubiana,8.9,2,2.9,0.73
+CA-M-00085,caprino,Alpina,1.9,3,2.1,0.64
+CA-M-00086,caprino,Moxoto,4.6,1,3.3,0.24
+CA-M-00087,caprino,Pardo Alpina,5.5,2,3.2,0.38
+CA-M-00088,caprino,Alpina,6.2,0,2.9,0.51
+CA-M-00089,caprino,Anglo Nubiana,3.9,0,2.8,0.74
+CA-M-00090,caprino,Moxoto,7.4,5,2.4,0.44
+CA-M-00091,caprino,Boer,4.1,4,3.0,0.31
+CA-M-00092,caprino,Saanen,3.3,1,2.8,0.84
+CA-M-00093,caprino,Anglo Nubiana,5.1,2,3.7,0.4
+CA-M-00094,caprino,Pardo Alpina,2.0,5,3.5,0.32
+CA-M-00095,caprino,Boer,9.7,3,3.0,0.6
+CA-M-00096,caprino,Boer,6.0,0,3.5,0.54
+CA-M-00097,caprino,Anglo Nubiana,2.3,3,3.1,0.45
+CA-M-00098,caprino,Saanen,8.2,5,3.1,0.55
+CA-M-00099,caprino,Anglo Nubiana,7.5,1,3.2,0.36
+CA-M-00100,caprino,Caninde,4.9,5,4.1,0.45
+CA-M-00101,caprino,Pardo Alpina,9.9,4,3.5,0.54
+CA-M-00102,caprino,Moxoto,5.5,0,3.1,0.14
+CA-M-00103,caprino,Boer,2.9,5,3.6,0.74
+CA-M-00104,caprino,Alpina,8.1,3,3.6,0.28
+CA-M-00105,caprino,Boer,9.4,1,3.3,0.36
+CA-M-00106,caprino,Caninde,3.4,4,3.0,0.75
+CA-M-00107,caprino,Boer,1.1,4,3.0,0.66
+CA-M-00108,caprino,Boer,6.5,3,2.7,0.57
+CA-M-00109,caprino,Boer,7.6,5,3.3,0.21
+CA-M-00110,caprino,Boer,3.3,5,2.9,0.43
+CA-M-00111,caprino,Caninde,9.7,1,3.0,0.51
+CA-M-00112,caprino,Anglo Nubiana,2.5,0,3.5,0.52
+CA-M-00113,caprino,Alpina,8.2,4,4.0,0.78
+CA-M-00114,caprino,Boer,8.9,5,3.4,0.95
+CA-M-00115,caprino,Anglo Nubiana,2.5,1,3.1,0.67
+CA-M-00116,caprino,Moxoto,5.5,3,3.2,0.44
+CA-M-00117,caprino,Pardo Alpina,1.3,3,3.8,0.79
+CA-M-00118,caprino,Moxoto,6.8,2,3.4,0.43
+CA-M-00119,caprino,Boer,5.9,3,3.3,0.03
+CA-M-00120,caprino,Pardo Alpina,8.0,3,3.3,0.3
+CA-M-00121,caprino,Alpina,5.5,5,2.5,0.08
+CA-M-00122,caprino,Saanen,4.2,2,3.4,0.47
+CA-M-00123,caprino,Anglo Nubiana,2.2,0,2.8,0.51
+CA-M-00124,caprino,Anglo Nubiana,1.5,2,3.4,0.23
+CA-M-00125,caprino,Anglo Nubiana,5.8,0,2.8,0.38
+CA-M-00126,caprino,Alpina,9.3,0,3.5,0.26
+CA-M-00127,caprino,Pardo Alpina,7.9,3,3.1,0.52
+CA-M-00128,caprino,Saanen,4.5,5,2.6,0.38
+CA-M-00129,caprino,Anglo Nubiana,9.9,0,3.1,0.75
+CA-M-00130,caprino,Pardo Alpina,2.7,2,4.3,0.58
+CA-M-00131,caprino,Anglo Nubiana,10.0,1,2.1,0.87
+CA-M-00132,caprino,Caninde,3.1,2,3.3,0.46
+CA-M-00133,caprino,Boer,2.5,3,2.7,0.98
+CA-M-00134,caprino,Alpina,8.7,5,3.9,0.55
+CA-M-00135,caprino,Anglo Nubiana,5.2,5,3.6,0.44
+CA-M-00136,caprino,Boer,9.0,5,3.3,1.0
+CA-M-00137,caprino,Boer,7.7,2,3.7,0.18
+CA-M-00138,caprino,Boer,2.4,4,3.3,0.44
+CA-M-00139,caprino,Anglo Nubiana,2.1,1,3.2,0.22
+CA-M-00140,caprino,Saanen,5.0,0,2.9,0.18
+CA-M-00141,caprino,Anglo Nubiana,6.1,5,3.0,0.14
+CA-M-00142,caprino,Caninde,4.8,5,3.0,0.67
+CA-M-00143,caprino,Boer,2.9,1,3.2,0.28
+CA-M-00144,caprino,Boer,3.0,1,2.3,0.5
+CA-M-00145,caprino,Saanen,5.6,5,3.7,0.73
+CA-M-00146,caprino,Pardo Alpina,1.1,2,4.2,0.64
+CA-M-00147,caprino,Anglo Nubiana,5.0,4,3.0,0.63
+CA-M-00148,caprino,Alpina,1.3,5,3.8,0.79
+CA-M-00149,caprino,Caninde,8.9,3,3.1,0.87
+CA-M-00150,caprino,Boer,6.6,0,2.9,0.3
+CA-M-00151,caprino,Anglo Nubiana,2.4,3,3.0,0.65
+CA-M-00152,caprino,Anglo Nubiana,7.9,0,3.2,0.5
+CA-M-00153,caprino,Moxoto,5.4,4,2.8,0.52
+CA-M-00154,caprino,Anglo Nubiana,5.6,3,3.5,0.25
+CA-M-00155,caprino,Anglo Nubiana,3.3,2,2.9,0.44
+CA-M-00156,caprino,Moxoto,4.5,2,2.7,0.47
+CA-M-00157,caprino,Caninde,8.9,5,3.2,0.84
+CA-M-00158,caprino,Boer,2.3,2,2.9,0.32
+CA-M-00159,caprino,Anglo Nubiana,6.6,5,3.0,0.07
+CA-M-00160,caprino,Saanen,3.0,4,3.2,0.55
+CA-M-00161,caprino,Pardo Alpina,5.0,5,2.5,0.3
+CA-M-00162,caprino,Anglo Nubiana,5.8,5,3.9,0.52
+CA-M-00163,caprino,Anglo Nubiana,2.1,3,3.6,0.68
+CA-M-00164,caprino,Caninde,1.7,5,2.9,0.53
+CA-M-00165,caprino,Pardo Alpina,5.4,4,3.2,0.46
+CA-M-00166,caprino,Boer,4.7,0,3.5,0.52
+CA-M-00167,caprino,Caninde,9.3,0,3.3,0.72
+CA-M-00168,caprino,Saanen,7.3,4,4.1,0.32
+CA-M-00169,caprino,Moxoto,9.1,3,3.1,0.7
+CA-M-00170,caprino,Anglo Nubiana,9.4,5,3.8,0.35
+CA-M-00171,caprino,Boer,1.2,3,2.5,0.67
+CA-M-00172,caprino,Alpina,8.9,1,2.6,0.24
+CA-M-00173,caprino,Boer,9.6,5,4.0,0.66
+CA-M-00174,caprino,Boer,5.1,2,3.0,0.53
+CA-M-00175,caprino,Alpina,6.7,5,2.6,0.57
+CA-M-00176,caprino,Saanen,4.1,0,3.2,0.74
+CA-M-00177,caprino,Anglo Nubiana,1.9,0,3.8,0.39
+CA-M-00178,caprino,Boer,3.4,0,2.8,0.54
+CA-M-00179,caprino,Alpina,1.7,5,3.2,0.61
+CA-M-00180,caprino,Saanen,5.4,0,2.3,0.49
+CA-M-00181,caprino,Boer,6.9,4,3.0,0.69
+CA-M-00182,caprino,Anglo Nubiana,1.0,4,3.7,0.62
+CA-M-00183,caprino,Anglo Nubiana,3.1,5,2.8,0.43
+CA-M-00184,caprino,Pardo Alpina,1.7,3,2.6,0.8
+CA-M-00185,caprino,Pardo Alpina,9.7,0,2.8,0.66
+CA-M-00186,caprino,Saanen,8.2,0,2.9,0.38
+CA-M-00187,caprino,Saanen,1.3,0,3.6,0.38
+CA-M-00188,caprino,Anglo Nubiana,8.3,3,3.4,0.51
+CA-M-00189,caprino,Boer,8.4,2,3.5,0.64
+CA-M-00190,caprino,Boer,8.2,0,3.2,0.11
+CA-M-00191,caprino,Boer,8.9,0,2.9,0.39
+CA-M-00192,caprino,Anglo Nubiana,5.2,1,2.8,0.43
+CA-M-00193,caprino,Anglo Nubiana,3.2,2,3.4,0.26
+CA-M-00194,caprino,Moxoto,8.8,5,4.0,0.35
+CA-M-00195,caprino,Saanen,8.5,4,2.7,0.58
+CA-M-00196,caprino,Caninde,3.5,2,2.7,0.45
+CA-M-00197,caprino,Alpina,6.2,1,2.6,0.47
+CA-M-00198,caprino,Pardo Alpina,6.0,4,3.6,0.27
+CA-M-00199,caprino,Anglo Nubiana,5.4,5,3.2,0.51
+CA-M-00200,caprino,Anglo Nubiana,6.5,1,3.5,0.25
+CA-M-00201,caprino,Saanen,1.8,2,2.9,0.84
+CA-M-00202,caprino,Saanen,5.1,0,3.5,0.9
+CA-M-00203,caprino,Anglo Nubiana,3.5,0,3.1,0.46
+CA-M-00204,caprino,Saanen,1.0,5,2.4,0.33
+CA-M-00205,caprino,Anglo Nubiana,5.7,1,3.7,0.72
+CA-M-00206,caprino,Anglo Nubiana,4.3,0,3.2,0.67
+CA-M-00207,caprino,Moxoto,4.9,1,3.0,0.92
+CA-M-00208,caprino,Saanen,2.0,2,3.3,0.98
+CA-M-00209,caprino,Boer,5.6,1,2.5,0.14
+CA-M-00210,caprino,Anglo Nubiana,3.4,4,3.4,0.78
+CA-M-00211,caprino,Caninde,1.0,3,2.9,0.51
+CA-M-00212,caprino,Moxoto,8.0,3,3.1,0.66
+CA-M-00213,caprino,Anglo Nubiana,6.7,5,3.8,0.71
+CA-M-00214,caprino,Boer,5.8,5,3.5,0.7
+CA-M-00215,caprino,Saanen,6.6,1,3.1,0.75
+CA-M-00216,caprino,Anglo Nubiana,3.9,5,3.1,0.44
+CA-M-00217,caprino,Saanen,2.1,4,1.9,0.36
+CA-M-00218,caprino,Anglo Nubiana,4.2,0,2.8,0.79
+CA-M-00219,caprino,Anglo Nubiana,8.1,1,3.3,0.38
+CA-M-00220,caprino,Saanen,6.5,1,2.8,0.92
+CA-M-00221,caprino,Boer,8.1,4,2.5,0.4
+CA-M-00222,caprino,Saanen,9.1,3,3.4,0.47
+CA-M-00223,caprino,Anglo Nubiana,3.2,4,3.9,0.51
+CA-M-00224,caprino,Boer,9.2,0,2.8,0.24
+CA-M-00225,caprino,Moxoto,7.0,3,3.6,0.24
+CA-M-00226,caprino,Boer,6.0,3,3.6,0.73
+CA-M-00227,caprino,Saanen,5.5,4,2.7,0.21
+CA-M-00228,caprino,Boer,5.2,2,2.8,1.0
+CA-M-00229,caprino,Caninde,1.7,0,4.1,0.53
+CA-M-00230,caprino,Alpina,1.5,5,2.6,0.34
+CA-M-00231,caprino,Anglo Nubiana,4.0,2,2.9,0.63
+CA-M-00232,caprino,Anglo Nubiana,2.8,5,4.2,0.06
+CA-M-00233,caprino,Saanen,1.8,2,2.9,0.48
+CA-M-00234,caprino,Pardo Alpina,1.2,1,3.9,0.51
+CA-M-00235,caprino,Anglo Nubiana,9.8,2,2.7,0.3
+CA-M-00236,caprino,Saanen,2.9,0,3.3,0.42
+CA-M-00237,caprino,Saanen,9.9,3,3.7,0.86
+CA-M-00238,caprino,Boer,5.9,5,3.0,0.59
+CA-M-00239,caprino,Alpina,2.7,1,3.2,0.63
+CA-M-00240,caprino,Boer,2.3,0,3.6,0.39
+CA-M-00241,caprino,Saanen,2.8,0,2.7,0.29
+CA-M-00242,caprino,Pardo Alpina,4.3,1,4.3,0.5
+CA-M-00243,caprino,Moxoto,2.8,2,3.7,0.06
+CA-M-00244,caprino,Saanen,8.5,1,3.0,0.33
+CA-M-00245,caprino,Boer,4.3,4,3.1,0.3
+CA-M-00246,caprino,Alpina,5.7,2,4.2,0.14
+CA-M-00247,caprino,Pardo Alpina,5.5,2,3.0,0.68
+CA-M-00248,caprino,Boer,6.9,0,3.0,0.52
+CA-M-00249,caprino,Boer,10.0,3,3.8,0.43
+CA-M-00250,caprino,Anglo Nubiana,5.0,1,2.5,0.68
+CA-M-00251,caprino,Alpina,3.9,4,3.2,0.22
+CA-M-00252,caprino,Boer,9.8,0,3.2,0.28
+CA-M-00253,caprino,Anglo Nubiana,10.0,3,2.8,0.77
+CA-M-00254,caprino,Saanen,8.0,4,2.4,1.0
+CA-M-00255,caprino,Moxoto,8.2,4,3.2,0.69
+CA-M-00256,caprino,Anglo Nubiana,4.7,1,3.5,0.64
+CA-M-00257,caprino,Saanen,5.9,4,2.9,0.43
+CA-M-00258,caprino,Moxoto,4.2,4,2.6,0.44
+CA-M-00259,caprino,Moxoto,6.6,3,3.8,0.6
+CA-M-00260,caprino,Boer,8.4,3,3.5,0.82
+CA-M-00261,caprino,Anglo Nubiana,4.4,4,3.0,0.64
+CA-M-00262,caprino,Boer,5.8,2,3.7,0.74
+CA-M-00263,caprino,Boer,8.0,0,3.3,0.37
+CA-M-00264,caprino,Boer,2.9,5,4.1,0.67
+CA-M-00265,caprino,Saanen,6.5,1,3.5,0.42
+CA-M-00266,caprino,Pardo Alpina,8.0,2,2.5,0.58
+CA-M-00267,caprino,Saanen,1.5,3,2.9,0.67
+CA-M-00268,caprino,Caninde,3.3,1,2.9,0.44
+CA-M-00269,caprino,Alpina,1.2,2,3.4,0.35
+CA-M-00270,caprino,Saanen,1.1,3,3.0,0.62
+CA-M-00271,caprino,Anglo Nubiana,5.3,4,2.6,0.52
+CA-M-00272,caprino,Pardo Alpina,7.3,0,3.5,0.58
+CA-M-00273,caprino,Alpina,4.4,4,3.7,0.68
+CA-M-00274,caprino,Boer,6.6,1,3.1,0.81
+CA-M-00275,caprino,Anglo Nubiana,2.7,5,3.3,0.68
+CA-M-00276,caprino,Alpina,8.5,5,2.7,0.66
+CA-M-00277,caprino,Anglo Nubiana,4.3,4,2.9,0.45
+CA-M-00278,caprino,Pardo Alpina,7.4,5,3.0,0.48
+CA-M-00279,caprino,Anglo Nubiana,2.2,0,3.5,0.64
+CA-M-00280,caprino,Saanen,8.4,2,3.3,0.48
+CA-M-00281,caprino,Boer,5.7,0,3.0,0.64
+CA-M-00282,caprino,Boer,9.7,2,3.0,0.39
+CA-M-00283,caprino,Pardo Alpina,4.6,3,2.2,0.94
+CA-M-00284,caprino,Anglo Nubiana,8.9,3,4.0,0.59
+CA-M-00285,caprino,Anglo Nubiana,4.7,0,2.2,0.58
+CA-M-00286,caprino,Anglo Nubiana,2.0,0,3.4,0.45
+CA-M-00287,caprino,Anglo Nubiana,7.2,5,3.2,0.93
+CA-M-00288,caprino,Boer,2.6,1,3.1,0.3
+CA-M-00289,caprino,Anglo Nubiana,8.2,2,3.2,0.41
+CA-M-00290,caprino,Boer,4.0,3,2.9,0.72
+CA-M-00291,caprino,Alpina,7.8,0,3.5,0.6
+CA-M-00292,caprino,Caninde,5.3,1,2.5,0.43
+CA-M-00293,caprino,Anglo Nubiana,5.8,3,3.4,0.44
+CA-M-00294,caprino,Caninde,7.6,1,2.9,0.49
+CA-M-00295,caprino,Moxoto,7.0,4,3.0,0.57
+CA-M-00296,caprino,Saanen,7.0,3,3.0,0.86
+CA-M-00297,caprino,Alpina,6.9,5,3.1,0.67
+CA-M-00298,caprino,Boer,6.3,3,3.5,0.75
+CA-M-00299,caprino,Anglo Nubiana,8.3,4,3.2,0.46
+CA-M-00300,caprino,Moxoto,3.7,1,3.7,0.65
+CA-M-00301,caprino,Moxoto,2.6,4,3.7,0.24
+CA-M-00302,caprino,Boer,7.6,5,3.4,0.59
+CA-M-00303,caprino,Anglo Nubiana,5.9,4,3.5,0.57
+CA-M-00304,caprino,Anglo Nubiana,9.1,4,4.2,0.91
+CA-M-00305,caprino,Boer,9.7,2,2.5,0.86
+CA-M-00306,caprino,Caninde,8.8,3,3.7,0.5
+CA-M-00307,caprino,Anglo Nubiana,5.9,3,4.0,0.39
+CA-M-00308,caprino,Saanen,7.8,1,3.4,0.39
+CA-M-00309,caprino,Pardo Alpina,4.0,1,4.2,0.49
+CA-M-00310,caprino,Boer,1.1,3,4.1,0.81
+CA-M-00311,caprino,Saanen,8.0,3,3.0,0.63
+CA-M-00312,caprino,Boer,8.0,4,3.1,0.65
+CA-M-00313,caprino,Anglo Nubiana,1.1,3,3.5,0.71
+CA-M-00314,caprino,Saanen,8.8,3,2.9,0.35
+CA-M-00315,caprino,Anglo Nubiana,8.9,3,4.6,0.41
+CA-M-00316,caprino,Alpina,3.9,3,3.6,0.65
+CA-M-00317,caprino,Boer,1.2,2,3.2,0.39
+CA-M-00318,caprino,Pardo Alpina,8.9,0,2.5,0.24
+CA-M-00319,caprino,Saanen,1.6,4,3.3,0.33
+CA-M-00320,caprino,Moxoto,3.1,2,2.6,0.76
+CA-M-00321,caprino,Alpina,5.9,4,3.6,0.48
+CA-M-00322,caprino,Alpina,8.3,5,1.9,0.6
+CA-M-00323,caprino,Boer,8.0,2,3.9,0.34
+CA-M-00324,caprino,Boer,7.1,0,3.0,0.63
+CA-M-00325,caprino,Alpina,8.5,0,2.4,0.5
+CA-M-00326,caprino,Alpina,7.2,3,3.2,0.64
+CA-M-00327,caprino,Alpina,6.7,5,3.2,0.45
+CA-M-00328,caprino,Anglo Nubiana,2.5,5,3.2,0.65
+CA-M-00329,caprino,Anglo Nubiana,5.0,5,3.9,0.44
+CA-M-00330,caprino,Anglo Nubiana,5.1,0,3.4,0.53
+CA-M-00331,caprino,Anglo Nubiana,1.2,0,3.6,0.5
+CA-M-00332,caprino,Pardo Alpina,4.6,5,3.1,0.56
+CA-M-00333,caprino,Saanen,3.0,4,3.4,0.61
+CA-M-00334,caprino,Saanen,1.8,5,2.5,0.45
+CA-M-00335,caprino,Anglo Nubiana,5.9,5,3.3,0.53
+CA-M-00336,caprino,Pardo Alpina,3.1,4,2.8,0.59
+CA-M-00337,caprino,Anglo Nubiana,2.7,2,3.9,0.65
+CA-M-00338,caprino,Anglo Nubiana,8.1,4,3.2,0.53
+CA-M-00339,caprino,Pardo Alpina,8.3,3,3.5,0.37
+CA-M-00340,caprino,Alpina,6.9,5,3.3,0.57
+CA-M-00341,caprino,Anglo Nubiana,2.7,5,4.1,0.68
+CA-M-00342,caprino,Anglo Nubiana,6.7,1,2.4,0.28
+CA-M-00343,caprino,Boer,7.4,5,3.1,0.29
+CA-M-00344,caprino,Saanen,3.1,4,2.7,0.42
+CA-M-00345,caprino,Anglo Nubiana,2.2,4,2.2,0.51
+CA-M-00346,caprino,Saanen,4.9,2,2.7,0.11
+CA-M-00347,caprino,Boer,4.8,2,3.8,0.66
+CA-M-00348,caprino,Saanen,2.4,5,3.2,0.51
+CA-M-00349,caprino,Alpina,2.7,0,3.1,0.08
+CA-M-00350,caprino,Pardo Alpina,5.5,3,3.6,0.33
+CA-M-00351,caprino,Anglo Nubiana,5.7,5,3.3,0.49
+CA-M-00352,caprino,Anglo Nubiana,5.8,4,3.5,0.2
+CA-M-00353,caprino,Anglo Nubiana,9.8,0,3.4,0.74
+CA-M-00354,caprino,Anglo Nubiana,1.4,1,3.5,0.59
+CA-M-00355,caprino,Boer,8.1,3,3.0,0.69
+CA-M-00356,caprino,Anglo Nubiana,4.2,1,3.7,0.34
+CA-M-00357,caprino,Pardo Alpina,7.8,5,2.6,0.63
+CA-M-00358,caprino,Pardo Alpina,7.6,5,3.2,0.42
+CA-M-00359,caprino,Alpina,6.6,5,3.7,0.51
+CA-M-00360,caprino,Boer,6.7,2,3.1,0.62
+CA-M-00361,caprino,Alpina,7.0,1,3.0,0.54
+CA-M-00362,caprino,Saanen,7.7,3,4.3,0.71
+CA-M-00363,caprino,Alpina,2.2,0,3.9,0.58
+CA-M-00364,caprino,Anglo Nubiana,4.2,4,3.3,0.46
+CA-M-00365,caprino,Caninde,8.6,5,2.7,0.72
+CA-M-00366,caprino,Boer,5.9,1,2.2,0.76
+CA-M-00367,caprino,Anglo Nubiana,2.2,1,3.6,0.57
+CA-M-00368,caprino,Boer,9.7,1,3.8,0.82
+CA-M-00369,caprino,Anglo Nubiana,9.9,4,3.4,0.5
+CA-M-00370,caprino,Moxoto,5.6,1,2.3,0.52
+CA-M-00371,caprino,Saanen,5.8,4,3.3,0.55
+CA-M-00372,caprino,Caninde,3.6,5,3.0,0.52
+CA-M-00373,caprino,Moxoto,5.6,2,3.3,0.49
+CA-M-00374,caprino,Saanen,9.7,0,4.2,0.41
+CA-M-00375,caprino,Pardo Alpina,3.3,5,3.6,0.35
+CA-M-00376,caprino,Caninde,3.7,2,3.5,0.57
+CA-M-00377,caprino,Anglo Nubiana,9.1,3,3.2,0.79
+CA-M-00378,caprino,Anglo Nubiana,4.5,5,3.4,0.71
+CA-M-00379,caprino,Boer,9.8,5,2.8,0.63
+CA-M-00380,caprino,Saanen,4.1,5,3.5,0.8
+CA-M-00381,caprino,Pardo Alpina,1.0,2,3.1,0.55
+CA-M-00382,caprino,Boer,9.6,4,2.8,0.35
+CA-M-00383,caprino,Pardo Alpina,3.1,2,3.6,0.48
+CA-M-00384,caprino,Alpina,7.2,3,2.1,0.54
+CA-M-00385,caprino,Boer,1.4,2,2.9,0.45
+CA-M-00386,caprino,Alpina,7.7,5,3.5,0.67
+CA-M-00387,caprino,Caninde,3.0,4,3.8,0.74
+CA-M-00388,caprino,Boer,8.2,5,3.4,0.2
+CA-M-00389,caprino,Boer,9.7,1,2.9,0.52
+CA-M-00390,caprino,Alpina,1.4,5,3.2,0.0
+CA-M-00391,caprino,Boer,4.3,1,3.3,0.53
+CA-M-00392,caprino,Anglo Nubiana,7.4,3,4.0,0.53
+CA-M-00393,caprino,Caninde,10.0,1,3.7,0.91
+CA-M-00394,caprino,Anglo Nubiana,4.3,4,3.7,0.85
+CA-M-00395,caprino,Anglo Nubiana,10.0,4,3.2,0.74
+CA-M-00396,caprino,Caninde,9.1,4,2.7,0.36
+CA-M-00397,caprino,Saanen,7.5,1,2.5,0.35
+CA-M-00398,caprino,Boer,4.4,4,3.0,0.33
+CA-M-00399,caprino,Boer,5.8,0,3.5,0.86
+CA-M-00400,caprino,Anglo Nubiana,7.5,4,2.9,0.37
+CA-M-00401,caprino,Anglo Nubiana,7.2,2,3.5,0.47
+CA-M-00402,caprino,Caninde,3.6,1,2.8,0.37
+CA-M-00403,caprino,Anglo Nubiana,6.0,5,2.9,0.3
+CA-M-00404,caprino,Anglo Nubiana,8.5,4,3.9,0.62
+CA-M-00405,caprino,Pardo Alpina,5.3,0,3.6,0.58
+CA-M-00406,caprino,Caninde,6.1,2,3.0,0.11
+CA-M-00407,caprino,Alpina,3.9,4,2.8,0.29
+CA-M-00408,caprino,Anglo Nubiana,2.4,1,3.7,0.6
+CA-M-00409,caprino,Anglo Nubiana,1.6,2,3.6,0.54
+CA-M-00410,caprino,Moxoto,4.7,0,3.5,0.47
+CA-M-00411,caprino,Alpina,6.7,0,3.1,0.67
+CA-M-00412,caprino,Pardo Alpina,7.8,1,2.7,0.26
+CA-M-00413,caprino,Boer,1.8,4,3.2,0.43
+CA-M-00414,caprino,Pardo Alpina,3.9,3,3.9,0.65
+CA-M-00415,caprino,Moxoto,8.3,1,2.7,0.42
+CA-M-00416,caprino,Boer,2.0,1,3.2,0.61
+CA-M-00417,caprino,Boer,9.9,4,4.0,0.32
+CA-M-00418,caprino,Anglo Nubiana,6.7,3,3.0,0.39
+CA-M-00419,caprino,Alpina,9.5,5,3.1,0.19
+CA-M-00420,caprino,Anglo Nubiana,7.6,5,2.5,0.14
+CA-M-00421,caprino,Anglo Nubiana,9.7,3,3.5,0.45
+CA-M-00422,caprino,Saanen,7.0,0,2.8,0.64
+CA-M-00423,caprino,Alpina,3.4,5,2.4,0.53
+CA-M-00424,caprino,Boer,8.2,0,2.7,0.78
+CA-M-00425,caprino,Moxoto,3.0,4,3.3,0.47
+CA-M-00426,caprino,Anglo Nubiana,6.1,1,2.4,0.13
+CA-M-00427,caprino,Saanen,4.4,4,2.5,0.62
+CA-M-00428,caprino,Saanen,8.2,4,3.5,0.33
+CA-M-00429,caprino,Saanen,7.8,4,3.2,0.58
+CA-M-00430,caprino,Alpina,8.8,1,2.7,0.09
+CA-M-00431,caprino,Saanen,3.2,3,3.0,0.49
+CA-M-00432,caprino,Pardo Alpina,10.0,1,4.1,0.69
+CA-M-00433,caprino,Pardo Alpina,8.2,5,3.8,0.67
+CA-M-00434,caprino,Moxoto,4.5,0,3.1,0.5
+CA-M-00435,caprino,Moxoto,2.1,5,3.6,0.54
+CA-M-00436,caprino,Saanen,4.1,0,3.3,0.45
+CA-M-00437,caprino,Alpina,2.0,1,2.3,0.49
+CA-M-00438,caprino,Boer,6.5,4,2.2,0.68
+CA-M-00439,caprino,Alpina,2.0,5,2.7,0.4
+CA-M-00440,caprino,Anglo Nubiana,4.9,4,2.4,0.42
+CA-M-00441,caprino,Boer,7.0,2,3.3,0.23
+CA-M-00442,caprino,Caninde,5.1,1,2.9,0.68
+CA-M-00443,caprino,Alpina,8.9,3,3.4,0.49
+CA-M-00444,caprino,Anglo Nubiana,3.2,2,3.4,0.3
+CA-M-00445,caprino,Saanen,5.7,1,3.5,0.71
+CA-M-00446,caprino,Boer,9.2,3,2.7,0.53
+CA-M-00447,caprino,Pardo Alpina,4.2,2,3.5,0.39
+CA-M-00448,caprino,Anglo Nubiana,5.3,5,2.7,0.72
+CA-M-00449,caprino,Saanen,9.4,0,3.6,0.47
+CA-M-00450,caprino,Alpina,5.5,4,3.8,0.23
+CA-M-00451,caprino,Saanen,8.8,4,3.6,0.73
+CA-M-00452,caprino,Anglo Nubiana,9.5,4,3.1,0.37
+CA-M-00453,caprino,Pardo Alpina,3.3,4,3.5,1.0
+CA-M-00454,caprino,Pardo Alpina,8.1,5,2.4,0.45
+CA-M-00455,caprino,Boer,6.9,1,2.3,0.14
+CA-M-00456,caprino,Anglo Nubiana,9.9,2,3.4,0.89
+CA-M-00457,caprino,Alpina,6.3,5,3.9,0.53
+CA-M-00458,caprino,Boer,8.1,0,2.6,0.59
+CA-M-00459,caprino,Boer,4.1,4,3.2,0.62
+CA-M-00460,caprino,Boer,6.5,4,3.4,0.27
+CA-M-00461,caprino,Boer,8.0,3,2.9,0.11
+CA-M-00462,caprino,Pardo Alpina,9.7,0,3.0,0.93
+CA-M-00463,caprino,Moxoto,3.3,3,3.5,0.23
+CA-M-00464,caprino,Alpina,1.7,2,3.3,0.87
+CA-M-00465,caprino,Anglo Nubiana,9.8,0,3.3,0.64
+CA-M-00466,caprino,Boer,6.4,4,2.7,0.57
+CA-M-00467,caprino,Anglo Nubiana,1.2,4,3.2,0.45
+CA-M-00468,caprino,Alpina,5.7,3,3.0,1.0
+CA-M-00469,caprino,Saanen,9.4,0,3.0,0.4
+CA-M-00470,caprino,Moxoto,9.9,2,2.9,0.41
+CA-M-00471,caprino,Boer,3.9,3,3.2,0.67
+CA-M-00472,caprino,Anglo Nubiana,8.0,3,2.8,0.4
+CA-M-00473,caprino,Saanen,5.1,3,3.2,0.34
+CA-M-00474,caprino,Boer,4.6,1,3.0,0.53
+CA-M-00475,caprino,Anglo Nubiana,7.8,4,2.7,0.68
+CA-M-00476,caprino,Boer,3.4,0,2.2,0.92
+CA-M-00477,caprino,Anglo Nubiana,4.8,5,3.7,0.96
+CA-M-00478,caprino,Anglo Nubiana,3.2,2,3.6,0.18
+CA-M-00479,caprino,Boer,2.3,4,2.8,0.75
+CA-M-00480,caprino,Pardo Alpina,4.4,0,3.5,0.34
+CA-M-00481,caprino,Caninde,9.6,4,2.7,0.35
+CA-M-00482,caprino,Anglo Nubiana,4.8,5,3.0,0.43
+CA-M-00483,caprino,Boer,7.1,5,2.9,0.42
+CA-M-00484,caprino,Pardo Alpina,3.6,2,3.1,0.33
+CA-M-00485,caprino,Moxoto,8.8,2,3.5,0.07
+CA-M-00486,caprino,Pardo Alpina,6.6,5,3.0,0.83
+CA-M-00487,caprino,Boer,9.6,3,3.0,0.72
+CA-M-00488,caprino,Caninde,3.9,5,3.6,0.54
+CA-M-00489,caprino,Alpina,5.8,1,3.2,0.35
+CA-M-00490,caprino,Anglo Nubiana,2.7,2,2.9,0.79
+CA-M-00491,caprino,Anglo Nubiana,2.2,1,3.3,0.53
+CA-M-00492,caprino,Moxoto,6.3,2,3.7,0.42
+CA-M-00493,caprino,Caninde,8.2,5,3.7,0.21
+CA-M-00494,caprino,Boer,2.8,5,2.5,0.65
+CA-M-00495,caprino,Alpina,7.3,3,2.6,0.47
+CA-M-00496,caprino,Boer,7.0,0,3.7,0.59
+CA-M-00497,caprino,Alpina,5.3,2,3.1,0.57
+CA-M-00498,caprino,Boer,7.9,2,2.1,0.67
+CA-M-00499,caprino,Boer,6.3,4,2.8,0.58

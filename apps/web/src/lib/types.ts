@@ -249,3 +249,62 @@ export interface InseminacaoListParams {
   page?: number;
   page_size?: number;
 }
+
+// --------------------------- Ciclos Reprodutivos ---------------------------
+
+export type StatusCiclo = "ativo" | "concluido_sucesso" | "concluido_falha";
+
+export const STATUS_CICLO_LABEL: Record<StatusCiclo, string> = {
+  ativo: "Ativo",
+  concluido_sucesso: "Concluído com sucesso",
+  concluido_falha: "Concluído com falha",
+};
+
+export interface CicloAnimalBrief {
+  id: string;
+  identificacao: string;
+  especie: Especie;
+}
+
+export interface Ciclo {
+  id: string;
+  matriz: CicloAnimalBrief;
+  data_inicio: string; // ISO date
+  data_fim: string | null;
+  status: StatusCiclo;
+  parto_data: string | null;
+  cria: CicloAnimalBrief | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface CicloCreate {
+  matriz_id: string;
+  data_inicio: string;
+  data_fim?: string | null;
+  status?: StatusCiclo;
+  parto_data?: string | null;
+  cria_id?: string | null;
+}
+
+export interface CicloUpdate {
+  data_fim?: string | null;
+  status?: StatusCiclo;
+  parto_data?: string | null;
+  cria_id?: string | null;
+}
+
+export interface CicloListResponse {
+  total: number;
+  page: number;
+  page_size: number;
+  items: Ciclo[];
+}
+
+export interface CicloListParams {
+  matriz_id?: string;
+  especie?: Especie;
+  status?: StatusCiclo;
+  page?: number;
+  page_size?: number;
+}

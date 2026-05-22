@@ -115,8 +115,9 @@ para auditoria mesmo se o modelo for retreinado.
 | `modelo_versao` | `varchar(20)` | ex.: `prenhez_v1` |
 
 ### `ciclo_reprodutivo`
-Agrupa eventos da matriz do cio até o parto (ou falha). Usado para
-relatórios consolidados; ainda não exposto na UI.
+Agrupa eventos da matriz do cio até o parto (ou falha). Exposto pela rota
+`/cycles` e nas telas `/ciclos` (lista global) e `/animais/[id]` (seção
+"Ciclos reprodutivos" da matriz).
 
 | Coluna | Tipo | Notas |
 |---|---|---|
@@ -238,14 +239,21 @@ Popula o banco com dados realistas para demonstração:
 docker compose exec api python -m scripts.seed
 ```
 
-Gera:
+Gera (versão atual, calibrada para o modelo v0.2.0):
 
-- 1 produtor demo
-- 990 animais (≈330 por espécie, distribuição 90% matrizes / 10% reprodutores)
-- 4 500 inseminações com resultados já preenchidos
-- Datas e raças seguindo padrões da região (sertão cearense)
+- 1 produtor demo (`demo@unum.test` / `demo123`)
+- 1 620 animais (500 matrizes + 40 reprodutores por espécie)
+- 6 000 ciclos reprodutivos (≈ 85% concluído_sucesso, ≈ 15% concluído_falha)
+- 9 631 inseminações distribuídas pelos ciclos, com resultado já preenchido
+- Datas, raças, intervalos puerperais e taxas seguindo literatura BR
 
-Idempotente — pode ser rodado mais de uma vez sem duplicar.
+Os ciclos são gerados pela mesma simulação que treina o modelo: cada matriz
+percorre uma sequência realista de cios, com 1–3 tentativas de IA por ciclo
+e intervalo gestacional correto por espécie (≈ 283 dias para bovinos, 150
+para ovinos/caprinos).
+
+Idempotente — pode ser rodado mais de uma vez sem duplicar (limpa os dados
+do produtor demo antes de inserir).
 
 ## Inspeção via Adminer
 

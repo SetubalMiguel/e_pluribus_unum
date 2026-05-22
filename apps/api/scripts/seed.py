@@ -7,8 +7,11 @@ Uso (dentro do container):
 Comportamento:
 - Cria 1 produtor demo (demo@unum.test / senha 'demo123').
 - Limpa todos os dados desse produtor (idempotente).
-- Importa matrizes, reprodutores e eventos dos CSVs em ml/data/.
-- Resultado: ~990 animais (matrizes + reprodutores) e ~4500 inseminações.
+- Importa matrizes, reprodutores, ciclos reprodutivos e eventos dos CSVs em
+  ml/data/ (gerados pelo módulo ml.data_synth, calibrados por literatura
+  zootécnica BR).
+- Resultado: ~1.620 animais (matrizes + reprodutores), ~6.000 ciclos e ~9.600
+  inseminações.
 """
 from __future__ import annotations
 
@@ -24,11 +27,13 @@ from sqlalchemy import delete, select
 from app.db.session import SessionLocal
 from app.models import (
     Animal,
+    CicloReprodutivo,
     Especie,
     Inseminacao,
     Produtor,
     ResultadoDiagnostico,
     Sexo,
+    StatusCiclo,
     Tecnica,
 )
 from ml.data_synth import gerar_dataset_completo
@@ -56,6 +61,11 @@ RESULTADO_MAP = {
     "prenhe": ResultadoDiagnostico.PRENHE,
     "vazia": ResultadoDiagnostico.VAZIA,
     "aguardando": ResultadoDiagnostico.AGUARDANDO,
+}
+STATUS_CICLO_MAP = {
+    "ativo": StatusCiclo.ATIVO,
+    "concluido_sucesso": StatusCiclo.CONCLUIDO_SUCESSO,
+    "concluido_falha": StatusCiclo.CONCLUIDO_FALHA,
 }
 
 
@@ -167,6 +177,61 @@ def importar_animais(session, produtor: Produtor) -> dict[str, UUID]:
     return mapa_ids
 
 
+def importar_ciclos(session, mapa_ids: dict[str, UUID]) -> int:
+    """Importa ciclos reprodutivos do CSV consolidado."""
+    path = DATA_DIR / "ciclos_consolidado.csv"
+    if not path.exists():
+        print("Arquivo ciclos_consolidado.csv não encontrado — pulando ciclos.")
+        return 0
+
+    df = pd.read_csv(path)
+    total = 0
+    lote: list[CicloReprodutivo] = []
+    LOTE_SIZE = 500
+
+    for _, row in df.iterrows():
+        matriz_uuid = mapa_ids.get(row["matriz_id"])
+        if matriz_uuid is None:
+            continue
+
+        data_inicio = datetime.fromisoformat(row["data_inicio"]).date()
+        data_fim = (
+            datetime.fromisoformat(row["data_fim"]).date()
+            if pd.notna(row["data_fim"])
+            else None
+        )
+        parto_data = (
+            datetime.fromisoformat(row["parto_data"]).date()
+            if pd.notna(row["parto_data"])
+            else None
+        )
+
+        lote.append(CicloReprodutivo(
+            matriz_id=matriz_uuid,
+            data_inicio=data_inicio,
+            data_fim=data_fim,
+            status=STATUS_CICLO_MAP[row["status"]],
+            parto_data=parto_data,
+            # cria_id fica None — o dataset sintético não cadastra as crias
+            # como animais (seria uma cascata muito maior). O usuário pode
+            # vincular crias manualmente pela UI quando registrar a cria.
+            cria_id=None,
+        ))
+        total += 1
+
+        if len(lote) >= LOTE_SIZE:
+            session.add_all(lote)
+            session.flush()
+            lote = []
+
+    if lote:
+        session.add_all(lote)
+        session.flush()
+
+    print(f"Importou {total} ciclos reprodutivos.")
+    return total
+
+
 def importar_inseminacoes(session, mapa_ids: dict[str, UUID]) -> int:
     """Importa eventos de inseminação do CSV consolidado."""
     df = pd.read_csv(DATA_DIR / "eventos_consolidado.csv")
@@ -218,6 +283,7 @@ def main() -> int:
             produtor = obter_ou_criar_produtor_demo(session)
             limpar_dados_do_produtor(session, produtor.id)
             mapa_ids = importar_animais(session, produtor)
+            importar_ciclos(session, mapa_ids)
             importar_inseminacoes(session, mapa_ids)
             session.commit()
         except Exception as exc:

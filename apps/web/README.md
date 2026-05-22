@@ -65,11 +65,12 @@ apps/web/
 │   │   └── page.tsx                # dashboard (/stats)
 │   ├── components/
 │   │   ├── ui/                     # shadcn (button, card, dialog, tooltip, …)
-│   │   ├── animal-search-input.tsx # autocomplete (matriz/reprodutor no wizard de IA)
-│   │   ├── app-shell.tsx           # header + sidebar + bottom-tab
+│   │   ├── animal-search-input.tsx # autocomplete (matriz/reprodutor/cria)
+│   │   ├── app-shell.tsx           # header + sidebar + bottom-tab (5 cols)
+│   │   ├── ciclo-dialog.tsx        # dialog p/ criar/editar ciclo reprodutivo
 │   │   ├── info-hint.tsx           # ícone "i" + tooltip Radix p/ siglas
 │   │   ├── matriz-picker.tsx       # lista estilo /animais p/ escolha de matriz
-│   │   ├── nav-items.ts            # itens de navegação
+│   │   ├── nav-items.ts            # itens de navegação (5 itens)
 │   │   └── update-diagnostico-dialog.tsx
 │   ├── hooks/
 │   │   ├── use-debounce.ts
@@ -110,6 +111,7 @@ Todas MIT/Apache, compatíveis com GPLv3:
 | `/animais/novo` | Cadastro: wizard mobile (Básico → Genético → Confirmação), 2 colunas desktop. **Save só via click explícito no step 3** (form submit é no-op puro) |
 | `/inseminacoes` | Histórico com filtros por resultado e espécie + tooltips em Predição IA e em cada técnica (IATF, IA_repasse, IA_cervical, IA_laparoscopica, convencional). Diálogo "Confirmar resultado" / "Editar resultado" |
 | `/inseminacoes/nova` | Wizard (Matriz → Reprodutor → Detalhes) com **predição automática** da IA e modal "Recomendar com IA". Mesmo guard de etapa do cadastro de animal |
+| `/ciclos` | Lista global de ciclos reprodutivos com filtros por status e espécie. CRUD completo via `<CicloDialog>` (criar, fechar com parto/falha, vincular cria, remover). Mesmo estilo de cards/tabela das outras listagens |
 | `/recomendacoes` | Etapa 1: **MatrizPicker** (chips de espécie c/ contagem + busca + cards clicáveis paginados — mesmo estilo de `/animais`). Etapa 2: top 5 reprodutores por matriz, com fatores positivos e CTA "Selecionar e registrar" |
 
 ## Decisões de design (resumo)

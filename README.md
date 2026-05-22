@@ -77,6 +77,9 @@ API_URL configurável via `NEXT_PUBLIC_API_URL` (default `http://localhost:8000`
 - `/inseminacoes/nova` — wizard com **predição automática da IA** ao
   preencher os 4 campos chave (debounce 400 ms), barra de probabilidade,
   top 4 fatores positivos/negativos, modal "🤖 Recomendar com IA"
+- `/ciclos` — lista global de ciclos reprodutivos com chips de status
+  (ativos/sucesso/falha) e espécie. CRUD completo via `<CicloDialog>`
+  (criar, fechar com parto, vincular cria, remover)
 - `/recomendacoes` — escolha de matriz em **lista estilo /animais** (chips de
   espécie com contagem + busca + cards clicáveis + paginação), depois top 5
   reprodutores ranqueados com fatores positivos e CTA "Selecionar e registrar
@@ -204,9 +207,10 @@ apps/web/
 ├── src/
 │   ├── app/
 │   │   ├── animais/
-│   │   │   ├── [id]/page.tsx       # detalhe + histórico de IA + diálogo de diagnóstico
+│   │   │   ├── [id]/page.tsx       # detalhe + histórico de IA + seção de ciclos + diálogos
 │   │   │   ├── novo/page.tsx       # wizard de cadastro c/ guard de etapa
 │   │   │   └── page.tsx            # listagem (chips + tabela/cards) c/ tooltips em ECC, Última IA
+│   │   ├── ciclos/page.tsx         # lista de ciclos reprodutivos + CRUD via dialog
 │   │   ├── inseminacoes/
 │   │   │   ├── nova/page.tsx       # wizard + predição automática + modal recommend
 │   │   │   └── page.tsx            # histórico c/ tooltips em Predição IA e técnica
@@ -218,10 +222,11 @@ apps/web/
 │   ├── components/
 │   │   ├── ui/                     # shadcn (button, card, dialog, tooltip, …)
 │   │   ├── animal-search-input.tsx # autocomplete (usado em /inseminacoes/nova)
-│   │   ├── app-shell.tsx           # header + sidebar + bottom-tab
+│   │   ├── app-shell.tsx           # header + sidebar + bottom-tab (5 cols agora)
+│   │   ├── ciclo-dialog.tsx        # dialog de criar/editar ciclo reprodutivo
 │   │   ├── info-hint.tsx           # ícone "i" + tooltip Radix p/ siglas
 │   │   ├── matriz-picker.tsx       # lista estilo /animais p/ escolha de matriz
-│   │   ├── nav-items.ts
+│   │   ├── nav-items.ts            # 5 itens (inclui /ciclos)
 │   │   └── update-diagnostico-dialog.tsx
 │   ├── hooks/
 │   │   ├── use-debounce.ts

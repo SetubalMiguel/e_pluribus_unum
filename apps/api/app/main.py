@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import settings
-from app.routers import animals, inseminations, predict, recommend, stats
+from app.routers import animals, cycles, inseminations, predict, recommend, stats
 
 app = FastAPI(
     title="Unum API",
@@ -22,6 +22,7 @@ app.add_middleware(
 # Routers
 app.include_router(animals.router)
 app.include_router(inseminations.router)
+app.include_router(cycles.router)
 app.include_router(predict.router)
 app.include_router(recommend.router)
 app.include_router(stats.router)
