@@ -117,8 +117,22 @@ export function AnimalSearchInput({
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    // SEMPRE engole Enter — esse input está dentro de um <form> e o "Go/Search"
+    // do teclado mobile dispararia o submit implícito se a gente deixasse passar.
+    if (e.key === "Enter") {
+      e.preventDefault();
+      e.stopPropagation();
+      if (!open) {
+        setOpen(true);
+      } else {
+        const item = results[activeIndex];
+        if (item) select(item);
+      }
+      return;
+    }
     if (!open) {
-      if (e.key === "ArrowDown" || e.key === "Enter") {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
         setOpen(true);
       }
       return;
@@ -129,10 +143,6 @@ export function AnimalSearchInput({
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setActiveIndex((i) => Math.max(0, i - 1));
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      const item = results[activeIndex];
-      if (item) select(item);
     } else if (e.key === "Escape") {
       e.preventDefault();
       setOpen(false);

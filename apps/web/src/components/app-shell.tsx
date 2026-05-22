@@ -1,15 +1,15 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Leaf } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { NAV_ITEMS, type NavItem } from "./nav-items";
 
 /**
  * Estrutura visual da aplicação:
- *   - Header fixo no topo (h-14 mobile / h-16 desktop)
+ *   - Header fixo no topo (h-16 mobile / h-20 desktop)
  *   - Sidebar à esquerda apenas em >=1024px
  *   - Bottom tab bar apenas em <640px
  *   - Em 640px–1023px (tablet) a navegação aparece inline no header
@@ -21,7 +21,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <DesktopSidebar />
       <main
         className={cn(
-          "pt-14 lg:pt-16",
+          "pt-20 lg:pt-24",
           "pb-20 sm:pb-8",
           "lg:pl-64",
         )}
@@ -42,17 +42,22 @@ function Header() {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-40 border-b border-border bg-background",
-        "h-14 lg:h-16",
+        "h-20 lg:h-24",
       )}
     >
       <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-md bg-primary text-primary-foreground">
-            <Leaf className="h-5 w-5" aria-hidden />
-          </span>
-          <span className="text-base font-semibold tracking-tight sm:text-lg">
-            pluribus unum
-          </span>
+        <Link href="/" className="flex items-center gap-2" aria-label="pluribus unum — início">
+          {/* width/height = dimensões intrínsecas (3100x1344) p/ Next saber a aspect ratio;
+              `sizes` orienta a otimização — servimos ~280px na prática, não a PNG inteira. */}
+          <Image
+            src="/logo.png"
+            alt="pluribus unum"
+            width={3100}
+            height={1344}
+            sizes="280px"
+            priority
+            className="h-16 w-auto sm:h-20"
+          />
         </Link>
 
         {/* Navegação inline para tablet (640–1023px). Mobile usa bottom tab; desktop usa sidebar. */}
@@ -99,7 +104,7 @@ function DesktopSidebar() {
       aria-label="Navegação lateral"
       className={cn(
         "fixed inset-y-0 left-0 z-30 hidden w-64 border-r border-border bg-background",
-        "pt-16 lg:flex",
+        "pt-24 lg:flex",
         "flex-col",
       )}
     >

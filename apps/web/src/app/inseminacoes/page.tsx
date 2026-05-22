@@ -4,10 +4,15 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   AlertTriangle,
+  CheckCircle2,
+  Eye,
+  Pencil,
   Plus,
   Syringe,
 } from "lucide-react";
 
+import { InfoHint } from "@/components/info-hint";
+import { UpdateDiagnosticoDialog } from "@/components/update-diagnostico-dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -30,7 +35,21 @@ import {
   type Especie,
   type Inseminacao,
   type ResultadoDiagnostico,
+  type Tecnica,
 } from "@/lib/types";
+
+// Glossário das técnicas de IA — mostrado no tooltip ao lado da sigla.
+const TECNICA_INFO: Record<Tecnica, string> = {
+  IATF: "Inseminação Artificial em Tempo Fixo: hormonização programada para inseminar todo o lote no mesmo dia, sem precisar detectar cio.",
+  convencional:
+    "Inseminação artificial convencional, realizada após detecção visual do cio da matriz.",
+  IA_repasse:
+    "Inseminação Artificial de repasse: nova IA na matriz que retornou ao cio depois de uma primeira tentativa.",
+  IA_cervical:
+    "Inseminação Artificial cervical: deposição do sêmen na cérvix — comum em pequenos ruminantes.",
+  IA_laparoscopica:
+    "Inseminação Artificial laparoscópica: deposição intrauterina via laparoscopia, usada principalmente em ovinos e caprinos.",
+};
 
 const STATUS_VARIANT: Record<
   ResultadoDiagnostico,
@@ -70,6 +89,7 @@ export default function InseminacoesPage() {
   const [page, setPage] = useState(1);
 
   const [items, setItems] = useState<Inseminacao[]>([]);
+  const [editing, setEditing] = useState<Inseminacao | null>(null);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -231,6 +251,7 @@ export default function InseminacoesPage() {
                 key={i.id}
                 item={i}
                 matriz={matrizes[i.matriz_id]}
+                onEdit={() => setEditing(i)}
               />
             ))}
           </div>
@@ -244,7 +265,12 @@ export default function InseminacoesPage() {
                   <TableHead>Espécie</TableHead>
                   <TableHead>Data do evento</TableHead>
                   <TableHead>Técnica</TableHead>
-                  <TableHead>Predição IA</TableHead>
+                  <TableHead>
+                    <span className="inline-flex items-center gap-1">
+                      Predição IA
+                      <InfoHint label="Probabilidade de prenhez calculada pelo modelo de Inteligência Artificial no momento do registro, com base nos dados da matriz, reprodutor e técnica." />
+                    </span>
+                  </TableHead>
                   <TableHead>Status</TableHead>
                   <TableHead className="text-right">Ações</TableHead>
                 </TableRow>
@@ -255,6 +281,7 @@ export default function InseminacoesPage() {
                     key={i.id}
                     item={i}
                     matriz={matrizes[i.matriz_id]}
+                    onEdit={() => setEditing(i)}
                   />
                 ))}
               </TableBody>
@@ -281,6 +308,19 @@ export default function InseminacoesPage() {
       >
         <Plus className="h-6 w-6" aria-hidden />
       </Link>
+
+      <UpdateDiagnosticoDialog
+        open={editing !== null}
+        onOpenChange={(open) => {
+          if (!open) setEditing(null);
+        }}
+        inseminacao={editing}
+        onSaved={(updated) =>
+          setItems((prev) =>
+            prev.map((i) => (i.id === updated.id ? updated : i)),
+          )
+        }
+      />
     </div>
   );
 }
@@ -336,10 +376,13 @@ function ChipGroup<V extends string>({
 function InseminacaoCard({
   item,
   matriz,
+  onEdit,
 }: {
   item: Inseminacao;
   matriz: Animal | undefined;
+  onEdit: () => void;
 }) {
+  const aguardando = item.resultado_diagnostico === "aguardando";
   return (
     <Link
       href={matriz ? `/animais/${item.matriz_id}` : "#"}
@@ -372,6 +415,30 @@ function InseminacaoCard({
           </span>
         ) : null}
       </div>
+      <Button
+        type="button"
+        size="sm"
+        variant={aguardando ? "default" : "outline"}
+        onClick={(e) => {
+          // Evita que o Link externo navegue ao clicar no botão.
+          e.preventDefault();
+          e.stopPropagation();
+          onEdit();
+        }}
+        className="self-stretch"
+      >
+        {aguardando ? (
+          <>
+            <CheckCircle2 className="h-4 w-4" aria-hidden />
+            Confirmar resultado
+          </>
+        ) : (
+          <>
+            <Pencil className="h-4 w-4" aria-hidden />
+            Editar resultado
+          </>
+        )}
+      </Button>
     </Link>
   );
 }
@@ -379,10 +446,13 @@ function InseminacaoCard({
 function InseminacaoRow({
   item,
   matriz,
+  onEdit,
 }: {
   item: Inseminacao;
   matriz: Animal | undefined;
+  onEdit: () => void;
 }) {
+  const aguardando = item.resultado_diagnostico === "aguardando";
   return (
     <TableRow>
       <TableCell className="font-medium">
@@ -401,7 +471,12 @@ function InseminacaoRow({
       <TableCell className="whitespace-nowrap">
         {formatDateTime(item.data_evento)}
       </TableCell>
-      <TableCell>{item.tecnica}</TableCell>
+      <TableCell>
+        <span className="inline-flex items-center gap-1">
+          {item.tecnica}
+          <InfoHint label={TECNICA_INFO[item.tecnica]} />
+        </span>
+      </TableCell>
       <TableCell className="text-muted-foreground">
         {item.predicao_prenhez !== null
           ? `${(item.predicao_prenhez * 100).toFixed(0)}%`
@@ -413,9 +488,32 @@ function InseminacaoRow({
         </Badge>
       </TableCell>
       <TableCell className="text-right">
-        <Button asChild variant="ghost" size="sm">
-          <Link href={`/animais/${item.matriz_id}`}>Ver matriz</Link>
-        </Button>
+        <div className="flex justify-end gap-1">
+          <Button
+            type="button"
+            size="sm"
+            variant={aguardando ? "default" : "ghost"}
+            onClick={onEdit}
+          >
+            {aguardando ? (
+              <>
+                <CheckCircle2 className="h-4 w-4" aria-hidden />
+                Confirmar
+              </>
+            ) : (
+              <>
+                <Pencil className="h-4 w-4" aria-hidden />
+                Editar
+              </>
+            )}
+          </Button>
+          <Button asChild variant="ghost" size="sm">
+            <Link href={`/animais/${item.matriz_id}`}>
+              <Eye className="h-4 w-4" aria-hidden />
+              Ver matriz
+            </Link>
+          </Button>
+        </div>
       </TableCell>
     </TableRow>
   );

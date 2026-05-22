@@ -12,7 +12,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 
-import { AnimalSearchInput } from "@/components/animal-search-input";
+import { MatrizPicker } from "@/components/matriz-picker";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -144,86 +144,82 @@ export default function RecomendacoesPage() {
         </p>
       </header>
 
-      {/* Setup */}
-      <Card>
-        <CardHeader className="pb-3">
-          <CardTitle className="text-base">1. Escolha a matriz</CardTitle>
-        </CardHeader>
-        <CardContent className="flex flex-col gap-4">
-          <AnimalSearchInput
-            sexo="F"
-            value={matriz}
-            onChange={setMatriz}
-            placeholder="Buscar matriz por identificação…"
-            inputId="rec-matriz"
-          />
+      {/* Etapa 1: escolha da matriz — mesmo estilo da listagem /animais */}
+      <section className="flex flex-col gap-3">
+        <h2 className="text-base font-semibold">1. Escolha a matriz</h2>
+        <MatrizPicker value={matriz} onChange={setMatriz} />
+      </section>
 
-          {matriz ? (
-            <>
-              <div className="grid gap-3 sm:grid-cols-2">
-                <div className="flex flex-col gap-2">
-                  <Label htmlFor="rec-tecnica">Técnica</Label>
-                  <Select
-                    value={tecnica}
-                    onValueChange={(v) => setTecnica(v as Tecnica)}
-                  >
-                    <SelectTrigger id="rec-tecnica">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {TECNICA_OPTIONS.map((opt) => (
-                        <SelectItem key={opt.value} value={opt.value}>
-                          {opt.label}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <Label htmlFor="rec-data">Data prevista</Label>
-                  <Input
-                    id="rec-data"
-                    type="date"
-                    value={dataEvento}
-                    onChange={(e) => setDataEvento(e.target.value)}
-                  />
-                </div>
-              </div>
-
-              <label className="flex items-center gap-2 text-sm text-muted-foreground">
-                <input
-                  type="checkbox"
-                  checked={filtrarParentesco}
-                  onChange={(e) => setFiltrarParentesco(e.target.checked)}
-                  className="h-4 w-4 rounded border-input text-primary focus:ring-ring"
-                />
-                Filtrar reprodutores com possível parentesco
-              </label>
-
-              <div className="flex justify-end">
-                <Button
-                  type="button"
-                  onClick={onGenerate}
-                  disabled={loading || !dataEvento}
-                  className="w-full sm:w-auto"
+      {/* Etapa 2: parâmetros + ação — só aparece com matriz escolhida */}
+      {matriz ? (
+        <Card>
+          <CardHeader className="pb-3">
+            <CardTitle className="text-base">2. Defina o cenário</CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-4">
+            <div className="grid gap-3 sm:grid-cols-2">
+              <div className="flex flex-col gap-2">
+                <Label htmlFor="rec-tecnica">Técnica</Label>
+                <Select
+                  value={tecnica}
+                  onValueChange={(v) => setTecnica(v as Tecnica)}
                 >
-                  {loading ? (
-                    <>
-                      <Loader2 className="h-4 w-4 animate-spin" aria-hidden />
-                      Gerando…
-                    </>
-                  ) : (
-                    <>
-                      <Sparkles className="h-4 w-4" aria-hidden />
-                      Gerar recomendações
-                    </>
-                  )}
-                </Button>
+                  <SelectTrigger id="rec-tecnica">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {TECNICA_OPTIONS.map((opt) => (
+                      <SelectItem key={opt.value} value={opt.value}>
+                        {opt.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
-            </>
-          ) : null}
-        </CardContent>
-      </Card>
+              <div className="flex flex-col gap-2">
+                <Label htmlFor="rec-data">Data prevista</Label>
+                <Input
+                  id="rec-data"
+                  type="date"
+                  value={dataEvento}
+                  onChange={(e) => setDataEvento(e.target.value)}
+                />
+              </div>
+            </div>
+
+            <label className="flex items-center gap-2 text-sm text-muted-foreground">
+              <input
+                type="checkbox"
+                checked={filtrarParentesco}
+                onChange={(e) => setFiltrarParentesco(e.target.checked)}
+                className="h-4 w-4 rounded border-input text-primary focus:ring-ring"
+              />
+              Filtrar reprodutores com possível parentesco
+            </label>
+
+            <div className="flex justify-end">
+              <Button
+                type="button"
+                onClick={onGenerate}
+                disabled={loading || !dataEvento}
+                className="w-full sm:w-auto"
+              >
+                {loading ? (
+                  <>
+                    <Loader2 className="h-4 w-4 animate-spin" aria-hidden />
+                    Gerando…
+                  </>
+                ) : (
+                  <>
+                    <Sparkles className="h-4 w-4" aria-hidden />
+                    Gerar recomendações
+                  </>
+                )}
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      ) : null}
 
       {/* Estado de erro */}
       {error ? (

@@ -142,6 +142,56 @@ def atualizar_animal(
     db.refresh(animal)
     return AnimalOut.model_validate(animal)
 
+@router.patch(
+    "/{animal_id}/dados-geneticos",
+    response_model=AnimalOut,
+    summary="Atualiza apenas os dados genéticos do animal (tipado por sexo)",
+)
+def atualizar_dados_geneticos(
+    animal_id: UUID,
+    payload: dict[str, Any],
+    db: Session = Depends(get_db),
+    produtor: Produtor = Depends(get_current_produtor),
+):
+    """
+    Endpoint dedicado para atualizar ECC, paridade, idade etc.
+    
+    Para fêmea: aceita campos ecc, paridade, idade_anos, historico_sucesso.
+    Para macho: aceita campos idade_anos, taxa_sucesso_historica.
+    """
+    from app.schemas.animal import DadosGeneticosFemea, DadosGeneticosMacho
+
+    animal = db.get(Animal, animal_id)
+    if animal is None or animal.produtor_id != produtor.id:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Animal não encontrado")
+
+    # Mescla com o que já existe (atualização parcial)
+    dados_atuais = animal.dados_geneticos or {}
+    dados_novos = {**dados_atuais, **payload}
+
+    # Valida conforme o sexo
+    if animal.sexo == Sexo.FEMEA:
+        try:
+            DadosGeneticosFemea.model_validate(dados_novos)
+        except Exception as exc:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_ENTITY,
+                f"Dados genéticos inválidos para fêmea: {exc}",
+            )
+    else:
+        try:
+            DadosGeneticosMacho.model_validate(dados_novos)
+        except Exception as exc:
+            raise HTTPException(
+                status.HTTP_422_UNPROCESSABLE_ENTITY,
+                f"Dados genéticos inválidos para macho: {exc}",
+            )
+
+    animal.dados_geneticos = dados_novos
+    db.commit()
+    db.refresh(animal)
+    return AnimalOut.model_validate(animal)
+
 
 @router.delete(
     "/{animal_id}",

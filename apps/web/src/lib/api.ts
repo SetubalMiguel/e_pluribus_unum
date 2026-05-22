@@ -12,6 +12,8 @@ import type {
   AnimalListParams,
   AnimalListResponse,
   AnimalUpdate,
+  DadosGeneticosFemea,
+  DadosGeneticosMacho,
   Inseminacao,
   InseminacaoCreate,
   InseminacaoListParams,
@@ -136,6 +138,23 @@ export function updateAnimal(
 
 export function deleteAnimal(id: string, init?: RequestInit): Promise<void> {
   return apiFetch<void>(`/animals/${id}`, { ...init, method: "DELETE" });
+}
+
+/**
+ * Atualização parcial dos dados genéticos com validação tipada por sexo
+ * no backend (rota `PATCH /animals/{id}/dados-geneticos`). Mescla com o
+ * que já existe — só envie os campos que mudaram.
+ */
+export function updateAnimalGeneticData(
+  id: string,
+  body: Partial<DadosGeneticosFemea> | Partial<DadosGeneticosMacho>,
+  init?: RequestInit,
+): Promise<Animal> {
+  return apiFetch<Animal>(`/animals/${id}/dados-geneticos`, {
+    ...init,
+    method: "PATCH",
+    body: JSON.stringify(body),
+  });
 }
 
 // --------------------------- Inseminations ---------------------------------

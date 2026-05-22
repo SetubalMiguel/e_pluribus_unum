@@ -8,16 +8,19 @@ import {
   ArrowLeft,
   Beef,
   Calendar,
+  CheckCircle2,
   ChevronRight,
   Dna,
   Loader2,
   Mars,
+  Pencil,
   Plus,
   Sparkles,
   Syringe,
   Venus,
 } from "lucide-react";
 
+import { UpdateDiagnosticoDialog } from "@/components/update-diagnostico-dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -50,13 +53,14 @@ const STATUS_VARIANT: Record<
   vazia: "destructive",
 };
 
-// Rótulos amigáveis para chaves comuns de dados_geneticos.
+// Rótulos amigáveis para chaves de dados_geneticos (espelha DadosGeneticos
+// Femea/Macho do backend). Chaves desconhecidas caem no fallback bruto.
 const GENETIC_LABEL: Record<string, string> = {
   ecc: "ECC (condição corporal)",
-  paridade: "Paridade",
+  paridade: "Paridade (partos)",
   idade_anos: "Idade",
-  historico_sucesso: "Histórico de sucesso",
-  taxa_sucesso_historica: "Taxa de sucesso",
+  historico_sucesso: "Histórico de sucesso da matriz",
+  taxa_sucesso_historica: "Taxa de sucesso do reprodutor",
 };
 
 const ESPECIE_EMOJI: Record<string, string> = {
@@ -195,6 +199,11 @@ export default function AnimalDetailPage() {
           loading={insemLoading}
           error={insemError}
           items={inseminacoes}
+          onItemUpdated={(updated) =>
+            setInseminacoes((prev) =>
+              prev.map((i) => (i.id === updated.id ? updated : i)),
+            )
+          }
         />
       ) : null}
 
@@ -362,11 +371,15 @@ function InseminacoesSection({
   loading,
   error,
   items,
+  onItemUpdated,
 }: {
   loading: boolean;
   error: string | null;
   items: Inseminacao[];
+  onItemUpdated: (updated: Inseminacao) => void;
 }) {
+  const [editing, setEditing] = useState<Inseminacao | null>(null);
+
   const counts = useMemo(() => {
     let prenhe = 0;
     let vazia = 0;
@@ -415,27 +428,51 @@ function InseminacoesSection({
 
             {/* Mobile: cards */}
             <ul className="flex flex-col gap-2 sm:hidden">
-              {items.map((i) => (
-                <li
-                  key={i.id}
-                  className="flex items-center justify-between gap-3 rounded-md border border-border p-3"
-                >
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-sm font-medium">
-                      {formatDateTime(i.data_evento)}
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      {i.tecnica}
-                      {i.predicao_prenhez !== null
-                        ? ` · IA: ${(i.predicao_prenhez * 100).toFixed(0)}%`
-                        : ""}
-                    </span>
-                  </div>
-                  <Badge variant={STATUS_VARIANT[i.resultado_diagnostico]}>
-                    {RESULTADO_LABEL[i.resultado_diagnostico]}
-                  </Badge>
-                </li>
-              ))}
+              {items.map((i) => {
+                const aguardando = i.resultado_diagnostico === "aguardando";
+                return (
+                  <li
+                    key={i.id}
+                    className="flex flex-col gap-2 rounded-md border border-border p-3"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-sm font-medium">
+                          {formatDateTime(i.data_evento)}
+                        </span>
+                        <span className="text-xs text-muted-foreground">
+                          {i.tecnica}
+                          {i.predicao_prenhez !== null
+                            ? ` · IA: ${(i.predicao_prenhez * 100).toFixed(0)}%`
+                            : ""}
+                        </span>
+                      </div>
+                      <Badge variant={STATUS_VARIANT[i.resultado_diagnostico]}>
+                        {RESULTADO_LABEL[i.resultado_diagnostico]}
+                      </Badge>
+                    </div>
+                    <Button
+                      type="button"
+                      size="sm"
+                      variant={aguardando ? "default" : "outline"}
+                      onClick={() => setEditing(i)}
+                      className="self-stretch"
+                    >
+                      {aguardando ? (
+                        <>
+                          <CheckCircle2 className="h-4 w-4" aria-hidden />
+                          Confirmar resultado
+                        </>
+                      ) : (
+                        <>
+                          <Pencil className="h-4 w-4" aria-hidden />
+                          Editar resultado
+                        </>
+                      )}
+                    </Button>
+                  </li>
+                );
+              })}
             </ul>
 
             {/* Desktop: tabela densa */}
@@ -448,36 +485,71 @@ function InseminacoesSection({
                     <TableHead>Predição IA</TableHead>
                     <TableHead>Inseminador</TableHead>
                     <TableHead>Status</TableHead>
+                    <TableHead className="text-right">Ações</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {items.map((i) => (
-                    <TableRow key={i.id}>
-                      <TableCell className="font-medium">
-                        {formatDateTime(i.data_evento)}
-                      </TableCell>
-                      <TableCell>{i.tecnica}</TableCell>
-                      <TableCell className="text-muted-foreground">
-                        {i.predicao_prenhez !== null
-                          ? `${(i.predicao_prenhez * 100).toFixed(0)}%`
-                          : "—"}
-                      </TableCell>
-                      <TableCell className="text-muted-foreground">
-                        {i.inseminador ?? "—"}
-                      </TableCell>
-                      <TableCell>
-                        <Badge variant={STATUS_VARIANT[i.resultado_diagnostico]}>
-                          {RESULTADO_LABEL[i.resultado_diagnostico]}
-                        </Badge>
-                      </TableCell>
-                    </TableRow>
-                  ))}
+                  {items.map((i) => {
+                    const aguardando = i.resultado_diagnostico === "aguardando";
+                    return (
+                      <TableRow key={i.id}>
+                        <TableCell className="font-medium">
+                          {formatDateTime(i.data_evento)}
+                        </TableCell>
+                        <TableCell>{i.tecnica}</TableCell>
+                        <TableCell className="text-muted-foreground">
+                          {i.predicao_prenhez !== null
+                            ? `${(i.predicao_prenhez * 100).toFixed(0)}%`
+                            : "—"}
+                        </TableCell>
+                        <TableCell className="text-muted-foreground">
+                          {i.inseminador ?? "—"}
+                        </TableCell>
+                        <TableCell>
+                          <Badge
+                            variant={STATUS_VARIANT[i.resultado_diagnostico]}
+                          >
+                            {RESULTADO_LABEL[i.resultado_diagnostico]}
+                          </Badge>
+                        </TableCell>
+                        <TableCell className="text-right">
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant={aguardando ? "default" : "ghost"}
+                            onClick={() => setEditing(i)}
+                          >
+                            {aguardando ? (
+                              <>
+                                <CheckCircle2 className="h-4 w-4" aria-hidden />
+                                Confirmar
+                              </>
+                            ) : (
+                              <>
+                                <Pencil className="h-4 w-4" aria-hidden />
+                                Editar
+                              </>
+                            )}
+                          </Button>
+                        </TableCell>
+                      </TableRow>
+                    );
+                  })}
                 </TableBody>
               </Table>
             </div>
           </>
         )}
       </CardContent>
+
+      <UpdateDiagnosticoDialog
+        open={editing !== null}
+        onOpenChange={(open) => {
+          if (!open) setEditing(null);
+        }}
+        inseminacao={editing}
+        onSaved={onItemUpdated}
+      />
     </Card>
   );
 }

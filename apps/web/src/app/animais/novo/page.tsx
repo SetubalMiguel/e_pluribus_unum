@@ -100,7 +100,7 @@ const formSchema = z
     idade_anos: z
       .number({ message: "Informe a idade em anos" })
       .min(0, "Idade não pode ser negativa")
-      .max(30, "Máximo de 30 anos"),
+      .max(25, "Máximo de 25 anos"),
     ecc: z
       .number()
       .min(1, "ECC mínimo é 1")
@@ -110,7 +110,19 @@ const formSchema = z
       .number()
       .int("Paridade deve ser um número inteiro")
       .min(0, "Paridade não pode ser negativa")
-      .max(20, "Máximo de 20")
+      .max(15, "Máximo de 15 partos")
+      .optional(),
+    // Campo opcional — percentual 0-100 no input, convertido para 0-1 no submit.
+    // Se vazio, o backend calcula automaticamente a partir do histórico.
+    historico_sucesso_pct: z
+      .number()
+      .min(0, "Mínimo 0%")
+      .max(100, "Máximo 100%")
+      .optional(),
+    taxa_sucesso_pct: z
+      .number()
+      .min(0, "Mínimo 0%")
+      .max(100, "Máximo 100%")
       .optional(),
   })
   .superRefine((data, ctx) => {
@@ -129,6 +141,15 @@ const formSchema = z
           path: ["paridade"],
         });
       }
+    } else if (data.sexo === "M") {
+      // Macho: limite mais apertado de idade (backend: 0-20).
+      if (data.idade_anos > 20) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: "Máximo de 20 anos para reprodutores",
+          path: ["idade_anos"],
+        });
+      }
     }
   });
 
@@ -145,6 +166,8 @@ const DEFAULT_VALUES: Partial<FormValues> = {
   idade_anos: undefined,
   ecc: 3,
   paridade: 0,
+  historico_sucesso_pct: undefined,
+  taxa_sucesso_pct: undefined,
 };
 
 // --------------------------- Página -----------------------------------------
@@ -182,24 +205,29 @@ export default function NovoAnimalPage() {
     }
   }, [especie, form]);
 
-  // Quando sexo muda para macho, limpa ECC/paridade.
+  // Quando sexo muda, ajusta os campos específicos. Os opcionais de histórico/
+  // taxa de sucesso são limpos no sexo oposto pra não vazar entre cenários.
   useEffect(() => {
     if (sexo === "M") {
       form.setValue("ecc", undefined, { shouldValidate: false });
       form.setValue("paridade", undefined, { shouldValidate: false });
+      form.setValue("historico_sucesso_pct", undefined, {
+        shouldValidate: false,
+      });
     } else if (sexo === "F") {
-      // Restaura defaults se estavam zerados.
       if (form.getValues("ecc") === undefined) {
         form.setValue("ecc", 3, { shouldValidate: false });
       }
       if (form.getValues("paridade") === undefined) {
         form.setValue("paridade", 0, { shouldValidate: false });
       }
+      form.setValue("taxa_sucesso_pct", undefined, { shouldValidate: false });
     }
   }, [sexo, form]);
 
-  // Submit final.
+  // Submit final. Guard de defesa: nunca salva fora do step 3 em modo wizard.
   const onSubmit = form.handleSubmit(async (values) => {
+    if (useWizard && step < 3) return;
     setSubmitting(true);
     try {
       const dadosGeneticos: Record<string, unknown> = {
@@ -208,6 +236,15 @@ export default function NovoAnimalPage() {
       if (values.sexo === "F") {
         dadosGeneticos.ecc = values.ecc;
         dadosGeneticos.paridade = values.paridade;
+        // Converte % (0-100) para a fração 0-1 que o backend espera.
+        // Omite quando vazio → backend calcula a partir do histórico real.
+        if (typeof values.historico_sucesso_pct === "number") {
+          dadosGeneticos.historico_sucesso = values.historico_sucesso_pct / 100;
+        }
+      } else if (values.sexo === "M") {
+        if (typeof values.taxa_sucesso_pct === "number") {
+          dadosGeneticos.taxa_sucesso_historica = values.taxa_sucesso_pct / 100;
+        }
       }
 
       const payload: AnimalCreate = {
@@ -278,8 +315,21 @@ export default function NovoAnimalPage() {
   // Estrutura compartilhada entre wizard e desktop.
   const useWizard = mounted && !isDesktop;
 
+  // Bloqueia qualquer submit "fantasma" do form (Enter em input, "Go" no
+  // teclado mobile, etc). O save real é disparado SÓ pelo onClick do botão
+  // "Salvar animal" no step 3 — não pelo evento submit do form.
+  const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+
+  // Clique explícito no botão "Salvar animal". Único caminho que chega no POST.
+  const onSubmitClick = () => {
+    onSubmit();
+  };
+
   return (
-    <form onSubmit={onSubmit} noValidate>
+    <form onSubmit={onFormSubmit} noValidate>
       <div className="flex flex-col gap-5 pb-32 lg:pb-0">
         <header className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <div>
@@ -330,6 +380,7 @@ export default function NovoAnimalPage() {
         onCancel={onCancel}
         onNext={goNext}
         onBack={goBack}
+        onSubmitClick={onSubmitClick}
       />
     </form>
   );
@@ -628,7 +679,7 @@ function GeneticoSection({
               id="paridade"
               type="number"
               min={0}
-              max={20}
+              max={15}
               step={1}
               inputMode="numeric"
               aria-invalid={!!formState.errors.paridade}
@@ -642,7 +693,75 @@ function GeneticoSection({
             </p>
             <FieldError message={formState.errors.paridade?.message} />
           </div>
+
+          {/* Histórico de sucesso (opcional, 0-100% → 0-1 no submit) */}
+          <div className="flex flex-col gap-2">
+            <Label htmlFor="historico_sucesso_pct">
+              Histórico de sucesso (opcional)
+            </Label>
+            <div className="relative">
+              <Input
+                id="historico_sucesso_pct"
+                type="number"
+                min={0}
+                max={100}
+                step={1}
+                inputMode="numeric"
+                placeholder="Deixe em branco para calcular automaticamente"
+                aria-invalid={!!formState.errors.historico_sucesso_pct}
+                className="pr-8"
+                {...register("historico_sucesso_pct", {
+                  setValueAs: (v) =>
+                    v === "" || v === null ? undefined : Number(v),
+                })}
+              />
+              <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground">
+                %
+              </span>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Taxa histórica de prenhez desta matriz. Se em branco, o sistema
+              calcula a partir das inseminações registradas.
+            </p>
+            <FieldError
+              message={formState.errors.historico_sucesso_pct?.message}
+            />
+          </div>
         </>
+      ) : null}
+
+      {/* Taxa de sucesso do reprodutor (macho, opcional) */}
+      {sexo === "M" ? (
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="taxa_sucesso_pct">
+            Taxa de sucesso histórica (opcional)
+          </Label>
+          <div className="relative">
+            <Input
+              id="taxa_sucesso_pct"
+              type="number"
+              min={0}
+              max={100}
+              step={1}
+              inputMode="numeric"
+              placeholder="Deixe em branco para calcular automaticamente"
+              aria-invalid={!!formState.errors.taxa_sucesso_pct}
+              className="pr-8"
+              {...register("taxa_sucesso_pct", {
+                setValueAs: (v) =>
+                  v === "" || v === null ? undefined : Number(v),
+              })}
+            />
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground">
+              %
+            </span>
+          </div>
+          <p className="text-xs text-muted-foreground">
+            Taxa de prenhez gerada por este reprodutor. Se em branco, o
+            sistema calcula a partir do histórico.
+          </p>
+          <FieldError message={formState.errors.taxa_sucesso_pct?.message} />
+        </div>
       ) : null}
 
       {/* Idade (ambos) */}
@@ -652,7 +771,7 @@ function GeneticoSection({
           id="idade_anos"
           type="number"
           min={0}
-          max={30}
+          max={sexo === "M" ? 20 : 25}
           step={0.1}
           inputMode="decimal"
           placeholder="Ex.: 3.5"
@@ -662,13 +781,20 @@ function GeneticoSection({
               v === "" || v === null ? undefined : Number(v),
           })}
         />
+        <p className="text-xs text-muted-foreground">
+          {sexo === "M"
+            ? "Máximo de 20 anos para reprodutores."
+            : sexo === "F"
+              ? "Máximo de 25 anos para matrizes."
+              : "Defina o sexo primeiro para ver o limite."}
+        </p>
         <FieldError message={formState.errors.idade_anos?.message} />
       </div>
 
       {sexo === undefined ? (
         <p className="rounded-md border border-dashed border-border bg-muted/30 px-3 py-2 text-xs text-muted-foreground">
           Selecione o sexo do animal no passo anterior para liberar os campos
-          específicos de fêmea.
+          específicos de fêmea ou macho.
         </p>
       ) : null}
     </section>
@@ -723,7 +849,25 @@ function ConfirmacaoSection({ values }: { values: FormValues }) {
                   : "—"
               }
             />
+            <Item
+              label="Histórico de sucesso"
+              value={
+                typeof values.historico_sucesso_pct === "number"
+                  ? `${values.historico_sucesso_pct}%`
+                  : "Cálculo automático"
+              }
+            />
           </>
+        ) : null}
+        {values.sexo === "M" ? (
+          <Item
+            label="Taxa de sucesso"
+            value={
+              typeof values.taxa_sucesso_pct === "number"
+                ? `${values.taxa_sucesso_pct}%`
+                : "Cálculo automático"
+            }
+          />
         ) : null}
       </dl>
       <Badge variant="muted" className="self-start">
@@ -754,6 +898,7 @@ function ActionBar({
   onCancel,
   onNext,
   onBack,
+  onSubmitClick,
 }: {
   useWizard: boolean;
   step: WizardStep;
@@ -762,6 +907,7 @@ function ActionBar({
   onCancel: () => void;
   onNext: () => void;
   onBack: () => void;
+  onSubmitClick: () => void;
 }) {
   if (useWizard) {
     const isLast = step === 3;
@@ -798,7 +944,8 @@ function ActionBar({
           )}
           {isLast ? (
             <Button
-              type="submit"
+              type="button"
+              onClick={onSubmitClick}
               disabled={!canSubmit || submitting}
               className="min-w-[8rem]"
             >
@@ -840,7 +987,11 @@ function ActionBar({
       >
         Cancelar
       </Button>
-      <Button type="submit" disabled={!canSubmit || submitting}>
+      <Button
+        type="button"
+        onClick={onSubmitClick}
+        disabled={!canSubmit || submitting}
+      >
         {submitting ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" aria-hidden />

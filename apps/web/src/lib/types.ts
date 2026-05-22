@@ -45,6 +45,24 @@ export const RESULTADO_LABEL: Record<ResultadoDiagnostico, string> = {
   aguardando: "Aguardando",
 };
 
+// --------------------------- Dados genéticos --------------------------------
+// Espelham os schemas Pydantic DadosGeneticosFemea/Macho. Campos com `?`
+// são opcionais — o backend calcula automaticamente quando omitidos.
+
+export interface DadosGeneticosFemea {
+  ecc: number; // 1.0 – 5.0 (ECC, ideal 3.0–3.5)
+  paridade: number; // 0 – 15 (número de partos prévios)
+  idade_anos: number; // 0 – 25
+  historico_sucesso?: number | null; // 0 – 1 (auto-calc se omitido)
+}
+
+export interface DadosGeneticosMacho {
+  idade_anos: number; // 0 – 20
+  taxa_sucesso_historica?: number | null; // 0 – 1 (auto-calc se omitido)
+}
+
+export type DadosGeneticos = DadosGeneticosFemea | DadosGeneticosMacho;
+
 // --------------------------- Animais ---------------------------------------
 
 export interface Animal {

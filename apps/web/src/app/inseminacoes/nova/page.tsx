@@ -278,6 +278,15 @@ export default function NovaInseminacaoPage() {
 
   const onSubmit = async (e?: React.FormEvent) => {
     e?.preventDefault();
+
+    // Guard de wizard: no mobile, só permite criar de fato a partir do passo 3.
+    // Submits implícitos (Enter no teclado, etc.) em passos anteriores apenas
+    // avançam pra próxima etapa — nunca disparam o POST.
+    if (useWizard && step < 3) {
+      goNext();
+      return;
+    }
+
     if (!canSubmit || !matriz || !reprodutor) {
       toast.error("Preencha matriz, reprodutor, técnica e data antes de salvar");
       return;
@@ -442,7 +451,7 @@ export default function NovaInseminacaoPage() {
                 {detalhesSection}
               </div>
               <aside className="lg:col-span-1">
-                <div className="lg:sticky lg:top-20">{predictionPanel}</div>
+                <div className="lg:sticky lg:top-24">{predictionPanel}</div>
               </aside>
             </div>
           )}

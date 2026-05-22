@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   AlertTriangle,
   Beef,
+  Eye,
   Mars,
   PawPrint,
   Plus,
@@ -13,6 +14,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
+import { InfoHint } from "@/components/info-hint";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -363,8 +365,18 @@ export default function AnimaisPage() {
                   <TableHead>Raça</TableHead>
                   <TableHead>Sexo</TableHead>
                   <TableHead>Idade</TableHead>
-                  <TableHead>ECC</TableHead>
-                  <TableHead>Última IA</TableHead>
+                  <TableHead>
+                    <span className="inline-flex items-center gap-1">
+                      ECC
+                      <InfoHint label="Escore de Condição Corporal: avaliação visual da condição da matriz na escala 1 (magra) a 5 (obesa). Ideal entre 3,0 e 3,5." />
+                    </span>
+                  </TableHead>
+                  <TableHead>
+                    <span className="inline-flex items-center gap-1">
+                      Última IA
+                      <InfoHint label="Data da última Inseminação Artificial registrada para a matriz." />
+                    </span>
+                  </TableHead>
                   <TableHead>Status</TableHead>
                   <TableHead className="text-right">Ações</TableHead>
                 </TableRow>
@@ -477,44 +489,58 @@ function AnimalCard({
   animal: Animal;
   lastInsemination: Inseminacao | null | undefined;
 }) {
+  // Card inteiro é clicável (vai pra ficha do animal). O ícone de olho no
+  // canto inferior direito reforça visualmente que existe ação de "ver mais".
   return (
-    <Card>
-      <CardHeader className="pb-2">
-        <div className="flex items-start justify-between gap-2">
-          <CardTitle className="flex items-center gap-2">
-            <Beef className="h-4 w-4 text-primary" aria-hidden />
-            {animal.identificacao}
-          </CardTitle>
-          <SexoBadge sexo={animal.sexo} />
-        </div>
-        <p className="text-xs text-muted-foreground">
-          {ESPECIE_LABEL[animal.especie]}
-          {animal.raca ? ` · ${animal.raca}` : ""}
-        </p>
-      </CardHeader>
-      <CardContent>
-        <dl className="grid grid-cols-2 gap-3 text-sm">
-          <Field label="Idade" value={formatIdade(animal)} />
-          <Field label="ECC" value={formatEcc(animal)} />
-          <div className="col-span-2 flex flex-col gap-1">
-            <dt className="text-xs uppercase tracking-wide text-muted-foreground">
-              Status
-            </dt>
-            <dd className="flex flex-wrap items-center gap-2">
-              <StatusBadge
-                sexo={animal.sexo}
-                lastInsemination={lastInsemination}
-              />
-              {lastInsemination ? (
-                <span className="text-xs text-muted-foreground">
-                  Última IA em {formatDate(lastInsemination.data_evento)}
-                </span>
-              ) : null}
-            </dd>
+    <Link
+      href={`/animais/${animal.id}`}
+      aria-label={`Ver detalhes de ${animal.identificacao}`}
+      className="block rounded-lg transition-colors hover:bg-muted/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+    >
+      <Card className="relative">
+        <CardHeader className="pb-2">
+          <div className="flex items-start justify-between gap-2">
+            <CardTitle className="flex items-center gap-2">
+              <Beef className="h-4 w-4 text-primary" aria-hidden />
+              {animal.identificacao}
+            </CardTitle>
+            <SexoBadge sexo={animal.sexo} />
           </div>
-        </dl>
-      </CardContent>
-    </Card>
+          <p className="text-xs text-muted-foreground">
+            {ESPECIE_LABEL[animal.especie]}
+            {animal.raca ? ` · ${animal.raca}` : ""}
+          </p>
+        </CardHeader>
+        <CardContent>
+          <dl className="grid grid-cols-2 gap-3 text-sm">
+            <Field label="Idade" value={formatIdade(animal)} />
+            <Field label="ECC" value={formatEcc(animal)} />
+            <div className="col-span-2 flex flex-col gap-1">
+              <dt className="text-xs uppercase tracking-wide text-muted-foreground">
+                Status
+              </dt>
+              <dd className="flex flex-wrap items-center gap-2">
+                <StatusBadge
+                  sexo={animal.sexo}
+                  lastInsemination={lastInsemination}
+                />
+                {lastInsemination ? (
+                  <span className="text-xs text-muted-foreground">
+                    Última IA em {formatDate(lastInsemination.data_evento)}
+                  </span>
+                ) : null}
+              </dd>
+            </div>
+          </dl>
+        </CardContent>
+        <span
+          aria-hidden
+          className="pointer-events-none absolute bottom-3 right-3 grid h-9 w-9 place-items-center rounded-md bg-muted text-muted-foreground sm:bottom-4 sm:right-4"
+        >
+          <Eye className="h-4 w-4" />
+        </span>
+      </Card>
+    </Link>
   );
 }
 
@@ -550,7 +576,10 @@ function AnimalRow({
       </TableCell>
       <TableCell className="text-right">
         <Button asChild variant="ghost" size="sm">
-          <Link href={`/animais/${animal.id}`}>Detalhes</Link>
+          <Link href={`/animais/${animal.id}`}>
+            <Eye className="h-4 w-4" aria-hidden />
+            Detalhes
+          </Link>
         </Button>
       </TableCell>
     </TableRow>

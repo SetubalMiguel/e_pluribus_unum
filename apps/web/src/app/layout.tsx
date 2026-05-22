@@ -19,12 +19,15 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   applicationName: "pluribus unum",
   icons: {
+    // icon.png é a marca; os PNGs em tamanhos fixos atendem instalações de PWA.
+    // ?v=2 quebra o cache agressivo de favicon do browser quando trocamos os arquivos.
     icon: [
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon.png?v=2", type: "image/png" },
+      { url: "/icon-192.png?v=2", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png?v=2", sizes: "512x512", type: "image/png" },
     ],
-    apple: "/icon-512.png",
+    apple: "/icon.png?v=2",
+    shortcut: "/icon.png?v=2",
   },
 };
 

@@ -5,7 +5,6 @@ import Link from "next/link";
 import {
   AlertTriangle,
   ArrowRight,
-  Beef,
   Loader2,
   PawPrint,
   Plus,
@@ -26,9 +25,18 @@ import {
 import { getStats } from "@/lib/api";
 import {
   ESPECIE_LABEL,
+  type Especie,
   type EstatisticaEspecie,
   type StatsResponse,
 } from "@/lib/types";
+
+// Mesmo conjunto de emojis usado nos botões de espécie do form de cadastro
+// (/animais/novo) e na ficha do animal (/animais/[id]) — mantém a marca visual.
+const ESPECIE_EMOJI: Record<Especie, string> = {
+  bovino: "🐄",
+  ovino: "🐑",
+  caprino: "🐐",
+};
 
 // Dashboard: 1 card destaque (totais consolidados) + 3 cards por espécie.
 // Mobile: empilhados. Desktop: grid de 3 colunas para os cards por espécie.
@@ -240,7 +248,9 @@ function EspecieCard({ item }: { item: EstatisticaEspecie }) {
       <CardHeader className="flex flex-row items-start justify-between gap-2 space-y-0 pb-2">
         <div>
           <CardTitle className="flex items-center gap-2">
-            <Beef className="h-5 w-5 text-primary" aria-hidden />
+            <span className="text-xl leading-none" aria-hidden>
+              {ESPECIE_EMOJI[item.especie]}
+            </span>
             {ESPECIE_LABEL[item.especie] ?? item.especie}
           </CardTitle>
           <CardDescription>
