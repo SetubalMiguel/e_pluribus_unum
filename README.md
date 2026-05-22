@@ -34,9 +34,9 @@ Documentação interativa: http://localhost:8000/docs
 - `GET    /stats` — agregados para dashboard
 - `GET    /health` — healthcheck
 
-**Modelo de dados (enums):**
-- Especie: `BOVINO`, `OVINO`, `CAPRINO`
-- Sexo: `MACHO`, `FEMEA`
+**Modelo de dados (enums — valores serializados):**
+- Especie: `bovino`, `ovino`, `caprino`
+- Sexo: `M`, `F`
 - Tecnica: `IATF`, `convencional`, `IA_repasse`, `IA_cervical`, `IA_laparoscopica`
 - ResultadoDiagnostico: `prenhe`, `vazia`, `aguardando`
 
@@ -77,22 +77,82 @@ API_URL configurável via `NEXT_PUBLIC_API_URL` (default `http://localhost:8000`
 - `/inseminacoes/nova` — wizard com **predição automática da IA** ao
   preencher os 4 campos chave (debounce 400 ms), barra de probabilidade,
   top 4 fatores positivos/negativos, modal "🤖 Recomendar com IA"
-- `/recomendacoes` — top 5 reprodutores ranqueados por matriz, com fatores
-  positivos e CTA "Selecionar e registrar inseminação" que pré-preenche o
-  wizard de inseminação
+- `/recomendacoes` — escolha de matriz em **lista estilo /animais** (chips de
+  espécie com contagem + busca + cards clicáveis + paginação), depois top 5
+  reprodutores ranqueados com fatores positivos e CTA "Selecionar e registrar
+  inseminação" que pré-preenche o wizard
 - `/not-found.tsx` — 404 customizado
+
+**Ajustes recentes (refinos de UX/UI):**
+- Diálogo de atualização de diagnóstico em `/animais/[id]` e `/inseminacoes`
+  (botão "Confirmar resultado" para aguardando, "Editar resultado" para o resto)
+- Wizards (`/animais/novo` e `/inseminacoes/nova`) com **guard de etapa** —
+  submit do form é no-op puro; save só via click explícito no botão "Salvar"
+  no step final. Elimina disparos fantasma por Enter/"Go" do teclado mobile
+- Cards de animal (`/animais` em mobile/tablet) clicáveis no card inteiro,
+  com ícone de olho no canto inferior direito
+- **Tooltips informativos** (`<InfoHint>`) ao lado de siglas técnicas:
+  cabeçalhos ECC, Última IA, Predição IA + glossário de cada técnica
+  (IATF, IA_cervical, IA_laparoscopica, IA_repasse, convencional)
+- `<MatrizPicker>` (componente novo): substitui o autocomplete dropdown na
+  tela de recomendações pelo mesmo estilo de lista de `/animais`
+- Navbar com logo maior (`h-16 sm:h-20`) e altura ajustada (`h-20 lg:h-24`)
+- PNG icons regenerados a partir de `icon.png` provido pelo usuário
 
 **Diferenciais já entregues:**
 - IA com explicabilidade (fatores +/- em todo lugar onde aparece probabilidade)
 - Recomendação com filtro de parentesco
 - Mobile-first real (tabelas viram cards, FABs, bottom nav, touch targets ≥ 44px)
-- PWA com manifest + ícones 192/512 PNG + 512 maskable + SVG
+- PWA com manifest + ícones 192/512 PNG + ícone principal (`icon.png` 940×972)
 - Toaster global (`sonner`) para feedback de submits e ações de IA
+- Tooltips contextuais (Radix Tooltip) explicando siglas zootécnicas em PT-BR
 
 **Documentação detalhada:**
 - `apps/web/README.md` — como rodar, deps, decisões de design
 - `apps/web/STATUS.md` — checklist do que está pronto + limitações + roadmap
   pós-hackathon
+
+## Auto-avaliação contra o Edital N.º 01/2026
+
+### Funcionalidades obrigatórias (seção 2 do edital)
+
+| Requisito do edital | Onde está | Status |
+|---|---|---|
+| Cadastro/gestão de animais com dados genéticos por espécie, raça, linhagem, histórico reprodutivo | `POST/GET/PATCH/DELETE /animals` + telas `/animais*` | ✅ |
+| Registro e acompanhamento de ciclos reprodutivos e IA por espécie | `/inseminations` + telas `/inseminacoes*` + diálogo de diagnóstico | ✅ |
+| Análise preditiva com IA para taxa de prenhez | `POST /predict` (Gradient Boosting, AUC ≈ 0,80) + painel ao vivo no wizard | ✅ |
+| Relatórios de desempenho genético/reprodutivo por espécie e consolidado | `GET /stats` + dashboard com card consolidado + 3 cards por espécie | ✅ (em tela; export pendente) |
+| Recomendações IA para matrizes e reprodutores | `POST /recommend` + `/recomendacoes` (top 5 + fatores + filtro de parentesco) | ✅ |
+| Interface acessível, inclusive mobile | Next.js mobile-first + PWA + touch targets ≥ 44px + bottom nav + cards adaptativos | ✅ |
+| Armazenamento seguro c/ exportação/integração | Postgres + Pydantic; **export CSV/PDF e integração externa não implementados** | ⚠️ parcial |
+| GNU GPL v3.0 | `package.json` declara `GPL-3.0-or-later`; auditoria das 456 deps confirma compatibilidade (zero AGPL/SSPL/BUSL/EPL/CDDL/Commons Clause) | ✅ |
+
+> O edital exige **ao menos uma** das três abordagens de IA — entregamos as **três**: predição, identificação de padrões (top fatores por feature) e recomendação automatizada.
+
+### Critérios da 2ª etapa (autoavaliação)
+
+| Critério (peso) | Como o MVP responde | Risco |
+|---|---|---|
+| **Originalidade e Inovação (20%)** | IA explicável (top fatores PT-BR), recomendação c/ filtro de parentesco, predição embutida em tempo real no formulário, tooltips contextuais | baixo |
+| **Relevância e Impacto p/ produtor rural (20%)** | 3 espécies do sertão (bovino/ovino/caprino), wizard mobile p/ uso em campo, modelo calibrado por literatura zootécnica BR (Embrapa, ABCZ, ASBIA) | baixo |
+| **Execução e Funcionalidade (20%)** | Fluxos golden-path completos (cadastro → IA → registro → diagnóstico → recomendação), 990 animais + 4.500 inseminações de seed | baixo |
+| **Viabilidade Técnica (20%)** | FastAPI + Postgres + Next.js — stack mainstream, deployável em VPS; modelo `.joblib` < 1 MB | baixo |
+| **Escalabilidade e Sustentabilidade (10%)** | API paginada, índices, modelo retreinável; **falta pipeline automático de retreino** | médio |
+| **Segurança e Privacidade — LGPD (10%)** | Sem dados pessoais sensíveis (sistema zootécnico); **falta auth/RBAC e política formal de retenção** | médio |
+
+### Gaps conscientes (roadmap etapa 2)
+
+1. **Exportação/integração** (CSV, relatório PDF, rastreabilidade) — citado no edital, não implementado.
+2. **Autenticação + multi-produtor** — hoje assume produtor demo único; CORS aberto.
+3. **Pipeline de retreino** — modelo é estático (`.joblib`); o sistema não aprende sozinho com novas inseminações registradas.
+4. **Anexos II/III/IV/V (termos)** — assinatura presencial; pendência administrativa, não técnica.
+
+### Checklist da submissão 1ª etapa (deadline 22/05/2026)
+
+- [x] Protótipo funcional (frontend + backend + IA rodando)
+- [x] Licença GPL-3.0 declarada e auditada
+- [ ] Vídeo pitch de até 5 min demonstrando o protótipo (item 3.2 do edital)
+- [ ] Ficha de inscrição via `forms.gle/DF7hRrvoranHD56V6`
 
 ## Decisões de arquitetura (NÃO revisitar sem motivo forte)
 
@@ -136,29 +196,33 @@ API_URL configurável via `NEXT_PUBLIC_API_URL` (default `http://localhost:8000`
 ```
 apps/web/
 ├── public/
-│   ├── icon-192.png      # PWA
+│   ├── icon.png                    # ícone mestre (940×972)
+│   ├── icon-192.png                # PWA
 │   ├── icon-512.png
-│   ├── icon.svg
+│   ├── logo.png                    # wordmark (3100×1344)
 │   └── manifest.json
 ├── src/
 │   ├── app/
 │   │   ├── animais/
-│   │   │   ├── [id]/page.tsx       # detalhe + histórico de IA
-│   │   │   ├── novo/page.tsx       # wizard de cadastro
-│   │   │   └── page.tsx            # listagem
+│   │   │   ├── [id]/page.tsx       # detalhe + histórico de IA + diálogo de diagnóstico
+│   │   │   ├── novo/page.tsx       # wizard de cadastro c/ guard de etapa
+│   │   │   └── page.tsx            # listagem (chips + tabela/cards) c/ tooltips em ECC, Última IA
 │   │   ├── inseminacoes/
 │   │   │   ├── nova/page.tsx       # wizard + predição automática + modal recommend
-│   │   │   └── page.tsx            # histórico
-│   │   ├── recomendacoes/page.tsx  # top 5 reprodutores
+│   │   │   └── page.tsx            # histórico c/ tooltips em Predição IA e técnica
+│   │   ├── recomendacoes/page.tsx  # MatrizPicker → top 5 reprodutores
 │   │   ├── globals.css
 │   │   ├── layout.tsx              # AppShell + Toaster
 │   │   ├── not-found.tsx           # 404 customizado
 │   │   └── page.tsx                # dashboard
 │   ├── components/
-│   │   ├── ui/                     # shadcn (button, card, dialog, …)
-│   │   ├── animal-search-input.tsx # autocomplete reutilizado
+│   │   ├── ui/                     # shadcn (button, card, dialog, tooltip, …)
+│   │   ├── animal-search-input.tsx # autocomplete (usado em /inseminacoes/nova)
 │   │   ├── app-shell.tsx           # header + sidebar + bottom-tab
-│   │   └── nav-items.ts
+│   │   ├── info-hint.tsx           # ícone "i" + tooltip Radix p/ siglas
+│   │   ├── matriz-picker.tsx       # lista estilo /animais p/ escolha de matriz
+│   │   ├── nav-items.ts
+│   │   └── update-diagnostico-dialog.tsx
 │   ├── hooks/
 │   │   ├── use-debounce.ts
 │   │   └── use-media-query.ts
@@ -173,6 +237,6 @@ apps/web/
 
 **Stack:** Next.js 14.2 · React 18 · TypeScript 5 · Tailwind 3 · shadcn/ui
 (neutral, light only) · lucide-react · react-hook-form + zod · sonner ·
-Radix UI primitives (Dialog, Select, RadioGroup, Slider, Label).
+Radix UI primitives (Dialog, Select, RadioGroup, Slider, Label, **Tooltip**).
 Todas as deps MIT/Apache-2.0/ISC — GPLv3-compatíveis.
 

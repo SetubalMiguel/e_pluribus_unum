@@ -44,29 +44,33 @@ cp .env.local.example .env.local
 ```
 apps/web/
 ├── public/
-│   ├── icon-192.png       # PWA
+│   ├── icon.png                    # ícone mestre (940×972)
+│   ├── icon-192.png                # PWA
 │   ├── icon-512.png
-│   ├── icon.svg           # ícone vetorial U em verde-700
+│   ├── logo.png                    # wordmark (3100×1344)
 │   └── manifest.json
 ├── src/
 │   ├── app/
 │   │   ├── animais/
-│   │   │   ├── [id]/page.tsx       # detalhe do animal
-│   │   │   ├── novo/page.tsx       # wizard de cadastro
-│   │   │   └── page.tsx            # listagem com filtros
+│   │   │   ├── [id]/page.tsx       # detalhe + histórico + diálogo de diagnóstico
+│   │   │   ├── novo/page.tsx       # wizard de cadastro c/ guard de etapa
+│   │   │   └── page.tsx            # listagem com filtros + tooltips em ECC/Última IA
 │   │   ├── inseminacoes/
 │   │   │   ├── nova/page.tsx       # wizard de registro + IA
-│   │   │   └── page.tsx            # histórico
-│   │   ├── recomendacoes/page.tsx  # /recommend top 5
+│   │   │   └── page.tsx            # histórico + tooltips em Predição IA/Técnica
+│   │   ├── recomendacoes/page.tsx  # MatrizPicker → /recommend top 5
 │   │   ├── globals.css             # tokens shadcn (light)
 │   │   ├── layout.tsx              # AppShell + Toaster
 │   │   ├── not-found.tsx           # 404 amigável
 │   │   └── page.tsx                # dashboard (/stats)
 │   ├── components/
-│   │   ├── ui/                     # shadcn (button, card, dialog, …)
-│   │   ├── animal-search-input.tsx # autocomplete reutilizado
+│   │   ├── ui/                     # shadcn (button, card, dialog, tooltip, …)
+│   │   ├── animal-search-input.tsx # autocomplete (matriz/reprodutor no wizard de IA)
 │   │   ├── app-shell.tsx           # header + sidebar + bottom-tab
-│   │   └── nav-items.ts            # itens de navegação
+│   │   ├── info-hint.tsx           # ícone "i" + tooltip Radix p/ siglas
+│   │   ├── matriz-picker.tsx       # lista estilo /animais p/ escolha de matriz
+│   │   ├── nav-items.ts            # itens de navegação
+│   │   └── update-diagnostico-dialog.tsx
 │   ├── hooks/
 │   │   ├── use-debounce.ts
 │   │   └── use-media-query.ts
@@ -92,7 +96,7 @@ Todas MIT/Apache, compatíveis com GPLv3:
 | `tailwindcss-animate` | Animações |
 | `class-variance-authority`, `clsx`, `tailwind-merge` | shadcn |
 | `lucide-react` | Ícones |
-| `@radix-ui/react-{dialog,select,radio-group,slider,label,slot}` | Primitives shadcn |
+| `@radix-ui/react-{dialog,select,radio-group,slider,label,slot,tooltip}` | Primitives shadcn |
 | `react-hook-form` + `zod` + `@hookform/resolvers` | Formulários |
 | `sonner` | Toasts |
 
@@ -101,12 +105,12 @@ Todas MIT/Apache, compatíveis com GPLv3:
 | Rota | Função |
 |---|---|
 | `/` | Dashboard (totais + por espécie + atalhos). Empty-state com CTA "Cadastrar primeiro animal" quando ainda não há dados |
-| `/animais` | Listagem com chips de espécie/sexo, busca debounced, paginação 20/50, status da última IA |
-| `/animais/[id]` | Ficha do animal: identificação, raça, dados genéticos, histórico de IA (se fêmea), CTA "Registrar inseminação" |
-| `/animais/novo` | Cadastro: wizard mobile (Básico → Genético → Confirmação), 2 colunas desktop |
-| `/inseminacoes` | Histórico com filtros por resultado e espécie |
-| `/inseminacoes/nova` | Wizard (Matriz → Reprodutor → Detalhes) com **predição automática** da IA e modal "Recomendar com IA" |
-| `/recomendacoes` | Top 5 reprodutores por matriz, com fatores positivos e CTA "Selecionar e registrar" |
+| `/animais` | Listagem com chips de espécie/sexo, busca debounced, paginação 20/50, status da última IA. Cards mobile clicáveis (com ícone de olho) e tabela desktop com tooltips em ECC/Última IA |
+| `/animais/[id]` | Ficha do animal: identificação, raça, dados genéticos, histórico de IA (se fêmea), CTA "Registrar inseminação" + diálogo de atualização de diagnóstico |
+| `/animais/novo` | Cadastro: wizard mobile (Básico → Genético → Confirmação), 2 colunas desktop. **Save só via click explícito no step 3** (form submit é no-op puro) |
+| `/inseminacoes` | Histórico com filtros por resultado e espécie + tooltips em Predição IA e em cada técnica (IATF, IA_repasse, IA_cervical, IA_laparoscopica, convencional). Diálogo "Confirmar resultado" / "Editar resultado" |
+| `/inseminacoes/nova` | Wizard (Matriz → Reprodutor → Detalhes) com **predição automática** da IA e modal "Recomendar com IA". Mesmo guard de etapa do cadastro de animal |
+| `/recomendacoes` | Etapa 1: **MatrizPicker** (chips de espécie c/ contagem + busca + cards clicáveis paginados — mesmo estilo de `/animais`). Etapa 2: top 5 reprodutores por matriz, com fatores positivos e CTA "Selecionar e registrar" |
 
 ## Decisões de design (resumo)
 
@@ -115,6 +119,8 @@ Todas MIT/Apache, compatíveis com GPLv3:
 - **Touch targets ≥ 44px no mobile.** Botões usam `h-11 sm:h-10`.
 - **Bottom nav** no mobile, **sidebar** no desktop, **header** com nav inline no tablet.
 - **Predição da IA com explicabilidade** — fatores positivos e negativos visíveis em todo lugar onde aparece probabilidade.
+- **Tooltips informativos** (`<InfoHint>`) ao lado de toda sigla técnica que aparece em tabela (ECC, Última IA, Predição IA, IATF, IA_*). Glossário centralizado.
+- **Wizards com submit blindado** — `<form onSubmit>` é `preventDefault` puro; save só via `onClick` explícito no botão final. Imune a Enter em number input e "Go" do teclado mobile.
 - **Light mode apenas** — dark mode é roadmap pós-hackathon.
 
 ## Screenshots
